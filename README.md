@@ -1,0 +1,2 @@
+# ordaskra
+Orðaskrá Íslenska stærðfræðafélagsins
