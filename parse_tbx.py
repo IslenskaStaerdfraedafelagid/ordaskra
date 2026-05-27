@@ -56,6 +56,7 @@ def lex(characters):
 
                 token["content"] = string
                 tokens.append(token)
+                print(token)
 
                 token["type"] = TokenType.RBRACE
                 token["content"] = ""
@@ -65,17 +66,15 @@ def lex(characters):
                 literal_mode = False
                 continue
 
-            if characters[i] == "\n":
-                i += 1
-
-                if i >= len(characters):
-                    break
-
             match characters[i]:
                 case "\\":
                     token["type"] = TokenType.BACK
                 case "%":
+                    i += 1
                     line += 1
+
+                    while characters[i] != "\n":
+                        i += 1
 
                     token["type"] = TokenType.PER
                 case "{":
@@ -221,10 +220,15 @@ def lex(characters):
                                 token["type"] = TokenType.PREF
                             else:
                                 raise LexError(characters[i])
+                case "\n":
+                    line += 1
+
+                    token["type"] = TokenType.PER
                 case _:
                     raise LexError(characters[i])
 
             tokens.append(token)
+            print(token)
 
             token = {"type": TokenType.NONE, "content": ""}
             i += 1
