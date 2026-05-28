@@ -5,6 +5,9 @@ from more_itertools import peekable
 class LexError(Exception):
     pass
 
+class ParseError(Exception):
+    pass
+
 class TokenType(Enum):
     NS = 0
     PER = 1
@@ -31,7 +34,6 @@ class TokenType(Enum):
     BIGINS = 22
     PL = 23
     PREF = 24
-    NONE = 25
 
 EOF = "\0"
 
@@ -215,16 +217,110 @@ def lex(characters):
 
     return tokens
 
+def expect(it, token_type):
+    if next(it)["type"] != token_type:
+        raise ParseError(token_type)
+
+def zero_or_more(it, token):
+    try:
+        while it.peek()["type"] == token:
+            next(it)
+    except StopIteration:
+        pass
+
 def parse(tokens):
-    i = 0
+    it = peekable(tokens)
 
-    while i < len(tokens):
-        # TODO Para saman sviga og þýðingar/samheiti
-        entry = {"word": "", "category": "", "synonyms": [], "translations": [], "related_words": []}
+    entries = []
 
-        i += 1
+    try:
+        while it.peek(None):
+            #print(it.peek(None))
 
-    return []
+            zero_or_more(it, TokenType.PER)
+            expect(it, TokenType.BACK)
+
+            lookahead = next(it)
+
+            #print(lookahead)
+
+            # TODO Para saman sviga og þýðingar/samheiti
+            entry = {"word": "", "category": "", "synonyms": [], "translations": [], "related_words": []}
+
+            match lookahead["type"]:
+                case TokenType.NS:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.PER:
+                    next(it)
+                case TokenType.FL:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.TY:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.TYA:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.SH:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.SHA:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.CO:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.COA:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.TV:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.TVA:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.NA:
+                    next(it)
+                case TokenType.LS:
+                    next(it)
+                case TokenType.SAG:
+                    next(it)
+                case TokenType.SKA:
+                    next(it)
+                case TokenType.SAM:
+                    next(it)
+                case TokenType.INS:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.AT:
+                    next(it)
+                case TokenType.BIGINS:
+                    expect(it, TokenType.LBRACE)
+                    expect(it, TokenType.STR)
+                    expect(it, TokenType.RBRACE)
+                case TokenType.PL:
+                    next(it)
+                case TokenType.PREF:
+                    next(it)
+                case _:
+                    raise ParseError(next(it))
+    except ParseError as e:
+        # TODO
+        sys.exit(f"Villa: {e}")
+
+    return entries
 
 if len(sys.argv) < 2:
     sys.exit("Notkun: python parse_tbx.py [skrá]")
