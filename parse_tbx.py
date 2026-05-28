@@ -1,5 +1,6 @@
 import sys
 from enum import Enum
+from more_itertools import peekable
 
 class LexError(Exception):
     pass
@@ -32,209 +33,184 @@ class TokenType(Enum):
     PREF = 24
     NONE = 25
 
+EOF = "\0"
+
+def push_token(tokens, type, string = ""):
+    tokens.append({"type": type, "content": string})
+
 def lex(characters):
     tokens = []
 
     try:
-        token = {"type": TokenType.NONE, "content": ""}
-
-        i = 0
-        line = 1
-
         literal_mode = False
 
-        while i < len(characters):
+        it = peekable(characters)
+
+        while it.peek(EOF) != EOF:
             if literal_mode:
-                token["type"] = TokenType.STR
+                literal_mode = False
+
                 string = ""
 
-                while characters[i+1] != "%":
-                    string += (characters[i])
-                    i += 1
+                lookahead = next(it)
 
-                i += 1
+                while lookahead != "%":
+                    string += lookahead
+                    lookahead = next(it)
 
-                token["content"] = string
-                tokens.append(token)
-                print(token)
+                next(it)
 
-                token["type"] = TokenType.RBRACE
-                token["content"] = ""
-                tokens.append(token)
+                push_token(tokens, TokenType.STR, string)
+                push_token(tokens, TokenType.RBRACE)
+            else:
+                match next(it):
+                    case "\\":
+                        push_token(tokens, TokenType.BACK)
+                    case "%":
+                        lookahead = next(it)
 
-                token["type"] = TokenType.NONE
-                literal_mode = False
-                continue
+                        while lookahead != "\n":
+                            lookahead = next(it)
 
-            match characters[i]:
-                case "\\":
-                    token["type"] = TokenType.BACK
-                case "%":
-                    i += 1
-                    line += 1
+                        push_token(tokens, TokenType.PER)
+                    case "{":
+                        literal_mode = True
 
-                    while characters[i] != "\n":
-                        i += 1
+                        push_token(tokens, TokenType.LBRACE)
+                    case "}":
+                        push_token(tokens, TokenType.RBRACE)
+                    case "n":
+                        lookahead = next(it)
 
-                    token["type"] = TokenType.PER
-                case "{":
-                    token["type"] = TokenType.LBRACE
+                        match lookahead:
+                            case "s":
+                                push_token(tokens, TokenType.NS)
+                            case "a":
+                                push_token(tokens, TokenType.NA)
+                            case _:
+                                raise LexError(lookahead)
+                    case "f":
+                        lookahead = next(it)
 
-                    literal_mode = True
-                case "}":
-                    token["type"] = TokenType.RBRACE
-                case "n":
-                    i += 1
-
-                    match characters[i]:
-                        case "s":
-                            token["type"] = TokenType.NS
-                        case "a":
-                            token["type"] = TokenType.NA
-                        case _:
-                            raise LexError(characters[i])
-                case "f":
-                    i += 1
-
-                    if characters[i] != "l":
-                        raise LexError(characters[i])
-                    else:
-                        token["type"] = TokenType.FL
-                case "s":
-                    i += 1
-
-                    match characters[i]:
-                        case "h":
-                            if characters[i+1] == "a":
-                                i += 1
-
-                                token["type"] = TokenType.SHA
-                            else:
-                                token["type"] = TokenType.SH
-                        case "k":
-                            i += 1
-
-                            if characters[i] != "a":
-                                raise LexError(characters[i])
-                            else:
-                                token["type"] = TokenType.SKA
-                        case "a":
-                            i += 1
-
-                            match characters[i]:
-                                case "g":
-                                    token["type"] = TokenType.SAG
-                                case "m":
-                                    token["type"] = TokenType.SAM
-                                case _:
-                                    raise LexError(characters[i])
-                        case _:
-                            raise LexError(characters[i])
-                case "t":
-                    i += 1
-
-                    match characters[i]:
-                        case "y":
-                            if characters[i+1] == "a":
-                                i += 1
-
-                                token["type"] = TokenType.TYA
-                            else:
-                                token["type"] = TokenType.TY
-                        case "v":
-                            if characters[i + 1] == "a":
-                                i += 1
-
-                                token["type"] = TokenType.TVA
-                            else:
-                                token["type"] = TokenType.TV
-                case "c":
-                    i += 1
-
-                    if characters[i] != "o":
-                        raise LexError(characters[i])
-                    else:
-                        if characters[i + 1] == "a":
-                            i += 1
-
-                            token["type"] = TokenType.COA
+                        if lookahead != "l":
+                            raise LexError(lookahead)
                         else:
-                            token["type"] = TokenType.CO
-                case "l":
-                    i += 1
+                            push_token(tokens, TokenType.FL)
+                    case "s":
+                        match next(it):
+                            case "h":
+                                if it.peek() == "a":
+                                    next(it)
 
-                    if characters[i] != "s":
-                        raise LexError(characters[i])
-                    else:
-                        token["type"] = TokenType.LS
-                # TODO
-                case "i":
-                    i += 1
+                                    push_token(tokens, TokenType.SHA)
+                                else:
+                                    push_token(tokens, TokenType.SH)
+                            case "k":
+                                lookahead = next(it)
 
-                    if characters[i] == "n" and characters[i+1] == "s" and characters[i+2] == "{":
-                        i += 2
+                                if lookahead != "a":
+                                    raise LexError(lookahead)
+                                else:
+                                    push_token(tokens, TokenType.SKA)
+                            case "a":
+                                lookahead = next(it)
 
-                        token["type"] = TokenType.INS
-                        tokens.append(token)
+                                match lookahead:
+                                    case "g":
+                                        push_token(tokens, TokenType.SAG)
+                                    case "m":
+                                        push_token(tokens, TokenType.SAM)
+                                    case _:
+                                        raise LexError(lookahead)
+                            case _:
+                                raise LexError(next(it))
+                    case "t":
+                        match next(it):
+                            case "y":
+                                if it.peek() == "a":
+                                    next(it)
 
-                        token["type"] = TokenType.LBRACE
-                        tokens.append(token)
+                                    push_token(tokens, TokenType.TYA)
+                                else:
+                                    push_token(tokens, TokenType.TY)
+                            case "v":
+                                if it.peek() == "a":
+                                    next(it)
 
-                        literal_mode = True
-                    else:
-                        raise LexError(characters[i])
-                case "I":
-                    i += 1
+                                    push_token(tokens, TokenType.TVA)
+                                else:
+                                    push_token(tokens, TokenType.TV)
+                    case "c":
+                        lookahead = next(it)
 
-                    if characters[i] == "n" and characters[i+1] == "s" and characters[i+2] == "{":
-                        i += 2
+                        if lookahead != "o":
+                            raise LexError(lookahead)
+                        else:
+                            if it.peek() == "a":
+                                next(it)
 
-                        token["type"] = TokenType.BIGINS
-                        tokens.append(token)
-
-                        token["type"] = TokenType.LBRACE
-                        tokens.append(token)
-
-                        literal_mode = True
-                    else:
-                        raise LexError(characters[i])
-                case "a":
-                    i += 1
-
-                    if characters[i] != "t":
-                        raise LexError(characters[i])
-                    else:
-                        token["type"] = TokenType.AT
-                case "p":
-                    i += 1
-
-                    match characters[i]:
-                        case "l":
-                            token["type"] = TokenType.PL
-                        case "r":
-                            i += 1
-
-                            if characters[i] == "e" and characters[i+1] == "f":
-                                i += 1
-
-                                token["type"] = TokenType.PREF
+                                push_token(tokens, TokenType.COA)
                             else:
-                                raise LexError(characters[i])
-                case "\n":
-                    line += 1
+                                push_token(tokens, TokenType.CO)
+                    case "l":
+                        lookahead = next(it)
 
-                    token["type"] = TokenType.PER
-                case _:
-                    raise LexError(characters[i])
+                        if lookahead != "s":
+                            raise LexError(lookahead)
+                        else:
+                            push_token(tokens, TokenType.LS)
+                    # TODO
+                    case "i":
+                        lookahead = next(it)
 
-            tokens.append(token)
-            print(token)
+                        if lookahead == "n" and next(it) == "s" and next(it) == "{":
+                            literal_mode = True
 
-            token = {"type": TokenType.NONE, "content": ""}
-            i += 1
+                            push_token(tokens, TokenType.INS)
+                            push_token(tokens, TokenType.LBRACE)
+                        else:
+                            raise LexError(lookahead)
+                    case "I":
+                        lookahead = next(it)
+
+                        if lookahead == "n" and next(it) == "s" and next(it) == "{":
+                            literal_mode = True
+
+                            push_token(tokens, TokenType.INS)
+                            push_token(tokens, TokenType.LBRACE)
+                        else:
+                            raise LexError(lookahead)
+                    case "a":
+                        lookahead = next(it)
+
+                        if lookahead != "t":
+                            raise LexError(lookahead)
+                        else:
+                            push_token(tokens, TokenType.AT)
+                    case "p":
+                        lookahead = next(it)
+
+                        match lookahead:
+                            case "l":
+                                push_token(tokens, TokenType.PL)
+                            case "r":
+                                lookahead = next(it)
+
+                                if lookahead == "e" and it.peek() == "f":
+                                    next(it)
+
+                                    push_token(tokens, TokenType.PREF)
+                                else:
+                                    raise LexError(lookahead)
+                    case "\n":
+                        push_token(tokens, TokenType.PER)
+                    case _:
+                        raise LexError(next(it))
     except LexError as e:
+        # TODO
         sys.exit(f"Villa: {e}")
     except IndexError:
+        # TODO
         sys.exit("Villa")
 
     return tokens
