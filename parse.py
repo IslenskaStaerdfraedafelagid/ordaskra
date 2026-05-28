@@ -36,6 +36,8 @@ class TokenType(Enum):
     PREF = 24
 
 EOF = "\0"
+BLANK_ENTRY = {"word": "", "category": "", "subentries": []}
+BLANK_SUBENTRY = {"translations": [], "synonyms": [], "related_words": []}
 
 def push_token(tokens, type, string = ""):
     tokens.append({"type": type, "content": string})
@@ -218,8 +220,13 @@ def lex(characters):
     return tokens
 
 def expect(it, token_type):
-    if next(it)["type"] != token_type:
-        raise ParseError(token_type)
+    lookahead = next(it)
+    if lookahead["type"] != token_type:
+        raise ParseError(lookahead["type"])
+
+def assert_type(token, token_type):
+    if token["type"] != token_type:
+        raise ParseError(token["type"])
 
 def zero_or_more(it, token):
     try:
@@ -228,10 +235,16 @@ def zero_or_more(it, token):
     except StopIteration:
         pass
 
+# TODO Hvað gerist ef þú blandar saman TYA og SHA t.d.?
 def parse(tokens):
     it = peekable(tokens)
 
     entries = []
+
+    entry = BLANK_ENTRY
+    subentry = BLANK_SUBENTRY
+
+    dirty = False
 
     try:
         while it.peek(None):
@@ -245,7 +258,6 @@ def parse(tokens):
             #print(lookahead)
 
             # TODO Para saman sviga og þýðingar/samheiti
-            entry = {"word": "", "category": "", "synonyms": [], "translations": [], "related_words": []}
 
             match lookahead["type"]:
                 case TokenType.NS:
@@ -255,14 +267,34 @@ def parse(tokens):
                 case TokenType.PER:
                     next(it)
                 case TokenType.FL:
+                    if dirty:
+                        entries.append(entry)
+                        print(entry)
+                        dirty = False
+
+                    entry = BLANK_ENTRY
+
                     expect(it, TokenType.LBRACE)
-                    expect(it, TokenType.STR)
+
+                    string = next(it)
+                    assert_type(string, TokenType.STR)
+                    entry["word"] = string
+
                     expect(it, TokenType.RBRACE)
                 case TokenType.TY:
                     expect(it, TokenType.LBRACE)
-                    expect(it, TokenType.STR)
+
+                    string = next(it)
+                    assert_type(string, TokenType.STR)
+                    translations.append(string)
+
                     expect(it, TokenType.RBRACE)
                 case TokenType.TYA:
+                    if dirty:
+                        entry["subentries"].append(subentry)
+
+                    dirty = True
+
                     expect(it, TokenType.LBRACE)
                     expect(it, TokenType.STR)
                     expect(it, TokenType.RBRACE)
@@ -271,6 +303,8 @@ def parse(tokens):
                     expect(it, TokenType.STR)
                     expect(it, TokenType.RBRACE)
                 case TokenType.SHA:
+                    dirty = True
+
                     expect(it, TokenType.LBRACE)
                     expect(it, TokenType.STR)
                     expect(it, TokenType.RBRACE)
@@ -279,6 +313,8 @@ def parse(tokens):
                     expect(it, TokenType.STR)
                     expect(it, TokenType.RBRACE)
                 case TokenType.COA:
+                    dirty = True
+
                     expect(it, TokenType.LBRACE)
                     expect(it, TokenType.STR)
                     expect(it, TokenType.RBRACE)
@@ -287,6 +323,8 @@ def parse(tokens):
                     expect(it, TokenType.STR)
                     expect(it, TokenType.RBRACE)
                 case TokenType.TVA:
+                    dirty = True
+
                     expect(it, TokenType.LBRACE)
                     expect(it, TokenType.STR)
                     expect(it, TokenType.RBRACE)
@@ -323,7 +361,7 @@ def parse(tokens):
     return entries
 
 if len(sys.argv) < 2:
-    sys.exit("Notkun: python parse_tbx.py [skrá]")
+    sys.exit("Notkun: python parse.py [skrá]")
 
 path = sys.argv[1]
 
