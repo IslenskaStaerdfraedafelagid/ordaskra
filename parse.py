@@ -42,6 +42,40 @@ class SubEntryType(Enum):
     TVA = 3
     NONE = 4
 
+class Category(Enum):
+    NA = 0
+    LS = 1
+    SAG = 2
+    SAM = 3
+    AT = 4
+    PREF = 5
+    NONE = 6
+
+    def __str__(self):
+        match self:
+            case Category.NA: return "n."
+            case Category.LS: return "adj."
+            case Category.SAG: return "v."
+            case Category.SAM: return "conj."
+            case Category.AT: return "adv." # TODO check
+            case Category.PREF: return "pref." # TODO check
+            case _: return ""
+
+class Item:
+    def __init__(self):
+        self.co = ""
+        self.content = ""
+
+    def __str__(self):
+        string = ""
+
+        if self.co != "":
+            string += f'({self.co}) '
+
+        string += self.content
+
+        return string
+
 class SubEntry:
     def __init__(self):
         self.translations = []
@@ -51,28 +85,33 @@ class SubEntry:
     def __str__(self):
         string = "\tTranslations: "
         for translation in self.translations:
-            string += translation + ", "
+            string += str(translation) + ", "
         string += "\n"
 
         string += "\tSynonyms: "
         for synonym in self.synonyms:
-            string += synonym + ", "
+            string += str(synonym) + ", "
         string += "\n"
 
         string += "\tRelated Words: "
         for word in self.related_words:
-            string += word + ", "
+            string += str(word) + ", "
 
         return string
 
 class Entry:
     def __init__(self):
         self.word = ""
-        self.category = ""
+        self.category = Category.NONE
         self.subentries = []
 
     def __str__(self):
-        string = f'Word: {self.word} ({self.category})\n'
+        string = f'Word: {self.word} '
+
+        if self.category != Category.NONE:
+            string += f'({self.category})'
+
+        string += '\n'
 
         for subentry in self.subentries:
             string += "- " + str(subentry) + "\n"
@@ -281,10 +320,12 @@ def zero_or_more(it, token):
 
 entry = Entry()
 subentry = SubEntry()
+item = Item()
 
 def parse(tokens):
     global entry
     global subentry
+    global item
 
     it = peekable(tokens)
 
@@ -323,18 +364,30 @@ def parse(tokens):
 
                     string = next(it)
                     assert_type(string, TokenType.STR)
-                    subentry.translations.append(string["content"])
+
+                    item.content = string["content"]
+
+                    subentry.translations.append(item)
+
+                    item = Item()
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.TYA:
-                    entry.subentries.append(subentry)
-                    subentry = SubEntry()
+                    # TODO
+                    if len(entry.subentries) > 0:
+                        entry.subentries.append(subentry)
+                        subentry = SubEntry()
 
                     expect(it, TokenType.LBRACE)
 
                     string = next(it)
                     assert_type(string, TokenType.STR)
-                    subentry.translations.append(string["content"])
+
+                    item.content = string["content"]
+
+                    subentry.translations.append(item)
+
+                    item = Item()
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.SH:
@@ -342,66 +395,112 @@ def parse(tokens):
 
                     string = next(it)
                     assert_type(string, TokenType.STR)
-                    subentry.synonyms.append(string["content"])
+
+                    item.content = string["content"]
+
+                    subentry.synonyms.append(item)
+
+                    item = Item()
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.SHA:
-                    entry.subentries.append(subentry)
-                    subentry = SubEntry()
+                    # TODO
+                    if len(entry.subentries) > 0:
+                        entry.subentries.append(subentry)
+                        subentry = SubEntry()
 
                     expect(it, TokenType.LBRACE)
 
                     string = next(it)
                     assert_type(string, TokenType.STR)
-                    subentry.synonyms.append(string["content"])
+
+                    item.content = string["content"]
+
+                    subentry.synonyms.append(item)
+
+                    item = Item()
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.CO:
                     expect(it, TokenType.LBRACE)
-                    expect(it, TokenType.STR)
+
+                    string = next(it)
+                    assert_type(string, TokenType.STR)
+
+                    item.co = string["content"]
+
                     expect(it, TokenType.RBRACE)
                 case TokenType.COA:
-                    entry.subentries.append(subentry)
-                    subentry = SubEntry()
+                    # TODO
+                    if len(entry.subentries) > 0:
+                        entry.subentries.append(subentry)
+                        subentry = SubEntry()
 
                     expect(it, TokenType.LBRACE)
-                    expect(it, TokenType.STR)
+
+                    string = next(it)
+                    assert_type(string, TokenType.STR)
+
+                    item.co = string["content"]
+
                     expect(it, TokenType.RBRACE)
                 case TokenType.TV:
                     expect(it, TokenType.LBRACE)
 
                     string = next(it)
                     assert_type(string, TokenType.STR)
-                    subentry.related_words.append(string["content"])
+
+                    item.content = string["content"]
+
+                    subentry.related_words.append(item)
+
+                    item = Item()
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.TVA:
-                    entry.subentries.append(subentry)
-                    subentry = SubEntry()
+                    # TODO
+                    if len(entry.subentries) > 0:
+                        entry.subentries.append(subentry)
+                        subentry = SubEntry()
 
                     expect(it, TokenType.LBRACE)
 
                     string = next(it)
                     assert_type(string, TokenType.STR)
-                    subentry.related_words.append(string["content"])
+
+                    item.content = string["content"]
+
+                    subentry.related_words.append(item)
+
+                    item = Item()
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.NA:
                     next(it)
+
+                    entry.category = Category.NA
                 case TokenType.LS:
                     next(it)
+
+                    entry.category = Category.LS
                 case TokenType.SAG:
                     next(it)
+
+                    entry.category = Category.SAG
                 case TokenType.SKA:
                     next(it)
                 case TokenType.SAM:
                     next(it)
+
+                    entry.category = Category.SAM
                 case TokenType.INS:
                     expect(it, TokenType.LBRACE)
                     expect(it, TokenType.STR)
                     expect(it, TokenType.RBRACE)
                 case TokenType.AT:
                     next(it)
+
+                    entry.category = Category.AT
                 case TokenType.BIGINS:
                     expect(it, TokenType.LBRACE)
                     expect(it, TokenType.STR)
@@ -410,11 +509,18 @@ def parse(tokens):
                     next(it)
                 case TokenType.PREF:
                     next(it)
+
+                    entry.category = Category.PREF
                 case _:
                     raise ParseError(lookahead)
     except ParseError as e:
         # TODO
         sys.exit(f"Villa: {e}")
+
+    entries.pop(0)
+
+    #for entry in entries:
+    #    entry.subentries.pop(0)
 
     return entries
 
