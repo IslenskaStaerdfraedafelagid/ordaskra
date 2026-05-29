@@ -35,9 +35,51 @@ class TokenType(Enum):
     PL = 23
     PREF = 24
 
+class SubEntryType(Enum):
+    TYA = 0
+    SHA = 1
+    COA = 2
+    TVA = 3
+    NONE = 4
+
+class SubEntry:
+    def __init__(self):
+        self.translations = []
+        self.synonyms = []
+        self.related_words = []
+
+    def __str__(self):
+        string = "\tTranslations: "
+        for translation in self.translations:
+            string += translation + ", "
+        string += "\n"
+
+        string += "\tSynonyms: "
+        for synonym in self.synonyms:
+            string += synonym + ", "
+        string += "\n"
+
+        string += "\tRelated Words: "
+        for word in self.related_words:
+            string += word + ", "
+
+        return string
+
+class Entry:
+    def __init__(self):
+        self.word = ""
+        self.category = ""
+        self.subentries = []
+
+    def __str__(self):
+        string = f'Word: {self.word} ({self.category})\n'
+
+        for subentry in self.subentries:
+            string += "- " + str(subentry) + "\n"
+
+        return string
+
 EOF = "\0"
-BLANK_ENTRY = {"word": "", "category": "", "subentries": []}
-BLANK_SUBENTRY = {"translations": [], "synonyms": [], "related_words": []}
 
 def push_token(tokens, type, string = ""):
     tokens.append({"type": type, "content": string})
@@ -63,6 +105,8 @@ def lex(characters):
                     lookahead = next(it)
 
                 next(it)
+
+                string = string[:-1]
 
                 push_token(tokens, TokenType.STR, string)
                 push_token(tokens, TokenType.RBRACE)
@@ -235,29 +279,23 @@ def zero_or_more(it, token):
     except StopIteration:
         pass
 
-# TODO Hvað gerist ef þú blandar saman TYA og SHA t.d.?
+entry = Entry()
+subentry = SubEntry()
+
 def parse(tokens):
+    global entry
+    global subentry
+
     it = peekable(tokens)
 
     entries = []
 
-    entry = BLANK_ENTRY
-    subentry = BLANK_SUBENTRY
-
-    dirty = False
-
     try:
         while it.peek(None):
-            #print(it.peek(None))
-
             zero_or_more(it, TokenType.PER)
             expect(it, TokenType.BACK)
 
             lookahead = next(it)
-
-            #print(lookahead)
-
-            # TODO Para saman sviga og þýðingar/samheiti
 
             match lookahead["type"]:
                 case TokenType.NS:
@@ -267,18 +305,17 @@ def parse(tokens):
                 case TokenType.PER:
                     next(it)
                 case TokenType.FL:
-                    if dirty:
-                        entries.append(entry)
-                        print(entry)
-                        dirty = False
+                    entry.subentries.append(subentry)
+                    subentry = SubEntry()
+                    entries.append(entry)
 
-                    entry = BLANK_ENTRY
+                    entry = Entry()
 
                     expect(it, TokenType.LBRACE)
 
                     string = next(it)
                     assert_type(string, TokenType.STR)
-                    entry["word"] = string
+                    entry.word = string["content"]
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.TY:
@@ -286,47 +323,68 @@ def parse(tokens):
 
                     string = next(it)
                     assert_type(string, TokenType.STR)
-                    translations.append(string)
+                    subentry.translations.append(string["content"])
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.TYA:
-                    if dirty:
-                        entry["subentries"].append(subentry)
-
-                    dirty = True
+                    entry.subentries.append(subentry)
+                    subentry = SubEntry()
 
                     expect(it, TokenType.LBRACE)
-                    expect(it, TokenType.STR)
+
+                    string = next(it)
+                    assert_type(string, TokenType.STR)
+                    subentry.translations.append(string["content"])
+
                     expect(it, TokenType.RBRACE)
                 case TokenType.SH:
                     expect(it, TokenType.LBRACE)
-                    expect(it, TokenType.STR)
+
+                    string = next(it)
+                    assert_type(string, TokenType.STR)
+                    subentry.synonyms.append(string["content"])
+
                     expect(it, TokenType.RBRACE)
                 case TokenType.SHA:
-                    dirty = True
+                    entry.subentries.append(subentry)
+                    subentry = SubEntry()
 
                     expect(it, TokenType.LBRACE)
-                    expect(it, TokenType.STR)
+
+                    string = next(it)
+                    assert_type(string, TokenType.STR)
+                    subentry.synonyms.append(string["content"])
+
                     expect(it, TokenType.RBRACE)
                 case TokenType.CO:
                     expect(it, TokenType.LBRACE)
                     expect(it, TokenType.STR)
                     expect(it, TokenType.RBRACE)
                 case TokenType.COA:
-                    dirty = True
+                    entry.subentries.append(subentry)
+                    subentry = SubEntry()
 
                     expect(it, TokenType.LBRACE)
                     expect(it, TokenType.STR)
                     expect(it, TokenType.RBRACE)
                 case TokenType.TV:
                     expect(it, TokenType.LBRACE)
-                    expect(it, TokenType.STR)
+
+                    string = next(it)
+                    assert_type(string, TokenType.STR)
+                    subentry.related_words.append(string["content"])
+
                     expect(it, TokenType.RBRACE)
                 case TokenType.TVA:
-                    dirty = True
+                    entry.subentries.append(subentry)
+                    subentry = SubEntry()
 
                     expect(it, TokenType.LBRACE)
-                    expect(it, TokenType.STR)
+
+                    string = next(it)
+                    assert_type(string, TokenType.STR)
+                    subentry.related_words.append(string["content"])
+
                     expect(it, TokenType.RBRACE)
                 case TokenType.NA:
                     next(it)
@@ -353,7 +411,7 @@ def parse(tokens):
                 case TokenType.PREF:
                     next(it)
                 case _:
-                    raise ParseError(next(it))
+                    raise ParseError(lookahead)
     except ParseError as e:
         # TODO
         sys.exit(f"Villa: {e}")
