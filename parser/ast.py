@@ -47,15 +47,24 @@ class Item:
     def to_str(self, a = False):
         string = ""
 
+        # TODO
+        done = False
+
         if self.co != "":
             string += '\\co'
 
             if a:
                 string += 'a'
+                done = True
 
             string += f'{{{self.co}}}%\n'
 
-        string += f'\\{str(self.type)}{{{self.content}}}%\n'
+        string += f'\\{str(self.type)}'
+
+        if a and not done:
+            string += 'a'
+
+        string += f'{{{self.content}}}%\n'
 
         return string
 
@@ -72,18 +81,34 @@ class SubEntry:
     def to_str(self, a = False):
         string = ""
 
-        for translation in self.translations:
-            string += translation.to_str(a)
+        # TODO
+        done = False
+
+        for i, translation in enumerate(self.translations):
+            # TODO
+            if i == 0 and not done:
+                string += translation.to_str(a)
+                done = True
+            else:
+                string += translation.to_str(False)
 
         for insert in self.inserts:
-            string += insert.to_str(a)
+            string += insert.to_str(False)
 
-        for word in self.related_words:
-            string += word.to_str(a)
+        for i, word in enumerate(self.related_words):
+            # TODO
+            if i == 0 and not done:
+                string += word.to_str(a)
+                done = True
+            else:
+                string += word.to_str(False)
 
-        for synonym in self.synonyms:
-            string += synonym.to_str(a)
-
+        for i, synonym in enumerate(self.synonyms):
+            # TODO
+            if i == 0 and not done:
+                string += synonym.to_str(a)
+            else:
+                string += synonym.to_str(False)
 
         return string
 
@@ -118,7 +143,7 @@ class Ast:
         string = ""
 
         for char, entries in self.entries_by_letter.items():
-            string += f'\\ns{{{char.upper()}}}%\n'
+            string += f'\\ns{{{char.upper()}}}%\n%\n'
 
             for entry in entries:
                 string += str(entry) + "%\n"
