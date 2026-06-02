@@ -161,4 +161,6 @@ class Ast:
 
     def to_csv(self):
         string = ""
+
         for entry in self.entries_by_letter:
+            pass

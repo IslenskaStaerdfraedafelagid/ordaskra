@@ -16,12 +16,20 @@ def invert(ast):
                 new_subentry = SubEntry()
                 new_subentry.translations.append(new_word)
                 new_subentry.translations.extend(subentry.synonyms)
+
                 new_subentry.synonyms = subentry.translations[1:]
                 new_subentry.inserts = subentry.inserts
                 # TODO
                 new_subentry.related_words = subentry.related_words
 
+                for word in new_subentry.translations:
+                    word.type = ItemType.TY
+
+                for word in new_subentry.synonyms:
+                    word.type = ItemType.SH
+
                 new_entry = Entry()
+
                 new_entry.word = íðorð.content
                 new_entry.category = entry.category
                 new_entry.subentries.append(new_subentry)
