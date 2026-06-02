@@ -10,7 +10,7 @@ if len(sys.argv) < 2:
 path = sys.argv[1]
 
 try:
-    file = open(path, encoding="latin-1")
+    file = open(path)
 
     characters = file.read()
 
@@ -20,8 +20,9 @@ try:
 
     reversed = invert(ast)
 
+    #print(ast)
     print(reversed)
-    print(count_branching(ast))
+    #print(count_branching(ast))
 
 except OSError:
     sys.exit(f"Villa: {path} fannst ekki")

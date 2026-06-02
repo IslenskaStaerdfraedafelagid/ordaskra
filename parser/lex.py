@@ -1,11 +1,11 @@
 import sys
 from enum import Enum
 from more_itertools import peekable
-import re
 
 class LexError(Exception):
     pass
 
+# Sjá parse.py fyrir skýringar á þessum táknum
 class TokenType(Enum):
     NS = 0
     PER = 1
@@ -38,6 +38,7 @@ EOF = "\0"
 def push_token(tokens, type, string = ""):
     tokens.append({"type": type, "content": string})
 
+# Breyir TeX kóða með dollaramerkjum í afturábak skástrik og sviga, $...$ -> \(...\)
 def replace_dollars(string):
     i = string.find("$")
     new_string = ""
@@ -60,10 +61,12 @@ def replace_dollars(string):
 
     return new_string
 
+# Þáttar orðaskránna í tákn sem er auðveldara að vinna með, bara einföld stöðuvél
 def lex(characters):
     tokens = []
 
     try:
+        # Notað til þess að lesa beint inn strengi í sér tákn
         literal_mode = False
 
         it = peekable(characters)
@@ -80,6 +83,10 @@ def lex(characters):
                     string += lookahead
                     lookahead = next(it)
 
+                if string[-1] != "}":
+                    raise LexError(string[-1])
+
+                # Hunsa dollaramerkið
                 next(it)
 
                 string = replace_dollars(string[:-1])
@@ -93,6 +100,7 @@ def lex(characters):
                     case "%":
                         lookahead = next(it)
 
+                        # Hunsar komment
                         while lookahead != "\n":
                             lookahead = next(it)
 
@@ -183,27 +191,6 @@ def lex(characters):
                             raise LexError(lookahead)
                         else:
                             push_token(tokens, TokenType.LS)
-                    # TODO
-                    case "i":
-                        lookahead = next(it)
-
-                        if lookahead == "n" and next(it) == "s" and next(it) == "{":
-                            literal_mode = True
-
-                            push_token(tokens, TokenType.INS)
-                            push_token(tokens, TokenType.LBRACE)
-                        else:
-                            raise LexError(lookahead)
-                    case "I":
-                        lookahead = next(it)
-
-                        if lookahead == "n" and next(it) == "s" and next(it) == "{":
-                            literal_mode = True
-
-                            push_token(tokens, TokenType.BIGINS)
-                            push_token(tokens, TokenType.LBRACE)
-                        else:
-                            raise LexError(lookahead)
                     case "a":
                         lookahead = next(it)
 
@@ -228,13 +215,26 @@ def lex(characters):
                                     raise LexError(lookahead)
                     case "\n":
                         push_token(tokens, TokenType.PER)
-                    case _:
-                        raise LexError(next(it))
+                    case c:
+                        # Þetta er til þess að komast hjá því að endurtaka kóða í tveim greinum
+                        if c == 'i' or c == 'I':
+                            lookahead = next(it)
+                            token_type = TokenType.INS if c == 'i' else TokenType.BIGINS
+
+                            if lookahead == "n" and next(it) == "s" and next(it) == "{":
+                                literal_mode = True
+
+                                push_token(tokens, token_type)
+                                push_token(tokens, TokenType.LBRACE)
+                            else:
+                                raise LexError(lookahead)
+                        else:
+                            raise LexError(next(it))
     except LexError as e:
-        # TODO
-        sys.exit(f"Villa: {e}")
+        # TODO Betri villuboð
+        sys.exit(f"Lexer villa: {e}")
     except IndexError:
-        # TODO
+        # TODO Betri villuboð
         sys.exit("Villa")
 
     return tokens

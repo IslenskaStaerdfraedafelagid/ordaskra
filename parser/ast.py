@@ -1,5 +1,6 @@
 from enum import Enum
 
+# Sjá parse.py fyrir skýringar á þessum táknum
 class ItemType(Enum):
     TY = 0
     SH = 1
@@ -17,6 +18,7 @@ class ItemType(Enum):
             case ItemType.BIGINS: return "Ins"
             case _: return ""
 
+# Sjá parse.py fyrir skýringar á þessum táknum
 class Category(Enum):
     NA = 0
     LS = 1
@@ -45,28 +47,11 @@ class Item:
         self.content = ""
 
     def to_str(self, a = False):
-        string = ""
-
-        # TODO
-        done = False
-
+        suffix = 'a' if a else ''
         if self.co != "":
-            string += '\\co'
-
-            if a:
-                string += 'a'
-                done = True
-
-            string += f'{{{self.co}}}%\n'
-
-        string += f'\\{str(self.type)}'
-
-        if a and not done:
-            string += 'a'
-
-        string += f'{{{self.content}}}%\n'
-
-        return string
+            return f'\\co{suffix}{{{self.co}}}%\n\\{str(self.type)}{{{self.content}}}%\n'
+        else:
+            return f'\\{str(self.type)}{suffix}{{{self.content}}}%\n'
 
     def __str__(self):
         return self.to_str()
@@ -81,34 +66,22 @@ class SubEntry:
     def to_str(self, a = False):
         string = ""
 
-        # TODO
+        # Þetta er til þess að það sé ekki verið að búa til margar undirfærslur
         done = False
 
         for i, translation in enumerate(self.translations):
-            # TODO
-            if i == 0 and not done:
-                string += translation.to_str(a)
-                done = True
-            else:
-                string += translation.to_str(False)
+            string += translation.to_str(not done)
+            done = True
 
         for insert in self.inserts:
             string += insert.to_str(False)
 
         for i, word in enumerate(self.related_words):
-            # TODO
-            if i == 0 and not done:
-                string += word.to_str(a)
-                done = True
-            else:
-                string += word.to_str(False)
+            string += word.to_str(not done)
+            done = True
 
         for i, synonym in enumerate(self.synonyms):
-            # TODO
-            if i == 0 and not done:
-                string += synonym.to_str(a)
-            else:
-                string += synonym.to_str(False)
+            string += synonym.to_str(not done)
 
         return string
 
@@ -122,12 +95,14 @@ class Entry:
         self.subentries = []
         self.plural = False
 
-    # TODO fleirtala
     def __str__(self):
         string = f'\\fl{{{self.word}}}%\n'
 
         if self.category != Category.NONE:
             string += f'\\{str(self.category)}%\n'
+
+        if self.plural:
+            string += '\\pl%\n'
 
         a = len(self.subentries) > 1
 
