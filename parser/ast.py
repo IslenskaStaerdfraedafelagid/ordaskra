@@ -1,5 +1,13 @@
 from enum import Enum
 
+from unidecode import unidecode
+
+from parser.util import first_char
+
+#SEP = chr(31)
+SEP = '|'
+
+# Sjá parse.py fyrir skýringar á þessum táknum
 class ItemType(Enum):
     TY = 0
     SH = 1
@@ -17,6 +25,7 @@ class ItemType(Enum):
             case ItemType.BIGINS: return "Ins"
             case _: return ""
 
+# Sjá parse.py fyrir skýringar á þessum táknum
 class Category(Enum):
     NA = 0
     LS = 1
@@ -38,6 +47,31 @@ class Category(Enum):
             case Category.SKA: return "ska"
             case _: return ""
 
+    # TODO Setja á form sem Árnastofnun notar
+    def to_csv(self):
+        match self:
+            case Category.NA: return "na"
+            case Category.LS: return "ls"
+            case Category.SAG: return "sag"
+            case Category.SAM: return "sam"
+            case Category.AT: return "at"
+            case Category.PREF: return "pref"
+            case Category.SKA: return "ska"
+            case _: return ""
+
+class Kyn(Enum):
+    KK = 0
+    KVK = 1
+    HK = 2
+    NONE = 3
+
+    def __str__(self):
+        match self:
+            case Kyn.KK: return "kk"
+            case Kyn.KVK: return "kvk"
+            case Kyn.HK: return "hk"
+            case _: return ""
+
 class Item:
     def __init__(self):
         self.type = ItemType.NONE
@@ -45,31 +79,36 @@ class Item:
         self.content = ""
 
     def to_str(self, a = False):
-        string = ""
-
-        # TODO
-        done = False
-
+        suffix = 'a' if a else ''
         if self.co != "":
-            string += '\\co'
-
-            if a:
-                string += 'a'
-                done = True
-
-            string += f'{{{self.co}}}%\n'
-
-        string += f'\\{str(self.type)}'
-
-        if a and not done:
-            string += 'a'
-
-        string += f'{{{self.content}}}%\n'
-
-        return string
+            return f'\\co{suffix}{{{self.co}}}%\n\\{str(self.type)}{{{self.content}}}%\n'
+        else:
+            return f'\\{str(self.type)}{suffix}{{{self.content}}}%\n'
 
     def __str__(self):
         return self.to_str()
+
+def to_comma_separated(items):
+    string = ""
+
+    if len(items) > 0:
+        first = items[0]
+
+        if first.co != "":
+            string += f'({first.co}) '
+
+        string += f'{first.content}'
+
+        for item in items[1:]:
+            string += ', '
+
+            if item.co != "":
+                string += f'({item.co}) '
+
+            string += f'{item.content}'
+
+    return string
+
 
 class SubEntry:
     def __init__(self):
@@ -81,39 +120,82 @@ class SubEntry:
     def to_str(self, a = False):
         string = ""
 
-        # TODO
+        # Þetta er til þess að það sé ekki verið að búa til margar undirfærslur
         done = False
 
         for i, translation in enumerate(self.translations):
-            # TODO
-            if i == 0 and not done:
-                string += translation.to_str(a)
-                done = True
-            else:
-                string += translation.to_str(False)
+            string += translation.to_str(not done)
+            done = True
 
         for insert in self.inserts:
             string += insert.to_str(False)
 
         for i, word in enumerate(self.related_words):
-            # TODO
-            if i == 0 and not done:
-                string += word.to_str(a)
-                done = True
-            else:
-                string += word.to_str(False)
+            string += word.to_str(not done)
+            done = True
 
         for i, synonym in enumerate(self.synonyms):
-            # TODO
-            if i == 0 and not done:
-                string += synonym.to_str(a)
-            else:
-                string += synonym.to_str(False)
+            string += synonym.to_str(not done)
 
         return string
 
     def __str__(self):
         return self.to_str()
+
+    def to_csv(self):
+        # Skilgreining
+        string = f'{SEP}'
+
+        # TODO Aldrei meira en eitt Ins?
+        if self.inserts != [] and self.inserts[0].type == ItemType.BIGINS:
+            string += f'{self.inserts[0].content}'
+
+        string += f'{SEP}'
+
+        # Dæmi
+        string += f'{SEP}'
+
+        # Samheiti: is
+        string += f'{to_comma_separated(self.synonyms)}{SEP}'
+
+        # Heimild
+        string += f'{SEP}'
+
+        # Sérsvið
+        string += f'{SEP}'
+
+        string += f'{to_comma_separated(self.related_words)}{SEP}'
+
+        # Hugtak: en
+        # TODO Hvað á að vera hér?
+        if len(self.translations) > 0:
+            string += f'{self.translations[0].content}{SEP}'
+
+        # TODO Ensk tala?
+        # Tala: en
+
+        # Skilgreining, en
+        string += f'{SEP}'
+
+        # Skýring, en
+        string += f'{SEP}'
+
+        # Dæmi, en
+        string += f'{SEP}'
+
+        # Samheiti, en
+        string += f'{to_comma_separated(self.translations[1:])}{SEP}'
+
+        # Heimild, en
+        string += f'{SEP}'
+
+        # Sérsvið, en
+        string += f'{SEP}'
+
+        # Vísun/sjá einnig, en
+        string += ''
+
+        return string
 
 class Entry:
     def __init__(self):
@@ -121,12 +203,16 @@ class Entry:
         self.category = Category.NONE
         self.subentries = []
         self.plural = False
+        self.kyn = Kyn.NONE
 
     def __str__(self):
         string = f'\\fl{{{self.word}}}%\n'
 
         if self.category != Category.NONE:
             string += f'\\{str(self.category)}%\n'
+
+        if self.plural:
+            string += '\\pl%\n'
 
         a = len(self.subentries) > 1
 
@@ -135,6 +221,14 @@ class Entry:
 
         return string
 
+    def to_csv(self):
+        assert(len(self.subentries) == 1)
+
+        tala = 'Fleirtala' if self.plural else 'Eintala'
+
+        return f'{self.word}{SEP}{self.category.to_csv()}{SEP}{self.kyn}{SEP}{tala}{SEP}{self.subentries[0].to_csv()}'
+
+
 class Ast:
     def __init__(self):
         self.entries_by_letter = {}
@@ -142,10 +236,36 @@ class Ast:
     def __str__(self):
         string = ""
 
-        for char, entries in self.entries_by_letter.items():
-            string += f'\\ns{{{char.upper()}}}%\n%\n'
+        for letter, entries in sorted(self.entries_by_letter.items(), key=lambda x: x[0].casefold()):
+            string += f'\\ns{{{letter.upper()}}}%\n%\n'
 
             for entry in entries:
                 string += str(entry) + "%\n"
+
+        return string
+
+    def lookup(self, word):
+        normalized_word = unidecode(word)
+        letter = first_char(normalized_word).lower()
+
+        return word in map(lambda e: e.word, self.entries_by_letter.get(letter, []))
+
+    def exists(self, word):
+        return self.lookup(word)
+
+    def flatten(self):
+        list = []
+
+        for _, entries in sorted(self.entries_by_letter.items(), key=lambda x: x[0].casefold()):
+            list.extend(entries)
+
+        return list
+
+    def to_csv(self):
+        #string = f'Hugtak: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Tala: is{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Tala: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
+        string = f'Hugtök: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Tala: is{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
+
+        for entry in self.flatten():
+            string += entry.to_csv() + "\n"
 
         return string
