@@ -122,6 +122,7 @@ class Entry:
         self.subentries = []
         self.plural = False
 
+    # TODO fleirtala
     def __str__(self):
         string = f'\\fl{{{self.word}}}%\n'
 
@@ -142,10 +143,22 @@ class Ast:
     def __str__(self):
         string = ""
 
-        for char, entries in self.entries_by_letter.items():
-            string += f'\\ns{{{char.upper()}}}%\n%\n'
+        for letter, entries in sorted(self.entries_by_letter.items()):
+            string += f'\\ns{{{letter.upper()}}}%\n%\n'
 
             for entry in entries:
                 string += str(entry) + "%\n"
 
         return string
+
+    def flatten(self):
+        list = []
+
+        for _, entries in self.entries_by_letter.items():
+            list.extend(entries)
+
+        return list
+
+    def to_csv(self):
+        string = ""
+        for entry in self.entries_by_letter:

@@ -1,6 +1,7 @@
 import sys
 from parser.parse import parse
 from parser.lex import lex
+from parser.invert import invert
 
 
 if len(sys.argv) < 2:
@@ -17,7 +18,9 @@ try:
 
     ast = parse(tokens)
 
-    print(ast)
+    reversed = invert(ast)
+
+    print(reversed)
 
 except OSError:
     sys.exit(f"Villa: {path} fannst ekki")
