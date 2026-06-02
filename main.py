@@ -2,7 +2,7 @@ import sys
 from parser.parse import parse
 from parser.lex import lex
 from parser.invert import invert
-
+from count_branching import count_branching
 
 if len(sys.argv) < 2:
     sys.exit("Notkun: python parse.py [skrá]")
@@ -21,6 +21,7 @@ try:
     reversed = invert(ast)
 
     print(reversed)
+    print(count_branching(ast))
 
 except OSError:
     sys.exit(f"Villa: {path} fannst ekki")

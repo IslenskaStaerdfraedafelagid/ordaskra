@@ -1,4 +1,4 @@
-from parser.ast import *
+from .ast import *
 
 def invert(ast):
     reversed = Ast()
