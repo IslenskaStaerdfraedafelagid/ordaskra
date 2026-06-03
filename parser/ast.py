@@ -1,5 +1,8 @@
 from enum import Enum
 
+#SEP = chr(31)
+SEP = '|'
+
 # Sjá parse.py fyrir skýringar á þessum táknum
 class ItemType(Enum):
     TY = 0
@@ -56,6 +59,28 @@ class Item:
     def __str__(self):
         return self.to_str()
 
+def to_comma_separated(items):
+    string = ""
+
+    if len(items) > 0:
+        first = items[0]
+
+        if first.co != "":
+            string += f'({first.co}) '
+
+        string += f'{first.content}'
+
+        for item in items[1:]:
+            string += ', '
+
+            if item.co != "":
+                string += f'({item.co}) '
+
+            string += f'{item.content}'
+
+    return string
+
+
 class SubEntry:
     def __init__(self):
         self.translations = []
@@ -88,6 +113,55 @@ class SubEntry:
     def __str__(self):
         return self.to_str()
 
+    def to_csv(self):
+        # Skilgreining
+        string = f'{SEP}'
+
+        # TODO Aldrei meira en eitt Ins?
+        if self.inserts != [] and self.inserts[0].type == ItemType.BIGINS:
+            string += f'{self.inserts[0].content}'
+
+        string += f'{SEP}'
+
+        # Dæmi
+        string += f'{SEP}'
+
+        string += f'{to_comma_separated(self.synonyms)}{SEP}'
+
+        # Heimild
+        string += f'{SEP}'
+
+        # Sérsvið
+        string += f'{SEP}'
+
+        string += f'{to_comma_separated(self.related_words)}{SEP}'
+
+        # TODO Hvað á að vera hér?
+        if len(self.translations) > 0:
+            string += f'{self.translations[0].content}{SEP}'
+
+        # Skilgreining, en
+        string += f'{SEP}'
+
+        # Skýring, en
+        string += f'{SEP}'
+
+        # Dæmi, en
+        string += f'{SEP}'
+
+        string += f'{to_comma_separated(self.translations[1:])}{SEP}'
+
+        # Heimild, en
+        string += f'{SEP}'
+
+        # Sérsvið, en
+        string += f'{SEP}'
+
+        # Vísun/sjá einnig, en
+        string += ''
+
+        return string
+
 class Entry:
     def __init__(self):
         self.word = ""
@@ -111,6 +185,12 @@ class Entry:
 
         return string
 
+    def to_csv(self):
+        assert(len(self.subentries) == 1)
+
+        return f'{self.word}{SEP}{self.subentries[0].to_csv()}'
+
+
 class Ast:
     def __init__(self):
         self.entries_by_letter = {}
@@ -118,7 +198,7 @@ class Ast:
     def __str__(self):
         string = ""
 
-        for letter, entries in sorted(self.entries_by_letter.items()):
+        for letter, entries in sorted(self.entries_by_letter.items(), key=lambda x: x[0].casefold()):
             string += f'\\ns{{{letter.upper()}}}%\n%\n'
 
             for entry in entries:
@@ -129,13 +209,15 @@ class Ast:
     def flatten(self):
         list = []
 
-        for _, entries in self.entries_by_letter.items():
+        for _, entries in sorted(self.entries_by_letter.items(), key=lambda x: x[0].casefold()):
             list.extend(entries)
 
         return list
 
     def to_csv(self):
-        string = ""
+        string = f'Hugtak: is{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
 
-        for entry in self.entries_by_letter:
-            pass
+        for entry in self.flatten():
+            string += entry.to_csv() + "\n"
+
+        return string

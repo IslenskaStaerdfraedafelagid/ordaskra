@@ -2,15 +2,17 @@ import sys
 from parser.parse import parse
 from parser.lex import lex
 from parser.invert import invert
-from count_branching import count_branching
+from pathlib import Path
 
 if len(sys.argv) < 2:
     sys.exit("Notkun: python parse.py [skrá]")
 
-path = sys.argv[1]
+path = Path(sys.argv[1])
+outpath_dat = path.with_stem(path.stem + "_isl")
+outpath_csv = outpath_dat.with_suffix(".csv")
 
 try:
-    file = open(path)
+    file = open(path, "r")
 
     characters = file.read()
 
@@ -20,9 +22,11 @@ try:
 
     reversed = invert(ast)
 
-    #print(ast)
-    print(reversed)
-    #print(count_branching(ast))
+    outfile_dat = open(outpath_dat, "w")
+    outfile_csv = open(outpath_csv, "w")
+
+    outfile_dat.write(str(reversed))
+    outfile_csv.write(reversed.to_csv())
 
 except OSError:
     sys.exit(f"Villa: {path} fannst ekki")
