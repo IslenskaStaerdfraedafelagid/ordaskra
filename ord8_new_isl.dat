@@ -164,7 +164,7 @@
 %
 \fl{alsamfelldur}%
 \tya{absolutely continuous}%
-\ty{completely continuous 2}%
+\ty{completely continuous}%
 %
 \fl{alsamleitinn}%
 \tya{absolutely convergent}%
@@ -233,24 +233,24 @@
 %
 \fl{aðoki}%
 \tya{adjoint functor}%
-\ty{adjoint~1}%
+\ty{adjoint}%
 \sh{aðoka varpi}%
 %
 \fl{aðoka fylki}%
 \tya{adjoint matrix}%
-\ty{adjoint 3}%
-\ty{adjugate matrix 1}%
+\ty{adjoint}%
+\ty{adjugate matrix}%
 \ty{associate matrix}%
 \ty{conjugate-transpose}%
 \ty{conjugate-transpose matrix}%
 \ty{hermitian adjoint}%
-\ty{hermitian conjugate 1}%
+\ty{hermitian conjugate}%
 \ty{hermitian conjugate matrix}%
 %
 \fl{aðoki}%
 \tya{adjoint operator}%
-\ty{adjoint~5}%
-\ty{hermitian conjugate 2}%
+\ty{adjoint}%
+\ty{hermitian conjugate}%
 \ty{hermitian conjugate operator}%
 \sh{aðoka virki}%
 %
@@ -353,7 +353,7 @@
 \fl{aðgerð}%
 \tya{algebraic operation}%
 \ty{law of composition}%
-\ty{operation 2}%
+\ty{operation}%
 \tv{binary operation}%
 \tv{internal composition}%
 \tv{internal operation}%
@@ -450,8 +450,8 @@
 \fl{andhermískt form}%
 \tya{antihermitian sesquilinear form}%
 \ty{antihermitian form}%
-\tv{inner product 6}%
-\tv{scalar product 6}%
+\tv{inner product}%
+\tv{scalar product}%
 %
 \fl{andfágaður}%
 \ls%
@@ -506,7 +506,7 @@
 \fl{andsamhverfur}%
 \ls%
 \tya{antisymmetric}%
-\ty{antisymmetrical 1}%
+\ty{antisymmetrical}%
 \ty{skew-symmetric}%
 \ty{skew-symmetrical}%
 \sh{oddhverfur}%
@@ -514,15 +514,15 @@
 \fl{andsamhverfur}%
 \ls%
 \tya{antisymmetric}%
-\ty{antisymmetrical 2}%
+\ty{antisymmetrical}%
 \tv{asymmetric}%
 %
 \fl{andsamhverft tvílínulegt form}%
 \tya{antisymmetric bilinear form}%
 \ty{skew-symmetric bilinear form}%
 \tv{alternating bilinear form}%
-\tv{inner product~2}%
-\tv{scalar product~2}%
+\tv{inner product}%
+\tv{scalar product}%
 \sh{oddhverft tvílínulegt form}%
 %
 \fl{andsamhverft fall}%
@@ -609,14 +609,14 @@
 \na%
 \tya{arm}%
 \ty{lateral side}%
-\ty{leg 3}%
-\ty{side 2}%
+\ty{leg}%
+\ty{side}%
 %
 \fl{armur}%
 \na%
 \tya{arm}%
-\ty{leg 4}%
-\ty{side 3}%
+\ty{leg}%
+\ty{side}%
 %
 \fl{afturmunur}%
 \tya{ascending difference}%
@@ -624,12 +624,12 @@
 %
 \fl{aðoka fylki}%
 \tya{associate matrix}%
-\ty{adjoint matrix 1}%
-\ty{adjugate matrix 1}%
+\ty{adjoint matrix}%
+\ty{adjugate matrix}%
 \ty{conjugate-transpose}%
 \ty{conjugate-transpose matrix}%
 \ty{hermitian adjoint}%
-\ty{hermitian conjugate 1}%
+\ty{hermitian conjugate}%
 \ty{hermitian conjugate matrix}%
 %
 \fl{aðfella}%
@@ -755,10 +755,10 @@
 \fl{aðmengi}%
 \na%
 \tya{codomain}%
-\ty{latent range 2}%
+\ty{latent range}%
 \ty{potential range}%
-\ty{range~2}%
-\ty{target 2}%
+\ty{range}%
+\ty{target}%
 \ty{target set}%
 \sh{ítak}%
 \sh{bakmengi}%
@@ -766,9 +766,9 @@
 \fl{aðhlutur}%
 \na%
 \tya{codomain}%
-\ty{range 4}%
-\ty{range carrier 2}%
-\ty{target 3}%
+\ty{range}%
+\ty{range carrier}%
+\ty{target}%
 \tv{counterdomain}%
 \sh{bakhlutur}%
 %
@@ -795,14 +795,14 @@
 %
 \fl{aðoka fylki}%
 \tya{conjugate-transpose matrix}%
-\ty{adjoint 3}%
-\ty{adjoint matrix 1}%
-\ty{adjugate matrix 1}%
+\ty{adjoint}%
+\ty{adjoint matrix}%
+\ty{adjugate matrix}%
 \ty{associate matrix}%
 \ty{conjugate-transpose}%
 \ty{conjugate-transpose matrix}%
 \ty{hermitian adjoint}%
-\ty{hermitian conjugate 1}%
+\ty{hermitian conjugate}%
 \ty{hermitian conjugate matrix}%
 %
 \fl{af{}leiðing}%
@@ -872,7 +872,7 @@
 \fl{af{}leiðsla}%
 \na%
 \tya{deduction}%
-\ty{inference 1}%
+\ty{inference}%
 \ty{logical deduction}%
 \tv{proof}%
 \sh{ályktun}%
@@ -938,7 +938,7 @@
 %
 \fl{aðhvarfsfrávik}%
 \tya{deviation from regression}%
-\ty{remainder 1}%
+\ty{remainder}%
 \ty{residual}%
 \sh{leif}%
 %
@@ -994,12 +994,12 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{aðfeldisfall}%
 \tya{factorial function}%
-\ty{factorial 1}%
+\ty{factorial}%
 \tv{gamma function}%
 %
 \fl{aðfeldi}%
 \tya{factorial number}%
-\ty{factorial 2}%
+\ty{factorial}%
 \tv{factorial}%
 \sh{hrópmerkt tala}%
 %
@@ -1112,7 +1112,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{alhæfður}%
 \ls%
 \tya{generalized}%
-\ty{general 5}%
+\ty{general}%
 %
 \fl{alhæfð runa}%
 \tya{generalized sequence}%
@@ -1129,7 +1129,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{almennur}%
 \ls%
 \tya{generic}%
-\ty{general 4}%
+\ty{general}%
 %
 \fl{almennur ferill}%
 \tya{generic curve}%
@@ -1155,26 +1155,26 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{aðoka fylki}%
 \tya{hermitian conjugate matrix}%
-\ty{adjoint 3}%
-\ty{adjoint matrix 1}%
-\ty{adjugate matrix 1}%
+\ty{adjoint}%
+\ty{adjoint matrix}%
+\ty{adjugate matrix}%
 \ty{associate matrix}%
 \ty{conjugate-transpose}%
 \ty{conjugate-transpose matrix}%
 \ty{hermitian adjoint}%
-\ty{hermitian conjugate 1}%
+\ty{hermitian conjugate}%
 %
 \fl{aðoki}%
 \tya{hermitian conjugate operator}%
-\ty{adjoint 5}%
+\ty{adjoint}%
 \ty{adjoint operator}%
-\ty{hermitian conjugate 2}%
+\ty{hermitian conjugate}%
 \sh{aðoka virki}%
 %
 \fl{annars stigs háflötur}%
 \na%
 \tya{hyperquadric}%
-\ty{quadric 4}%
+\ty{quadric}%
 \sh{ferningsháflötur}%
 %
 \fl{aljafna}%
@@ -1234,7 +1234,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{andhverfa (falls)}%
 \tya{inverse function}%
-\tv{inverse 1}%
+\tv{inverse}%
 \sh{andhverft fall}%
 %
 \fl{andhverfur breiðbogakósínus}%
@@ -1264,7 +1264,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{andhverfa (vörpunar)}%
 \tya{inverse mapping}%
-\tv{inverse 1}%
+\tv{inverse}%
 \sh{andhverf vörpun}%
 %
 \fl{andhverfusetning}%
@@ -1272,8 +1272,8 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{andhverfa (fylkis)}%
 \tya{inverse matrix}%
-\ty{adjugate matrix 3}%
-\ty{inverse 2}%
+\ty{adjugate matrix}%
+\ty{inverse}%
 \ty{reciprocal matrix}%
 \sh{umhverfa (fylkis)}%
 \sh{andhverft fylki}%
@@ -1281,7 +1281,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{andhverf vensl}%
 \tya{inverse relation}%
-\ty{dual 2}%
+\ty{dual}%
 %
 \fl{arkarsínus}%
 \tya{inverse sine}%
@@ -1311,7 +1311,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{andhverfanlegur}%
 \ls%
 \tya{invertible}%
-\tv{inverse 1}%
+\tv{inverse}%
 %
 \fl{andsjálfhverfur}%
 \ls%
@@ -1325,32 +1325,32 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{aðmengi}%
 \tya{latent range}%
-\ty{range carrier 1}%
-\ty{target 1}%
-\tv{actual range 1}%
+\ty{range carrier}%
+\ty{target}%
+\tv{actual range}%
 \sh{bakmengi}%
 %
 \fl{aðmengi}%
 \tya{latent range}%
-\ty{codomain 1}%
+\ty{codomain}%
 \ty{potential range}%
-\ty{range 2}%
-\ty{target 2}%
+\ty{range}%
+\ty{target}%
 \ty{target set}%
-\tv{actual range~2}%
+\tv{actual range}%
 \sh{ítak}%
 \sh{bakmengi}%
 %
 \fl{armur}%
 \tya{lateral side}%
-\ty{arm 1}%
-\ty{leg 3}%
+\ty{arm}%
+\ty{leg}%
 \ty{side}%
 %
 \fl{aðgerð}%
 \tya{law of composition}%
 \ty{algebraic operation}%
-\ty{operation 2}%
+\ty{operation}%
 \tv{binary operation}%
 \tv{internal composition}%
 \tv{internal operation}%
@@ -1371,7 +1371,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{afgangur}%
 \tya{least non-negative residue}%
 \ty{principal remainder}%
-\ty{remainder 2}%
+\ty{remainder}%
 \sh{minnsta leif}%
 %
 \fl{aftasti tölustafur}%
@@ -1392,7 +1392,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{aðoka frá vinstri}%
 \ls%
 \tya{left-adjoint}%
-\ty{adjoint 1}%
+\ty{adjoint}%
 \tv{coadjoint}%
 \tv{right-adjoint}%
 \sh{aðoka}%
@@ -1400,15 +1400,15 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{armur}%
 \na%
 \tya{leg}%
-\ty{arm 1}%
+\ty{arm}%
 \ty{lateral side}%
-\ty{side 2}%
+\ty{side}%
 %
 \fl{armur}%
 \na%
 \tya{leg}%
-\ty{arm~2}%
-\ty{side 3}%
+\ty{arm}%
+\ty{side}%
 %
 \fl{aðhvarfslína}%
 \tya{line of regression}%
@@ -1417,7 +1417,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{af{}leiðsla}%
 \tya{logical deduction}%
 \ty{deduction}%
-\ty{inference 1}%
+\ty{inference}%
 \tv{proof}%
 \sh{ályktun}%
 %
@@ -1464,7 +1464,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{algengasta gildi}%
 \tya{modal value}%
-\ty{mode 2}%
+\ty{mode}%
 \ty{most probable value}%
 \sh{líklegasta gildi}%
 %
@@ -1484,7 +1484,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{algengasta gildi}%
 \tya{most probable value}%
 \ty{modal value}%
-\ty{mode 2}%
+\ty{mode}%
 \sh{líklegasta gildi}%
 %
 \fl{alhæfð runa}%
@@ -1499,7 +1499,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{algildi}%
 \tya{numerical value}%
-\ty{absolute value 1}%
+\ty{absolute value}%
 \sh{tölugildi}%
 \sh{lengd}%
 %
@@ -1518,7 +1518,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \tv{Boolean operation}%
 \tv{bracket operation}%
 \tv{commutative operation}%
-\tv{elementary operation 1}%
+\tv{elementary operation}%
 \tv{internal composition}%
 \tv{internal operation}%
 \tv{logical operation}%
@@ -1534,7 +1534,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \na%
 \tya{operation}%
 \tv{column operation}%
-\tv{elementary operation 2}%
+\tv{elementary operation}%
 \tv{row operation}%
 %
 \fl{aðgerðartákn}%
@@ -1575,9 +1575,9 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{aðmengi}%
 \tya{potential range}%
-\ty{codomain 1}%
-\ty{latent range 2}%
-\ty{target 1}%
+\ty{codomain}%
+\ty{latent range}%
+\ty{target}%
 \ty{target set}%
 \sh{ítak}%
 \sh{bakmengi}%
@@ -1592,7 +1592,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{afgangur}%
 \tya{principal remainder}%
 \ty{least non-negative residue}%
-\ty{remainder~2}%
+\ty{remainder}%
 \sh{minnsta leif}%
 %
 \fl{algebrulegt varp\-víðerni}%
@@ -1609,7 +1609,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{annars stigs ferill}%
 \tya{quadratic curve}%
-\ty{quadric 1}%
+\ty{quadric}%
 \ty{quadric curve}%
 \tv{conic section}%
 \sh{ferningsferill}%
@@ -1617,7 +1617,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{annars stigs jafna}%
 \tya{quadratic equation}%
 \ty{quadratic}%
-\ty{quadric 2}%
+\ty{quadric}%
 \sh{ferningsjafna}%
 %
 \fl{annars stigs sviðs\-útvíkkun}%
@@ -1657,10 +1657,10 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{aðmengi}%
 \na%
 \tya{range}%
-\ty{codomain 1}%
-\ty{latent range 2}%
+\ty{codomain}%
+\ty{latent range}%
 \ty{potential range}%
-\ty{target 2}%
+\ty{target}%
 \ty{target set}%
 \sh{ítak}%
 \sh{bakmengi}%
@@ -1668,28 +1668,28 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{aðhlutur}%
 \na%
 \tya{range}%
-\ty{codomain 2}%
-\ty{range carrier 2}%
-\ty{target 3}%
+\ty{codomain}%
+\ty{range carrier}%
+\ty{target}%
 \sh{bakhlutur}%
 %
 \fl{aðmengi}%
 \tya{range carrier}%
-\ty{latent range~1}%
-\ty{target~1}%
-\tv{range~3}%
+\ty{latent range}%
+\ty{target}%
+\tv{range}%
 \sh{bakmengi}%
 %
 \fl{aðhlutur}%
 \tya{range carrier}%
-\ty{codomain~2}%
-\ty{range~4}%
-\ty{target~3}%
+\ty{codomain}%
+\ty{range}%
+\ty{target}%
 \sh{bakhlutur}%
 %
 \fl{andhverft fylki}%
 \tya{reciprocal matrix}%
-\ty{adjugate matrix 3}%
+\ty{adjugate matrix}%
 \ty{inverse matrix}%
 \sh{umhverft fylki}%
 \sh{andhverfa (fylkis)}%
@@ -1756,7 +1756,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \fl{algildisflötur}%
 \na%
 \tya{relief}%
-\ty{modular surface 2}%
+\ty{modular surface}%
 %
 \fl{aðhvarfsfrávik}%
 \na%
@@ -1790,7 +1790,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \na%
 \tya{residual}%
 \ty{deviation from regression}%
-\ty{remainder 1}%
+\ty{remainder}%
 \sh{leif}%
 %
 \fl{afgangsfervik}%
@@ -1807,7 +1807,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 \ls%
 \tya{right-adjoint}%
 \ty{coadjoint}%
-\tv{adjoint 1}%
+\tv{adjoint}%
 \tv{left-adjoint}%
 \sh{hjáaðoka}%
 %
@@ -1828,7 +1828,7 @@ er aðfeldið að \(5\) þ.~e.~talan \(5! = 120\)}%
 %
 \fl{aukahvirfilpunktur}%
 \tya{secondary vertex}%
-\tv{vertex 3}%
+\tv{vertex}%
 %
 \fl{annars stigs}%
 \ls%
@@ -1894,7 +1894,7 @@ aðgreind mengi}%
 %
 \fl{aðskilnaðarfrumsenda}%
 \tya{separation axiom}%
-\ty{axiom of separation 2}%
+\ty{axiom of separation}%
 %
 \fl{aðskilnaður breyti\-stærða}%
 \tya{separation of variables}%
@@ -1909,15 +1909,15 @@ aðgreind mengi}%
 \fl{armur}%
 \na%
 \tya{side}%
-\ty{arm 1}%
+\ty{arm}%
 \ty{lateral side}%
-\ty{leg 3}%
+\ty{leg}%
 %
 \fl{armur}%
 \na%
 \tya{side}%
-\ty{arm 2}%
-\ty{leg 4}%
+\ty{arm}%
+\ty{leg}%
 %
 \fl{aukaskilyrði}%
 \tya{side condition}%
@@ -1938,31 +1938,31 @@ aðgreind mengi}%
 \ls%
 \tya{skew-symmetric}%
 \ty{skew-symmetrical}%
-\ty{antisymmetric 1}%
+\ty{antisymmetric}%
 %
 \fl{andsamhverft tvílínulegt form}%
 \tya{skew-symmetric bilinear form}%
 \ty{antisymmetric bilinear form}%
 \tv{alternating bilinear form}%
-\tv{inner product 2}%
-\tv{scalar product 2}%
+\tv{inner product}%
+\tv{scalar product}%
 \sh{oddhverft tvílínulegt form}%
 %
 \fl{aðmengi}%
 \na%
 \tya{target}%
-\ty{latent range~1}%
-\ty{range carrier~1}%
+\ty{latent range}%
+\ty{range carrier}%
 \tv{actual range}%
 \sh{bakmengi}%
 %
 \fl{aðmengi}%
 \na%
 \tya{target}%
-\ty{codomain~1}%
-\ty{latent range~2}%
+\ty{codomain}%
+\ty{latent range}%
 \ty{potential range}%
-\ty{range~2}%
+\ty{range}%
 \ty{target set}%
 \sh{ítak}%
 \sh{bakmengi}%
@@ -1970,9 +1970,9 @@ aðgreind mengi}%
 \fl{aðhlutur}%
 \na%
 \tya{target}%
-\ty{codomain~2}%
-\ty{range~4}%
-\ty{range carrier~2}%
+\ty{codomain}%
+\ty{range}%
+\ty{range carrier}%
 \sh{bakhlutur}%
 %
 \fl{algjörlega takmarkaður}%
@@ -1986,7 +1986,7 @@ aðgreind mengi}%
 \fl{andsamsíðungur}%
 \na%
 \tya{trapezoid}%
-\ty{trapezium 2}%
+\ty{trapezium}%
 \sh{ferhyrningur með engar hliðar samsíða}%
 %
 \fl{augljós}%
@@ -2041,7 +2041,7 @@ aðgreind mengi}%
 %
 \fl{allsherjarþekjuflötur}%
 \tya{universal covering surface}%
-\ty{modular surface 1}%
+\ty{modular surface}%
 %
 \fl{allsherjarsvið}%
 \tya{universal field}%
@@ -2153,7 +2153,7 @@ aðgreind mengi}%
 \tya{bilinear transformation}%
 \ty{fractional linear transformation}%
 \ty{homographic mapping}%
-\ty{homography 1}%
+\ty{homography}%
 \ty{linear fractional transformation}%
 \ty{Möbius transformation}%
 \sh{Möbíusarfærsla}%
@@ -2231,7 +2231,7 @@ aðgreind mengi}%
 \fl{bundin}%
 \na%
 \tya{bundle}%
-\ty{sheaf 1}%
+\ty{sheaf}%
 \tv{bundle of lines}%
 \tv{pencil}%
 %
@@ -2327,7 +2327,7 @@ aðgreind mengi}%
 \tya{colimit}%
 \ty{direct limit}%
 \ty{inductive limit}%
-\tv{limit 2}%
+\tv{limit}%
 %
 \fl{boðleið}%
 \tya{communication channel}%
@@ -2348,8 +2348,8 @@ aðgreind mengi}%
 \fl{bakliður}%
 \na%
 \tya{consequent}%
-\ty{succedent 2}%
-\tv{antecedent 2}%
+\ty{succedent}%
+\tv{antecedent}%
 %
 \fl{byggja}%
 \sag%
@@ -2429,7 +2429,7 @@ aðgreind mengi}%
 \fl{beinn eftirkomandi}%
 \tya{direct successor}%
 \ty{immediate successor}%
-\ty{sequent 1}%
+\ty{sequent}%
 \sh{næsti eftirkomandi}%
 %
 \fl{bein summa}%
@@ -2535,8 +2535,8 @@ aðgreind mengi}%
 %
 \fl{brenniás}%
 \tya{focal axis}%
-\tv{major axis 1}%
-\tv{major axis 2}%
+\tv{major axis}%
+\tv{major axis}%
 \tv{transverse axis}%
 %
 \fl{brennistrengur}%
@@ -2582,7 +2582,7 @@ aðgreind mengi}%
 \tv{complex fraction}%
 \tv{compound fraction}%
 \tv{continued fraction}%
-\tv{decimal 1}%
+\tv{decimal}%
 \tv{decimal fraction}%
 \tv{duodecimal fraction}%
 \tv{fraction field}%
@@ -2648,7 +2648,7 @@ aðgreind mengi}%
 %
 \fl{brotin línuleg færsla}%
 \tya{fractional linear transformation}%
-\ty{bilinear transformation 2}%
+\ty{bilinear transformation}%
 \ty{homographic mapping}%
 \ty{homography}%
 \ty{linear fractional transformation}%
@@ -2666,7 +2666,7 @@ aðgreind mengi}%
 \fl{brotin línuleg færsla}%
 \na%
 \tya{homography}%
-\ty{bilinear transformation 2}%
+\ty{bilinear transformation}%
 \ty{fractional linear transformation}%
 \ty{homographic mapping}%
 \ty{linear fractional transformation}%
@@ -2849,10 +2849,10 @@ aðgreind mengi}%
 %
 \fl{brotin línuleg færsla}%
 \tya{linear fractional transformation}%
-\ty{bilinear transformation 2}%
+\ty{bilinear transformation}%
 \ty{fractional linear transformation}%
 \ty{homographic mapping}%
-\ty{homography 1}%
+\ty{homography}%
 \ty{Möbius transformation}%
 \sh{Möbíusarfærsla}%
 %
@@ -2909,7 +2909,7 @@ aðgreind mengi}%
 %
 \fl{brotin línuleg færsla}%
 \tya{Möbius transformation}%
-\ty{bilinear transformation~2}%
+\ty{bilinear transformation}%
 \ty{fractional linear transformation}%
 \ty{homographic mapping}%
 \ty{homography}%
@@ -2936,7 +2936,7 @@ aðgreind mengi}%
 \tya{optimization}%
 \ty{mathematical programming}%
 \ty{optimizing}%
-\ty{programming~1}%
+\ty{programming}%
 \sh{stærðfræðileg bestun}%
 %
 \fl{bestunarverkefni}%
@@ -3052,7 +3052,7 @@ aðgreind mengi}%
 %
 \fl{baugsútvíkkun}%
 \tya{ring extension}%
-\tv{extension 2}%
+\tv{extension}%
 \tv{extension ring}%
 \tv{overring}%
 \sh{baugsvíkkun}%
@@ -3062,7 +3062,7 @@ aðgreind mengi}%
 %
 \fl{brotabaugur}%
 \tya{ring of fractions}%
-\ty{quotient ring~2}%
+\ty{quotient ring}%
 \ty{ring of quotients}%
 %
 \fl{baugmynstur}%
@@ -3100,7 +3100,7 @@ aðgreind mengi}%
 \fl{bundin}%
 \na%
 \tya{sheaf}%
-\ty{bundle 1}%
+\ty{bundle}%
 %
 \fl{bundin af hringjum}%
 \tya{sheaf of circles}%
@@ -3125,7 +3125,7 @@ aðgreind mengi}%
 %
 \fl{bundin af hvelum}%
 \tya{sheaf of spheres}%
-\ty{bundle of spheres 1}%
+\ty{bundle of spheres}%
 \sh{hvelabundin}%
 %
 \fl{blað}%
@@ -3147,7 +3147,7 @@ aðgreind mengi}%
 %
 \fl{bein lína}%
 \tya{straight line}%
-\ty{line 1}%
+\ty{line}%
 \sh{lína}%
 %
 \fl{bandfylki}%
@@ -3157,8 +3157,8 @@ aðgreind mengi}%
 \fl{bakliður}%
 \na%
 \tya{succedent}%
-\ty{consequent~2}%
-\tv{antecedent~2}%
+\ty{consequent}%
+\tv{antecedent}%
 %
 \fl{bann-}%
 \ls%
@@ -3175,7 +3175,7 @@ aðgreind mengi}%
 \na%
 \tya{trail}%
 \ty{simple walk}%
-\tv{path 2}%
+\tv{path}%
 \tv{walk}%
 \sh{einfaldur vegur}%
 %
@@ -3226,7 +3226,7 @@ aðgreind mengi}%
 %
 \fl{breytistuðull}%
 \tya{variation coefficient}%
-\ty{coefficient of variation 1}%
+\ty{coefficient of variation}%
 \sh{fráviks\-stuðull}%
 %
 \fl{breytast}%
@@ -3548,10 +3548,10 @@ aðgreind mengi}%
 \fl{dreifingarfall}%
 \tya{cumulative distribution function}%
 \ty{cumulative probability function}%
-\ty{distribution 4}%
+\ty{distribution}%
 \ty{distribution function}%
 \ty{probability distribution function}%
-\ty{probability function 2}%
+\ty{probability function}%
 \tv{cumulative frequency function}%
 \tv{cumulative relative frequency function}%
 \tv{partition function}%
@@ -3614,7 +3614,7 @@ aðgreind mengi}%
 \fl{deildanleiki}%
 \na%
 \tya{differentiability}%
-\ty{derivability 1}%
+\ty{derivability}%
 \sh{diffranleiki}%
 %
 \fl{deildanlegur}%
@@ -3652,7 +3652,7 @@ aðgreind mengi}%
 %
 \fl{deilda- og heildareikningur}%
 \tya{differential and integral calculus}%
-\ty{calculus~1}%
+\ty{calculus}%
 \ty{infinitesimal calculus}%
 \sh{diffur- og tegurreikningur}%
 \sh{örsmæðareikningur}%
@@ -3700,7 +3700,7 @@ aðgreind mengi}%
 \fl{deildun}%
 \na%
 \tya{differentiation}%
-\ty{derivation 3}%
+\ty{derivation}%
 \sh{diffrun}%
 %
 \fl{deildunarvirki}%
@@ -3815,7 +3815,7 @@ aðgreind mengi}%
 %
 \fl{dreifingarþéttleiki}%
 \tya{distribution density}%
-\ty{density 2}%
+\ty{density}%
 \ty{density of probability}%
 \ty{probability density}%
 \sh{líkindaþéttleiki}%
@@ -3825,7 +3825,7 @@ aðgreind mengi}%
 \tya{distribution density function}%
 \ty{density function}%
 \ty{probability density function}%
-\ty{probability function 3}%
+\ty{probability function}%
 \tv{relative frequency function}%
 \sh{líkindaþéttleikafall}%
 \sh{þéttleikafall}%
@@ -3837,9 +3837,9 @@ aðgreind mengi}%
 \tya{distribution function}%
 \ty{cumulative probability function}%
 \ty{cumulative distribution function}%
-\ty{distribution 4}%
+\ty{distribution}%
 \ty{probability distribution function}%
-\ty{probability function 2}%
+\ty{probability function}%
 \tv{cumulative frequency function}%
 \tv{cumulative relative frequency function}%
 \tv{partition function}%
@@ -3924,7 +3924,7 @@ aðgreind mengi}%
 \fl{depilfeldi}%
 \tya{dot product}%
 \ty{inner product}%
-\ty{scalar product 1}%
+\ty{scalar product}%
 \sh{innfeldi}%
 \sh{innra margfeldi}%
 %
@@ -3951,7 +3951,7 @@ aðgreind mengi}%
 \fl{dæmi}%
 \na%
 \tya{exercise}%
-\ty{problem 2}%
+\ty{problem}%
 \tv{arithmetic problem}%
 \sh{þraut}%
 \sh{reikningsdæmi}%
@@ -3973,7 +3973,7 @@ aðgreind mengi}%
 %
 \fl{deildabaugur}%
 \tya{factor ring}%
-\ty{quotient ring 1}%
+\ty{quotient ring}%
 \ty{residue class ring}%
 %
 \fl{deildamengi}%
@@ -3992,7 +3992,7 @@ aðgreind mengi}%
 %
 \fl{dreif ({\it kvk.})}%
 \tya{generalized function}%
-\ty{distribution 2}%
+\ty{distribution}%
 \sh{dreififelli}%
 \sh{dreififall}%
 %
@@ -4013,7 +4013,7 @@ aðgreind mengi}%
 %
 \fl{deilda- og heildareikningur}%
 \tya{infinitesimal calculus}%
-\ty{calculus 1}%
+\ty{calculus}%
 \ty{differential and integral calculus}%
 \tv{non-standard analysis}%
 \sh{diffur- og tegurreikningur}%
@@ -4053,9 +4053,9 @@ aðgreind mengi}%
 \tya{probability distribution function}%
 \ty{cumulative probability function}%
 \ty{cumulative distribution function}%
-\ty{distribution 4}%
+\ty{distribution}%
 \ty{distribution function}%
-\ty{probability function~2}%
+\ty{probability function}%
 \tv{cumulative frequency function}%
 \tv{cumulative relative frequency function}%
 \tv{partition function}%
@@ -4110,11 +4110,11 @@ aðgreind mengi}%
 \fl{deildabaugur}%
 \tya{residue class ring}%
 \ty{factor ring}%
-\ty{quotient ring 1}%
+\ty{quotient ring}%
 %
 \fl{deildarúmfræði Riemanns}%
 \tya{Riemannian differential geometry}%
-\ty{Riemannian geometry 2}%
+\ty{Riemannian geometry}%
 \sh{Riemann-deildarúm\-fræði}%
 %
 \fl{deildanlegur frá hægri}%
@@ -4215,7 +4215,7 @@ aðgreind mengi}%
 %
 \fl{endahnútur}%
 \tya{adjacent vertex}%
-\ty{adjacent node 3}%
+\ty{adjacent node}%
 %
 \fl{eiginlegur deilir}%
 \tya{aliquot part}%
@@ -4235,7 +4235,7 @@ aðgreind mengi}%
 %
 \fl{eyðir}%
 \tya{annihilation operator}%
-\ty{annihilator 1}%
+\ty{annihilator}%
 \sh{eyðingarvirki}%
 %
 \fl{eyðingarrúm}%
@@ -4245,7 +4245,7 @@ aðgreind mengi}%
 %
 \fl{eyðir}%
 \tya{annihilator ideal}%
-\ty{annihilator 2}%
+\ty{annihilator}%
 \sh{eyðingaríðal}%
 %
 \fl{eyðingaraðferð}%
@@ -4291,8 +4291,8 @@ aðgreind mengi}%
 \ls%
 \tya{biunique}%
 \ty{injective}%
-\ty{one-one~1}%
-\ty{one-to-one 1}%
+\ty{one-one}%
+\ty{one-to-one}%
 \ty{one-to-one into}%
 \ty{schlicht}%
 \ty{univalent}%
@@ -4315,12 +4315,12 @@ aðgreind mengi}%
 \fl{einkenni}%
 \na%
 \tya{character}%
-\ty{characteristic 5}%
+\ty{characteristic}%
 %
 \fl{einkenni}%
 \na%
 \tya{characteristic}%
-\ty{character 4}%
+\ty{character}%
 %
 \fl{eiginfall}%
 \tya{characteristic function}%
@@ -4357,25 +4357,25 @@ aðgreind mengi}%
 \fl{einföld örvarás}%
 \na%
 \tya{circuit}%
-\ty{cycle~10}%
-\ty{directed circuit~2}%
-\ty{elementary circuit~1}%
-\ty{elementary cycle~1}%
+\ty{cycle}%
+\ty{directed circuit}%
+\ty{elementary circuit}%
+\ty{elementary cycle}%
 \ty{elementary directed circuit}%
 \ty{elementary directed cycle}%
-\ty{simple circuit~1}%
-\ty{simple cycle~1}%
+\ty{simple circuit}%
+\ty{simple cycle}%
 \ty{simple directed circuit}%
 \ty{simple directed cycle}%
 %
 \fl{einföld rás}%
 \na%
 \tya{circuit}%
-\ty{cycle~11}%
-\ty{elementary circuit~2}%
-\ty{elementary cycle~2}%
-\ty{simple circuit~2}%
-\ty{simple cycle~2}%
+\ty{cycle}%
+\ty{elementary circuit}%
+\ty{elementary cycle}%
+\ty{simple circuit}%
+\ty{simple cycle}%
 %
 \fl{einfaldur hnútur}%
 \tya{cloverleaf knot}%
@@ -4420,25 +4420,25 @@ aðgreind mengi}%
 \fl{einföld örvarás}%
 \na%
 \tya{cycle}%
-\ty{circuit~6}%
-\ty{directed circuit~2}%
-\ty{elementary circuit~1}%
-\ty{elementary cycle~1}%
+\ty{circuit}%
+\ty{directed circuit}%
+\ty{elementary circuit}%
+\ty{elementary cycle}%
 \ty{elementary directed circuit}%
 \ty{elementary directed cycle}%
-\ty{simple circuit~1}%
-\ty{simple cycle~1}%
+\ty{simple circuit}%
+\ty{simple cycle}%
 \ty{simple directed circuit}%
 \ty{simple directed cycle}%
 %
 \fl{einföld rás}%
 \na%
 \tya{cycle}%
-\ty{circuit~7}%
-\ty{elementary circuit~2}%
-\ty{elementary cycle~2}%
-\ty{simple circuit~2}%
-\ty{simple cycle~2}%
+\ty{circuit}%
+\ty{elementary circuit}%
+\ty{elementary cycle}%
+\ty{simple circuit}%
+\ty{simple cycle}%
 %
 \fl{einhliða af{}leiða}%
 \tya{derivative on one side}%
@@ -4453,20 +4453,20 @@ aðgreind mengi}%
 %
 \fl{einföld örvarás}%
 \tya{directed circuit}%
-\ty{circuit 6}%
-\ty{cycle 10}%
-\ty{elementary circuit 1}%
-\ty{elementary cycle 1}%
+\ty{circuit}%
+\ty{cycle}%
+\ty{elementary circuit}%
+\ty{elementary cycle}%
 \ty{elementary directed circuit}%
 \ty{elementary directed cycle}%
-\ty{simple circuit 1}%
-\ty{simple cycle 1}%
+\ty{simple circuit}%
+\ty{simple cycle}%
 \ty{simple directed circuit}%
 \ty{simple directed cycle}%
 %
 \fl{eiginlega samsniða}%
 \tya{directly congruent}%
-\tv{congruent 2}%
+\tv{congruent}%
 \tv{inversely congruent}%
 \tv{oppositely congruent}%
 %
@@ -4479,7 +4479,7 @@ aðgreind mengi}%
 \fl{eðun}%
 \na%
 \tya{disjunction}%
-\ty{alternation 1}%
+\ty{alternation}%
 \ty{inclusive disjunction}%
 \ty{logical sum}%
 %
@@ -4497,7 +4497,7 @@ aðgreind mengi}%
 \fl{eiginfall}%
 \na%
 \tya{eigenfunction}%
-\ty{characteristic function 2}%
+\ty{characteristic function}%
 \ty{proper function}%
 \tv{eigenvector}%
 %
@@ -4539,24 +4539,24 @@ aðgreind mengi}%
 %
 \fl{einföld örvarás}%
 \tya{elementary circuit}%
-\ty{circuit 6}%
-\ty{cycle~10}%
-\ty{directed circuit 2}%
-\ty{elementary cycle~1}%
+\ty{circuit}%
+\ty{cycle}%
+\ty{directed circuit}%
+\ty{elementary cycle}%
 \ty{elementary directed circuit}%
 \ty{elementary directed cycle}%
-\ty{simple circuit 1}%
-\ty{simple cycle 1}%
+\ty{simple circuit}%
+\ty{simple cycle}%
 \ty{simple directed circuit}%
 \ty{simple directed cycle}%
 %
 \fl{einföld rás}%
 \tya{elementary circuit}%
-\ty{circuit 7}%
-\ty{cycle~11}%
-\ty{elementary cycle~2}%
-\ty{simple circuit 2}%
-\ty{simple cycle 2}%
+\ty{circuit}%
+\ty{cycle}%
+\ty{elementary cycle}%
+\ty{simple circuit}%
+\ty{simple cycle}%
 %
 \fl{einfaldur atburður}%
 \tya{elementary event}%
@@ -4601,7 +4601,7 @@ aðgreind mengi}%
 %
 \fl{endapunktur}%
 \tya{end point}%
-\ty{end 3}%
+\ty{end}%
 \ty{extremity}%
 %
 \fl{einsmótun}%
@@ -4623,15 +4623,15 @@ aðgreind mengi}%
 %
 \fl{evklíðskt innfeldi}%
 \tya{euclidean inner product}%
-\ty{inner product 5}%
-\ty{scalar product 4}%
+\ty{inner product}%
+\ty{scalar product}%
 \tv{hermitian inner product}%
 \sh{innfeldi}%
 %
 \fl{evklíðskt innfeldisrúm}%
 \tya{euclidean inner product space}%
-\ty{euclidean space 2}%
-\ty{inner product space 1}%
+\ty{euclidean space}%
+\ty{inner product space}%
 \tv{hermitian space}%
 \sh{evklíðskt rúm}%
 \sh{innfeldisrúm}%
@@ -4660,13 +4660,13 @@ aðgreind mengi}%
 %
 \fl{einslæg horn}%
 \tya{exterior-interior angles}%
-\ty{corresponding angles 1}%
+\ty{corresponding angles}%
 %
 \fl{endapunktur}%
 \na%
 \tya{extremity}%
-\ty{end 3}%
-\ty{end point 2}%
+\ty{end}%
+\ty{end point}%
 %
 \fl{endapunktur}%
 \na%
@@ -4719,13 +4719,13 @@ aðgreind mengi}%
 \fl{endanleg runa}%
 \tya{finite sequence}%
 \tv{infinite sequence}%
-\tv{sequence 2}%
+\tv{sequence}%
 \tv{tuple}%
 %
 \fl{endanleg röð}%
 \tya{finite series}%
 \tv{infinite series}%
-\tv{series 2}%
+\tv{series}%
 %
 \fl{endanlegt mengi}%
 \tya{finite set}%
@@ -4787,7 +4787,7 @@ aðgreind mengi}%
 %
 \fl{eindagrúpa}%
 \tya{group of units}%
-\ty{multiplicative group 2}%
+\ty{multiplicative group}%
 \ty{unit group}%
 \sh{margföldunargrúpa}%
 %
@@ -4822,7 +4822,7 @@ aðgreind mengi}%
 %
 \fl{einsleit margliða}%
 \tya{homogeneous polynomial}%
-\ty{form 1}%
+\ty{form}%
 \ty{quantic}%
 \sh{jafnþætt margliða}%
 \sh{form}%
@@ -4837,11 +4837,11 @@ aðgreind mengi}%
 %
 \fl{eining}%
 \tya{identity element}%
-\ty{identity~4}%
-\ty{one 2}%
+\ty{identity}%
+\ty{one}%
 \ty{unit element}%
-\ty{unit 2}%
-\ty{unity~2}%
+\ty{unit}%
+\ty{unity}%
 \ty{unity element}%
 \sh{einingarstak}%
 \sh{margföldunarhlutleysa}%
@@ -4863,7 +4863,7 @@ aðgreind mengi}%
 %
 \fl{eðun}%
 \tya{inclusive disjunction}%
-\ty{alternation 1}%
+\ty{alternation}%
 \ty{disjunction}%
 \ty{logical sum}%
 %
@@ -4880,9 +4880,9 @@ aðgreind mengi}%
 \fl{eintækur}%
 \ls%
 \tya{injective}%
-\ty{biunique 2}%
-\ty{one-one 1}%
-\ty{one-to-one 1}%
+\ty{biunique}%
+\ty{one-one}%
+\ty{one-to-one}%
 \ty{one-to-one into}%
 \ty{schlicht}%
 \ty{univalent}%
@@ -4895,7 +4895,7 @@ aðgreind mengi}%
 \fl{evklíðskt innfeldi}%
 \tya{inner product}%
 \ty{euclidean inner product}%
-\ty{scalar product~4}%
+\ty{scalar product}%
 \tv{euclidean inner product space}%
 \sh{innfeldi}%
 %
@@ -4921,7 +4921,7 @@ aðgreind mengi}%
 \na%
 \tya{isometry}%
 \tv{isometric}%
-\tv{motion 1}%
+\tv{motion}%
 \tv{orthogonal linear transformation}%
 \tv{orthogonal mapping}%
 \sh{firðrækin vörpun}%
@@ -4940,7 +4940,7 @@ aðgreind mengi}%
 \fl{einsmótun}%
 \na%
 \tya{isomorphism}%
-\ty{equivalence 2}%
+\ty{equivalence}%
 \tv{isomorphic mapping}%
 \tv{isomorphy}%
 %
@@ -4995,13 +4995,13 @@ aðgreind mengi}%
 \ty{lowest upper bound}%
 \ty{supremum}%
 \tv{bound}%
-\tv{join 1}%
+\tv{join}%
 \tv{l. u. b.\ekkipunktur}%
 \sh{hámark}%
 %
 \fl{endapunktur}%
 \tya{limit of integration}%
-\ty{limit 3}%
+\ty{limit}%
 \sh{heildunarmark}%
 \sh{heildismark}%
 \sh{tegrunarmark}%
@@ -5017,7 +5017,7 @@ aðgreind mengi}%
 %
 \fl{eðun}%
 \tya{logical sum}%
-\ty{alternation 1}%
+\ty{alternation}%
 \ty{disjunction}%
 \ty{inclusive disjunction}%
 %
@@ -5032,7 +5032,7 @@ aðgreind mengi}%
 \ty{least upper bound}%
 \ty{supremum}%
 \tv{bound}%
-\tv{join 1}%
+\tv{join}%
 \tv{l. u. b.\ekkipunktur}%
 \sh{hámark}%
 %
@@ -5086,7 +5086,7 @@ aðgreind mengi}%
 \fl{einmóta}%
 \ls%
 \tya{monomorphic}%
-\ty{monic~1}%
+\ty{monic}%
 \sh{ímóta}%
 %
 \fl{einmótun}%
@@ -5186,16 +5186,16 @@ aðgreind mengi}%
 \fl{einn}%
 \na%
 \tya{one}%
-\ty{unity 1}%
+\ty{unity}%
 %
 \fl{eining}%
 \na%
 \tya{one}%
-\ty{identity 4}%
-\ty{identity element 2}%
+\ty{identity}%
+\ty{identity element}%
 \ty{unit element}%
-\ty{unit 2}%
-\ty{unity 2}%
+\ty{unit}%
+\ty{unity}%
 \ty{unity element}%
 \sh{einingarstak}%
 \sh{margföldunarhlutleysa}%
@@ -5336,9 +5336,9 @@ aðgreind mengi}%
 \fl{eintækur}%
 \ls%
 \tya{one-to-one}%
-\ty{biunique 2}%
+\ty{biunique}%
 \ty{injective}%
-\ty{one-one 1}%
+\ty{one-one}%
 \ty{one-to-one into}%
 \ty{schlicht}%
 \ty{univalent}%
@@ -5452,7 +5452,7 @@ aðgreind mengi}%
 %
 \fl{eiginfall}%
 \tya{proper function}%
-\ty{characteristic function 2}%
+\ty{characteristic function}%
 \ty{eigenfunction}%
 \tv{eigenvector}%
 %
@@ -5470,8 +5470,8 @@ aðgreind mengi}%
 %
 \fl{eiginlegur flutningur}%
 \tya{proper motion}%
-\ty{motion 2}%
-\ty{movement 2}%
+\ty{motion}%
+\ty{movement}%
 \sh{eiginleg hreyfing}%
 %
 \fl{eiginleg þverstaðalgrúpa}%
@@ -5488,7 +5488,7 @@ aðgreind mengi}%
 %
 \fl{eiginleg þverstaðalvörpun}%
 \tya{proper orthogonal transformation}%
-\ty{rotation 2}%
+\ty{rotation}%
 \tv{orientation-preserving isometry}%
 \sh{snúningur}%
 %
@@ -5644,17 +5644,17 @@ aðgreind mengi}%
 \fl{evklíðskt innfeldi}%
 \tya{scalar product}%
 \ty{euclidean inner product}%
-\ty{inner product 5}%
+\ty{inner product}%
 \tv{euclidean inner product space}%
 \sh{innfeldi}%
 %
 \fl{eintækur}%
 \ls%
 \tya{schlicht}%
-\ty{biunique 2}%
+\ty{biunique}%
 \ty{injective}%
-\ty{one-one 1}%
-\ty{one-to-one 2}%
+\ty{one-one}%
+\ty{one-to-one}%
 \ty{one-to-one into}%
 \ty{univalent}%
 %
@@ -5700,24 +5700,24 @@ aðgreind mengi}%
 %
 \fl{einföld örvarás}%
 \tya{simple circuit}%
-\ty{circuit~6}%
-\ty{cycle~10}%
-\ty{directed circuit~2}%
-\ty{elementary circuit~1}%
-\ty{elementary cycle~1}%
+\ty{circuit}%
+\ty{cycle}%
+\ty{directed circuit}%
+\ty{elementary circuit}%
+\ty{elementary cycle}%
 \ty{elementary directed circuit}%
 \ty{elementary directed cycle}%
-\ty{simple cycle~1}%
+\ty{simple cycle}%
 \ty{simple directed circuit}%
 \ty{simple directed cycle}%
 %
 \fl{einföld rás}%
 \tya{simple circuit}%
-\ty{circuit~7}%
-\ty{cycle~11}%
-\ty{elementary circuit~2}%
-\ty{elementary cycle~2}%
-\ty{simple cycle~2}%
+\ty{circuit}%
+\ty{cycle}%
+\ty{elementary circuit}%
+\ty{elementary cycle}%
+\ty{simple cycle}%
 %
 \fl{einfaldur lokaður ferill}%
 \tya{simple closed curve}%
@@ -5799,7 +5799,7 @@ aðgreind mengi}%
 \fl{einfalda}%
 \sag%
 \tya{simplify}%
-\tv{reduce 2}%
+\tv{reduce}%
 %
 \fl{einfaldlega samanhangandi}%
 \tya{simply connected}%
@@ -5877,7 +5877,7 @@ aðgreind mengi}%
 \tya{supremum}%
 \ty{least upper bound}%
 \ty{lowest upper bound}%
-\tv{join 1}%
+\tv{join}%
 \tv{sup}%
 \sh{hámark}%
 %
@@ -5978,11 +5978,11 @@ aðgreind mengi}%
 %
 \fl{eining}%
 \tya{unit element}%
-\ty{identity 4}%
-\ty{identity element 2}%
-\ty{one 2}%
-\ty{unit 2}%
-\ty{unity 2}%
+\ty{identity}%
+\ty{identity element}%
+\ty{one}%
+\ty{unit}%
+\ty{unity}%
 \ty{unity element}%
 \sh{einingarstak}%
 \sh{margföldunarhlutleysa}%
@@ -5993,7 +5993,7 @@ aðgreind mengi}%
 \fl{eindagrúpa}%
 \tya{unit group}%
 \ty{group of units}%
-\ty{multiplicative group 2}%
+\ty{multiplicative group}%
 \sh{margföldunargrúpa}%
 %
 \fl{einingarbil}%
@@ -6046,15 +6046,15 @@ aðgreind mengi}%
 \fl{einn}%
 \na%
 \tya{unity}%
-\ty{one 1}%
+\ty{one}%
 %
 \fl{eintækur}%
 \ls%
 \tya{univalent}%
-\ty{biunique 2}%
+\ty{biunique}%
 \ty{injective}%
-\ty{one-one 1}%
-\ty{one-to-one 2}%
+\ty{one-one}%
+\ty{one-to-one}%
 \ty{one-to-one into}%
 \ty{schlicht}%
 %
@@ -6160,7 +6160,7 @@ aðgreind mengi}%
 %
 \fl{fjöldatala}%
 \tya{absolute frequency}%
-\ty{class frequency 1}%
+\ty{class frequency}%
 %
 \fl{fastaliður}%
 \tya{absolute term}%
@@ -6171,7 +6171,7 @@ aðgreind mengi}%
 %
 \fl{formerki}%
 \tya{algebraic sign}%
-\ty{sign 1}%
+\ty{sign}%
 %
 \fl{flaumrænn}%
 \ls%
@@ -6189,7 +6189,7 @@ aðgreind mengi}%
 \fl{fágaður}%
 \ls%
 \tya{analytic}%
-\ty{analytical 1}%
+\ty{analytical}%
 \ty{complex analytic}%
 \ty{holomorphic}%
 \sh{tvinnfágaður}%
@@ -6250,17 +6250,17 @@ aðgreind mengi}%
 \fl{forsenda}%
 \na%
 \tya{antecedent}%
-\ty{hypothesis~1}%
+\ty{hypothesis}%
 \ty{premise}%
 \ty{premisse}%
-\tv{consequent~1}%
-\tv{succedent~1}%
+\tv{consequent}%
+\tv{succedent}%
 %
 \fl{forliður}%
 \na%
 \tya{antecedent}%
-\tv{consequent~2}%
-\tv{succedent~2}%
+\tv{consequent}%
+\tv{succedent}%
 %
 \fl{ferilsamhengisþáttur}%
 \tya{arc component}%
@@ -6306,11 +6306,11 @@ aðgreind mengi}%
 %
 \fl{formengi}%
 \tya{argument domain}%
-\ty{domain~4}%
+\ty{domain}%
 \ty{domain of definition}%
 \ty{range of arguments}%
 \ty{set of definition}%
-\ty{source~2}%
+\ty{source}%
 \ty{source set}%
 \tv{index set}%
 \tv{interval of definition}%
@@ -6335,7 +6335,7 @@ aðgreind mengi}%
 \fl{frumsenda}%
 \na%
 \tya{axiom}%
-\ty{postulate~2}%
+\ty{postulate}%
 \sh{frumsetning}%
 %
 \fl{fullkomleika\-frum\-senda}%
@@ -6416,7 +6416,7 @@ aðgreind mengi}%
 %
 \fl{fjórða stigs jafna}%
 \tya{biquadratic equation}%
-\ty{quartic 2}%
+\ty{quartic}%
 \ty{quartic equation}%
 \Ins{Stundum sér\-staklega notað um fjórða stigs jöfnu þar sem einungis koma fyrir jöfn veldi af óþekktu stærðinni}%
 %
@@ -6444,16 +6444,16 @@ aðgreind mengi}%
 \tya{cardinal number}%
 \ty{cardinal}%
 \tv{cardinality}%
-\tv{number 2}%
+\tv{number}%
 %
 \fl{fjöldi}%
 \na%
 \tya{cardinality}%
 \ty{potency}%
-\ty{power 3}%
+\ty{power}%
 \tv{cardinal number}%
 \tv{equipotent}%
-\tv{number 2}%
+\tv{number}%
 \sh{fjöldatala}%
 \sh{stétt}%
 %
@@ -6466,7 +6466,7 @@ aðgreind mengi}%
 %
 \fl{flokkunarbreyta}%
 \tya{categorical variable}%
-\ty{attribute 2}%
+\ty{attribute}%
 %
 \fl{fruma}%
 \na%
@@ -6561,7 +6561,7 @@ aðgreind mengi}%
 %
 \fl{ferilris}%
 \tya{coefficient of excess}%
-\ty{excess 2}%
+\ty{excess}%
 \ty{kurtosis}%
 \sh{reisn}%
 %
@@ -6592,14 +6592,14 @@ aðgreind mengi}%
 \na%
 \tya{complement}%
 \ty{complementary subspace}%
-\ty{supplement 2}%
+\ty{supplement}%
 \ty{supplementary space}%
 %
 \fl{fyllimengi}%
 \na%
 \tya{complement}%
 \ty{complementary subset}%
-\tv{difference 2}%
+\tv{difference}%
 %
 \fl{falljafna Eulers}%
 \tya{complement relation}%
@@ -6610,7 +6610,7 @@ aðgreind mengi}%
 %
 \fl{fylliatburður}%
 \tya{complementary event}%
-\ty{complement~5}%
+\ty{complement}%
 \sh{andstæða}%
 \sh{andstæður atburður}%
 %
@@ -6623,7 +6623,7 @@ aðgreind mengi}%
 %
 \fl{fyllimengi}%
 \tya{complementary subset}%
-\ty{complement 4}%
+\ty{complement}%
 %
 \fl{fylliaðgerð}%
 \na%
@@ -6699,13 +6699,13 @@ aðgreind mengi}%
 %
 \fl{fágaður}%
 \tya{complex analytic}%
-\ty{analytic 1}%
+\ty{analytic}%
 \ty{holomorphic}%
 \sh{tvinnfágaður}%
 %
 \fl{fágað fall}%
 \tya{complex analytic function}%
-\ty{analytic function 1}%
+\ty{analytic function}%
 \ty{holomorphic function}%
 \ty{regular analytic function}%
 \ty{regular function}%
@@ -6713,20 +6713,20 @@ aðgreind mengi}%
 %
 \fl{fáguð víðátta}%
 \tya{complex analytic manifold}%
-\ty{analytic manifold 1}%
+\ty{analytic manifold}%
 \ty{complex manifold}%
 \sh{tvinnfáguð víðátta}%
 \sh{tvinnvíðátta}%
 %
 \fl{fágað rúm}%
 \tya{complex analytic space}%
-\ty{analytic space 1}%
+\ty{analytic space}%
 \ty{complex space}%
 \sh{tvinnfágað rúm}%
 %
 \fl{fágað mynstur}%
 \tya{complex analytic structure}%
-\ty{analytic structure 1}%
+\ty{analytic structure}%
 \ty{complex structure}%
 \sh{tvinnfágað mynstur}%
 %
@@ -6735,20 +6735,20 @@ aðgreind mengi}%
 %
 \fl{fáguð víðátta}%
 \tya{complex manifold}%
-\ty{analytic manifold 1}%
+\ty{analytic manifold}%
 \ty{complex analytic manifold}%
 \sh{tvinnfáguð víðátta}%
 \sh{tvinnvíðátta}%
 %
 \fl{fágað rúm}%
 \tya{complex space}%
-\ty{analytic space 1}%
+\ty{analytic space}%
 \ty{complex analytic space}%
 \sh{tvinnfágað rúm}%
 %
 \fl{fágað mynstur}%
 \tya{complex structure}%
-\ty{analytic structure 1}%
+\ty{analytic structure}%
 \ty{complex analytic structure}%
 \sh{tvinnfágað mynstur}%
 %
@@ -6800,7 +6800,7 @@ aðgreind mengi}%
 \fl{framlenging}%
 \na%
 \tya{continuation}%
-\ty{extension 3}%
+\ty{extension}%
 \ty{prolongation}%
 \sh{útvíkkun}%
 %
@@ -6821,7 +6821,7 @@ aðgreind mengi}%
 \fl{földun}%
 \na%
 \tya{convolution}%
-\ty{resultant 2}%
+\ty{resultant}%
 %
 \fl{földunarjafna}%
 \tya{convolution equation}%
@@ -6885,7 +6885,7 @@ aðgreind mengi}%
 \fl{formynd}%
 \na%
 \tya{counterimage}%
-\ty{inverse 5}%
+\ty{inverse}%
 \ty{inverse image}%
 \ty{preimage}%
 \sh{frummynd}%
@@ -6903,18 +6903,18 @@ aðgreind mengi}%
 \tv{asteroid}%
 \tv{astroid}%
 \tv{base curve}%
-\tv{base line~2}%
+\tv{base line}%
 \tv{boundary curve}%
 \tv{brachistochrone}%
 \tv{cardioid}%
 \tv{catenary}%
-\tv{characteristic~3}%
+\tv{characteristic}%
 \tv{characteristic curve}%
-\tv{circle~1}%
-\tv{circuit~1}%
+\tv{circle}%
+\tv{circuit}%
 \tv{circular helix}%
 \tv{circumference}%
-\tv{circuit~1}%
+\tv{circuit}%
 \tv{cissoid}%
 \tv{closed contour}%
 \tv{closed curve}%
@@ -6930,7 +6930,7 @@ aðgreind mengi}%
 \tv{contracted cycloid}%
 \tv{convex curve}%
 \tv{Cornu spiral}%
-\tv{cubic~1}%
+\tv{cubic}%
 \tv{curtate cycloid}%
 \tv{curtate trochoid}%
 \tv{cycloid}%
@@ -6941,12 +6941,12 @@ aðgreind mengi}%
 \tv{dextrorse curve}%
 \tv{dextrorse helix}%
 \tv{directing curve}%
-\tv{directrix~2}%
+\tv{directrix}%
 \tv{distribution curve}%
 \tv{dual curve}%
 \tv{ellipse}%
 \tv{elliptic curve}%
-\tv{envelope~1}%
+\tv{envelope}%
 \tv{enveloping curve}%
 \tv{epicycloid}%
 \tv{epitrochoid}%
@@ -6969,9 +6969,9 @@ aðgreind mengi}%
 \tv{generic curve}%
 \tv{geodesic}%
 \tv{geodesic line}%
-\tv{graph~2}%
+\tv{graph}%
 \tv{height contour}%
-\tv{height line~1}%
+\tv{height line}%
 \tv{helical curve}%
 \tv{helix}%
 \tv{hyperbola}%
@@ -6997,12 +6997,12 @@ aðgreind mengi}%
 \tv{level curve}%
 \tv{level line}%
 \tv{limaçon}%
-\tv{line~2}%
+\tv{line}%
 \tv{lituus}%
 \tv{logarithmic spiral}%
 \tv{logistic curve}%
 \tv{logistic spiral}%
-\tv{loop~1}%
+\tv{loop}%
 \tv{loxodromic curve}%
 \tv{loxodromic line}%
 \tv{loxodromic spiral}%
@@ -7032,19 +7032,19 @@ aðgreind mengi}%
 \tv{path}%
 \tv{Peano curve}%
 \tv{pericycloid}%
-\tv{pfaffian~2}%
+\tv{pfaffian}%
 \tv{phase curve}%
 \tv{plane curve}%
 \tv{polar curve}%
 \tv{prolate cycloid}%
 \tv{prolate trochoid}%
 \tv{quadratic curve}%
-\tv{quadric~1}%
+\tv{quadric}%
 \tv{quadric curve}%
 \tv{quadrifolium}%
-\tv{quartic~1}%
+\tv{quartic}%
 \tv{quartic curve}%
-\tv{quintic~1}%
+\tv{quintic}%
 \tv{quintic curve}%
 \tv{rational curve}%
 \tv{reciprocal spiral}%
@@ -7065,7 +7065,7 @@ aðgreind mengi}%
 \tv{screw}%
 \tv{screw line}%
 \tv{serpentine}%
-\tv{sextic~1}%
+\tv{sextic}%
 \tv{sextic curve}%
 \tv{simple arc}%
 \tv{simple closed curve}%
@@ -7174,7 +7174,7 @@ aðgreind mengi}%
 \fl{firðrækinn}%
 \ls%
 \tya{distance-preserving}%
-\ty{isometric~1}%
+\ty{isometric}%
 %
 \fl{fyrirframdreifing}%
 \tya{distribution a priori}%
@@ -7188,7 +7188,7 @@ aðgreind mengi}%
 \ty{domain of definition}%
 \ty{range of arguments}%
 \ty{set of definition}%
-\ty{source 2}%
+\ty{source}%
 \ty{source set}%
 \tv{index set}%
 \tv{interval of definition}%
@@ -7199,32 +7199,32 @@ aðgreind mengi}%
 \fl{forhlutur}%
 \na%
 \tya{domain}%
-\ty{domain carrier 2}%
+\ty{domain carrier}%
 \ty{domain object}%
-\ty{source~3}%
+\ty{source}%
 \sh{fráhlutur}%
 \sh{óðal}%
 %
 \fl{formengi}%
 \tya{domain carrier}%
 \ty{latent domain}%
-\ty{source~1}%
-\tv{domain 3}%
+\ty{source}%
+\tv{domain}%
 \sh{frámengi}%
 %
 \fl{forhlutur}%
 \tya{domain carrier}%
-\ty{domain 5}%
+\ty{domain}%
 \ty{domain object}%
-\ty{source 3}%
+\ty{source}%
 \sh{fráhlutur}%
 \sh{óðal}%
 %
 \fl{forhlutur}%
 \tya{domain object}%
-\ty{domain 5}%
-\ty{domain carrier 2}%
-\ty{source 3}%
+\ty{domain}%
+\ty{domain carrier}%
+\ty{source}%
 \sh{fráhlutur}%
 \sh{óðal}%
 %
@@ -7499,7 +7499,7 @@ aðgreind mengi}%
 %
 \fl{formleg kenning}%
 \tya{formalized theory}%
-\ty{formalism 2}%
+\ty{formalism}%
 \sh{formgerð kenning}%
 %
 \fl{formlega samkvæmur}%
@@ -7564,7 +7564,7 @@ aðgreind mengi}%
 %
 \fl{frjáls grunnur}%
 \tya{free basis}%
-\tv{basis 4}%
+\tv{basis}%
 %
 \fl{frjálst stak}%
 \tya{free element}%
@@ -7841,7 +7841,7 @@ aðgreind mengi}%
 %
 \fl{fallfrymi}%
 \tya{function element}%
-\ty{element 3}%
+\ty{element}%
 %
 \fl{fallasvið}%
 \tya{function field}%
@@ -7888,11 +7888,11 @@ aðgreind mengi}%
 %
 \fl{fallörvanet}%
 \tya{functional digraph}%
-\ty{functional graph 2}%
+\ty{functional graph}%
 %
 \fl{fallajafna}%
 \tya{functional equation}%
-\ty{functional relation 2}%
+\ty{functional relation}%
 %
 \fl{felliheildi}%
 \tya{functional integral}%
@@ -7930,7 +7930,7 @@ aðgreind mengi}%
 %
 \fl{framleiðandi lína}%
 \tya{generating line}%
-\ty{generator 2}%
+\ty{generator}%
 \ty{generatrix}%
 \sh{framleiðandi}%
 %
@@ -7968,13 +7968,13 @@ aðgreind mengi}%
 \fl{fágaður}%
 \ls%
 \tya{holomorphic}%
-\ty{analytic 1}%
+\ty{analytic}%
 \ty{complex analytic}%
 \sh{tvinnfágaður}%
 %
 \fl{fágað fall}%
 \tya{holomorphic function}%
-\ty{analytic function 1}%
+\ty{analytic function}%
 \ty{complex analytic function}%
 \ty{regular analytic function}%
 \ty{regular function}%
@@ -8014,7 +8014,7 @@ aðgreind mengi}%
 \fl{forsenda}%
 \na%
 \tya{hypothesis}%
-\ty{antecedent 1}%
+\ty{antecedent}%
 \ty{premise}%
 \ty{premisse}%
 %
@@ -8031,7 +8031,7 @@ aðgreind mengi}%
 %
 \fl{frumbreyta}%
 \tya{independent variable}%
-\ty{argument 2}%
+\ty{argument}%
 \tv{dependent variable}%
 \sh{óháð breyta}%
 \sh{óháð breytistærð}%
@@ -8053,7 +8053,7 @@ aðgreind mengi}%
 \fl{formynd}%
 \tya{inverse image}%
 \ty{counterimage}%
-\ty{inverse 5}%
+\ty{inverse}%
 \ty{preimage}%
 \sh{frummynd}%
 \sh{öfug mynd}%
@@ -8072,7 +8072,7 @@ aðgreind mengi}%
 \na%
 \tya{kurtosis}%
 \ty{coefficient of excess}%
-\ty{excess 2}%
+\ty{excess}%
 \tv{leptokurtosis}%
 \tv{mesokurtosis}%
 \tv{platikurtosis}%
@@ -8080,8 +8080,8 @@ aðgreind mengi}%
 %
 \fl{formengi}%
 \tya{latent domain}%
-\ty{domain carrier 1}%
-\ty{source 1}%
+\ty{domain carrier}%
+\ty{source}%
 \tv{actual domain}%
 \sh{frámengi}%
 %
@@ -8185,8 +8185,8 @@ aðgreind mengi}%
 %
 \fl{flatarmál}%
 \tya{measure of area}%
-\ty{area 1}%
-\tv{area~2}%
+\ty{area}%
+\tv{area}%
 \tv{surface area}%
 \tv{surface measure}%
 %
@@ -8328,13 +8328,13 @@ aðgreind mengi}%
 %
 \fl{flattur sporvölusnúður}%
 \tya{oblate ellipsoid}%
-\ty{oblate spheroid 1}%
-\tv{prolate ellipsoid~1}%
+\ty{oblate spheroid}%
+\tv{prolate ellipsoid}%
 %
 \fl{flattur sporvölusnúðflötur}%
 \tya{oblate ellipsoid}%
-\ty{oblate spheroid 2}%
-\tv{prolate ellipsoid 2}%
+\ty{oblate spheroid}%
+\tv{prolate ellipsoid}%
 %
 \fl{frumtalnatvíburar}%
 \tya{pair of primes}%
@@ -8421,9 +8421,9 @@ aðgreind mengi}%
 \fl{formerki}%
 \na%
 \tya{parity}%
-\ty{sign 2}%
-\ty{signature 1}%
-\ty{signum~1}%
+\ty{sign}%
+\ty{signature}%
+\ty{signum}%
 %
 \fl{ferill}%
 \na%
@@ -8455,7 +8455,7 @@ aðgreind mengi}%
 \ls%
 \tya{path-connected}%
 \ty{arc-connected}%
-\ty{arcwise connected 2}%
+\ty{arcwise connected}%
 \ty{pathwise connected}%
 \sh{vegsamanhangandi}%
 \sh{ferilsamhangandi}%
@@ -8514,7 +8514,7 @@ aðgreind mengi}%
 \tya{perfect square}%
 \ty{square number}%
 \tv{figurate number}%
-\tv{square 1}%
+\tv{square}%
 \sh{ferhyrnd tala}%
 %
 \fl{fullt horn}%
@@ -8603,9 +8603,9 @@ aðgreind mengi}%
 \na%
 \tya{potency}%
 \ty{cardinality}%
-\ty{power 3}%
+\ty{power}%
 \tv{equipotent}%
-\tv{number~2}%
+\tv{number}%
 \sh{fjöldatala}%
 \sh{stétt}%
 %
@@ -8615,7 +8615,7 @@ aðgreind mengi}%
 \ty{cardinality}%
 \ty{potency}%
 \tv{equipotent}%
-\tv{number~2}%
+\tv{number}%
 \sh{fjöldatala}%
 \sh{stétt}%
 %
@@ -8656,7 +8656,7 @@ aðgreind mengi}%
 \na%
 \tya{preimage}%
 \ty{counterimage}%
-\ty{inverse 5}%
+\ty{inverse}%
 \ty{inverse image}%
 \sh{frummynd}%
 \sh{öfug mynd}%
@@ -8664,8 +8664,8 @@ aðgreind mengi}%
 \fl{forsenda}%
 \na%
 \tya{premise}%
-\ty{antecedent 1}%
-\ty{hypothesis 1}%
+\ty{antecedent}%
+\ty{hypothesis}%
 \ty{premisse}%
 %
 \fl{forröðun}%
@@ -8733,7 +8733,7 @@ aðgreind mengi}%
 %
 \fl{frumstak}%
 \tya{prime element}%
-\ty{prime 2}%
+\ty{prime}%
 %
 \fl{frumþáttur}%
 \tya{prime factor}%
@@ -8747,7 +8747,7 @@ aðgreind mengi}%
 %
 \fl{frumtala}%
 \tya{prime number}%
-\ty{prime 1}%
+\ty{prime}%
 \sh{prímtala}%
 %
 \fl{frumtalnasetning}%
@@ -8840,7 +8840,7 @@ aðgreind mengi}%
 \na%
 \tya{prolongation}%
 \ty{continuation}%
-\ty{extension 3}%
+\ty{extension}%
 \sh{útvíkkun}%
 %
 \fl{framvindill}%
@@ -8852,10 +8852,10 @@ aðgreind mengi}%
 \na%
 \tya{proposition}%
 \tv{assertion}%
-\tv{formula 2}%
+\tv{formula}%
 \tv{meaningful formula}%
-\tv{sentence 1}%
-\tv{statement 2}%
+\tv{sentence}%
+\tv{statement}%
 \tv{well-formed formula}%
 \sh{yrðing}%
 %
@@ -9067,10 +9067,10 @@ aðgreind mengi}%
 \fl{formengi}%
 \tya{range of arguments}%
 \ty{argument domain}%
-\ty{domain 4}%
+\ty{domain}%
 \ty{domain of definition}%
 \ty{set of definition}%
-\ty{source 2}%
+\ty{source}%
 \ty{source set}%
 \tv{index set}%
 \tv{interval of definition}%
@@ -9096,7 +9096,7 @@ aðgreind mengi}%
 %
 \fl{fágað fall}%
 \tya{regular analytic function}%
-\ty{analytic function 1}%
+\ty{analytic function}%
 \ty{complex analytic function}%
 \ty{holomorphic function}%
 \ty{regular function}%
@@ -9207,18 +9207,18 @@ hnitaframsetning}%
 \fl{fullyrðing}%
 \na%
 \tya{sentence}%
-\ty{proposition~1}%
-\ty{statement 2}%
+\ty{proposition}%
+\ty{statement}%
 \tv{assertion}%
 \sh{yrðing}%
 %
 \fl{formengi}%
 \tya{set of definition}%
 \ty{argument domain}%
-\ty{domain 4}%
+\ty{domain}%
 \ty{domain of definition}%
 \ty{range of arguments}%
-\ty{source 2}%
+\ty{source}%
 \ty{source set}%
 \tv{index set}%
 \sh{frámengi}%
@@ -9233,9 +9233,9 @@ hnitaframsetning}%
 \fl{formerki}%
 \na%
 \tya{sign}%
-\ty{parity~2}%
-\ty{signature 1}%
-\ty{signum 1}%
+\ty{parity}%
+\ty{signature}%
+\ty{signum}%
 %
 \fl{formerkisfall}%
 \tya{sign function}%
@@ -9243,10 +9243,10 @@ hnitaframsetning}%
 %
 \fl{frádráttarmerki}%
 \tya{sign of subtraction}%
-\ty{minus 2}%
-\ty{minus mark 2}%
-\ty{minus sign 2}%
-\ty{minus symbol 2}%
+\ty{minus}%
+\ty{minus mark}%
+\ty{minus sign}%
+\ty{minus symbol}%
 \ty{subtraction sign}%
 \sh{mínus}%
 \sh{mínusmerki}%
@@ -9261,7 +9261,7 @@ hnitaframsetning}%
 \fl{formerkisfall}%
 \tya{signum function}%
 \ty{sign function}%
-\ty{signum 2}%
+\ty{signum}%
 %
 \fl{fullstytt brot}%
 \tya{simplified fraction}%
@@ -9274,16 +9274,16 @@ hnitaframsetning}%
 \fl{formengi}%
 \na%
 \tya{source}%
-\ty{domain carrier 1}%
+\ty{domain carrier}%
 \ty{latent domain}%
-\tv{domain 3}%
+\tv{domain}%
 \sh{frámengi}%
 %
 \fl{formengi}%
 \na%
 \tya{source}%
 \ty{argument domain}%
-\ty{domain 4}%
+\ty{domain}%
 \ty{domain of definition}%
 \ty{range of arguments}%
 \ty{set of definition}%
@@ -9297,8 +9297,8 @@ hnitaframsetning}%
 \fl{forhlutur}%
 \na%
 \tya{source}%
-\ty{domain 5}%
-\ty{domain carrier 2}%
+\ty{domain}%
+\ty{domain carrier}%
 \ty{domain object}%
 \sh{fráhlutur}%
 \sh{óðal}%
@@ -9337,7 +9337,7 @@ hnitaframsetning}%
 \tya{square number}%
 \ty{perfect square}%
 \tv{figurate number}%
-\tv{square 1}%
+\tv{square}%
 \sh{ferhyrnd tala}%
 %
 \fl{ferningslaus}%
@@ -9357,8 +9357,8 @@ hnitaframsetning}%
 \fl{fullyrðing}%
 \na%
 \tya{statement}%
-\ty{proposition 1}%
-\ty{sentence~1}%
+\ty{proposition}%
+\ty{sentence}%
 \sh{yrðing}%
 %
 \fl{forgrunnur}%
@@ -9371,10 +9371,10 @@ hnitaframsetning}%
 %
 \fl{frádráttarmerki}%
 \tya{subtraction sign}%
-\ty{minus 2}%
-\ty{minus mark 2}%
-\ty{minus sign 2}%
-\ty{minus symbol 2}%
+\ty{minus}%
+\ty{minus mark}%
+\ty{minus sign}%
+\ty{minus symbol}%
 \ty{sign of subtraction}%
 \sh{mínus}%
 \sh{mínus\-merki}%
@@ -9390,9 +9390,9 @@ hnitaframsetning}%
 %
 \fl{fyllirúm}%
 \tya{supplementary space}%
-\ty{complement 3}%
+\ty{complement}%
 \ty{complementary subspace}%
-\ty{supplement 2}%
+\ty{supplement}%
 %
 \fl{flötur}%
 \na%
@@ -9409,7 +9409,7 @@ hnitaframsetning}%
 %
 \fl{ferningsflötur}%
 \tya{surface of second order}%
-\ty{quadric 3}%
+\ty{quadric}%
 \ty{quadric surface}%
 \sh{annars stigs flötur}%
 %
@@ -9554,7 +9554,7 @@ hnitaframsetning}%
 \fl{færsla}%
 \na%
 \tya{transformation}%
-\ty{map 1}%
+\ty{map}%
 \ty{mapping}%
 \tv{correspondence}%
 \tv{function}%
@@ -9563,7 +9563,7 @@ hnitaframsetning}%
 \tv{morphism}%
 \tv{operator}%
 \tv{single-valued mapping}%
-\tv{transform 1}%
+\tv{transform}%
 \sh{vörpun}%
 \sh{myndun}%
 \sh{ummyndun}%
@@ -9577,7 +9577,7 @@ hnitaframsetning}%
 %
 \fl{færslulíkindi}%
 \tya{transition probability}%
-\ty{transition function 2}%
+\ty{transition function}%
 %
 \fl{flæðinet}%
 \tya{transportation network}%
@@ -9691,7 +9691,7 @@ hnitaframsetning}%
 %
 \fl{Fourier-mynd}%
 \tya{Fourier transform}%
-\tv{characteristic function 3}%
+\tv{characteristic function}%
 \sh{Fourier-færsla}%
 %
 \fl{Fourier-færsla}%
@@ -9757,7 +9757,7 @@ hnitaframsetning}%
 %
 \fl{grannör}%
 \tya{adjacent arc}%
-\tv{arc 3}%
+\tv{arc}%
 \sh{grannstæð ör}%
 %
 \fl{grannleggur}%
@@ -9770,7 +9770,7 @@ hnitaframsetning}%
 %
 \fl{grannhnútur}%
 \tya{adjacent vertex}%
-\ty{adjacent node 1}%
+\ty{adjacent node}%
 \sh{grannstæður hnútur}%
 %
 \fl{grannstæður hornpunktur}%
@@ -9836,7 +9836,7 @@ hnitaframsetning}%
 %
 \fl{gráða}%
 \tya{angular degree}%
-\ty{degree 1}%
+\ty{degree}%
 \ty{degree of angle}%
 \ty{degree of arc}%
 \ty{sexagesimal degree}%
@@ -9871,7 +9871,7 @@ hnitaframsetning}%
 \fl{grunnur}%
 \na%
 \tya{base}%
-\ty{basis~1}%
+\ty{basis}%
 \ty{open base}%
 \sh{opinn grunnur}%
 %
@@ -9883,7 +9883,7 @@ hnitaframsetning}%
 \fl{grunntala}%
 \na%
 \tya{base}%
-\ty{radix~2}%
+\ty{radix}%
 \sh{stofntala}%
 %
 \fl{grunnflötur}%
@@ -9940,7 +9940,7 @@ hnitaframsetning}%
 \fl{grunnur}%
 \na%
 \tya{basis}%
-\ty{base 2}%
+\ty{base}%
 \ty{open base}%
 \sh{opinn grunnur}%
 %
@@ -9983,9 +9983,9 @@ hnitaframsetning}%
 \fl{gagntækur}%
 \ls%
 \tya{bijective}%
-\ty{biunique 1}%
-\ty{one-one 2}%
-\ty{one-to-one 2}%
+\ty{biunique}%
+\ty{one-one}%
+\ty{one-to-one}%
 \ty{one-to-one onto}%
 %
 \fl{gagntekt}%
@@ -10001,8 +10001,8 @@ hnitaframsetning}%
 \ls%
 \tya{biunique}%
 \ty{bijective}%
-\ty{one-one 2}%
-\ty{one-to-one 2}%
+\ty{one-one}%
+\ty{one-to-one}%
 \ty{one-to-one onto}%
 %
 \fl{grein breiðboga}%
@@ -10080,7 +10080,7 @@ hnitaframsetning}%
 \fl{gráða}%
 \tya{degree of angle}%
 \ty{angular degree}%
-\ty{degree 1}%
+\ty{degree}%
 \ty{degree of arc}%
 \ty{sexagesimal degree}%
 \tv{deg}%
@@ -10339,7 +10339,7 @@ hnitaframsetning}%
 %
 \fl{grenndagrunnur}%
 \tya{local base}%
-\ty{base 1}%
+\ty{base}%
 \ty{base at a point}%
 \ty{local basis}%
 \ty{neighbourhood base}%
@@ -10356,7 +10356,7 @@ hnitaframsetning}%
 \fl{gagnkvæm skilyrðing}%
 \tya{material equivalence}%
 \ty{biconditional}%
-\tv{equivalence 1}%
+\tv{equivalence}%
 \sh{tvískilyrðing}%
 %
 \fl{gerð fylkis}%
@@ -10372,7 +10372,7 @@ hnitaframsetning}%
 %
 \fl{grenndagrunnur}%
 \tya{neighbourhood base}%
-\ty{base 1}%
+\ty{base}%
 \ty{base at a point}%
 \ty{local base}%
 \ty{local basis}%
@@ -10412,9 +10412,9 @@ hnitaframsetning}%
 \fl{gagntækur}%
 \tya{one-to-one onto}%
 \ty{bijective}%
-\ty{biunique 1}%
-\ty{one-one 2}%
-\ty{one-to-one 2}%
+\ty{biunique}%
+\ty{one-one}%
+\ty{one-to-one}%
 %
 \fl{gagnstæð stefna}%
 \tya{opposite direction}%
@@ -10428,8 +10428,8 @@ hnitaframsetning}%
 %
 \fl{geislahnit}%
 \tya{polar radius}%
-\ty{radius 3}%
-\ty{radius vector 2}%
+\ty{radius}%
+\ty{radius vector}%
 %
 \fl{grunnlota}%
 \tya{primitive period}%
@@ -10482,12 +10482,12 @@ hnitaframsetning}%
 \fl{geislahnit}%
 \tya{radius vector}%
 \ty{polar radius}%
-\ty{radius 3}%
+\ty{radius}%
 %
 \fl{grunntala}%
 \na%
 \tya{radix}%
-\ty{base 4}%
+\ty{base}%
 \sh{stofntala}%
 %
 \fl{gagnkvæmur}%
@@ -10528,7 +10528,7 @@ hnitaframsetning}%
 \fl{gráða}%
 \tya{sexagesimal degree}%
 \ty{angular degree}%
-\ty{degree 1}%
+\ty{degree}%
 \ty{degree of angle}%
 \ty{degree of arc}%
 \tv{deg}%
@@ -10537,7 +10537,7 @@ hnitaframsetning}%
 %
 \fl{greinargott mengi}%
 \tya{Souslin set}%
-\ty{analytic set 2}%
+\ty{analytic set}%
 \ty{Suslin set}%
 \sh{Súslín-mengi}%
 %
@@ -10549,7 +10549,7 @@ hnitaframsetning}%
 %
 \fl{greinargott mengi}%
 \tya{Suslin set}%
-\ty{analytic set 2}%
+\ty{analytic set}%
 \ty{Souslin set}%
 \sh{Súslín-mengi}%
 %
@@ -10599,7 +10599,7 @@ hnitaframsetning}%
 %
 \fl{grannmynstur}%
 \tya{topological structure}%
-\ty{topology 2}%
+\ty{topology}%
 %
 \fl{grannmóta}%
 \tya{topologically equivalent}%
@@ -10661,7 +10661,7 @@ hnitaframsetning}%
 \fl{gildi}%
 \na%
 \tya{value}%
-\ty{image 2}%
+\ty{image}%
 \sh{mynd (staks)}%
 %
 \fl{gildisdreifing}%
@@ -10679,7 +10679,7 @@ hnitaframsetning}%
 \tya{alternating product}%
 \ty{exterior product}%
 \ty{Grassmann product}%
-\ty{outer product 1}%
+\ty{outer product}%
 \ty{wedge product}%
 \sh{Grassmann-feldi}%
 \sh{ytra margfeldi}%
@@ -10708,7 +10708,7 @@ hnitaframsetning}%
 \ty{error distribution curve}%
 \ty{Gaussian curve}%
 \ty{Gaussian error curve}%
-\ty{normal curve 2}%
+\ty{normal curve}%
 \ty{normal distribution curve}%
 \ty{normal error curve}%
 \ty{normal frequency curve}%
@@ -10721,7 +10721,7 @@ hnitaframsetning}%
 \ty{error distribution curve}%
 \ty{Gaussian curve}%
 \ty{Gaussian error curve}%
-\ty{normal curve 2}%
+\ty{normal curve}%
 \ty{normal distribution curve}%
 \ty{normal error curve}%
 \ty{normal frequency curve}%
@@ -10757,7 +10757,7 @@ hnitaframsetning}%
 \ty{error curve}%
 \ty{error distribution curve}%
 \ty{Gaussian error curve}%
-\ty{normal curve 2}%
+\ty{normal curve}%
 \ty{normal distribution curve}%
 \ty{normal error curve}%
 \ty{normal frequency curve}%
@@ -10789,9 +10789,9 @@ hnitaframsetning}%
 %
 \fl{Grassmann-margfeldi}%
 \tya{Grassmann product}%
-\ty{alternating product 1}%
+\ty{alternating product}%
 \ty{exterior product}%
-\ty{outer product 1}%
+\ty{outer product}%
 \ty{wedge product}%
 \sh{Grass\-mann-feldi}%
 \sh{ytra margfeldi}%
@@ -10865,8 +10865,8 @@ hnitaframsetning}%
 %
 \fl{hjáfylki}%
 \tya{adjoint matrix}%
-\ty{adjoint~4}%
-\ty{adjugate matrix 2}%
+\ty{adjoint}%
+\ty{adjugate matrix}%
 \sh{bylt hjáþáttafylki}%
 \sh{bylt fylgiþáttafylki}%
 %
@@ -10929,7 +10929,7 @@ hnitaframsetning}%
 \fl{horn}%
 \na%
 \tya{amplitude}%
-\ty{argument~1}%
+\ty{argument}%
 \sh{stefnuhorn}%
 \sh{áttarhorn}%
 \sh{horngildi}%
@@ -10944,7 +10944,7 @@ hnitaframsetning}%
 \fl{hjólflötur}%
 \tya{anchor ring}%
 \ty{ring surface}%
-\ty{torus 2}%
+\ty{torus}%
 \sh{hringfeldi}%
 %
 \fl{horn}%
@@ -11013,7 +11013,7 @@ hnitaframsetning}%
 \tv{solid angle}%
 \tv{spherical angle}%
 \tv{straight angle}%
-\tv{supplement 1}%
+\tv{supplement}%
 \tv{supplemental angle}%
 \tv{supplementary angle}%
 \tv{tetrahedral angle}%
@@ -11032,13 +11032,13 @@ hnitaframsetning}%
 \tv{centesimal minute}%
 \tv{centesimal second}%
 \tv{deg}%
-\tv{degree 1}%
+\tv{degree}%
 \tv{degree of angle}%
 \tv{circular measure}%
 \tv{grad}%
-\tv{grade 1}%
-\tv{min 1}%
-\tv{min~3}%
+\tv{grade}%
+\tv{min}%
+\tv{min}%
 \tv{minute}%
 \tv{minute of angle}%
 \tv{radian}%
@@ -11056,14 +11056,14 @@ hnitaframsetning}%
 \tya{angle-preserving}%
 \ty{conformal}%
 \ty{equiangular}%
-\ty{isogonal 1}%
+\ty{isogonal}%
 %
 \fl{hornhröðun}%
 \tya{angular acceleration}%
 %
 \fl{horn}%
 \tya{angular coordinate}%
-\ty{amplitude 1}%
+\ty{amplitude}%
 \ty{anomaly}%
 \ty{azimuth}%
 \ty{polar angle}%
@@ -11095,7 +11095,7 @@ hnitaframsetning}%
 \fl{horn}%
 \na%
 \tya{anomaly}%
-\ty{amplitude 1}%
+\ty{amplitude}%
 \ty{angular coordinate}%
 \ty{azimuth}%
 \ty{polar angle}%
@@ -11131,7 +11131,7 @@ hnitaframsetning}%
 \fl{horn}%
 \na%
 \tya{argument}%
-\ty{amplitude 2}%
+\ty{amplitude}%
 \sh{stefnuhorn}%
 \sh{áttarhorn}%
 \sh{horngildi}%
@@ -11146,7 +11146,7 @@ hnitaframsetning}%
 %
 \fl{hlutmengjafrumsenda}%
 \tya{axiom of subsets}%
-\ty{axiom of separation 1}%
+\ty{axiom of separation}%
 \sh{hlutmengjafrumsetning}%
 \sh{frumsenda um hlutmengi}%
 \sh{frumsetning um hlutmengi}%
@@ -11154,7 +11154,7 @@ hnitaframsetning}%
 \fl{horn}%
 \na%
 \tya{azimuth}%
-\ty{amplitude 1}%
+\ty{amplitude}%
 \ty{angular coordinate}%
 \ty{anomaly}%
 \ty{polar angle}%
@@ -11233,7 +11233,7 @@ hnitaframsetning}%
 %
 \fl{hnitarúmfræði}%
 \tya{cartesian geometry}%
-\ty{analytic geometry 1}%
+\ty{analytic geometry}%
 \ty{analytical geometry}%
 \ty{coordinate geometry}%
 \sh{hnitafræði}%
@@ -11315,7 +11315,7 @@ hnitaframsetning}%
 \tv{bundle of circles}%
 \tv{circumcircle}%
 \tv{circumscribed circle}%
-\tv{cycle 7}%
+\tv{cycle}%
 \tv{escribed circle}%
 \tv{excircle}%
 \tv{generating circle}%
@@ -11357,8 +11357,8 @@ hnitaframsetning}%
 \fl{hringur}%
 \na%
 \tya{circuit}%
-\ty{cycle~4}%
-\ty{circuit graph~2}%
+\ty{cycle}%
+\ty{circuit graph}%
 \tv{stigm}%
 %
 \fl{hringlaga}%
@@ -11369,13 +11369,13 @@ hnitaframsetning}%
 %
 \fl{hringbogi}%
 \tya{circular arc}%
-\ty{arc 1}%
+\ty{arc}%
 \sh{bogi}%
 \sh{örk}%
 %
 \fl{hringskífa}%
 \tya{circular disc}%
-\ty{circle~2}%
+\ty{circle}%
 \ty{disc}%
 \ty{disk}%
 \sh{hringflötur}%
@@ -11401,12 +11401,12 @@ hnitaframsetning}%
 %
 \fl{hringsneið}%
 \tya{circular segment}%
-\ty{segment~2}%
+\ty{segment}%
 \sh{sneið}%
 %
 \fl{hringsamhverfni}%
 \tya{circular symmetry}%
-\ty{radial symmetry 2}%
+\ty{radial symmetry}%
 %
 \fl{hringbogaþríhyrningur}%
 \tya{circular triangle}%
@@ -11414,7 +11414,7 @@ hnitaframsetning}%
 \fl{hringjaðar}%
 \na%
 \tya{circumference}%
-\tv{circle 1}%
+\tv{circle}%
 \sh{hringferill}%
 %
 \fl{hlutfallsleg tíðni}%
@@ -11425,7 +11425,7 @@ hnitaframsetning}%
 \ls%
 \tya{coadjoint}%
 \ty{right-adjoint}%
-\tv{adjoint 1}%
+\tv{adjoint}%
 \tv{left-adjoint}%
 \sh{aðoka frá hægri}%
 %
@@ -11511,7 +11511,7 @@ hnitaframsetning}%
 \fl{hjáhæð}%
 \na%
 \tya{coheight}%
-\ty{depth 3}%
+\ty{depth}%
 \sh{dýpt}%
 %
 \fl{hjásvipfræði}%
@@ -11586,7 +11586,7 @@ hnitaframsetning}%
 \tya{conformal}%
 \ty{angle-preserving}%
 \ty{equiangular}%
-\ty{isogonal 1}%
+\ty{isogonal}%
 \ty{isogonic}%
 %
 \fl{hornræknirúmfræði}%
@@ -11618,7 +11618,7 @@ hnitaframsetning}%
 \tya{contour line}%
 \ty{depth contour}%
 \ty{height contour}%
-\ty{height line 1}%
+\ty{height line}%
 \ty{isobath}%
 \ty{isohypse}%
 \ty{level curve}%
@@ -11640,7 +11640,7 @@ hnitaframsetning}%
 \tya{coordinate}%
 \tv{abscissa}%
 \tv{affine coordinates}%
-\tv{amplitude 1}%
+\tv{amplitude}%
 \tv{angular coordinate}%
 \tv{anomaly}%
 \tv{azimuth}%
@@ -11676,7 +11676,7 @@ hnitaframsetning}%
 %
 \fl{hnitás}%
 \tya{coordinate axis}%
-\tv{axis 1}%
+\tv{axis}%
 \tv{real axis}%
 \sh{hnitaás}%
 %
@@ -11686,7 +11686,7 @@ hnitaframsetning}%
 %
 \fl{hnitafræði}%
 \tya{coordinate geometry}%
-\ty{analytic geometry 1}%
+\ty{analytic geometry}%
 \ty{analytical geometry}%
 \ty{cartesian geometry}%
 \sh{hnitarúmfræði}%
@@ -11719,7 +11719,7 @@ hnitaframsetning}%
 \fl{hjámargfeldi}%
 \na%
 \tya{coproduct}%
-\ty{sum 2}%
+\ty{sum}%
 \tv{direct sum}%
 \sh{summa}%
 %
@@ -11736,7 +11736,7 @@ hnitaframsetning}%
 \fl{hvarfpunktur}%
 \tya{critical point}%
 \ty{equilibrium point}%
-\ty{singular point 2}%
+\ty{singular point}%
 \ty{stationary point}%
 \sh{hvarf}%
 \sh{jafn\-vægis\-punkt\-ur}%
@@ -11744,7 +11744,7 @@ hnitaframsetning}%
 %
 \fl{höfnunarlíkindi}%
 \tya{critical probability}%
-\ty{critical level 1}%
+\ty{critical level}%
 \sh{frávísunarlíkindi}%
 %
 \fl{höfnunarsvæði}%
@@ -11753,7 +11753,7 @@ hnitaframsetning}%
 %
 \fl{hvarfgildi}%
 \tya{critical value}%
-\ty{critical level 2}%
+\ty{critical level}%
 %
 \fl{höfnunarmark}%
 \tya{critical value}%
@@ -11765,7 +11765,7 @@ hnitaframsetning}%
 \fl{hringur}%
 \na%
 \tya{cycle}%
-\ty{circuit~5}%
+\ty{circuit}%
 \ty{circuit graph}%
 %
 \fl{hjólferill}%
@@ -11839,7 +11839,7 @@ hnitaframsetning}%
 \tya{depth contour}%
 \ty{contour line}%
 \ty{height contour}%
-\ty{height line~1}%
+\ty{height line}%
 \ty{isobath}%
 \ty{isohypse}%
 \ty{level curve}%
@@ -11865,7 +11865,7 @@ hnitaframsetning}%
 %
 \fl{hnigaðferð}%
 \tya{descent method}%
-\ty{method of descent 1}%
+\ty{method of descent}%
 %
 \fl{hnigskref}%
 \tya{descent step}%
@@ -11955,7 +11955,7 @@ hnitaframsetning}%
 \fl{hringskífa}%
 \na%
 \tya{disc}%
-\ty{circle 2}%
+\ty{circle}%
 \ty{circular disc}%
 \ty{disk}%
 \sh{hringflötur}%
@@ -11986,7 +11986,7 @@ hnitaframsetning}%
 \fl{hvirfilhringur}%
 \tya{eccentric circle}%
 \tv{auxiliary circle}%
-\tv{eccentric 2}%
+\tv{eccentric}%
 %
 \fl{hringvik}%
 \na%
@@ -12016,7 +12016,7 @@ hnitaframsetning}%
 \fl{heill}%
 \ls%
 \tya{entire}%
-\ty{integral 1}%
+\ty{integral}%
 %
 \fl{heilt fall}%
 \tya{entire function}%
@@ -12035,7 +12035,7 @@ hnitaframsetning}%
 %
 \fl{heilbaugur}%
 \tya{entire ring}%
-\ty{domain 2}%
+\ty{domain}%
 \ty{domain of integrity}%
 \ty{integral domain}%
 \ty{integral ring}%
@@ -12059,7 +12059,7 @@ hnitaframsetning}%
 \tya{equiangular}%
 \ty{angle-preserving}%
 \ty{conformal}%
-\ty{isogonal 1}%
+\ty{isogonal}%
 \ty{isogonic}%
 %
 \fl{hreinvíður}%
@@ -12067,12 +12067,12 @@ hnitaframsetning}%
 \tya{equidimensional}%
 \ty{homogeneously dimensional}%
 \ty{purely dimensional}%
-\ty{unmixed 2}%
+\ty{unmixed}%
 %
 \fl{hvarfpunktur}%
 \tya{equilibrium point}%
 \ty{critical point}%
-\ty{singular point 2}%
+\ty{singular point}%
 \ty{stationary point}%
 \sh{hvarf}%
 \sh{jafnvægispunktur}%
@@ -12117,7 +12117,7 @@ hnitaframsetning}%
 %
 \fl{hæðarlína}%
 \tya{first principal line}%
-\ty{height line 2}%
+\ty{height line}%
 %
 \fl{hæðarslétta}%
 \tya{first principal plane}%
@@ -12332,8 +12332,8 @@ hnitaframsetning}%
 %
 \fl{hermískt innfeldi}%
 \tya{hermitian inner product}%
-\ty{inner product 4}%
-\ty{scalar product 3}%
+\ty{inner product}%
+\ty{scalar product}%
 \tv{euclidean inner product}%
 \tv{hermitian sesquilinear form}%
 \sh{innfeldi}%
@@ -12341,7 +12341,7 @@ hnitaframsetning}%
 \fl{hermískt innfeldisrúm}%
 \tya{hermitian inner product space}%
 \ty{hermitian space}%
-\ty{inner product space 2}%
+\ty{inner product space}%
 \ty{unitary space}%
 \tv{euclidean inner product space}%
 \sh{hermískt rúm}%
@@ -12362,8 +12362,8 @@ hnitaframsetning}%
 \tv{antihermitian form}%
 \tv{antihermitian sesquilinear form}%
 \tv{hermitian inner product}%
-\tv{inner product 6}%
-\tv{scalar product 6}%
+\tv{inner product}%
+\tv{scalar product}%
 \sh{Hermite-form}%
 %
 \fl{hærri af{}leiða}%
@@ -12378,9 +12378,9 @@ hnitaframsetning}%
 %
 \fl{hreinvíður}%
 \tya{homogeneously dimensional}%
-\ty{equidimensional 2}%
+\ty{equidimensional}%
 \ty{purely dimensional}%
-\ty{unmixed 2}%
+\ty{unmixed}%
 %
 \fl{hyrnt hvel}%
 \tya{horned sphere}%
@@ -12409,7 +12409,7 @@ hnitaframsetning}%
 %
 \fl{hlutleysa}%
 \tya{identity element}%
-\ty{identity 3}%
+\ty{identity}%
 \ty{neutral element}%
 \sh{hlutlaust stak}%
 %
@@ -12421,7 +12421,7 @@ hnitaframsetning}%
 \fl{halli}%
 \na%
 \tya{inclination}%
-\tv{grade 2}%
+\tv{grade}%
 \tv{slope}%
 %
 \fl{hornið á milli}%
@@ -12456,7 +12456,7 @@ milli þeirra}%
 \fl{hliðraður}%
 \ls%
 \tya{inhomogeneous}%
-\ty{non-homogeneous 2}%
+\ty{non-homogeneous}%
 %
 \fl{hliðruð línuleg deildajafna}%
 \tya{inhomogeneous linear differential equation}%
@@ -12466,7 +12466,7 @@ milli þeirra}%
 \fl{hermískt innfeldi}%
 \tya{inner product}%
 \ty{hermitian inner product}%
-\ty{scalar product~3}%
+\ty{scalar product}%
 \tv{unitary space}%
 \sh{innfeldi}%
 %
@@ -12560,7 +12560,7 @@ milli þeirra}%
 %
 \fl{heilbaugur}%
 \tya{integral domain}%
-\ty{domain 2}%
+\ty{domain}%
 \ty{domain of integrity}%
 \ty{entire ring}%
 \ty{integral ring}%
@@ -12596,7 +12596,7 @@ milli þeirra}%
 %
 \fl{heilt margfeldi}%
 \tya{integral multiple}%
-\ty{multiple 2}%
+\ty{multiple}%
 \sh{margfeldi}%
 %
 \fl{heil tala}%
@@ -12621,7 +12621,7 @@ milli þeirra}%
 %
 \fl{heilbaugur}%
 \tya{integral ring}%
-\ty{domain 2}%
+\ty{domain}%
 \ty{domain of integrity}%
 \ty{entire ring}%
 \ty{integral domain}%
@@ -12750,7 +12750,7 @@ milli þeirra}%
 \ty{contour line}%
 \ty{depth contour}%
 \ty{height contour}%
-\ty{height line 1}%
+\ty{height line}%
 \ty{isohypse}%
 \ty{level curve}%
 \ty{level line}%
@@ -12819,7 +12819,7 @@ milli þeirra}%
 \ty{contour line}%
 \ty{depth contour}%
 \ty{height contour}%
-\ty{height line 1}%
+\ty{height line}%
 \ty{isobath}%
 \ty{isohypse}%
 \ty{level line}%
@@ -12930,14 +12930,14 @@ milli þeirra}%
 \fl{hágildissetning}%
 \tya{maximum principle}%
 \ty{maximum modulus principle}%
-\ty{principle of maximum~1}%
+\ty{principle of maximum}%
 \sh{hágildislögmál}%
 \sh{háalgildissetning}%
 \sh{háalgildislögmál}%
 %
 \fl{hágildissetning}%
 \tya{maximum principle}%
-\ty{principle of maximum~2}%
+\ty{principle of maximum}%
 \sh{hágildislögmál}%
 %
 \fl{hámarksleikáætlun}%
@@ -12958,13 +12958,13 @@ milli þeirra}%
 \tv{centesimal minute}%
 \tv{centesimal second}%
 \tv{deg}%
-\tv{degree 1}%
+\tv{degree}%
 \tv{degree of angle}%
 \tv{circular measure}%
 \tv{grad}%
-\tv{grade 1}%
-\tv{min 1}%
-\tv{min 3}%
+\tv{grade}%
+\tv{min}%
+\tv{min}%
 \tv{minute}%
 \tv{minute of angle}%
 \tv{radian}%
@@ -12977,7 +12977,7 @@ milli þeirra}%
 \fl{hlið}%
 \na%
 \tya{member}%
-\ty{side 4}%
+\ty{side}%
 %
 \fl{hugarreikningur}%
 \tya{mental arithmetic}%
@@ -12989,7 +12989,7 @@ milli þeirra}%
 %
 \fl{hnigaðferð}%
 \tya{method of descent}%
-\ty{descent method 1}%
+\ty{descent method}%
 \tv{gradient method}%
 \tv{method of steepest descent}%
 %
@@ -13046,7 +13046,7 @@ milli þeirra}%
 \fl{háttur}%
 \na%
 \tya{modality}%
-\ty{mode 1}%
+\ty{mode}%
 %
 \fl{háttarlögmál}%
 \tya{modular identity}%
@@ -13118,13 +13118,13 @@ milli þeirra}%
 %
 \fl{hlutleysa}%
 \tya{neutral element}%
-\ty{identity 3}%
-\ty{identity element 1}%
+\ty{identity}%
+\ty{identity element}%
 \sh{hlutlaust stak}%
 %
 \fl{hlutlaus rúmfræði}%
 \tya{neutral geometry}%
-\ty{absolute geometry 1}%
+\ty{absolute geometry}%
 %
 \fl{hnútur}%
 \na%
@@ -13134,7 +13134,7 @@ milli þeirra}%
 \fl{hnútur}%
 \na%
 \tya{node}%
-\ty{vertex 4}%
+\ty{vertex}%
 \sh{punktur}%
 %
 \fl{hnútflötur}%
@@ -13144,7 +13144,7 @@ milli þeirra}%
 \fl{hliðraður}%
 \ls%
 \tya{non-homogeneous}%
-\ty{inhomogeneous~2}%
+\ty{inhomogeneous}%
 %
 \fl{hliðruð línuleg deildajafna}%
 \tya{non-homogeneous linear differential equation}%
@@ -13197,8 +13197,8 @@ milli þeirra}%
 \fl{hornréttur}%
 \ls%
 \tya{orthogonal}%
-\ty{normal 2}%
-\ty{perpendicular 1}%
+\ty{normal}%
+\ty{perpendicular}%
 \sh{þverstæður}%
 \sh{þver}%
 \sh{þverlægur}%
@@ -13260,7 +13260,7 @@ milli þeirra}%
 %
 \fl{hliðrun}%
 \tya{parallel displacement}%
-\ty{translation 1}%
+\ty{translation}%
 %
 \fl{hluti}%
 \na%
@@ -13429,7 +13429,7 @@ milli þeirra}%
 %
 \fl{horn}%
 \tya{polar angle}%
-\ty{amplitude 1}%
+\ty{amplitude}%
 \ty{angular coordinate}%
 \ty{anomaly}%
 \ty{azimuth}%
@@ -13518,14 +13518,14 @@ milli þeirra}%
 \fl{hágildissetning}%
 \tya{principle of maximum}%
 \ty{maximum modulus principle}%
-\ty{maximum principle 1}%
+\ty{maximum principle}%
 \sh{hágildislögmál}%
 \sh{há\-algildissetning}%
 \sh{háalgildislögmál}%
 %
 \fl{hágildissetning}%
 \tya{principle of maximum}%
-\ty{maximum principle 2}%
+\ty{maximum principle}%
 \sh{hágildislögmál}%
 %
 \fl{hjálparsetning Zorns}%
@@ -13570,9 +13570,9 @@ milli þeirra}%
 %
 \fl{hreinvíður}%
 \tya{purely dimensional}%
-\ty{equidimensional 2}%
+\ty{equidimensional}%
 \ty{homogeneously dimensional}%
-\ty{unmixed 2}%
+\ty{unmixed}%
 %
 \fl{hreinlega óaðskiljanleg útvíkkun}%
 \tya{purely inseparable extension}%
@@ -13700,7 +13700,7 @@ milli þeirra}%
 %
 \fl{höfnunarmark}%
 \tya{rejection boundary}%
-\ty{critical value 2}%
+\ty{critical value}%
 \ty{rejection limit}%
 \ty{significance point}%
 \sh{frávísunarmark}%
@@ -13718,7 +13718,7 @@ milli þeirra}%
 %
 \fl{hlutfallsleg tíðni}%
 \tya{relative frequency}%
-\ty{class frequency 2}%
+\ty{class frequency}%
 %
 \fl{hlutfallslegt tíðnifall}%
 \tya{relative frequency function}%
@@ -13808,7 +13808,7 @@ milli þeirra}%
 %
 \fl{hægri hlutleysa}%
 \tya{right neutral element}%
-\ty{right identity 1}%
+\ty{right identity}%
 \sh{hlutleysa frá hægri}%
 %
 \fl{hægri svigi}%
@@ -13840,7 +13840,7 @@ milli þeirra}%
 \fl{hjólflötur}%
 \tya{ring surface}%
 \ty{anchor ring}%
-\ty{torus 2}%
+\ty{torus}%
 \sh{hringfeldi}%
 %
 \fl{höfnunarhætta}%
@@ -13889,7 +13889,7 @@ milli þeirra}%
 \fl{hermískt innfeldi}%
 \tya{scalar product}%
 \ty{hermitian inner product}%
-\ty{inner product 4}%
+\ty{inner product}%
 \tv{unitary space}%
 \sh{innfeldi}%
 %
@@ -13965,7 +13965,7 @@ milli þeirra}%
 %
 \fl{hálfur langás}%
 \tya{semimajor axis}%
-\tv{major axis~1}%
+\tv{major axis}%
 %
 \fl{hálfgildingsfirð}%
 \na%
@@ -13975,7 +13975,7 @@ milli þeirra}%
 %
 \fl{hálfur skammás}%
 \tya{semiminor axis}%
-\tv{minor axis~1}%
+\tv{minor axis}%
 %
 \fl{hálfstaðall}%
 \na%
@@ -14016,14 +14016,14 @@ milli þeirra}%
 \fl{hlið}%
 \na%
 \tya{side}%
-\ty{member 2}%
+\ty{member}%
 %
 \fl{hlutverutákn}%
 \tya{sign of inclusion}%
 %
 \fl{höfnunarmark}%
 \tya{significance point}%
-\ty{critical value 2}%
+\ty{critical value}%
 \ty{rejection boundary}%
 \ty{rejection limit}%
 \sh{frávísunarmark}%
@@ -14087,7 +14087,7 @@ milli þeirra}%
 \fl{halli}%
 \na%
 \tya{slope}%
-\tv{grade 2}%
+\tv{grade}%
 \tv{inclination}%
 \sh{hallatala}%
 %
@@ -14104,8 +14104,8 @@ milli þeirra}%
 %
 \fl{hjólflötungur}%
 \tya{solid torus}%
-\ty{tore~1}%
-\ty{torus 1}%
+\ty{tore}%
+\ty{torus}%
 \sh{hjólþykkvi}%
 %
 \fl{hraði}%
@@ -14145,7 +14145,7 @@ milli þeirra}%
 %
 \fl{hvelabundin}%
 \tya{sphere bundle}%
-\ty{bundle of spheres 2}%
+\ty{bundle of spheres}%
 %
 \fl{hjúfurhvel}%
 \tya{sphere of curvature}%
@@ -14184,7 +14184,7 @@ milli þeirra}%
 \tya{stationary point}%
 \ty{critical point}%
 \ty{equilibrium point}%
-\ty{singular point~2}%
+\ty{singular point}%
 \sh{hvarf}%
 \sh{jafnvægispunktur}%
 \sh{stöðupunktur}%
@@ -14202,13 +14202,13 @@ milli þeirra}%
 %
 \fl{hnigaðferð mesta bratta}%
 \tya{steepest descent method}%
-\ty{method of steepest descent 1}%
+\ty{method of steepest descent}%
 \tv{gradient method}%
 %
 \fl{hringur}%
 \na%
 \tya{stigm}%
-\tv{circuit 5}%
+\tv{circuit}%
 %
 \fl{hending}%
 \tya{stochastic variable}%
@@ -14249,7 +14249,7 @@ milli þeirra}%
 \fl{hlutun}%
 \na%
 \tya{subdivision}%
-\ty{partition 3}%
+\ty{partition}%
 \sh{skipting}%
 %
 \fl{hlutsvæði}%
@@ -14331,11 +14331,11 @@ milli þeirra}%
 \fl{hlutmengi}%
 \na%
 \tya{subset}%
-\ty{part 2}%
+\ty{part}%
 %
 \fl{hlutvera}%
 \tya{subset relation}%
-\ty{inclusion 1}%
+\ty{inclusion}%
 \ty{inclusion relation}%
 \sh{hlutmengisvensl}%
 %
@@ -14412,7 +14412,7 @@ milli þeirra}%
 \na%
 \tya{torus}%
 \ty{solid torus}%
-\ty{tore 1}%
+\ty{tore}%
 \sh{hjólþykkvi}%
 %
 \fl{hjólflötur}%
@@ -14420,7 +14420,7 @@ milli þeirra}%
 \tya{torus}%
 \ty{anchor ring}%
 \ty{ring surface}%
-\ty{tore 1}%
+\ty{tore}%
 \tv{circular torus}%
 \sh{hringfeldi}%
 %
@@ -14479,7 +14479,7 @@ milli þeirra}%
 \fl{hliðrun}%
 \na%
 \tya{translation}%
-\ty{parallel displacement 1}%
+\ty{parallel displacement}%
 %
 \fl{hliðranagrúpa}%
 \tya{translation group}%
@@ -14497,9 +14497,9 @@ milli þeirra}%
 \tv{cosecant}%
 \tv{cosine}%
 \tv{cotangent}%
-\tv{secant 2}%
+\tv{secant}%
 \tv{sine}%
-\tv{tangent 2}%
+\tv{tangent}%
 %
 \fl{hornafalla\-margliða}%
 \tya{trigonometric polynomial}%
@@ -14543,7 +14543,7 @@ milli þeirra}%
 \tya{unitary space}%
 \ty{hermitian inner product space}%
 \ty{hermitian space}%
-\ty{inner product space 2}%
+\ty{inner product space}%
 \tv{euclidean inner product space}%
 \tv{prehilbert space}%
 \sh{hermískt rúm}%
@@ -14552,7 +14552,7 @@ milli þeirra}%
 \fl{hreinvíður}%
 \ls%
 \tya{unmixed}%
-\ty{equidimensional 2}%
+\ty{equidimensional}%
 \ty{homogeneously dimensional}%
 \ty{purely dimensional}%
 %
@@ -14640,19 +14640,19 @@ milli þeirra}%
 \na%
 \tya{vertex}%
 \tv{secondary vertex}%
-\tv{vertex 5}%
+\tv{vertex}%
 %
 \fl{hnútur}%
 \na%
 \tya{vertex}%
-\ty{node 3}%
+\ty{node}%
 \sh{punktur}%
 %
 \fl{hvirfilpunktur}%
 \na%
 \tya{vertex}%
 \tv{four-vertex theorem}%
-\tv{vertex 3}%
+\tv{vertex}%
 %
 \fl{hnútalitun}%
 \tya{vertex colouration}%
@@ -14662,7 +14662,7 @@ milli þeirra}%
 %
 \fl{hvirfilpunktur}%
 \tya{vortex point}%
-\ty{centre~1}%
+\ty{centre}%
 \sh{miðja}%
 %
 \fl{hjól}%
@@ -14688,7 +14688,7 @@ milli þeirra}%
 \fl{Hamel-grunnur}%
 \tya{Hamel basis}%
 \ty{algebraic basis}%
-\ty{basis 2}%
+\ty{basis}%
 \ty{linear basis}%
 \ty{vector basis}%
 \sh{línulegur grunnur}%
@@ -14881,13 +14881,13 @@ milli þeirra}%
 \fl{innfeldi}%
 \tya{inner product}%
 \ty{dot product}%
-\ty{scalar product~1}%
+\ty{scalar product}%
 \sh{innra margfeldi}%
 \sh{depilfeldi}%
 %
 \fl{innfeldi}%
 \tya{inner product}%
-\ty{scalar product~2}%
+\ty{scalar product}%
 \tv{alternating bilinear form}%
 \tv{antisymmetric bilinear form}%
 \tv{symmetric bilinear form}%
@@ -14895,14 +14895,14 @@ milli þeirra}%
 \fl{innra margfeldi}%
 \tya{inner product}%
 \tv{contracted tensor}%
-\tv{contraction~2}%
+\tv{contraction}%
 \tv{inner tensor multiplication}%
 \tv{tensor product}%
-\tv{transvection~1}%
+\tv{transvection}%
 %
 \fl{innfeldi}%
 \tya{inner product}%
-\ty{scalar product~6}%
+\ty{scalar product}%
 \tv{antihermitian sesquilinear form}%
 \tv{hermitian sesquilinear form}%
 %
@@ -14916,7 +14916,7 @@ milli þeirra}%
 \tya{inner product space}%
 \ty{hermitian inner product space}%
 \ty{hermitian space}%
-\ty{inner product space 2}%
+\ty{inner product space}%
 \ty{unitary space}%
 \sh{hermískt innfeldisrúm}%
 \sh{hermískt rúm}%
@@ -14924,9 +14924,9 @@ milli þeirra}%
 \fl{innri margföldun}%
 \tya{inner tensor multiplication}%
 \ty{inner multiplication}%
-\ty{transvection 1}%
-\tv{contraction 2}%
-\tv{inner product 3}%
+\ty{transvection}%
+\tv{contraction}%
+\tv{inner product}%
 %
 \fl{inngeisli}%
 \na%
@@ -15013,7 +15013,7 @@ milli þeirra}%
 \ty{internal composition}%
 \tv{algebraic operation}%
 \tv{law of composition}%
-\tv{operation 2}%
+\tv{operation}%
 \sh{innri reikniaðgerð}%
 %
 \fl{innra meðalfervik}%
@@ -15041,7 +15041,7 @@ milli þeirra}%
 %
 \fl{innri rúmfræði}%
 \tya{intrinsic geometry}%
-\ty{absolute geometry 2}%
+\ty{absolute geometry}%
 %
 \fl{innri firð}%
 \tya{intrinsic metric}%
@@ -15152,26 +15152,26 @@ milli þeirra}%
 \fl{innfeldi}%
 \tya{scalar product}%
 \ty{dot product}%
-\ty{inner product~1}%
+\ty{inner product}%
 \sh{innra margfeldi}%
 \sh{depilfeldi}%
 %
 \fl{innfeldi}%
 \tya{scalar product}%
-\ty{inner product~2}%
+\ty{inner product}%
 \tv{alternating bilinear form}%
 \tv{antisymmetric bilinear form}%
 \tv{symmetric bilinear form}%
 %
 \fl{innfeldi}%
 \tya{scalar product}%
-\ty{inner product 6}%
+\ty{inner product}%
 \tv{antihermitian sesquilinear form}%
 \tv{hermitian sesquilinear form}%
 %
 \fl{inngeisli}%
 \tya{short radius}%
-\ty{apothem 2}%
+\ty{apothem}%
 \sh{innri geisli}%
 \sh{skammgeisli}%
 %
@@ -15196,7 +15196,7 @@ milli þeirra}%
 \tya{transvection}%
 \ty{inner multiplication}%
 \ty{inner tensor multiplication}%
-\tv{contraction 2}%
+\tv{contraction}%
 %
 \fl{iða}%
 \na%
@@ -15269,7 +15269,7 @@ milli þeirra}%
 \tya{boundary}%
 \ty{frontier}%
 \tv{circumference}%
-\tv{contour 2}%
+\tv{contour}%
 \tv{periphery}%
 %
 \fl{jaðarbogi}%
@@ -15371,7 +15371,7 @@ milli þeirra}%
 \ls%
 \tya{equiangular}%
 \ty{equiangled}%
-\ty{isogonal 2}%
+\ty{isogonal}%
 \sh{með öll horn jöfn}%
 %
 \fl{jafnása breiðbogi}%
@@ -15448,7 +15448,7 @@ milli þeirra}%
 %
 \fl{jafngildisvensl}%
 \tya{equivalence relation}%
-\ty{equivalence 3}%
+\ty{equivalence}%
 %
 \fl{jafngildur}%
 \ls%
@@ -15465,18 +15465,18 @@ milli þeirra}%
 \fl{jafnstæður}%
 \ls%
 \tya{even}%
-\tv{odd~1}%
+\tv{odd}%
 %
 \fl{jafn}%
 \ls%
 \tya{even}%
-\tv{odd~2}%
+\tv{odd}%
 \sh{sléttur}%
 %
 \fl{jafnstæður}%
 \ls%
 \tya{even}%
-\tv{odd 3}%
+\tv{odd}%
 %
 \fl{jöfn tala}%
 \tya{even number}%
@@ -15495,7 +15495,7 @@ milli þeirra}%
 \tya{frontier}%
 \ty{boundary}%
 \tv{circumference}%
-\tv{contour 2}%
+\tv{contour}%
 \tv{periphery}%
 %
 \fl{jaðarpunktur}%
@@ -15563,7 +15563,7 @@ milli þeirra}%
 \ls%
 \tya{isogonal}%
 \ty{equiangled}%
-\ty{equiangular 4}%
+\ty{equiangular}%
 \sh{með öll horn jöfn}%
 %
 \fl{jafnhorna}%
@@ -15648,8 +15648,8 @@ milli þeirra}%
 %
 \fl{jákvætt formerki}%
 \tya{positive sign}%
-\ty{plus 2}%
-\ty{plus sign 2}%
+\ty{plus}%
+\ty{plus sign}%
 \sh{plúsformerki}%
 %
 \fl{jákvætt áttaður}%
@@ -15673,7 +15673,7 @@ milli þeirra}%
 \na%
 \tya{saroban}%
 \ty{soroban}%
-\tv{abacus 1}%
+\tv{abacus}%
 \tv{calculating frame}%
 \tv{counting frame}%
 \sh{japönsk talnagrind}%
@@ -15698,7 +15698,7 @@ milli þeirra}%
 \na%
 \tya{soroban}%
 \ty{saroban}%
-\tv{abacus 1}%
+\tv{abacus}%
 \tv{calculating frame}%
 \tv{counting frame}%
 \sh{japönsk talnagrind}%
@@ -15749,12 +15749,12 @@ milli þeirra}%
 %
 \fl{Jacobi-ákveða}%
 \tya{functional determinant}%
-\ty{Jacobian 1}%
+\ty{Jacobian}%
 \ty{Jacobian determinant}%
 %
 \fl{Jacobi-fylki}%
 \tya{functional matrix}%
-\ty{Jacobian 2}%
+\ty{Jacobian}%
 \ty{Jacobian matrix}%
 %
 \fl{Jacobi-tákn}%
@@ -15763,16 +15763,16 @@ milli þeirra}%
 \fl{Jacobi-ákveða}%
 \tya{Jacobian determinant}%
 \ty{functional determinant}%
-\ty{Jacobian 1}%
+\ty{Jacobian}%
 %
 \fl{Jacobi-fylki}%
 \tya{Jacobian matrix}%
 \ty{functional matrix}%
-\ty{Jacobian 2}%
+\ty{Jacobian}%
 %
 \fl{Jacobi-víðerni}%
 \tya{Jacobian variety}%
-\ty{Jacobian~3}%
+\ty{Jacobian}%
 %
 \fl{Jacobson-rót}%
 \tya{Jacobson radical}%
@@ -15791,7 +15791,7 @@ milli þeirra}%
 \fl{krossmargfeldi}%
 \tya{alternating product}%
 \ty{cross product}%
-\ty{outer product 4}%
+\ty{outer product}%
 \ty{skew product}%
 \ty{vector product}%
 \sh{vigurmargfeldi}%
@@ -15809,7 +15809,7 @@ milli þeirra}%
 \tya{ball}%
 \ty{full sphere}%
 \ty{solid sphere}%
-\ty{sphere 1}%
+\ty{sphere}%
 \sh{hnöttur}%
 \sh{knöttur}%
 %
@@ -15838,7 +15838,7 @@ milli þeirra}%
 \fl{kvíslun}%
 \na%
 \tya{bifurcation}%
-\ty{branching 1}%
+\ty{branching}%
 \ty{forking}%
 \sh{forkun}%
 \sh{tvíkvíslun}%
@@ -15898,7 +15898,7 @@ milli þeirra}%
 %
 \fl{kvísliferli}%
 \tya{branching process}%
-\tv{branching 1}%
+\tv{branching}%
 \sh{kvíslunarferli}%
 %
 \fl{kórbundin}%
@@ -15920,8 +15920,8 @@ milli þeirra}%
 \tya{cap}%
 \ty{spherical calotte}%
 \ty{spherical cap}%
-\ty{spherical zone~1}%
-\ty{zone~1}%
+\ty{spherical zone}%
+\ty{zone}%
 \sh{kúluhetta}%
 %
 \fl{kúfur}%
@@ -15957,7 +15957,7 @@ milli þeirra}%
 \fl{karteskt rúm}%
 \tya{cartesian space}%
 \tv{coordinate space}%
-\tv{euclidean space 1}%
+\tv{euclidean space}%
 \tv{number space}%
 \tv{real number space}%
 \sh{Kartesarrúm}%
@@ -16065,7 +16065,7 @@ milli þeirra}%
 %
 \fl{kenniferill}%
 \tya{characteristic curve}%
-\tv{characteristic 3}%
+\tv{characteristic}%
 %
 \fl{kennijafna}%
 \tya{characteristic equation}%
@@ -16081,7 +16081,7 @@ milli þeirra}%
 %
 \fl{kennimargliða}%
 \tya{characteristic polynomial}%
-\ty{characteristic function 1}%
+\ty{characteristic function}%
 %
 \fl{kennirót}%
 \tya{characteristic root}%
@@ -16092,7 +16092,7 @@ milli þeirra}%
 %
 \fl{kenniflötur}%
 \tya{characteristic surface}%
-\tv{characteristic 3}%
+\tv{characteristic}%
 %
 \fl{kí-dreifing}%
 \na%
@@ -16284,8 +16284,8 @@ milli þeirra}%
 %
 \fl{krossfeldi}%
 \tya{cross product}%
-\ty{alternating product 2}%
-\ty{outer product 4}%
+\ty{alternating product}%
+\ty{outer product}%
 \ty{vector product}%
 \ty{skew product}%
 \sh{krossmargfeldi}%
@@ -16362,7 +16362,7 @@ milli þeirra}%
 %
 \fl{kennitala sviðs}%
 \tya{field characteristic}%
-\tv{characteristic 2}%
+\tv{characteristic}%
 %
 \fl{klofningssvið}%
 \tya{field of decomposition}%
@@ -16414,7 +16414,7 @@ milli þeirra}%
 \na%
 \tya{forking}%
 \ty{bifurcation}%
-\ty{branching 1}%
+\ty{branching}%
 \tv{ramification}%
 \sh{forkun}%
 \sh{tvíkvíslun}%
@@ -16428,7 +16428,7 @@ milli þeirra}%
 \tya{full sphere}%
 \ty{ball}%
 \ty{solid sphere}%
-\ty{sphere 1}%
+\ty{sphere}%
 \sh{hnöttur}%
 \sh{knöttur}%
 %
@@ -16446,7 +16446,7 @@ milli þeirra}%
 %
 \fl{kennir}%
 \tya{group character}%
-\ty{character 1}%
+\ty{character}%
 \sh{grúpukennir}%
 \sh{kennimótun}%
 %
@@ -16467,7 +16467,7 @@ milli þeirra}%
 \fl{kennifall}%
 \tya{indicator function}%
 \ty{indicator}%
-\ty{characteristic function 4}%
+\ty{characteristic function}%
 %
 \fl{kyrrastak}%
 \tya{invariant element}%
@@ -16623,8 +16623,8 @@ milli þeirra}%
 %
 \fl{krossfeldi}%
 \tya{outer product}%
-\ty{alternating product 2}%
-\ty{cross product 1}%
+\ty{alternating product}%
+\ty{cross product}%
 \ty{skew product}%
 \ty{vector product}%
 \sh{krossmargfeldi}%
@@ -16696,7 +16696,7 @@ milli þeirra}%
 \fl{kvíslun}%
 \na%
 \tya{ramification}%
-\ty{branching 2}%
+\ty{branching}%
 %
 \fl{kvíslipunktur}%
 \tya{ramification point}%
@@ -16713,7 +16713,7 @@ milli þeirra}%
 %
 \fl{kassi}%
 \tya{rectangular parallelepiped}%
-\ty{block 2}%
+\ty{block}%
 \sh{kubbur}%
 \sh{rétthyrndur samhliðungur}%
 %
@@ -16770,7 +16770,7 @@ milli þeirra}%
 \na%
 \tya{segment}%
 \ty{spherical layer}%
-\ty{spherical segment 2}%
+\ty{spherical segment}%
 \ty{spherical segment of two bases}%
 %
 \fl{knippi}%
@@ -16788,9 +16788,9 @@ milli þeirra}%
 %
 \fl{krossmargfeldi}%
 \tya{skew product}%
-\ty{alternating product 2}%
-\ty{cross product 1}%
-\ty{outer product 4}%
+\ty{alternating product}%
+\ty{cross product}%
+\ty{outer product}%
 \ty{vector product}%
 \sh{vigurmargfeldi}%
 \sh{krossfeldi}%
@@ -16801,7 +16801,7 @@ milli þeirra}%
 \tya{solid sphere}%
 \ty{ball}%
 \ty{full sphere}%
-\ty{sphere 1}%
+\ty{sphere}%
 \sh{hnöttur}%
 \sh{knöttur}%
 %
@@ -16836,15 +16836,15 @@ milli þeirra}%
 %
 \fl{kúluhattur}%
 \tya{spherical cap}%
-\ty{cap 1}%
+\ty{cap}%
 \ty{spherical calotte}%
-\ty{spherical zone 1}%
-\ty{zone 1}%
+\ty{spherical zone}%
+\ty{zone}%
 \sh{kúluhetta}%
 %
 \fl{kúluhringmiðja}%
 \tya{spherical centre}%
-\ty{pole 4}%
+\ty{pole}%
 %
 \fl{kúluhnit}%
 \tya{spherical coordinates}%
@@ -16872,14 +16872,14 @@ milli þeirra}%
 %
 \fl{kúluhverfing}%
 \tya{spherical inversion}%
-\ty{inversion 3}%
+\ty{inversion}%
 \sh{kúluspeglun}%
 \sh{speglun í kúlu}%
 %
 \fl{kúluskífa}%
 \tya{spherical layer}%
-\ty{segment 7}%
-\ty{spherical segment 2}%
+\ty{segment}%
+\ty{spherical segment}%
 \ty{spherical segment of two bases}%
 %
 \fl{kúluflutningur}%
@@ -16905,25 +16905,25 @@ milli þeirra}%
 %
 \fl{kúlukollur}%
 \tya{spherical segment}%
-\ty{segment 5}%
+\ty{segment}%
 \ty{spherical segment of one base}%
-\tv{spherical zone 1}%
+\tv{spherical zone}%
 \sh{kúlusneið}%
 \sh{sneið}%
 %
 \fl{kúluskífa}%
 \tya{spherical segment}%
-\ty{segment 6}%
+\ty{segment}%
 \ty{spherical layer}%
 \ty{spherical segment of two bases}%
-\tv{spherical zone 2}%
+\tv{spherical zone}%
 %
 \fl{kúluskel}%
 \tya{spherical shell}%
 %
 \fl{kúlusamhverfni}%
 \tya{spherical symmetry}%
-\ty{radial symmetry 1}%
+\ty{radial symmetry}%
 %
 \fl{kúluþríhyrningur}%
 \tya{spherical triangle}%
@@ -16936,20 +16936,20 @@ milli þeirra}%
 %
 \fl{kúluhattur}%
 \tya{spherical zone}%
-\ty{cap 1}%
+\ty{cap}%
 \ty{spherical calotte}%
 \ty{spherical cap}%
-\ty{zone 1}%
+\ty{zone}%
 \sh{kúluhetta}%
 %
 \fl{kúlubelti}%
 \tya{spherical zone}%
-\ty{zone 2}%
+\ty{zone}%
 %
 \fl{kúlurúmfræði}%
 \na%
 \tya{spherics}%
-\ty{spherical geometry 1}%
+\ty{spherical geometry}%
 %
 \fl{kúlulíki}%
 \na%
@@ -16985,7 +16985,7 @@ milli þeirra}%
 \fl{kínversk talnagrind}%
 \na%
 \tya{suan-pan}%
-\tv{abacus~1}%
+\tv{abacus}%
 \tv{calculating frame}%
 \tv{counting frame}%
 \sh{kínversk kúlnagrind}%
@@ -17106,16 +17106,16 @@ milli þeirra}%
 \fl{kúluhattur}%
 \na%
 \tya{zone}%
-\ty{cap 1}%
+\ty{cap}%
 \ty{spherical calotte}%
 \ty{spherical cap}%
-\ty{spherical zone 1}%
+\ty{spherical zone}%
 \sh{kúluhetta}%
 %
 \fl{kúlubelti}%
 \na%
 \tya{zone}%
-\ty{spherical zone 2}%
+\ty{spherical zone}%
 %
 \ns{K}%
 %
@@ -17160,7 +17160,7 @@ milli þeirra}%
 %
 \fl{leggjanet}%
 \tya{adjoint graph}%
-\ty{adjoint 2}%
+\ty{adjoint}%
 \ty{derived graph}%
 \ty{edge graph}%
 \ty{line graph}%
@@ -17173,7 +17173,7 @@ milli þeirra}%
 %
 \fl{línulegur grunnur}%
 \tya{algebraic basis}%
-\ty{basis~2}%
+\ty{basis}%
 \ty{Hamel basis}%
 \ty{linear basis}%
 \ty{vector basis}%
@@ -17193,9 +17193,9 @@ milli þeirra}%
 \ty{incidence axiom}%
 \sh{legufrumsetning}%
 %
-\fl{logri með grunntölu 2}%
+\fl{logri með grunntölu}%
 \tya{binary logarithm}%
-\sh{logri með stofntölu 2}%
+\sh{logri með stofntölu}%
 %
 \fl{líftölfræði}%
 \na%
@@ -17234,7 +17234,7 @@ milli þeirra}%
 \na%
 \tya{chain}%
 \ty{linearly ordered set}%
-\ty{ordered set~2}%
+\ty{ordered set}%
 \ty{serially ordered set}%
 \ty{simply ordered set}%
 \ty{totally ordered set}%
@@ -17263,8 +17263,8 @@ milli þeirra}%
 \ty{closed curve}%
 \ty{closed line}%
 \ty{closed path}%
-\ty{contour~1}%
-\ty{loop~1}%
+\ty{contour}%
+\ty{loop}%
 \sh{lokaður vegur}%
 \sh{lykkja}%
 %
@@ -17300,12 +17300,12 @@ milli þeirra}%
 %
 \fl{lokaður ferill}%
 \tya{closed curve}%
-\ty{circuit 1}%
+\ty{circuit}%
 \ty{closed contour}%
 \ty{closed line}%
 \ty{closed path}%
-\ty{contour 1}%
-\ty{loop 1}%
+\ty{contour}%
+\ty{loop}%
 \sh{lokaður vegur}%
 \sh{lykkja}%
 %
@@ -17319,7 +17319,7 @@ milli þeirra}%
 \fl{lokuð segð}%
 \tya{closed formula}%
 \ty{closed statement}%
-\ty{sentence 2}%
+\ty{sentence}%
 \sh{lokuð fullyrðing}%
 \sh{lokuð yrðing}%
 %
@@ -17332,7 +17332,7 @@ milli þeirra}%
 %
 \fl{lokaður hjúpur}%
 \tya{closed hull}%
-\ty{adherence 2}%
+\ty{adherence}%
 \ty{closure}%
 \tv{hull}%
 \sh{lokun}%
@@ -17366,7 +17366,7 @@ milli þeirra}%
 \fl{lokun}%
 \na%
 \tya{closure}%
-\ty{adherence~2}%
+\ty{adherence}%
 \ty{closed hull}%
 \sh{lokaður hjúpur}%
 %
@@ -17418,12 +17418,12 @@ milli þeirra}%
 \fl{lokaður ferill}%
 \na%
 \tya{contour}%
-\ty{circuit 1}%
+\ty{circuit}%
 \ty{closed contour}%
 \ty{closed curve}%
 \ty{closed line}%
 \ty{closed path}%
-\ty{loop 1}%
+\ty{loop}%
 \sh{lokaður vegur}%
 \sh{lykkja}%
 %
@@ -17464,7 +17464,7 @@ milli þeirra}%
 %
 \fl{líkindaþéttleiki}%
 \tya{density of probability}%
-\ty{density 2}%
+\ty{density}%
 \ty{distribution density}%
 \ty{probability density}%
 \sh{dreifingarþéttleiki}%
@@ -17472,7 +17472,7 @@ milli þeirra}%
 %
 \fl{leggjanet}%
 \tya{derived graph}%
-\ty{adjoint 2}%
+\ty{adjoint}%
 \ty{adjoint graph}%
 \ty{edge graph}%
 \ty{line graph}%
@@ -17492,7 +17492,7 @@ milli þeirra}%
 \fl{liðun}%
 \na%
 \tya{development}%
-\ty{expansion 1}%
+\ty{expansion}%
 %
 \fl{liðun í röð}%
 \tya{development in a series}%
@@ -17512,7 +17512,7 @@ milli þeirra}%
 \fl{leggur}%
 \na%
 \tya{edge}%
-\tv{arc 3}%
+\tv{arc}%
 \tv{directed edge}%
 %
 \fl{leggjalitun}%
@@ -17520,7 +17520,7 @@ milli þeirra}%
 %
 \fl{leggjanet}%
 \tya{edge graph}%
-\ty{adjoint 2}%
+\ty{adjoint}%
 \ty{adjoint graph}%
 \ty{derived graph}%
 \ty{line graph}%
@@ -17560,7 +17560,7 @@ milli þeirra}%
 \fl{liðun}%
 \na%
 \tya{expansion}%
-\ty{development 1}%
+\ty{development}%
 %
 \fl{langsveifarferill}%
 \tya{extended cycloid}%
@@ -17575,7 +17575,7 @@ milli þeirra}%
 \fl{loka-}%
 \ls%
 \tya{final}%
-\ty{coinitial 1}%
+\ty{coinitial}%
 \ty{terminal}%
 %
 \fl{lokaákvörðun}%
@@ -17599,10 +17599,10 @@ milli þeirra}%
 \fl{lægsta stak}%
 \tya{first element}%
 \ty{least element}%
-\ty{minimum 2}%
+\ty{minimum}%
 \ty{minimum element}%
 \ty{smallest element}%
-\tv{min 2}%
+\tv{min}%
 \sh{neðsta stak}%
 \sh{fyrsta stak}%
 \sh{minnsta stak}%
@@ -17636,7 +17636,7 @@ milli þeirra}%
 %
 \fl{línurit}%
 \tya{functional graph}%
-\ty{graph 2}%
+\ty{graph}%
 \sh{fallrit}%
 \sh{varprit}%
 \sh{ferill (falls)}%
@@ -17673,7 +17673,7 @@ milli þeirra}%
 \fl{línurit}%
 \na%
 \tya{graph}%
-\ty{functional graph 1}%
+\ty{functional graph}%
 \sh{fallrit}%
 \sh{varprit}%
 \sh{ferill (falls)}%
@@ -17747,7 +17747,7 @@ milli þeirra}%
 \fl{lausn}%
 \na%
 \tya{integral}%
-\ty{solution 2}%
+\ty{solution}%
 %
 \fl{lausnarferill}%
 \tya{integral curve}%
@@ -17830,7 +17830,7 @@ milli þeirra}%
 \tv{affine line}%
 \tv{auxiliary line}%
 \tv{axis}%
-\tv{base line 1}%
+\tv{base line}%
 \tv{bisecting line}%
 \tv{broken line}%
 \tv{bundle of lines}%
@@ -17884,7 +17884,7 @@ milli þeirra}%
 \fl{lína}%
 \na%
 \tya{line}%
-\tv{base line 2}%
+\tv{base line}%
 \tv{closed line}%
 \tv{continuum}%
 \tv{contour line}%
@@ -17903,7 +17903,7 @@ milli þeirra}%
 %
 \fl{línubundin}%
 \tya{line bundle}%
-\tv{bundle 2}%
+\tv{bundle}%
 \tv{vector bundle}%
 %
 \fl{lengdarfrymi}%
@@ -17913,7 +17913,7 @@ milli þeirra}%
 %
 \fl{leggjanet}%
 \tya{line graph}%
-\ty{adjoint 2}%
+\ty{adjoint}%
 \ty{adjoint graph}%
 \ty{derived graph}%
 \ty{edge graph}%
@@ -17922,7 +17922,7 @@ milli þeirra}%
 %
 \fl{línustrik}%
 \tya{line segment}%
-\ty{segment 4}%
+\ty{segment}%
 \sh{strik}%
 %
 \fl{línulegur}%
@@ -17935,7 +17935,7 @@ milli þeirra}%
 \fl{línulegur grunnur}%
 \tya{linear basis}%
 \ty{algebraic basis}%
-\ty{basis 2}%
+\ty{basis}%
 \ty{Hamel basis}%
 \ty{vector basis}%
 \sh{vigurgrunnur}%
@@ -18002,9 +18002,9 @@ milli þeirra}%
 \fl{línuleg röðun}%
 \tya{linear ordering}%
 \ty{linear order}%
-\ty{order 14}%
-\ty{ordering 2}%
-\ty{order relation 2}%
+\ty{order}%
+\ty{ordering}%
+\ty{order relation}%
 \ty{simple order}%
 \ty{simple ordering}%
 \ty{total order}%
@@ -18086,8 +18086,8 @@ milli þeirra}%
 %
 \fl{línulega raðað mengi}%
 \tya{linearly ordered set}%
-\ty{chain 2}%
-\ty{ordered set 2}%
+\ty{chain}%
+\ty{ordered set}%
 \ty{serially ordered set}%
 \ty{simply ordered set}%
 \ty{totally ordered set}%
@@ -18166,12 +18166,12 @@ milli þeirra}%
 \fl{lokaður ferill}%
 \na%
 \tya{loop}%
-\ty{circuit 1}%
+\ty{circuit}%
 \ty{closed contour}%
 \ty{closed curve}%
 \ty{closed line}%
 \ty{closed path}%
-\ty{contour 1}%
+\ty{contour}%
 \sh{lokaður vegur}%
 \sh{lykkja}%
 %
@@ -18194,7 +18194,7 @@ milli þeirra}%
 \fl{langás}%
 \tya{major axis}%
 \tv{focal axis}%
-\tv{minor axis 2}%
+\tv{minor axis}%
 \tv{principal axis}%
 %
 \fl{landabréf}%
@@ -18273,8 +18273,8 @@ milli þeirra}%
 %
 \fl{lággildissetning}%
 \tya{minimum modulus principle}%
-\ty{minimum principle 1}%
-\ty{principle of minimum 1}%
+\ty{minimum principle}%
+\ty{principle of minimum}%
 \sh{lággildislögmál}%
 \sh{lágalgildissetning}%
 \sh{lágalgildislögmál}%
@@ -18285,14 +18285,14 @@ milli þeirra}%
 \fl{lággildissetning}%
 \tya{minimum principle}%
 \ty{minimum modulus principle}%
-\ty{principle of minimum 1}%
+\ty{principle of minimum}%
 \sh{lággildislögmál}%
 \sh{lágalgildissetning}%
 \sh{lágalgildislögmál}%
 %
 \fl{lággildissetning}%
 \tya{minimum principle}%
-\ty{principle of minimum 2}%
+\ty{principle of minimum}%
 \sh{lággildislögmál}%
 %
 \fl{lágmarksleikáætlun}%
@@ -18314,7 +18314,7 @@ milli þeirra}%
 \fl{lengd}%
 \na%
 \tya{modulus}%
-\tv{absolute value 1}%
+\tv{absolute value}%
 \sh{algildi}%
 \sh{tölugildi}%
 %
@@ -18337,7 +18337,7 @@ milli þeirra}%
 \fl{lota}%
 \na%
 \tya{order}%
-\ty{period 2}%
+\ty{period}%
 \sh{raðstig}%
 %
 \fl{línuleg röðun}%
@@ -18345,8 +18345,8 @@ milli þeirra}%
 \tya{order}%
 \ty{linear order}%
 \ty{linear ordering}%
-\ty{order relation 2}%
-\ty{ordering 2}%
+\ty{order relation}%
+\ty{ordering}%
 \ty{simple order}%
 \ty{simple ordering}%
 \ty{total order}%
@@ -18355,7 +18355,7 @@ milli þeirra}%
 %
 \fl{línulega raðað mengi}%
 \tya{ordered set}%
-\ty{chain 2}%
+\ty{chain}%
 \ty{linearly ordered set}%
 \ty{serially ordered set}%
 \ty{simply ordered set}%
@@ -18368,8 +18368,8 @@ milli þeirra}%
 \tya{ordering}%
 \ty{linear order}%
 \ty{linear ordering}%
-\ty{order 14}%
-\ty{order relation 2}%
+\ty{order}%
+\ty{order relation}%
 \ty{simple order}%
 \ty{simple ordering}%
 \ty{total order}%
@@ -18400,7 +18400,7 @@ milli þeirra}%
 %
 \fl{lauf}%
 \tya{pendant vertex}%
-\ty{leaf 2}%
+\ty{leaf}%
 %
 \fl{lota}%
 \na%
@@ -18451,7 +18451,7 @@ milli þeirra}%
 %
 \fl{lotubundið flökt}%
 \tya{periodic fluctuation}%
-\ty{cycle~8}%
+\ty{cycle}%
 %
 \fl{lotufall}%
 \tya{periodic function}%
@@ -18527,14 +18527,14 @@ milli þeirra}%
 \fl{lággildissetning}%
 \tya{principle of minimum}%
 \ty{minimum modulus principle}%
-\ty{minimum principle 1}%
+\ty{minimum principle}%
 \sh{lággildislögmál}%
 \sh{lágalgildissetning}%
 \sh{lágalgildislögmál}%
 %
 \fl{lággildissetning}%
 \tya{principle of minimum}%
-\ty{minimum principle 2}%
+\ty{minimum principle}%
 \sh{lággildislögmál}%
 %
 \fl{lögmál um annað tveggja}%
@@ -18571,7 +18571,7 @@ milli þeirra}%
 %
 \fl{líkindaþéttleiki}%
 \tya{probability density}%
-\ty{density 2}%
+\ty{density}%
 \ty{density of probability}%
 \ty{distribution density}%
 \sh{dreifingarþéttleiki}%
@@ -18581,14 +18581,14 @@ milli þeirra}%
 \tya{probability density function}%
 \ty{density function}%
 \ty{distribution density function}%
-\ty{probability function 3}%
+\ty{probability function}%
 \tv{relative frequency function}%
 \sh{dreifingarþéttleikafall}%
 \sh{þéttleikafall}%
 %
 \fl{líkindadreifing}%
 \tya{probability distribution}%
-\ty{distribution 3}%
+\ty{distribution}%
 \ty{random distribution}%
 \sh{dreifing}%
 %
@@ -18625,7 +18625,7 @@ milli þeirra}%
 %
 \fl{líkindadreifing}%
 \tya{random distribution}%
-\ty{distribution 3}%
+\ty{distribution}%
 \ty{probability distribution}%
 \sh{dreifing}%
 %
@@ -18691,7 +18691,7 @@ milli þeirra}%
 %
 \fl{leysikjarni}%
 \tya{resolvent kernel}%
-\ty{resolvent 3}%
+\ty{resolvent}%
 %
 \fl{leysimengi}%
 \tya{resolvent set}%
@@ -18699,7 +18699,7 @@ milli þeirra}%
 \fl{lausn}%
 \na%
 \tya{resolving}%
-\ty{solution 3}%
+\ty{solution}%
 \ty{solving}%
 \sh{úrlausn}%
 %
@@ -18785,9 +18785,9 @@ milli þeirra}%
 %
 \fl{línulega raðað mengi}%
 \tya{serially ordered set}%
-\ty{chain 2}%
+\ty{chain}%
 \ty{linearly ordered set}%
-\ty{ordered set 2}%
+\ty{ordered set}%
 \ty{simply ordered set}%
 \ty{totally ordered set}%
 \sh{fullraðað mengi}%
@@ -18802,7 +18802,7 @@ milli þeirra}%
 \fl{lögun}%
 \na%
 \tya{shape}%
-\ty{form 4}%
+\ty{form}%
 \sh{snið}%
 \sh{gerð}%
 \sh{mót}%
@@ -18815,9 +18815,9 @@ milli þeirra}%
 \tya{simple ordering}%
 \ty{linear order}%
 \ty{linear ordering}%
-\ty{order 14}%
-\ty{ordering 2}%
-\ty{order relation 2}%
+\ty{order}%
+\ty{ordering}%
+\ty{order relation}%
 \ty{simple order}%
 \ty{total order}%
 \ty{total ordering}%
@@ -18825,9 +18825,9 @@ milli þeirra}%
 %
 \fl{línulega raðað mengi}%
 \tya{simply ordered set}%
-\ty{chain 2}%
+\ty{chain}%
 \ty{linearly ordered set}%
-\ty{ordered set 2}%
+\ty{ordered set}%
 \ty{serially ordered set}%
 \ty{totally ordered set}%
 \sh{fullraðað mengi}%
@@ -18863,19 +18863,19 @@ milli þeirra}%
 \fl{lausn}%
 \na%
 \tya{solution}%
-\ty{root 2}%
+\ty{root}%
 \tv{result}%
 \sh{rót}%
 %
 \fl{lausn}%
 \na%
 \tya{solution}%
-\ty{integral 2}%
+\ty{integral}%
 %
 \fl{lausn}%
 \na%
 \tya{solution}%
-\ty{resolving 1}%
+\ty{resolving}%
 \ty{solving}%
 \sh{úrlausn}%
 %
@@ -18923,8 +18923,8 @@ milli þeirra}%
 \fl{lausn}%
 \na%
 \tya{solving}%
-\ty{resolving 1}%
-\ty{solution 3}%
+\ty{resolving}%
+\ty{solution}%
 \sh{úrlausn}%
 %
 \fl{líkindafylki}%
@@ -18989,7 +18989,7 @@ lið}%
 \ls%
 \tya{terminal}%
 \ty{final}%
-\ty{coinitial 1}%
+\ty{coinitial}%
 \tv{initial}%
 %
 \fl{lokaákvörðun}%
@@ -19039,9 +19039,9 @@ lið}%
 \tya{total ordering}%
 \ty{linear order}%
 \ty{linear ordering}%
-\ty{order 14}%
-\ty{ordering 2}%
-\ty{order relation 2}%
+\ty{order}%
+\ty{ordering}%
+\ty{order relation}%
 \ty{simple order}%
 \ty{simple ordering}%
 \ty{total order}%
@@ -19049,9 +19049,9 @@ lið}%
 %
 \fl{línulega raðað mengi}%
 \tya{totally ordered set}%
-\ty{chain 2}%
+\ty{chain}%
 \ty{linearly ordered set}%
-\ty{ordered set 2}%
+\ty{ordered set}%
 \ty{serially ordered set}%
 \ty{simply ordered set}%
 \sh{fullraðað mengi}%
@@ -19160,17 +19160,17 @@ lið}%
 \fl{myndmengi}%
 \tya{actual range}%
 \ty{counterdomain}%
-\ty{range 3}%
+\ty{range}%
 \ty{right domain}%
-\tv{latent range~1}%
+\tv{latent range}%
 \sh{seiling}%
 %
 \fl{myndmengi}%
 \tya{actual range}%
-\ty{image 1}%
+\ty{image}%
 \ty{image set}%
-\ty{range 1}%
-\tv{latent range 2}%
+\ty{range}%
+\tv{latent range}%
 \sh{mynd}%
 %
 \fl{mengi}%
@@ -19191,8 +19191,8 @@ lið}%
 \tya{alternating bilinear form}%
 \ty{symplectic bilinear form}%
 \tv{antisymmetric bilinear form}%
-\tv{inner product 2}%
-\tv{scalar product~2}%
+\tv{inner product}%
+\tv{scalar product}%
 \sh{misvíxlið tvílínulegt form}%
 %
 \fl{mishverft fall}%
@@ -19215,7 +19215,7 @@ lið}%
 \fl{misgilding}%
 \na%
 \tya{alternation}%
-\ty{alternative 1}%
+\ty{alternative}%
 \ty{exclusive disjunction}%
 \ty{material non-equivalence}%
 \ty{non-equivalence}%
@@ -19281,9 +19281,9 @@ lið}%
 \fl{meðaltal}%
 \na%
 \tya{average}%
-\ty{mean 1}%
+\ty{mean}%
 \tv{average value}%
-\tv{mean value 1}%
+\tv{mean value}%
 %
 \fl{meðalfrávik}%
 \tya{average deviation}%
@@ -19355,8 +19355,8 @@ lið}%
 %
 \fl{mengjamargfeldi}%
 \tya{cartesian product}%
-\ty{cross product 2}%
-\ty{outer product 2}%
+\ty{cross product}%
+\ty{outer product}%
 \ty{set product}%
 \tv{direct product}%
 \sh{faldmengi}%
@@ -19419,7 +19419,7 @@ lið}%
 \fl{miðjungur}%
 \na%
 \tya{centralizer}%
-\ty{commutant 1}%
+\ty{commutant}%
 %
 \fl{miðja}%
 \na%
@@ -19438,7 +19438,7 @@ lið}%
 \fl{miðja sjónhorfsmyndunar}%
 \tya{centre of perspectivity}%
 \ty{centre of homology}%
-\tv{centre of perspective~1}%
+\tv{centre of perspective}%
 \sh{sjónhorfsmiðja}%
 %
 \fl{miðsettur}%
@@ -19530,7 +19530,7 @@ lið}%
 \na%
 \tya{counterdomain}%
 \ty{actual range}%
-\ty{range 3}%
+\ty{range}%
 \ty{right domain}%
 \tv{codomain}%
 \sh{seiling}%
@@ -19546,7 +19546,7 @@ lið}%
 \fl{mengjamargfeldi}%
 \tya{cross product}%
 \ty{cartesian product}%
-\ty{outer product 2}%
+\ty{outer product}%
 \ty{set product}%
 \tv{direct product}%
 \sh{faldmengi}%
@@ -19592,7 +19592,7 @@ lið}%
 \fl{munur}%
 \na%
 \tya{difference}%
-\ty{remainder 3}%
+\ty{remainder}%
 \Ins{Orðið {\it afgangur} er einkum notað í samhengi sem þessu: {\it If we subtract \(5\)from \(7\) the remainder is \(2\): Þegar \(5\)eru dregnir frá \(7\)er afgangurinn (mismunurinn) \(2\)}%
 \sh{mismunur}%
 \sh{afgangur (í frádrætti)}%
@@ -19601,7 +19601,7 @@ lið}%
 \na%
 \tya{difference}%
 \ty{relative complement}%
-\tv{complement 4}%
+\tv{complement}%
 \sh{mengjamismunur}%
 %
 \fl{mismunajafna}%
@@ -19684,7 +19684,7 @@ lið}%
 %
 \fl{misgilding}%
 \tya{exclusive disjunction}%
-\ty{alternation 2}%
+\ty{alternation}%
 \ty{alternative}%
 \ty{material non-equivalence}%
 \ty{non-equivalence}%
@@ -19753,7 +19753,7 @@ lið}%
 %
 \fl{mynd}%
 \tya{geometric figure}%
-\tv{figure~1}%
+\tv{figure}%
 \tv{plane geometric figure}%
 \sh{rúmmynd}%
 %
@@ -19790,10 +19790,10 @@ lið}%
 \fl{mynd}%
 \na%
 \tya{image}%
-\ty{actual range 2}%
+\ty{actual range}%
 \ty{image set}%
-\ty{range 1}%
-\tv{Im 1}%
+\ty{range}%
+\tv{Im}%
 \sh{myndmengi}%
 %
 \fl{margræð jafna}%
@@ -19806,7 +19806,7 @@ lið}%
 \fl{misleitur}%
 \ls%
 \tya{inhomogeneous}%
-\ty{non-homogeneous 1}%
+\ty{non-homogeneous}%
 %
 \fl{misleit hnit}%
 \tya{inhomogeneous coordinates}%
@@ -19860,10 +19860,10 @@ lið}%
 \fl{minnsta stak}%
 \tya{least element}%
 \ty{first element}%
-\ty{minimum~2}%
+\ty{minimum}%
 \ty{minimum element}%
 \ty{smallest element}%
-\tv{min 2}%
+\tv{min}%
 \sh{lægsta stak}%
 \sh{neðsta stak}%
 \sh{fyrsta stak}%
@@ -19977,7 +19977,7 @@ lið}%
 \tv{estimate}%
 \tv{length}%
 \tv{measure}%
-\tv{modulus 1}%
+\tv{modulus}%
 \tv{norm}%
 \tv{quantity}%
 \tv{volume}%
@@ -19987,7 +19987,7 @@ lið}%
 \ty{transverse axis}%
 \tv{conjugate axis}%
 \tv{focal axis}%
-\tv{minor axis~2}%
+\tv{minor axis}%
 \tv{principal axis}%
 %
 \fl{meginhringur}%
@@ -20038,7 +20038,7 @@ lið}%
 \ls%
 \tya{many-valued}%
 \ty{multiple-valued}%
-\ty{multivalent 2}%
+\ty{multivalent}%
 \ty{multivalued}%
 %
 \fl{marggilt fall}%
@@ -20077,7 +20077,7 @@ lið}%
 %
 \fl{misgilding}%
 \tya{material non-equivalence}%
-\ty{alternation 2}%
+\ty{alternation}%
 \ty{alternative}%
 \ty{exclusive disjunction}%
 \ty{non-equivalence}%
@@ -20088,8 +20088,8 @@ lið}%
 \ty{expectancy}%
 \ty{expectation}%
 \ty{expectation value}%
-\ty{mean 2}%
-\ty{mean value 2}%
+\ty{mean}%
+\ty{mean value}%
 \sh{væntanlegt gildi}%
 \sh{væntigildi}%
 %
@@ -20143,7 +20143,7 @@ lið}%
 %
 \fl{meðalfervik}%
 \tya{mean square deviation}%
-\ty{dispersion 2}%
+\ty{dispersion}%
 \ty{variance}%
 \sh{dreifni}%
 \sh{brigði}%
@@ -20156,8 +20156,8 @@ lið}%
 \fl{meðalgildi}%
 \tya{mean value}%
 \ty{average value}%
-\tv{mean 1}%
-\tv{mean 2}%
+\tv{mean}%
+\tv{mean}%
 %
 \fl{meðalgildiseiginleiki}%
 \tya{mean value property}%
@@ -20211,7 +20211,7 @@ lið}%
 %
 \fl{mælistika}%
 \tya{measuring rule}%
-\ty{rule 2}%
+\ty{rule}%
 %
 \fl{miðgildi}%
 \na%
@@ -20311,8 +20311,8 @@ lið}%
 \tya{minimum element}%
 \ty{first element}%
 \ty{least element}%
-\ty{minimum 2}%
-\tv{min 2}%
+\ty{minimum}%
+\tv{min}%
 \sh{lægsta stak}%
 \sh{neðsta stak}%
 \sh{fyrsta stak}%
@@ -20320,9 +20320,9 @@ lið}%
 \fl{mínus}%
 \na%
 \tya{minus}%
-\ty{minus mark 1}%
-\ty{minus sign 1}%
-\ty{minus symbol 1}%
+\ty{minus mark}%
+\ty{minus sign}%
+\ty{minus symbol}%
 \ty{negative sign}%
 \sh{mínusmerki}%
 \sh{mínusformerki}%
@@ -20331,9 +20331,9 @@ lið}%
 \fl{mínus}%
 \na%
 \tya{minus}%
-\ty{minus mark 2}%
-\ty{minus sign 2}%
-\ty{minus symbol 2}%
+\ty{minus mark}%
+\ty{minus sign}%
+\ty{minus symbol}%
 \ty{sign of subtraction}%
 \ty{subtraction sign}%
 \sh{mínusmerki}%
@@ -20344,7 +20344,7 @@ lið}%
 \tya{minute}%
 \tv{centesimal minute}%
 \tv{sexagesimal minute}%
-\tv{min 3}%
+\tv{min}%
 %
 \fl{mátform}%
 \tya{modular form}%
@@ -20519,7 +20519,7 @@ lið}%
 %
 \fl{margfaldur punktur}%
 \tya{multiple point}%
-\ty{singular point 3}%
+\ty{singular point}%
 %
 \fl{margföld rakning}%
 \tya{multiple recursion}%
@@ -20553,7 +20553,7 @@ lið}%
 \ls%
 \tya{multiple-valued}%
 \ty{many-valued}%
-\ty{multivalent 2}%
+\ty{multivalent}%
 \ty{multivalued}%
 %
 \fl{marggilt fall}%
@@ -20646,9 +20646,9 @@ lið}%
 %
 \fl{margföldunarumhverfa}%
 \tya{multiplicative inverse}%
-\ty{reciprocal 1}%
-\ty{reciprocal element 1}%
-\tv{inverse~4}%
+\ty{reciprocal}%
+\ty{reciprocal element}%
+\tv{inverse}%
 \sh{margföldunarandhverfa}%
 \sh{umhverfa}%
 %
@@ -20707,7 +20707,7 @@ lið}%
 \tya{multivalued}%
 \ty{many-valued}%
 \ty{multiple-valued}%
-\ty{multivalent 2}%
+\ty{multivalent}%
 %
 \fl{marggilt fall}%
 \tya{multivalued function}%
@@ -20748,10 +20748,10 @@ lið}%
 %
 \fl{mínus}%
 \tya{negative sign}%
-\ty{minus 1}%
-\ty{minus mark 1}%
-\ty{minus sign 1}%
-\ty{minus symbol~1}%
+\ty{minus}%
+\ty{minus mark}%
+\ty{minus sign}%
+\ty{minus symbol}%
 \sh{mínusmerki}%
 \sh{mínusformerki}%
 \sh{neikvætt formerki}%
@@ -20759,7 +20759,7 @@ lið}%
 \fl{misgilding}%
 \na%
 \tya{non-equivalence}%
-\ty{alternation 2}%
+\ty{alternation}%
 \ty{alternative}%
 \ty{exclusive disjunction}%
 \ty{material non-equivalence}%
@@ -20768,7 +20768,7 @@ lið}%
 \fl{misleitur}%
 \ls%
 \tya{non-homogeneous}%
-\ty{inhomogeneous 1}%
+\ty{inhomogeneous}%
 %
 \fl{minnkandi}%
 \ls%
@@ -20828,7 +20828,7 @@ lið}%
 \fl{mengjamargfeldi}%
 \tya{outer product}%
 \ty{cartesian product}%
-\ty{cross product 2}%
+\ty{cross product}%
 \ty{set product}%
 \tv{direct product}%
 \sh{faldmengi}%
@@ -20837,7 +20837,7 @@ lið}%
 %
 \fl{mat}%
 \tya{parametric estimation}%
-\ty{estimation 2}%
+\ty{estimation}%
 \sh{stikabundið mat}%
 %
 \fl{markgildistaka}%
@@ -20845,7 +20845,7 @@ lið}%
 %
 \fl{miðþverill}%
 \tya{perpendicular bisector}%
-\ty{mid-perpendicular 3}%
+\ty{mid-perpendicular}%
 \ty{right bisector}%
 \tv{bisector}%
 %
@@ -20977,7 +20977,7 @@ lið}%
 %
 \fl{margliða með mörgum breytum}%
 \tya{polynomial in several variables}%
-\ty{multinomial 2}%
+\ty{multinomial}%
 %
 \fl{margliðuaðhvarf}%
 \tya{polynomial regression}%
@@ -21144,35 +21144,35 @@ lið}%
 \fl{myndmengi}%
 \na%
 \tya{range}%
-\ty{actual range 2}%
-\ty{image 1}%
+\ty{actual range}%
+\ty{image}%
 \ty{image set}%
 \sh{mynd}%
 %
 \fl{myndmengi}%
 \na%
 \tya{range}%
-\ty{actual range 1}%
+\ty{actual range}%
 \ty{counterdomain}%
 \ty{right domain}%
-\tv{range carrier 1}%
+\tv{range carrier}%
 \sh{seiling}%
 %
 \fl{möskvi}%
 \na%
 \tya{region}%
-\ty{face 3}%
+\ty{face}%
 %
 \fl{mengjamunur}%
 \tya{relative complement}%
-\ty{difference 2}%
-\tv{complement 4}%
+\ty{difference}%
+\tv{complement}%
 \sh{mengja\-mis\-mun\-ur}%
 %
 \fl{munur}%
 \na%
 \tya{remainder}%
-\ty{difference 1}%
+\ty{difference}%
 \Ins{Orðið {\it afgangur} er einkum notað í samhengi sem þessu: 
 {\it If 
 we subtract \(5\)from \(7\) the remainder is \(2\): Þegar \(5\)eru 
@@ -21187,15 +21187,15 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{miðþverill}%
 \tya{right bisector}%
-\ty{mid-per\-pen\-dicular 3}%
+\ty{mid-per\-pen\-dicular}%
 \ty{perpendicular bisector}%
 %
 \fl{myndmengi}%
 \tya{right domain}%
-\ty{actual range 1}%
+\ty{actual range}%
 \ty{counterdomain}%
-\ty{range 3}%
-\tv{range carrier 1}%
+\ty{range}%
+\tv{range carrier}%
 \sh{seiling}%
 %
 \fl{markgildi frá hægri}%
@@ -21250,9 +21250,9 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{mengi}%
 \na%
 \tya{set}%
-\ty{aggregate 2}%
+\ty{aggregate}%
 \tv{assemblage}%
-\tv{class 1}%
+\tv{class}%
 \tv{collection}%
 \tv{point set}%
 %
@@ -21276,8 +21276,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{mengjamargfeldi}%
 \tya{set product}%
 \ty{cartesian product}%
-\ty{cross product 2}%
-\ty{outer product 2}%
+\ty{cross product}%
+\ty{outer product}%
 \tv{direct product}%
 \sh{faldmengi}%
 \sh{Kartesarmargfeldi}%
@@ -21293,7 +21293,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{mengjahlutvera}%
 \na%
 \tya{set-inclusion}%
-\tv{inclusion~1}%
+\tv{inclusion}%
 %
 \fl{mengjafræðilegur}%
 \ls%
@@ -21355,9 +21355,9 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{smallest element}%
 \ty{first element}%
 \ty{least element}%
-\ty{minimum 2}%
+\ty{minimum}%
 \ty{minimum element}%
-\tv{min 2}%
+\tv{min}%
 \sh{lægsta stak}%
 \sh{neðsta stak}%
 \sh{fyrsta stak}%
@@ -21371,7 +21371,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{mið (punkts) við kúlu}%
 \tya{spherical power}%
-\tv{power 2}%
+\tv{power}%
 \sh{veldi (punkts) við kúlu}%
 %
 \fl{mynstur}%
@@ -21388,8 +21388,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{symplectic bilinear form}%
 \ty{alternating bilinear form}%
 \tv{antisymmetric bilinear form}%
-\tv{inner product 2}%
-\tv{scalar product 2}%
+\tv{inner product}%
+\tv{scalar product}%
 \sh{misvíxlið tvílínulegt form}%
 %
 \fl{málskipanarbreyta}%
@@ -21417,10 +21417,10 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{meginás}%
 \tya{transverse axis}%
-\ty{major axis 2}%
+\ty{major axis}%
 \tv{conjugate axis}%
 \tv{focal axis}%
-\tv{minor axis 2}%
+\tv{minor axis}%
 \tv{principal axis}%
 %
 \fl{misstór}%
@@ -21443,7 +21443,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{meðalfervik}%
 \na%
 \tya{variance}%
-\ty{dispersion 2}%
+\ty{dispersion}%
 \ty{mean square deviation}%
 \sh{dreifni}%
 \sh{brigði}%
@@ -21468,7 +21468,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{Möbíusarrúmfræði}%
 \tya{inversive geometry}%
-\ty{conformal geometry 1}%
+\ty{conformal geometry}%
 \ty{Möbius geometry}%
 \sh{hringarúmfræði}%
 %
@@ -21499,7 +21499,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{Möbíusarrúmfræði}%
 \tya{Möbius geometry}%
-\ty{conformal geometry 1}%
+\ty{conformal geometry}%
 \ty{inversive geometry}%
 \sh{hringarúmfræði}%
 %
@@ -21545,16 +21545,16 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{nykurrúm}%
 \tya{adjoint space}%
-\ty{adjoint 6}%
-\ty{conjugate 6}%
+\ty{adjoint}%
+\ty{conjugate}%
 \ty{conjugate space}%
-\ty{dual 1}%
+\ty{dual}%
 \ty{dual space}%
 %
 \fl{næstum öruggur}%
 \tya{almost certain}%
 \ty{almost sure}%
-\sh{öruggur með líkindum 1}%
+\sh{öruggur með líkindum}%
 %
 \fl{næstum alls staðar}%
 \tya{almost everywhere}%
@@ -21676,7 +21676,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{nýmínúta}%
 \tya{centesimal minute}%
-\tv{min 1}%
+\tv{min}%
 %
 \fl{nýsekúnda}%
 \tya{centesimal second}%
@@ -21696,7 +21696,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{nálægð}%
 \na%
 \tya{closeness}%
-\ty{accuracy 3}%
+\ty{accuracy}%
 \sh{nánd}%
 %
 \fl{nákvæmt deildi}%
@@ -21714,17 +21714,17 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{nykurrúm}%
 \tya{conjugate space}%
-\ty{adjoint 6}%
+\ty{adjoint}%
 \ty{adjoint space}%
-\ty{conjugate 6}%
+\ty{conjugate}%
 \ty{dual space}%
-\ty{dual 1}%
+\ty{dual}%
 %
 \fl{niðurstaða}%
 \na%
 \tya{consequent}%
-\ty{succedent 1}%
-\tv{antecedent 1}%
+\ty{succedent}%
+\tv{antecedent}%
 %
 \fl{nálgunarbrot}%
 \na%
@@ -21734,7 +21734,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{nafla ({\it hk.})}%
 \tya{del operator}%
 \ty{del}%
-\ty{Hamiltonian 2}%
+\ty{Hamiltonian}%
 \ty{nabla}%
 \ty{nabla operator}%
 \sh{naflavirki}%
@@ -21750,8 +21750,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{niðurstigningaraðferð}%
 \tya{descent method}%
-\ty{descent 2}%
-\ty{method of descent 2}%
+\ty{descent}%
+\ty{method of descent}%
 %
 \fl{normleg hlutgrúpa}%
 \tya{distinguished subgroup}%
@@ -21817,11 +21817,11 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{nykurrúm}%
 \tya{dual space}%
-\ty{adjoint 6}%
+\ty{adjoint}%
 \ty{adjoint space}%
-\ty{conjugate 6}%
+\ty{conjugate}%
 \ty{conjugate space}%
-\ty{dual 1}%
+\ty{dual}%
 \tv{dual vector space}%
 %
 \fl{nykursetning}%
@@ -21924,7 +21924,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{nýgráða}%
 \na%
 \tya{grad}%
-\ty{grade 1}%
+\ty{grade}%
 %
 \fl{net}%
 \na%
@@ -21941,7 +21941,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \ty{infimum}%
 \tv{bound}%
 \tv{lower bound}%
-\tv{meet~1}%
+\tv{meet}%
 \sh{lágmark}%
 %
 \fl{nafla ({\it hk.})}%
@@ -21955,7 +21955,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{núllsamtoga}%
 \tya{homotopically trivial}%
-\ty{in\-es\-sen\-tial 2}%
+\ty{in\-es\-sen\-tial}%
 \ty{null homotopic}%
 \ty{nullhomotopic}%
 %
@@ -21968,7 +21968,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{næsti eftirkomandi}%
 \tya{immediate successor}%
 \ty{direct successor}%
-\ty{sequent 1}%
+\ty{sequent}%
 \sh{beinn eftirkomandi}%
 %
 \fl{núllsamtoga}%
@@ -21991,7 +21991,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{infimum}%
 \ty{greatest lower bound}%
 \tv{inf}%
-\tv{meet 1}%
+\tv{meet}%
 \sh{lágmark}%
 %
 \fl{normleg hlutgrúpa}%
@@ -22091,8 +22091,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{niðurstigning}%
 \tya{method of descent}%
-\ty{descent 2}%
-\ty{descent method 2}%
+\ty{descent}%
+\ty{descent method}%
 \sh{niðurstigningaraðferð}%
 %
 \fl{neðsta gildi}%
@@ -22128,7 +22128,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{nabla operator}%
 \ty{del}%
 \ty{del operator}%
-\ty{Hamiltonian 2}%
+\ty{Hamiltonian}%
 \ty{nabla}%
 \sh{naflavirki}%
 %
@@ -22383,7 +22383,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{null}%
 \ty{additive identity}%
 \ty{null element}%
-\ty{zero 1}%
+\ty{zero}%
 \ty{zero element}%
 \sh{núll}%
 \sh{samlagningarhlutleysa}%
@@ -22391,12 +22391,12 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{núll}%
 \na%
 \tya{null}%
-\ty{zero 2}%
+\ty{zero}%
 %
 \fl{núllstöð}%
 \na%
 \tya{null}%
-\ty{zero 3}%
+\ty{zero}%
 %
 \fl{núllfall}%
 \tya{null function}%
@@ -22456,7 +22456,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \ls%
 \tya{nullhomotopic}%
 \ty{homotopically trivial}%
-\ty{inessential 2}%
+\ty{inessential}%
 \ty{null homotopic}%
 %
 \fl{núllrót}%
@@ -22494,7 +22494,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{nákvæmni}%
 \na%
 \tya{precision}%
-\ty{accuracy 1}%
+\ty{accuracy}%
 \sh{hittni}%
 %
 \fl{nykurlögmál}%
@@ -22505,7 +22505,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{result}%
 \ty{outcome}%
-\tv{solution 3}%
+\tv{solution}%
 \sh{útkoma}%
 %
 \fl{neikvæður snúningur}%
@@ -22554,8 +22554,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{niðurstaða}%
 \na%
 \tya{succedent}%
-\ty{consequent~1}%
-\tv{antecedent~1}%
+\ty{consequent}%
+\tv{antecedent}%
 %
 \fl{nægjanleiki}%
 \na%
@@ -22620,7 +22620,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{zero}%
 \ty{additive identity}%
-\ty{null 1}%
+\ty{null}%
 \ty{null element}%
 \ty{zero element}%
 \sh{núll}%
@@ -22629,12 +22629,12 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{núll}%
 \na%
 \tya{zero}%
-\ty{null 2}%
+\ty{null}%
 %
 \fl{núllstöð}%
 \na%
 \tya{zero}%
-\ty{null 3}%
+\ty{null}%
 %
 \fl{núlldeilir}%
 \tya{zero divisor}%
@@ -22675,7 +22675,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{núllvigur}%
 \tya{zero vector}%
-\ty{null vector~1}%
+\ty{null vector}%
 \sh{núllvektor}%
 %
 \fl{núllvíður}%
@@ -22710,7 +22710,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{ofhorn}%
 \tya{angular excess}%
-\ty{excess 1}%
+\ty{excess}%
 \tv{angular defect}%
 %
 \fl{oddsvigi}%
@@ -22725,7 +22725,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{ofanvarpsmiðja}%
 \tya{centre of projection}%
-\ty{centre of perspective 2}%
+\ty{centre of perspective}%
 \sh{varpmiðja}%
 %
 \fl{opinn og lokaður}%
@@ -22784,19 +22784,19 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{oddstæður}%
 \ls%
 \tya{odd}%
-\tv{even~1}%
+\tv{even}%
 %
 \fl{odda-}%
 \ls%
 \tya{odd}%
-\tv{even~2}%
+\tv{even}%
 \sh{ójafn}%
 \sh{hvass}%
 %
 \fl{oddstæður}%
 \ls%
 \tya{odd}%
-\tv{even~3}%
+\tv{even}%
 %
 \fl{oddatala}%
 \tya{odd number}%
@@ -22822,8 +22822,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{opinn grunnur}%
 \tya{open base}%
-\ty{base 2}%
-\ty{basis 1}%
+\ty{base}%
+\ty{basis}%
 \sh{grunnur}%
 %
 \fl{opin þakning}%
@@ -22857,7 +22857,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{opið mengi}%
 \tya{open set}%
 \ty{open subset}%
-\ty{region 3}%
+\ty{region}%
 \sh{opið hlutmengi}%
 %
 \fl{opinn forgrunnur}%
@@ -22902,7 +22902,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{ofanvarpi}%
 \tya{projection operator}%
-\ty{projector 1}%
+\ty{projector}%
 \tv{projection}%
 \sh{ofanvarp}%
 %
@@ -23001,8 +23001,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{plús}%
 \tya{addition sign}%
-\ty{plus 1}%
-\ty{plus sign 1}%
+\ty{plus}%
+\ty{plus sign}%
 \ty{sign of addition}%
 \tv{summation sign}%
 \sh{plúsmerki}%
@@ -23017,7 +23017,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{prófhending}%
 \tya{critical function}%
-\ty{test function~2}%
+\ty{test function}%
 %
 \fl{punktur sem er ekki hvarfpunktur}%
 \tya{non-critical point}%
@@ -23055,7 +23055,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{plus}%
 \ty{addition sign}%
-\ty{plus sign 1}%
+\ty{plus sign}%
 \ty{sign of addition}%
 \tv{summation sign}%
 \sh{plúsmerki}%
@@ -23064,7 +23064,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{plúsformerki}%
 \na%
 \tya{plus}%
-\ty{plus sign 2}%
+\ty{plus sign}%
 \ty{positive sign}%
 \sh{jákvætt formerki}%
 %
@@ -23285,7 +23285,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{Phragmén-Lindelöf-fall}%
 \tya{Phragmén-Lindelöf function}%
-\ty{indicator function~2}%
+\ty{indicator function}%
 \sh{vísifall}%
 %
 \fl{Poisson-dreifing}%
@@ -23343,12 +23343,12 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \ty{nomograph}%
 \ty{nomographic chart}%
 \ty{nomogram}%
-\ty{map~3}%
+\ty{map}%
 %
 \fl{raunfágaður}%
 \ls%
 \tya{analytic}%
-\ty{analytical 2}%
+\ty{analytical}%
 \ty{real analytic}%
 %
 \fl{raunfágað fall}%
@@ -23388,7 +23388,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{reikningsaðgerð}%
 \tya{arithmetic operation}%
-\tv{elementary operation 1}%
+\tv{elementary operation}%
 \sh{grunnreikningsaðgerð}%
 %
 \fl{reikningsdæmi}%
@@ -23503,11 +23503,11 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \ty{closed edge sequence}%
 \ty{closed edge progression}%
 \ty{closed walk}%
-\ty{cycle~2}%
+\ty{cycle}%
 %
 \fl{rás}%
 \tya{circular permutation}%
-\ty{cycle~9}%
+\ty{cycle}%
 \ty{cyclic permutation}%
 \sh{rásuð uppstokkun}%
 \sh{rásuð umröðun}%
@@ -23519,15 +23519,15 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{rás}%
 \tya{closed chain}%
-\ty{cycle 5}%
+\ty{cycle}%
 \sh{lokuð keðja}%
 %
 \fl{rás}%
 \tya{closed edge sequence}%
-\ty{circuit 3}%
+\ty{circuit}%
 \ty{closed edge progression}%
 \ty{closed walk}%
-\ty{cycle 2}%
+\ty{cycle}%
 %
 \fl{raðfylgnistuðull}%
 \tya{coefficient of rank correlation}%
@@ -23570,7 +23570,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{reiknivél}%
 \tya{computing machine}%
 \ty{calculating machine}%
-\ty{calculator 1}%
+\ty{calculator}%
 \sh{reiknir}%
 %
 \fl{reikniregla}%
@@ -23593,12 +23593,12 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{rót ({\it hk.})}%
 \na%
 \tya{curl}%
-\ty{rotation~3}%
+\ty{rotation}%
 %
 \fl{rás}%
 \na%
 \tya{cycle}%
-\ty{circuit~3}%
+\ty{circuit}%
 \ty{closed edge sequence}%
 \ty{closed edge progression}%
 \ty{closed walk}%
@@ -23637,7 +23637,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{rás}%
 \tya{cyclic permutation}%
 \ty{circular permutation}%
-\ty{cycle 9}%
+\ty{cycle}%
 \sh{rásuð uppstokkun}%
 \sh{rásuð umröðun}%
 %
@@ -23765,7 +23765,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{rammi}%
 \na%
 \tya{frame}%
-\tv{basis 4}%
+\tv{basis}%
 %
 \fl{rammasvið}%
 \tya{frame field}%
@@ -23859,10 +23859,10 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{reglulegur sérstöðupunktur}%
 \tya{inessential singularity}%
-\ty{point of determinacy 2}%
+\ty{point of determinacy}%
 \ty{point of determination}%
-\ty{regular singular point 2}%
-\ty{regular singularity 2}%
+\ty{regular singular point}%
+\ty{regular singularity}%
 %
 \fl{rökleiðsluregla}%
 \tya{inference rule}%
@@ -23958,7 +23958,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \ty{nomo\-gram}%
 \ty{nomograph}%
 \ty{nomographic chart}%
-\ty{map 3}%
+\ty{map}%
 %
 \fl{rökfesta}%
 \tya{mathematical rigor}%
@@ -23974,11 +23974,11 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{meaningful formula}%
 \ty{well-formed formula}%
 \tv{expression}%
-\tv{formula 2}%
+\tv{formula}%
 \tv{meaningful expression}%
-\tv{proposition 1}%
-\tv{sentence 1}%
-\tv{statement 2}%
+\tv{proposition}%
+\tv{sentence}%
+\tv{statement}%
 \sh{segð}%
 %
 \fl{risaðferð}%
@@ -24013,7 +24013,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \ty{alignment chart}%
 \ty{nomograph}%
 \ty{nomographic chart}%
-\ty{map~3}%
+\ty{map}%
 %
 \fl{reiknimyndafræði}%
 \na%
@@ -24057,8 +24057,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{röðun}%
 \na%
 \tya{order}%
-\ty{order relation 1}%
-\ty{ordering 1}%
+\ty{order relation}%
+\ty{ordering}%
 \ty{partial order}%
 \ty{partial ordering}%
 \sh{hlutröðun}%
@@ -24144,7 +24144,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{ordered pair}%
 \ty{couple}%
 \ty{ordered couple}%
-\ty{pair~1}%
+\ty{pair}%
 \sh{tvennd}%
 \sh{röðuð tvennd}%
 %
@@ -24181,8 +24181,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{röðun}%
 \na%
 \tya{ordering}%
-\ty{order 13}%
-\ty{order relation 1}%
+\ty{order}%
+\ty{order relation}%
 \ty{partial order}%
 \ty{partial ordering}%
 \tv{arrangement}%
@@ -24219,7 +24219,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{réttsýnishringur}%
 \tya{orthoptic circle}%
-\ty{director circle 2}%
+\ty{director circle}%
 %
 \fl{reikul runa}%
 \tya{oscillating sequence}%
@@ -24248,9 +24248,9 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{röðun}%
 \tya{partial ordering}%
-\ty{order 13}%
-\ty{order relation 1}%
-\ty{ordering~1}%
+\ty{order}%
+\ty{order relation}%
+\ty{ordering}%
 \ty{partial order}%
 \sh{raðvensl}%
 \sh{hlutröðun}%
@@ -24261,7 +24261,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{raðað mengi}%
 \tya{partially ordered set}%
-\ty{ordered set~1}%
+\ty{ordered set}%
 \ty{poset}%
 \sh{raðmengi}%
 \sh{hlutraðað mengi}%
@@ -24279,7 +24279,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{raðstig}%
 \na%
 \tya{period}%
-\ty{order 10}%
+\ty{order}%
 \sh{lota}%
 %
 \fl{reglulegur margflötungur}%
@@ -24291,16 +24291,16 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{reglulegur sérstöðupunktur}%
 \tya{point of determinacy}%
-\ty{inessential singular point~2}%
-\ty{inessential singularity 2}%
+\ty{inessential singular point}%
+\ty{inessential singularity}%
 \ty{point of determination}%
-\ty{regular singular point 2}%
-\ty{regular singularity 2}%
+\ty{regular singular point}%
+\ty{regular singularity}%
 %
 \fl{raðað mengi}%
 \na%
 \tya{poset}%
-\ty{ordered set 1}%
+\ty{ordered set}%
 \ty{partially ordered set}%
 \sh{raðmengi}%
 \sh{hlutraðað mengi}%
@@ -24316,15 +24316,15 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{progression}%
 \tv{arithmetic progression}%
 \tv{geometric progression}%
-\tv{sequence 1}%
-\tv{sequence 2}%
+\tv{sequence}%
+\tv{sequence}%
 \sh{töluhlaup}%
 %
 \fl{rót}%
 \na%
 \tya{radical}%
-\ty{radix 1}%
-\ty{root 1}%
+\ty{radix}%
+\ty{root}%
 \tv{solution by radicals}%
 \tv{surd}%
 %
@@ -24337,7 +24337,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{rótarmerki}%
 \tya{radical sign}%
-\ty{radical 3}%
+\ty{radical}%
 \ty{root sign}%
 %
 \fl{rótarstofn}%
@@ -24347,8 +24347,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{rót}%
 \na%
 \tya{radix}%
-\ty{radical 1}%
-\ty{root 1}%
+\ty{radical}%
+\ty{root}%
 %
 \fl{raðfylgni}%
 \tya{rank correlation}%
@@ -24388,23 +24388,23 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{raunfágaður}%
 \tya{real analytic}%
-\ty{analytic 2}%
+\ty{analytic}%
 %
 \fl{raunfágað fall}%
 \tya{real analytic function}%
-\ty{analytic function 2}%
+\ty{analytic function}%
 %
 \fl{raunfáguð víðátta}%
 \tya{real analytic manifold}%
-\ty{analytic manifold 2}%
+\ty{analytic manifold}%
 %
 \fl{raunfágað rúm}%
 \tya{real analytic space}%
-\ty{analytic space 2}%
+\ty{analytic space}%
 %
 \fl{raunfágað mynstur}%
 \tya{real analytic structure}%
-\ty{analytic structure 2}%
+\ty{analytic structure}%
 %
 \fl{raunlokun}%
 \tya{real closure}%
@@ -24530,7 +24530,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{rakning}%
 \na%
 \tya{recursion}%
-\ty{recurrence 1}%
+\ty{recurrence}%
 \tv{induction}%
 %
 \fl{rakningarformúla}%
@@ -24687,11 +24687,11 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{reglulegur sérstöðupunktur}%
 \tya{regular singular point}%
-\ty{inessential singular point 2}%
-\ty{inessential singularity 2}%
-\ty{point of determinacy 2}%
+\ty{inessential singular point}%
+\ty{inessential singularity}%
+\ty{point of determinacy}%
 \ty{point of determination}%
-\ty{regular singularity 2}%
+\ty{regular singularity}%
 %
 \fl{reglulegt rúm}%
 \tya{regular space}%
@@ -24769,13 +24769,13 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{rót}%
 \na%
 \tya{root}%
-\ty{radical 1}%
-\ty{radix 1}%
+\ty{radical}%
+\ty{radix}%
 %
 \fl{rót}%
 \na%
 \tya{root}%
-\ty{solution 1}%
+\ty{solution}%
 \sh{lausn}%
 %
 \fl{rót}%
@@ -24792,7 +24792,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{rótarmerki}%
 \tya{root sign}%
-\ty{radical 3}%
+\ty{radical}%
 \ty{radical sign}%
 %
 \fl{rótarpróf}%
@@ -24848,13 +24848,13 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{runa}%
 \na%
 \tya{run}%
-\ty{iteration 2}%
+\ty{iteration}%
 \sh{samstæða}%
 %
 \fl{rússnesk talnagrind}%
 \na%
 \tya{schety}%
-\tv{abacus 1}%
+\tv{abacus}%
 \tv{calculating frame}%
 \tv{counting frame}%
 \sh{rússnesk kúlnagrind}%
@@ -25136,7 +25136,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{rótarstæða}%
 \na%
 \tya{surd}%
-\tv{radical 1}%
+\tv{radical}%
 %
 \fl{rökhenda}%
 \na%
@@ -25144,7 +25144,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{reitur (í töflu)}%
 \tya{table cell}%
-\ty{cell 1}%
+\ty{cell}%
 %
 \fl{rim}%
 \na%
@@ -25181,11 +25181,11 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{well-formed formula}%
 \ty{meaningful formula}%
 \tv{expression}%
-\tv{formula 2}%
+\tv{formula}%
 \tv{meaningful expression}%
-\tv{proposition 1}%
-\tv{sentence 1}%
-\tv{statement~2}%
+\tv{proposition}%
+\tv{sentence}%
+\tv{statement}%
 \sh{segð}%
 %
 \ns{R}%
@@ -25265,7 +25265,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{accent}%
 \ty{dash}%
-\ty{prime 3}%
+\ty{prime}%
 \sh{merki}%
 %
 \fl{safnast fyrir}%
@@ -25277,7 +25277,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{addend}%
 \ty{summand}%
-\ty{term 1}%
+\ty{term}%
 \sh{liður}%
 %
 \fl{samlagning}%
@@ -25286,7 +25286,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{samlagningarregla}%
 \tya{addition formula}%
-\ty{addition theorem 1}%
+\ty{addition theorem}%
 %
 \fl{samlagningartafla}%
 \tya{addition table}%
@@ -25310,16 +25310,16 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{samlagningarhlutleysa}%
 \tya{additive identity}%
-\ty{null 1}%
+\ty{null}%
 \ty{null element}%
-\ty{zero~1}%
+\ty{zero}%
 \ty{zero element}%
 \sh{núll\-stak}%
 \sh{núll}%
 %
 \fl{samlagningarumhverfa}%
 \tya{additive inverse}%
-\tv{inverse 4}%
+\tv{inverse}%
 \sh{samlagningarandhverfa}%
 %
 \fl{slembiferli með óháðum viðbótum}%
@@ -25417,7 +25417,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{stæðafjöldi}%
 \na%
 \tya{arity}%
-\ty{rank 4}%
+\ty{rank}%
 %
 \fl{stígandi}%
 \ls%
@@ -25445,8 +25445,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{staðhæfing}%
 \na%
 \tya{assertion}%
-\tv{statement 1}%
-\tv{proposition 1}%
+\tv{statement}%
+\tv{proposition}%
 \tv{sentence}%
 %
 \fl{stjarna}%
@@ -25525,7 +25525,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{axis of revolution}%
 \ty{axis of rotation}%
 \ty{rotational axis}%
-\tv{axis~2}%
+\tv{axis}%
 \sh{möndull}%
 %
 \fl{samhvarfsás}%
@@ -25544,7 +25544,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{spannmengi (íðals)}%
 \na%
 \tya{base}%
-\ty{basis~3}%
+\ty{basis}%
 \ty{ideal base}%
 \ty{ideal basis}%
 \tv{set of generators}%
@@ -25555,7 +25555,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{spannmengi}%
 \na%
 \tya{basis}%
-\ty{base 9}%
+\ty{base}%
 \ty{ideal base}%
 \ty{ideal basis}%
 \tv{set of generators}%
@@ -25626,7 +25626,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{stytta}%
 \sag%
 \tya{cancel}%
-\tv{reduce~1}%
+\tv{reduce}%
 \sh{stytta út}%
 \sh{stytta burt}%
 %
@@ -25640,12 +25640,12 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{styttanlegt stak}%
 \tya{cancellable element}%
-\ty{regular element 2}%
+\ty{regular element}%
 %
 \fl{stytting}%
 \na%
 \tya{cancellation}%
-\tv{reduction 1}%
+\tv{reduction}%
 %
 \fl{styttingarskekkja}%
 \tya{cancellation error}%
@@ -25696,7 +25696,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{skammhlið}%
 \na%
 \tya{cathetus}%
-\ty{leg 2}%
+\ty{leg}%
 \ty{small side}%
 %
 \fl{skýringabreyta}%
@@ -25712,7 +25712,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{sjónhorfsmótun}%
 \tya{central collineation}%
-\ty{homology 1}%
+\ty{homology}%
 \ty{perspective col\-line\-ation}%
 \sh{sjónhorfsfærsla}%
 %
@@ -25881,7 +25881,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{stak}%
 \na%
 \tya{coefficient}%
-\ty{element 1}%
+\ty{element}%
 \ty{entry}%
 \sh{stuðull}%
 %
@@ -25943,7 +25943,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{collineation}%
 \ty{collineatory transformation}%
-\ty{homography 2}%
+\ty{homography}%
 \tv{linear projective mapping}%
 \tv{projectivity}%
 \tv{projective mapping}%
@@ -26001,7 +26001,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{samdeilir}%
 \tya{common divisor}%
-\ty{common measure 2}%
+\ty{common measure}%
 \tv{greatest common divisor}%
 %
 \fl{sameiginlegur þáttur}%
@@ -26052,19 +26052,19 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{samok}%
 \tya{complex conjugate}%
-\ty{conjugate 1}%
+\ty{conjugate}%
 \sh{samoka fall}%
 %
 \fl{samok}%
 \tya{complex conjugate}%
-\ty{conjugate 2}%
+\ty{conjugate}%
 \ty{conjugate complex number}%
 \sh{samoka tala}%
 \sh{samoka tvinntala}%
 %
 \fl{samok}%
 \tya{complex conjugate}%
-\ty{conjugate 3}%
+\ty{conjugate}%
 \sh{samoka fylki}%
 %
 \fl{samokun}%
@@ -26074,14 +26074,14 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{samhengisþáttur}%
 \na%
 \tya{component}%
-\ty{connected component 1}%
+\ty{connected component}%
 \ty{maximal connected subgraph}%
 \sh{þáttur}%
 %
 \fl{samhengisþáttur}%
 \na%
 \tya{component}%
-\ty{connected component 2}%
+\ty{connected component}%
 \sh{þáttur}%
 %
 \fl{skekkjuliður}%
@@ -26267,13 +26267,13 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{samleifa}%
 \ls%
 \tya{congruent}%
-\ty{congruous 1}%
+\ty{congruous}%
 \ty{equiresidual}%
 %
 \fl{samsniða}%
 \ls%
 \tya{congruent}%
-\ty{congruous 2}%
+\ty{congruous}%
 \ty{superposable}%
 \tv{directly congruent}%
 \tv{inversely congruent}%
@@ -26301,13 +26301,13 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{samok}%
 \na%
 \tya{conjugate}%
-\ty{com\-plex conjugate~1}%
+\ty{com\-plex conjugate}%
 \sh{samoka fall}%
 %
 \fl{samok}%
 \na%
 \tya{conjugate}%
-\ty{complex conjugate~2}%
+\ty{complex conjugate}%
 \ty{conjugate complex number}%
 \sh{samoka tvinntala}%
 \sh{samoka tala}%
@@ -26315,7 +26315,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{samok}%
 \na%
 \tya{conjugate}%
-\ty{complex conjugate~3}%
+\ty{complex conjugate}%
 \sh{samoka fylki}%
 %
 \fl{samoka algebruleg tala}%
@@ -26324,8 +26324,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{samoka tvinntala}%
 \tya{conjugate complex number}%
-\ty{complex conjugate 2}%
-\ty{conjugate 2}%
+\ty{complex conjugate}%
+\ty{conjugate}%
 \sh{samok}%
 \sh{samoka tala}%
 %
@@ -26334,7 +26334,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{samoka stak}%
 \tya{conjugate element}%
-\ty{conjugate~4}%
+\ty{conjugate}%
 %
 \fl{samoka þýtt fall}%
 \tya{conjugate harmonic function}%
@@ -26367,13 +26367,13 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{samhengisþáttur}%
 \tya{connected component}%
-\ty{component 1}%
+\ty{component}%
 \ty{maximal connected subgraph}%
 \sh{þáttur}%
 %
 \fl{samhengisþáttur}%
 \tya{connected component}%
-\ty{component 3}%
+\ty{component}%
 \sh{þáttur}%
 %
 \fl{samanhangandi mengi}%
@@ -26524,8 +26524,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{samdreginn þinur}%
 \tya{contracted tensor}%
-\tv{contraction 2}%
-\tv{inner product 3}%
+\tv{contraction}%
+\tv{inner product}%
 %
 \fl{samdrægni}%
 \na%
@@ -26628,7 +26628,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{staðhnitakerfi}%
 \tya{coordinate patch}%
-\ty{chart 1}%
+\ty{chart}%
 \ty{local coordinate system}%
 \tv{local coordinate}%
 \sh{staðhnit}%
@@ -26780,7 +26780,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{dash}%
 \ty{accent}%
-\ty{prime 3}%
+\ty{prime}%
 \ins{\(f'\) lesið {\it \(f\)dash}: \(f\) merkt}%
 \sh{merki}%
 %
@@ -26903,7 +26903,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{skýringarmynd}%
 \na%
 \tya{diagram}%
-\ty{graph 4}%
+\ty{graph}%
 %
 \fl{stafrófsröð}%
 \tya{dictionary order}%
@@ -26929,7 +26929,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{dilatation}%
 \ty{homothety}%
-\ty{mon\-oidal transformation 1}%
+\ty{mon\-oidal transformation}%
 \ty{stretching}%
 \tv{similitude}%
 %
@@ -26957,11 +26957,11 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{stýriferill}%
 \tya{directing curve}%
-\ty{directrix 2}%
+\ty{directrix}%
 %
 \fl{stýrilína}%
 \tya{directing line}%
-\ty{directrix 1}%
+\ty{directrix}%
 %
 \fl{stefna}%
 \na%
@@ -27015,7 +27015,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{stýrihringur}%
 \tya{directrix circle}%
-\ty{director cir\-cle~1}%
+\ty{director cir\-cle}%
 %
 \fl{skúffu\-regla Dirich\-lets}%
 \tya{Dirichlet's box principle}%
@@ -27131,7 +27131,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{svæði}%
 \na%
 \tya{domain}%
-\ty{region 1}%
+\ty{region}%
 %
 \fl{svæðisheildi}%
 \tya{domain integral}%
@@ -27172,14 +27172,14 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{stak}%
 \na%
 \tya{element}%
-\ty{coefficient 1}%
+\ty{coefficient}%
 \ty{entry}%
 \sh{stuðull}%
 %
 \fl{stak}%
 \na%
 \tya{element}%
-\ty{member 1}%
+\ty{member}%
 \sh{íbúi}%
 %
 \fl{sjóndeildarstak}%
@@ -27231,7 +27231,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{sporger rúmfræði}%
 \tya{elliptic geometry}%
-\ty{Riemannian geometry 1}%
+\ty{Riemannian geometry}%
 %
 \fl{sporgert heildi}%
 \tya{elliptic integral}%
@@ -27266,8 +27266,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{stak}%
 \na%
 \tya{entry}%
-\ty{coefficient 1}%
-\ty{element 1}%
+\ty{coefficient}%
+\ty{element}%
 \sh{stuðull}%
 %
 \fl{samur}%
@@ -27282,7 +27282,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{samsemd}%
 \na%
 \tya{equality}%
-\ty{identity~1}%
+\ty{identity}%
 \tv{identity relation}%
 %
 \fl{setja jafnt}%
@@ -27294,14 +27294,14 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{equipotent}%
 \ty{equipollent}%
 \ty{equinumerous}%
-\ty{equivalent 2}%
+\ty{equivalent}%
 \tv{cardinality}%
 %
 \fl{samleifa}%
 \ls%
 \tya{equiresidual}%
 \ty{congruous}%
-\ty{congruent 1}%
+\ty{congruent}%
 %
 \fl{skekkja}%
 \na%
@@ -27362,7 +27362,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{expression}%
 \tv{algebraic expression}%
-\tv{formula 2}%
+\tv{formula}%
 \tv{meaningful expression}%
 \tv{meaningful formula}%
 \tv{well-formed formula}%
@@ -27387,7 +27387,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{spannfjölskylda}%
 \tya{family of generators}%
 \ty{generating family}%
-\ty{system of generators 1}%
+\ty{system of generators}%
 \tv{generating set}%
 \sh{spannandi fjölskylda}%
 %
@@ -27415,7 +27415,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{sviðsútvíkkun}%
 \tya{field extension}%
-\tv{extension 2}%
+\tv{extension}%
 \tv{extension field}%
 \tv{overfield}%
 \sh{sviðsvíkkun}%
@@ -27471,12 +27471,12 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{sveifla}%
 \na%
 \tya{fluctuation}%
-\ty{oscillation 2}%
+\ty{oscillation}%
 %
 \fl{staðalfrávik úrtaks}%
 \na%
 \tya{fluctuation}%
-\ty{standard deviation 2}%
+\ty{standard deviation}%
 %
 \fl{spá}%
 \na%
@@ -27498,14 +27498,14 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{formula}%
 \tv{meaningful formula}%
-\tv{proposition 1}%
-\tv{sentence 1}%
-\tv{statement 2}%
+\tv{proposition}%
+\tv{sentence}%
+\tv{statement}%
 \tv{well-formed formula}%
 %
 \fl{setningin um fjóra hvirfil\-punkta}%
 \tya{four-vertex theorem}%
-\tv{vertex 5}%
+\tv{vertex}%
 %
 \fl{stúfur}%
 \na%
@@ -27538,7 +27538,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{spannfjölskylda}%
 \tya{generating family}%
 \ty{family of generators}%
-\ty{system of generators 1}%
+\ty{system of generators}%
 \tv{generating set}%
 \sh{spannandi fjölskylda}%
 %
@@ -27548,8 +27548,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{spannmengi}%
 \tya{generating set}%
 \ty{set of generators}%
-\ty{system of generators 2}%
-\tv{base 9}%
+\ty{system of generators}%
+\tv{base}%
 \tv{generating family}%
 %
 \fl{spönnuður}%
@@ -27586,7 +27586,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{skýringarmynd}%
 \na%
 \tya{graph}%
-\ty{diagram 2}%
+\ty{diagram}%
 %
 \fl{stórhringur}%
 \tya{great circle}%
@@ -27611,7 +27611,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{greatest element}%
 \ty{largest element}%
 \ty{last element}%
-\ty{maximum 2}%
+\ty{maximum}%
 \ty{maximum element}%
 \tv{max}%
 \sh{efsta stak}%
@@ -27739,7 +27739,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{sviphjávídd}%
 \tya{homological codimension}%
-\ty{depth 1}%
+\ty{depth}%
 \sh{hjá\-vídd}%
 \sh{dýpt}%
 %
@@ -27830,8 +27830,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{spannmengi (íðals)}%
 \tya{ideal base}%
-\ty{base 9}%
-\ty{basis 3}%
+\ty{base}%
+\ty{basis}%
 \ty{ideal basis}%
 \tv{set of generators}%
 \sh{íðalspannmengi}%
@@ -27852,7 +27852,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{sjóndeildarslétta}%
 \tya{ideal plane}%
-\ty{infinite plane~1}%
+\ty{infinite plane}%
 \ty{plane at infinity}%
 %
 \fl{sjóndeildarpunktur}%
@@ -27870,7 +27870,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{samur}%
 \ls%
 \tya{identical}%
-\ty{equal~2}%
+\ty{equal}%
 \ty{identically equal}%
 \tv{same}%
 \sh{alsamur}%
@@ -27878,7 +27878,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{síósanna}%
 \tya{identically false formula}%
-\ty{contradiction 2}%
+\ty{contradiction}%
 %
 \fl{sísanna}%
 \tya{identically true formula}%
@@ -27896,7 +27896,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{samsemd}%
 \na%
 \tya{identity}%
-\ty{equality 2}%
+\ty{equality}%
 \tv{identity relation}%
 %
 \fl{samsemdarvörpun}%
@@ -27908,8 +27908,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{samsemdarvensl}%
 \tya{identity relation}%
-\tv{equality~2}%
-\tv{identity 1}%
+\tv{equality}%
+\tv{identity}%
 %
 \fl{samsemdarsetning}%
 \tya{identity theorem}%
@@ -27995,7 +27995,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{snið}%
 \na%
 \tya{intersection}%
-\ty{meet 2}%
+\ty{meet}%
 \tv{point of intersection}%
 \sh{sniðmengi}%
 \sh{skurðmengi}%
@@ -28021,17 +28021,17 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{skilgreiningarbil}%
 \tya{interval of definition}%
 \tv{argument domain}%
-\tv{domain 4}%
+\tv{domain}%
 \tv{domain of definition}%
 \tv{range of arguments}%
 \tv{set of definition}%
-\tv{source 2}%
+\tv{source}%
 \tv{source set}%
 %
 \fl{spegilsamsniða}%
 \tya{inversely congruent}%
 \ty{oppositely congruent}%
-\tv{congruent 2}%
+\tv{congruent}%
 \tv{directly congruent}%
 \sh{óeiginlega samsniða}%
 %
@@ -28067,7 +28067,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{sjálfþver vigur}%
 \tya{isotropic vector}%
-\ty{null vector~2}%
+\ty{null vector}%
 %
 \fl{sporgert fall Jacobis}%
 \tya{Jacobian elliptic function}%
@@ -28084,7 +28084,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{join}%
 \tv{least upper bound}%
 \tv{lowest upper bound}%
-\tv{meet~1}%
+\tv{meet}%
 \tv{supremum}%
 \sh{ok}%
 %
@@ -28096,7 +28096,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{samneitun}%
 \tya{joint denial}%
 \ty{non-disjunction}%
-\ty{rejection 2}%
+\ty{rejection}%
 \sh{sameiginleg neitun}%
 %
 \fl{samdreifing}%
@@ -28120,7 +28120,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{largest element}%
 \ty{greatest element}%
 \ty{last element}%
-\ty{maximum 2}%
+\ty{maximum}%
 \ty{maximum element}%
 \tv{max}%
 \sh{efsta stak}%
@@ -28185,7 +28185,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{stig}%
 \tya{linear rank}%
-\ty{degree~2}%
+\ty{degree}%
 %
 \fl{staðbundinn}%
 \ls%
@@ -28206,7 +28206,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{staðhnitakerfi}%
 \tya{local coordinate system}%
-\ty{chart 1}%
+\ty{chart}%
 \ty{coordinate patch}%
 \tv{local coordinate}%
 \sh{staðhnit}%
@@ -28214,7 +28214,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{stig}%
 \tya{local degree}%
-\ty{degree 6}%
+\ty{degree}%
 \ty{valency}%
 \ty{vertex degree}%
 \sh{gráða}%
@@ -28237,14 +28237,14 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{staðbundið hágildi}%
 \tya{local maximum}%
-\ty{maximum 1}%
+\ty{maximum}%
 \ty{maximum in the small}%
 \ty{relative maximum}%
 \sh{hágildi}%
 %
 \fl{staðbundið lággildi}%
 \tya{local minimum}%
-\ty{minimum 1}%
+\ty{minimum}%
 \ty{minimum in the small}%
 \ty{relative minimum}%
 \sh{lággildi}%
@@ -28387,7 +28387,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{stærðfræðigreining}%
 \tya{mathematical analysis}%
-\ty{analysis~1}%
+\ty{analysis}%
 \tv{functional analysis}%
 \tv{complex analysis}%
 \tv{real analysis}%
@@ -28427,7 +28427,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{stærðfræðileg bestun}%
 \tya{mathematical programming}%
-\ty{programming 1}%
+\ty{programming}%
 \ty{optimization}%
 \ty{optimizing}%
 \tv{dynamic programming}%
@@ -28460,8 +28460,8 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{samhengisþáttur}%
 \tya{maximal connected subgraph}%
-\ty{component 1}%
-\ty{connected component 1}%
+\ty{component}%
+\ty{connected component}%
 \sh{þáttur}%
 %
 \fl{spannandi tré}%
@@ -28477,7 +28477,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \ty{greatest element}%
 \ty{largest element}%
 \ty{last element}%
-\ty{maximum 2}%
+\ty{maximum}%
 \tv{max}%
 \sh{efsta stak}%
 \sh{hæsta stak}%
@@ -28486,7 +28486,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{staðbundið hágildi}%
 \tya{maximum in the small}%
 \ty{local maximum}%
-\ty{maximum 1}%
+\ty{maximum}%
 \ty{relative maximum}%
 \sh{hágildi}%
 %
@@ -28507,7 +28507,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \tya{meet}%
 \tv{greatest lower bound}%
 \tv{infimum}%
-\tv{join 1}%
+\tv{join}%
 \sh{mót}%
 %
 \fl{sniðmengi}%
@@ -28518,7 +28518,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{stak}%
 \na%
 \tya{member}%
-\ty{element 2}%
+\ty{element}%
 \sh{íbúi}%
 %
 \fl{sennileikaaðferð}%
@@ -28545,13 +28545,13 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{staðbundið lággildi}%
 \tya{minimum in the small}%
 \ty{local minimum}%
-\ty{minimum 1}%
+\ty{minimum}%
 \ty{relative minimum}%
 \sh{lággildi}%
 %
 \fl{skammás}%
 \tya{minor axis}%
-\tv{major axis 1}%
+\tv{major axis}%
 %
 \fl{spegilmynd}%
 \tya{mirror image}%
@@ -28566,7 +28566,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{staðlaður}%
 \ls%
 \tya{monic}%
-\ty{normed 1}%
+\ty{normed}%
 %
 \fl{stöðluð margliða}%
 \tya{monic polynomial}%
@@ -28594,7 +28594,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{strútur}%
 \na%
 \tya{nappe}%
-\ty{sheet 2}%
+\ty{sheet}%
 \tv{lateral surface}%
 %
 \fl{sleppa}%
@@ -28632,7 +28632,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{non-disjunction}%
 \ty{joint denial}%
-\ty{rejection 2}%
+\ty{rejection}%
 \sh{sameiginleg neitun}%
 %
 \fl{sundurlægur}%
@@ -28839,7 +28839,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{spegilsamsniða}%
 \tya{oppositely congruent}%
 \ty{inversely congruent}%
-\tv{congruent 2}%
+\tv{congruent}%
 \tv{directly congruent}%
 \sh{óeiginlega samsniða}%
 %
@@ -28860,7 +28860,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{stærð}%
 \na%
 \tya{order}%
-\ty{size~2}%
+\ty{size}%
 %
 \fl{snertistig}%
 \tya{order of contact}%
@@ -28895,7 +28895,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{sveifla}%
 \na%
 \tya{oscillation}%
-\ty{fluctuation 1}%
+\ty{fluctuation}%
 %
 \fl{skarast}%
 \sag%
@@ -28914,7 +28914,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{sundurlægir tveir og tveir}%
 \tya{pairwise disjoint}%
-\ty{mutually disjoint 2}%
+\ty{mutually disjoint}%
 %
 \fl{spegiltala}%
 \tya{palindromic number}%
@@ -29127,7 +29127,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{sjónhorfsmótun}%
 \tya{perspective collineation}%
 \ty{central collineation}%
-\ty{homology 1}%
+\ty{homology}%
 \tv{perspectivity}%
 \sh{sjónhorfsfærsla}%
 %
@@ -29155,7 +29155,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{skurður}%
 \na%
 \tya{pitch}%
-\ty{parameter 2}%
+\ty{parameter}%
 %
 \fl{sæti}%
 \na%
@@ -29255,7 +29255,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{sléttumynd}%
 \tya{plane geometric figure}%
 \ty{plane figure}%
-\tv{figure 1}%
+\tv{figure}%
 \tv{geometric figure}%
 \sh{flatarmynd}%
 %
@@ -29395,7 +29395,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{staðarvigur}%
 \tya{position vector}%
-\ty{radius vector~1}%
+\ty{radius vector}%
 \sh{stöðuvigur}%
 %
 \fl{sætisritun}%
@@ -29479,7 +29479,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \na%
 \tya{proof}%
 \ty{demonstration}%
-\tv{argument 3}%
+\tv{argument}%
 \tv{deduction}%
 \tv{inference}%
 \tv{logical deduction}%
@@ -29628,12 +29628,12 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 %
 \fl{spönn}%
 \tya{range of variation}%
-\ty{range 5}%
+\ty{range}%
 %
 \fl{sætistala}%
 \na%
 \tya{rank}%
-\ty{ranking~1}%
+\ty{ranking}%
 %
 \fl{stétt}%
 \na%
@@ -29655,7 +29655,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{sætistala}%
 \na%
 \tya{ranking}%
-\ty{rank 1}%
+\ty{rank}%
 %
 \fl{sætisröðun}%
 \na%
@@ -29726,7 +29726,7 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{svæði}%
 \na%
 \tya{region}%
-\ty{domain 1}%
+\ty{domain}%
 %
 \fl{svæðismat}%
 \tya{region estimate}%
@@ -29773,14 +29773,14 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{staðbundið hágildi}%
 \tya{relative maximum}%
 \ty{local maximum}%
-\ty{maximum 1}%
+\ty{maximum}%
 \ty{maximum in the small}%
 \sh{hágildi}%
 %
 \fl{staðbundið lággildi}%
 \tya{relative minimum}%
 \ty{local minimum}%
-\ty{minimum 1}%
+\ty{minimum}%
 \ty{minimum in the small}%
 \sh{lággildi}%
 %
@@ -30063,19 +30063,19 @@ er afgang\-urinn (mismunurinn) \(2\)}%
 \fl{sneið}%
 \na%
 \tya{segment}%
-\ty{spherical segment 1}%
+\ty{spherical segment}%
 \ty{spherical segment of one base}%
 \sh{kúlusneið}%
 \sh{kúlukollur}%
 %
 \fl{snara}%
 \tya{self loop}%
-\ty{loop 3}%
+\ty{loop}%
 %
 \fl{sjálfoka}%
 \ls%
 \tya{self-adjoint}%
-\tv{adjoint 2}%
+\tv{adjoint}%
 \tv{hermitian}%
 \sh{sjálftengdur}%
 %
@@ -30157,8 +30157,8 @@ setja upp jöfnu}%
 \fl{spannmengi}%
 \tya{set of generators}%
 \ty{generating set}%
-\ty{system of generators 2}%
-\tv{base 9}%
+\ty{system of generators}%
+\tv{base}%
 \tv{generating family}%
 %
 \fl{sextándakerfi}%
@@ -30207,7 +30207,7 @@ setja upp jöfnu}%
 \fl{skekking}%
 \na%
 \tya{shear}%
-\ty{transvection 2}%
+\ty{transvection}%
 %
 \fl{strútur}%
 \na%
@@ -30257,8 +30257,8 @@ setja upp jöfnu}%
 \fl{samlagningarmerki}%
 \tya{sign of addition}%
 \ty{addition sign}%
-\ty{plus 1}%
-\ty{plus sign 1}%
+\ty{plus}%
+\ty{plus sign}%
 \tv{summation sign}%
 \sh{plús}%
 \sh{plúsmerki}%
@@ -30345,7 +30345,7 @@ setja upp jöfnu}%
 %
 \fl{sérstöðupunktur}%
 \tya{singular point}%
-\ty{singularity 2}%
+\ty{singularity}%
 \tv{isolated singular point}%
 %
 \fl{sérlausn}%
@@ -30359,7 +30359,7 @@ setja upp jöfnu}%
 \fl{sérstöðupunktur}%
 \na%
 \tya{singularity}%
-\ty{singular point 1}%
+\ty{singular point}%
 %
 \fl{sínusferill}%
 \na%
@@ -30375,7 +30375,7 @@ setja upp jöfnu}%
 \fl{stærð}%
 \na%
 \tya{size}%
-\ty{order 8}%
+\ty{order}%
 %
 \fl{spannandi tré}%
 \na%
@@ -30405,7 +30405,7 @@ setja upp jöfnu}%
 %
 \fl{skáhæð}%
 \tya{slant height}%
-\ty{apothem 1}%
+\ty{apothem}%
 %
 \fl{smáhringur}%
 \tya{small circle}%
@@ -30414,7 +30414,7 @@ setja upp jöfnu}%
 \fl{skammhlið}%
 \tya{small side}%
 \ty{cathetus}%
-\ty{leg 2}%
+\ty{leg}%
 %
 \fl{snúður}%
 \tya{solid of revolution}%
@@ -30571,11 +30571,11 @@ setja upp jöfnu}%
 %
 \fl{staðalfrávik úrtaks}%
 \tya{standard deviation}%
-\ty{fluctuation 2}%
+\ty{fluctuation}%
 %
 \fl{staðaljafna}%
 \tya{standard equation}%
-\ty{normal equation 1}%
+\ty{normal equation}%
 %
 \fl{staðalskekkja}%
 \tya{standard error}%
@@ -30736,7 +30736,7 @@ setja upp jöfnu}%
 \fl{styrkur}%
 \na%
 \tya{strength}%
-\ty{power 4}%
+\ty{power}%
 \sh{styrkleiki}%
 %
 \fl{spenna}%
@@ -30871,7 +30871,7 @@ setja upp jöfnu}%
 \fl{setja inn}%
 \sag%
 \tya{substitute}%
-\tv{replace 1}%
+\tv{replace}%
 %
 \fl{spanna}%
 \sag%
@@ -30896,8 +30896,8 @@ setja upp jöfnu}%
 \fl{samleggjandi}%
 \na%
 \tya{summand}%
-\ty{addend 1}%
-\ty{term 1}%
+\ty{addend}%
+\ty{term}%
 \sh{liður}%
 %
 \fl{samlagning}%
@@ -30918,15 +30918,15 @@ setja upp jöfnu}%
 \fl{summutákn}%
 \tya{summation sign}%
 \tv{addition sign}%
-\tv{plus 1}%
-\tv{plus sign 1}%
+\tv{plus}%
+\tv{plus sign}%
 \tv{sign of addition}%
 %
 \fl{samsniða}%
 \ls%
 \tya{superposable}%
-\ty{congruent 2}%
-\ty{congruous 2}%
+\ty{congruent}%
+\ty{congruous}%
 \sh{aljafn}%
 \sh{eins}%
 %
@@ -30939,7 +30939,7 @@ setja upp jöfnu}%
 \fl{stoð}%
 \na%
 \tya{support}%
-\ty{carrier 1}%
+\ty{carrier}%
 %
 \fl{stoðfall}%
 \tya{supporting function}%
@@ -30970,8 +30970,8 @@ setja upp jöfnu}%
 %
 \fl{samhverft tvílínulegt form}%
 \tya{symmetric bilinear form}%
-\tv{inner product 2}%
-\tv{scalar product 2}%
+\tv{inner product}%
+\tv{scalar product}%
 %
 \fl{samhverfur mismunur}%
 \tya{symmetric difference}%
@@ -31038,7 +31038,7 @@ setja upp jöfnu}%
 \tya{system of generators}%
 \ty{generating set}%
 \ty{set of generators}%
-\tv{base~9}%
+\tv{base}%
 \tv{generating family}%
 %
 \fl{slembitalnatafla}%
@@ -31070,7 +31070,7 @@ setja upp jöfnu}%
 %
 \fl{snertilína}%
 \tya{tangent line}%
-\ty{tangent 1}%
+\ty{tangent}%
 \sh{snertill}%
 %
 \fl{snertislétta}%
@@ -31085,7 +31085,7 @@ setja upp jöfnu}%
 \fl{snertivigur}%
 \tya{tangent vector}%
 \ty{tangential vector}%
-\tv{tangent 1}%
+\tv{tangent}%
 \sh{snertill}%
 %
 \fl{snertlasvið}%
@@ -31122,7 +31122,7 @@ setja upp jöfnu}%
 \fl{setning}%
 \na%
 \tya{theorem}%
-\tv{proposition 2}%
+\tv{proposition}%
 \tv{provable formula}%
 %
 \fl{setning}%
@@ -31227,7 +31227,7 @@ setja upp jöfnu}%
 \fl{slanga}%
 \na%
 \tya{tilde}%
-\ty{wave 2}%
+\ty{wave}%
 %
 \fl{sléttanlegur flötur}%
 \na%
@@ -31391,7 +31391,7 @@ setja upp jöfnu}%
 \fl{sammengi}%
 \na%
 \tya{union}%
-\ty{join 3}%
+\ty{join}%
 %
 \fl{setning um ótvíræða þáttun}%
 \tya{unique factorization theorem}%
@@ -31413,7 +31413,7 @@ setja upp jöfnu}%
 \fl{stig}%
 \na%
 \tya{valency}%
-\ty{degree 6}%
+\ty{degree}%
 \ty{local degree}%
 \ty{vertex degree}%
 \sh{gráða}%
@@ -31425,7 +31425,7 @@ setja upp jöfnu}%
 %
 \fl{stig}%
 \tya{vertex degree}%
-\ty{degree 6}%
+\ty{degree}%
 \ty{local degree}%
 \ty{valency}%
 \sh{gráða}%
@@ -31512,7 +31512,7 @@ setja upp jöfnu}%
 \fl{topppunktur}%
 \na%
 \tya{apex}%
-\ty{vertex 2}%
+\ty{vertex}%
 \sh{tindur}%
 \sh{toppur}%
 \sh{broddur}%
@@ -31525,7 +31525,7 @@ setja upp jöfnu}%
 \fl{tvinntalnaslétta}%
 \tya{Argand plane}%
 \ty{complex number plane}%
-\ty{complex plane 1}%
+\ty{complex plane}%
 \ty{Gauss number plane}%
 \ty{Gaussian plane}%
 \sh{tvinnslétta}%
@@ -31643,7 +31643,7 @@ setja upp jöfnu}%
 \na%
 \tya{biconditional}%
 \ty{material equivalence}%
-\tv{equivalence 1}%
+\tv{equivalence}%
 \sh{gagnkvæm skilyrðing}%
 %
 \fl{tvíkeila}%
@@ -31706,12 +31706,12 @@ setja upp jöfnu}%
 \fl{tvíunda-}%
 \ls%
 \tya{binary}%
-\ty{dyadic 1}%
+\ty{dyadic}%
 %
 \fl{tvístæður}%
 \ls%
 \tya{binary}%
-\ty{dyadic 2}%
+\ty{dyadic}%
 \ty{two-place}%
 %
 \fl{tvístæð samtenging}%
@@ -31720,12 +31720,12 @@ setja upp jöfnu}%
 %
 \fl{tvíundatalnaritun}%
 \tya{binary notation}%
-\ty{binary representation 1}%
+\ty{binary representation}%
 %
 \fl{tvíundatala}%
 \tya{binary numeral}%
 \ty{binary number}%
-\ty{dyadic number 2}%
+\ty{dyadic number}%
 %
 \fl{tvíundakerfi}%
 \tya{binary numeration system}%
@@ -31893,13 +31893,13 @@ setja upp jöfnu}%
 \ty{decimal logarithm}%
 \ty{vulgar logarithm}%
 \sh{venjulegur logri}%
-\sh{logri með grunntölu 10}%
-\sh{logri með stofntölu 10}%
+\sh{logri með grunntölu}%
+\sh{logri með stofntölu}%
 \sh{Briggs-logri}%
 %
 \fl{talnagrind}%
 \tya{calculating frame}%
-\ty{abacus 1}%
+\ty{abacus}%
 \ty{counting frame}%
 \tv{saroban}%
 \tv{schety}%
@@ -31931,8 +31931,8 @@ setja upp jöfnu}%
 \ty{decimal logarithm}%
 \ty{vulgar logarithm}%
 \sh{venjulegur logri}%
-\sh{logri með grunntölu 10}%
-\sh{logri með stofntölu 10}%
+\sh{logri með grunntölu}%
+\sh{logri með stofntölu}%
 \sh{Briggs-logri}%
 %
 \fl{tengd ástönd}%
@@ -31942,7 +31942,7 @@ setja upp jöfnu}%
 \tya{compass construction}%
 %
 \fl{tugafylling}%
-\tya{complement with respect to 10}%
+\tya{complement with respect to}%
 \sh{tugafyllitala}%
 %
 \fl{tvinn-}%
@@ -31993,7 +31993,7 @@ setja upp jöfnu}%
 \fl{tvinntalnaslétta}%
 \tya{complex number plane}%
 \ty{Argand plane}%
-\ty{complex plane 1}%
+\ty{complex plane}%
 \ty{Gauss number plane}%
 \ty{Gaussian plane}%
 \sh{tvinnslétta}%
@@ -32065,7 +32065,7 @@ setja upp jöfnu}%
 \fl{tölva}%
 \na%
 \tya{computer}%
-\tv{calculator 1}%
+\tv{calculator}%
 \sh{reiknivél}%
 %
 \fl{tölvufræði}%
@@ -32119,7 +32119,7 @@ setja upp jöfnu}%
 \ty{numerical axis}%
 \ty{numerical line}%
 \ty{real axis}%
-\ty{real line 1}%
+\ty{real line}%
 \sh{talnaás}%
 \sh{rauntalnalína}%
 \sh{rauntalnaás}%
@@ -32191,7 +32191,7 @@ setja upp jöfnu}%
 %
 \fl{talnagrind}%
 \tya{counting frame}%
-\ty{abacus 1}%
+\ty{abacus}%
 \ty{calculating frame}%
 \tv{saroban}%
 \tv{schety}%
@@ -32211,7 +32211,7 @@ setja upp jöfnu}%
 \tya{couple}%
 \ty{ordered couple}%
 \ty{ordered pair}%
-\ty{pair 1}%
+\ty{pair}%
 \sh{raðtvennd}%
 \sh{röðuð tvennd}%
 %
@@ -32264,7 +32264,7 @@ setja upp jöfnu}%
 %
 \fl{tugatala}%
 \tya{decimal number}%
-\ty{decimal 3}%
+\ty{decimal}%
 \sh{tala í tugakerfi}%
 %
 \fl{tugakerfi}%
@@ -32340,7 +32340,7 @@ setja upp jöfnu}%
 \tv{binary digit}%
 \tv{bit}%
 \tv{decimal digit}%
-\tv{numeral 2}%
+\tv{numeral}%
 \tv{place digit}%
 \sh{fingur}%
 %
@@ -32481,12 +32481,12 @@ setja upp jöfnu}%
 \fl{tvíunda-}%
 \ls%
 \tya{dyadic}%
-\ty{binary 1}%
+\ty{binary}%
 %
 \fl{tvístæður}%
 \ls%
 \tya{dyadic}%
-\ty{binary 2}%
+\ty{binary}%
 \ty{two-place}%
 %
 \fl{tvískiptitala}%
@@ -32506,7 +32506,7 @@ setja upp jöfnu}%
 \fl{tómur}%
 \ls%
 \tya{empty}%
-\ty{vacuous 2}%
+\ty{vacuous}%
 \ty{void}%
 %
 \fl{tómur flokkur}%
@@ -32641,7 +32641,7 @@ setja upp jöfnu}%
 %
 \fl{trefjabundin}%
 \tya{fibre bundle}%
-\tv{bundle 2}%
+\tv{bundle}%
 \tv{vector bundle}%
 %
 \fl{trefjarækin vörpun}%
@@ -32669,7 +32669,7 @@ setja upp jöfnu}%
 \na%
 \tya{figure}%
 \ty{number symbol}%
-\ty{numeral~1}%
+\ty{numeral}%
 \sh{tölutákn}%
 %
 \fl{tvöfaldur beygjuskila\-kross\-punktur}%
@@ -32704,13 +32704,13 @@ setja upp jöfnu}%
 \tya{Gaussian plane}%
 \ty{Argand plane}%
 \ty{complex number plane}%
-\ty{complex plane 1}%
+\ty{complex plane}%
 \ty{Gauss number plane}%
 \sh{tvinnslétta}%
 %
 \fl{teikning}%
 \tya{geometric construction}%
-\tv{construction 2}%
+\tv{construction}%
 \sh{dráttur}%
 \sh{upp\-dráttur}%
 \sh{rúmfræðileg teikning}%
@@ -32791,7 +32791,7 @@ setja upp jöfnu}%
 \fl{tölfræðileg ályktun}%
 \na%
 \tya{inference}%
-\ty{statistical inference 1}%
+\ty{statistical inference}%
 %
 \fl{túlkun}%
 \na%
@@ -32934,7 +32934,7 @@ setja upp jöfnu}%
 \tv{perfect number}%
 \tv{polygonal number}%
 \tv{polyhedral number}%
-\tv{prime 1}%
+\tv{prime}%
 \tv{prime number}%
 \tv{prime number theorem}%
 \tv{pseudorandom numbers}%
@@ -33006,8 +33006,8 @@ setja upp jöfnu}%
 %
 \fl{talnatákn}%
 \tya{number symbol}%
-\ty{figure~2}%
-\ty{numeral 1}%
+\ty{figure}%
+\ty{numeral}%
 \sh{tölutákn}%
 %
 \fl{talnakerfi}%
@@ -33018,7 +33018,7 @@ setja upp jöfnu}%
 %
 \fl{talnafræði}%
 \tya{number theory}%
-\ty{arithmetic 2}%
+\ty{arithmetic}%
 \ty{theory of numbers}%
 \sh{talnalist}%
 %
@@ -33049,7 +33049,7 @@ setja upp jöfnu}%
 \fl{talnatákn}%
 \na%
 \tya{numeral}%
-\ty{figure~2}%
+\ty{figure}%
 \ty{number symbol}%
 \tv{Roman numerals}%
 \sh{tölutákn}%
@@ -33068,7 +33068,7 @@ setja upp jöfnu}%
 %
 \fl{talnaritunarkerfi}%
 \tya{numeration system}%
-\ty{number system 2}%
+\ty{number system}%
 \ty{numeral system}%
 \tv{binary numeration system}%
 \tv{decimal numeration system}%
@@ -33101,13 +33101,13 @@ setja upp jöfnu}%
 %
 \fl{talnalína}%
 \tya{numerical axis}%
-\ty{continuum~2}%
+\ty{continuum}%
 \ty{number axis}%
 \ty{number line}%
 \ty{numeric line}%
 \ty{numerical line}%
 \ty{real axis}%
-\ty{real line 1}%
+\ty{real line}%
 \sh{talnaás}%
 \sh{rauntalnalína}%
 \sh{rauntalnaás}%
@@ -33203,7 +33203,7 @@ setja upp jöfnu}%
 %
 \fl{teningstala}%
 \tya{perfect cube}%
-\tv{cube~1}%
+\tv{cube}%
 \sh{verpiltala}%
 %
 \fl{truflun}%
@@ -33259,7 +33259,7 @@ setja upp jöfnu}%
 %
 \fl{talnalína}%
 \tya{real line}%
-\ty{continuum 2}%
+\ty{continuum}%
 \ty{number axis}%
 \ty{number line}%
 \ty{numerical axis}%
@@ -33273,7 +33273,7 @@ setja upp jöfnu}%
 %
 \fl{teningur}%
 \tya{regular hexahedron}%
-\ty{cube 2}%
+\ty{cube}%
 \sh{verpill}%
 \sh{reglulegur sexflötungur}%
 %
@@ -33324,7 +33324,7 @@ setja upp jöfnu}%
 %
 \fl{tölumargfeldi (vigurs)}%
 \tya{scalar multiple}%
-\ty{scalar product 5}%
+\ty{scalar product}%
 %
 \fl{tölumargföldun}%
 \tya{scalar multiplication}%
@@ -33401,7 +33401,7 @@ setja upp jöfnu}%
 %
 \fl{tölfræðileg ályktun}%
 \tya{statistical inference}%
-\ty{inference 2}%
+\ty{inference}%
 %
 \fl{tölfræðileg marktekt}%
 \tya{statistical significance}%
@@ -33422,7 +33422,7 @@ setja upp jöfnu}%
 \fl{tölfræði}%
 \na%
 \tya{statistics}%
-\tv{statistic 3}%
+\tv{statistic}%
 %
 \fl{teikn\-ing með hringfara og reglustiku}%
 \tya{straight-edge-and-compass construction}%
@@ -33441,7 +33441,7 @@ setja upp jöfnu}%
 \fl{tákn}%
 \na%
 \tya{symbol}%
-\ty{sign 3}%
+\ty{sign}%
 \sh{merki}%
 %
 \fl{táknrænn}%
@@ -33493,7 +33493,7 @@ absolutely}: að algildi, að tölugildi}%
 %
 \fl{talnafræði}%
 \tya{theory of numbers}%
-\ty{arithmetic 2}%
+\ty{arithmetic}%
 \ty{number theory}%
 \sh{talnalist}%
 %
@@ -33541,7 +33541,7 @@ absolutely}: að algildi, að tölugildi}%
 \fl{trapisa}%
 \na%
 \tya{trapezoid}%
-\ty{trapezium 1}%
+\ty{trapezium}%
 \sh{hálfsamsíðungur}%
 %
 \fl{tré}%
@@ -33598,8 +33598,8 @@ absolutely}: að algildi, að tölugildi}%
 \fl{tvístæður}%
 \ls%
 \tya{two-place}%
-\ty{binary~2}%
-\ty{dyadic~2}%
+\ty{binary}%
+\ty{dyadic}%
 %
 \fl{tvístæð umsögn}%
 \tya{two-place predicate}%
@@ -33716,7 +33716,7 @@ absolutely}: að algildi, að tölugildi}%
 \fl{tómur}%
 \ls%
 \tya{void}%
-\ty{vacuous 2}%
+\ty{vacuous}%
 \ty{empty}%
 %
 \fl{tómur flokkur}%
@@ -33782,8 +33782,8 @@ absolutely}: að algildi, að tölugildi}%
 \fl{uppröðun}%
 \na%
 \tya{arrangement}%
-\tv{order 14}%
-\tv{order 15}%
+\tv{order}%
+\tv{order}%
 \tv{ordering}%
 %
 \fl{umröðun}%
@@ -33802,7 +33802,7 @@ absolutely}: að algildi, að tölugildi}%
 \fl{upphafspunktur}%
 \na%
 \tya{base}%
-\ty{origin~2}%
+\ty{origin}%
 \ty{point of application}%
 %
 \fl{uppblástur}%
@@ -34022,11 +34022,11 @@ absolutely}: að algildi, að tölugildi}%
 %
 \fl{upphafspunktur}%
 \tya{initial point}%
-\tv{vertex 6}%
+\tv{vertex}%
 %
 \fl{upphafsstúfur}%
 \tya{initial segment}%
-\ty{segment 1}%
+\ty{segment}%
 %
 \fl{upphafsástand}%
 \tya{initial state}%
@@ -34056,7 +34056,7 @@ absolutely}: að algildi, að tölugildi}%
 \fl{umhverfur}%
 \ls%
 \tya{inverse}%
-\ty{reciprocal 2}%
+\ty{reciprocal}%
 %
 \fl{umhverfing}%
 \na%
@@ -34066,8 +34066,8 @@ absolutely}: að algildi, að tölugildi}%
 \na%
 \tya{inverse}%
 \ty{inverse element}%
-\ty{reciprocal 2}%
-\ty{reciprocal element~2}%
+\ty{reciprocal}%
+\ty{reciprocal element}%
 \tv{additive inverse}%
 \tv{multiplicative inverse}%
 \tv{inverse matrix}%
@@ -34094,7 +34094,7 @@ absolutely}: að algildi, að tölugildi}%
 \fl{umhverfanlegur}%
 \ls%
 \tya{invertible}%
-\tv{inverse 4}%
+\tv{inverse}%
 \sh{andhverfanlegur}%
 %
 \fl{umhverfanlegt fylki}%
@@ -34114,7 +34114,7 @@ absolutely}: að algildi, að tölugildi}%
 \fl{undirstak}%
 \tya{left bound}%
 \ty{lower bound}%
-\ty{minorant 1}%
+\ty{minorant}%
 \tv{bound}%
 \tv{greatest lower bound}%
 \sh{undirskorða}%
@@ -34134,7 +34134,7 @@ absolutely}: að algildi, að tölugildi}%
 \fl{undirstak}%
 \tya{lower bound}%
 \ty{left bound}%
-\ty{minorant 1}%
+\ty{minorant}%
 \tv{bound}%
 \tv{greatest lower bound}%
 \sh{undirskorða}%
@@ -34168,11 +34168,11 @@ absolutely}: að algildi, að tölugildi}%
 %
 \fl{undirfall}%
 \tya{minorant function}%
-\ty{minorant 2}%
+\ty{minorant}%
 %
 \fl{undirröð}%
 \tya{minorant series}%
-\ty{minorant 3}%
+\ty{minorant}%
 %
 \fl{undirmetanlegur}%
 \ls%
@@ -34219,7 +34219,7 @@ absolutely}: að algildi, að tölugildi}%
 \fl{upphafspunktur}%
 \na%
 \tya{origin}%
-\ty{base 8}%
+\ty{base}%
 \ty{point of application}%
 %
 \fl{umstikun}%
@@ -34233,12 +34233,12 @@ absolutely}: að algildi, að tölugildi}%
 \fl{ummál}%
 \na%
 \tya{perimeter}%
-\ty{circumference 2}%
+\ty{circumference}%
 %
 \fl{uppstokkun}%
 \na%
 \tya{permutation}%
-\tv{arrangement 2}%
+\tv{arrangement}%
 \sh{umröðun}%
 %
 \fl{uppstokkanagrúpa}%
@@ -34265,13 +34265,13 @@ absolutely}: að algildi, að tölugildi}%
 %
 \fl{upphafspunktur}%
 \tya{point of application}%
-\ty{base~8}%
-\ty{origin 2}%
+\ty{base}%
+\ty{origin}%
 %
 \fl{undanfari}%
 \na%
 \tya{predecessor}%
-\ty{antecedent 3}%
+\ty{antecedent}%
 %
 \fl{umsögn}%
 \na%
@@ -34311,7 +34311,7 @@ absolutely}: að algildi, að tölugildi}%
 \fl{umröðun}%
 \na%
 \tya{rearrangement}%
-\ty{arrangement~2}%
+\ty{arrangement}%
 \ty{reordering}%
 \tv{permutation}%
 %
@@ -34325,15 +34325,15 @@ absolutely}: að algildi, að tölugildi}%
 \fl{umhverfur}%
 \ls%
 \tya{reciprocal}%
-\ty{inverse 2}%
+\ty{inverse}%
 \sh{andhverfur}%
 %
 \fl{umhverfa}%
 \na%
 \tya{reciprocal}%
 \ty{multiplicative inverse}%
-\ty{reciprocal element 1}%
-\tv{inverse 4}%
+\ty{reciprocal element}%
+\tv{inverse}%
 \tv{reciprocal matrix}%
 \tv{reciprocal number}%
 \sh{margföldunarumhverfa}%
@@ -34342,9 +34342,9 @@ absolutely}: að algildi, að tölugildi}%
 \fl{umhverfa}%
 \na%
 \tya{reciprocal}%
-\ty{inverse 4}%
+\ty{inverse}%
 \ty{inverse element}%
-\ty{reciprocal element 2}%
+\ty{reciprocal element}%
 \sh{andhverfa}%
 %
 \fl{umhverft fall}%
@@ -34383,7 +34383,7 @@ tuga\-brot sem almennt brot}%
 \fl{umröðun}%
 \na%
 \tya{reordering}%
-\ty{arrangement 2}%
+\ty{arrangement}%
 \ty{rearrangement}%
 \tv{permutation}%
 %
@@ -34482,7 +34482,7 @@ tuga\-brot sem almennt brot}%
 \fl{ummyndun}%
 \na%
 \tya{transform}%
-\tv{transformation 1}%
+\tv{transformation}%
 \sh{myndun}%
 \sh{færsla}%
 %
@@ -34604,7 +34604,7 @@ almenns brots í tuga\-brot}%
 \fl{verkun}%
 \na%
 \tya{action}%
-\ty{operation 1}%
+\ty{operation}%
 \tv{external composition}%
 %
 \fl{virkni}%
@@ -34727,7 +34727,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{vanhorn}%
 \tya{angular defect}%
-\ty{defect 1}%
+\ty{defect}%
 \tv{angular excess}%
 %
 \fl{vindingalaus grúpa}%
@@ -34790,7 +34790,7 @@ almenns brots í tuga\-brot}%
 \fl{veldisstofn}%
 \na%
 \tya{base}%
-\ty{radix~3}%
+\ty{radix}%
 %
 \fl{veltilína}%
 \tya{base line}%
@@ -34819,7 +34819,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{viss atburður}%
 \tya{certain event}%
-\ty{certainty 2}%
+\ty{certainty}%
 \sh{öruggur atburður}%
 %
 \fl{vissa}%
@@ -34865,7 +34865,7 @@ almenns brots í tuga\-brot}%
 \fl{víxlinn}%
 \ls%
 \tya{commutative}%
-\ty{commuting 2}%
+\ty{commuting}%
 %
 \fl{víxlið örvarit}%
 \tya{commutative diagram}%
@@ -34899,7 +34899,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{víxlagrúpa}%
 \tya{commutator subgroup}%
-\ty{commutant 2}%
+\ty{commutant}%
 \ty{commutator group}%
 \ty{derived group}%
 \sh{af{}leidd grúpa}%
@@ -34961,8 +34961,8 @@ almenns brots í tuga\-brot}%
 \ty{vulgar logarithm}%
 \sh{Briggs-logri}%
 \sh{tugalogri}%
-\sh{logri með grunntölu 10}%
-\sh{logri með stofntölu 10}%
+\sh{logri með grunntölu}%
+\sh{logri með stofntölu}%
 %
 \fl{vanhorn}%
 \na%
@@ -34994,7 +34994,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{víxlagrúpa}%
 \tya{derived group}%
-\ty{commutant 2}%
+\ty{commutant}%
 \ty{commutator group}%
 \ty{commutator subgroup}%
 \sh{af{}leidd grúpa}%
@@ -35013,7 +35013,7 @@ almenns brots í tuga\-brot}%
 \na%
 \tya{dimension}%
 \ty{dimensionality}%
-\tv{degree 5}%
+\tv{degree}%
 \tv{dim}%
 \sh{víddartala}%
 \sh{rúmvídd}%
@@ -35042,7 +35042,7 @@ almenns brots í tuga\-brot}%
 \fl{verulegur sérstöðupunktur}%
 \tya{essential singular point}%
 \ty{essential singularity}%
-\tv{inessential singular point 1}%
+\tv{inessential singular point}%
 %
 \fl{venjulegt róf}%
 \tya{essential spectrum}%
@@ -35058,8 +35058,8 @@ almenns brots í tuga\-brot}%
 \ty{expectation value}%
 \ty{expected value}%
 \ty{mathematical expectation}%
-\ty{mean 2}%
-\ty{mean value 2}%
+\ty{mean}%
+\ty{mean value}%
 \sh{væntigildi}%
 \sh{meðalgildi}%
 %
@@ -35067,7 +35067,7 @@ almenns brots í tuga\-brot}%
 \na%
 \tya{exponent}%
 \ty{power exponent}%
-\tv{power 1}%
+\tv{power}%
 %
 \fl{vísis-}%
 \ls%
@@ -35202,7 +35202,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{vaxtarröð}%
 \tya{growth order}%
-\ty{order 12}%
+\ty{order}%
 \ty{order of growth}%
 \sh{vaxtarraðstig}%
 %
@@ -35283,7 +35283,7 @@ almenns brots í tuga\-brot}%
 \fl{víxlanlegur}%
 \ls%
 \tya{interchangeable}%
-\ty{commuting 1}%
+\ty{commuting}%
 \ty{permutable}%
 %
 \fl{vextir}%
@@ -35305,7 +35305,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{vinstri aðoki}%
 \tya{left adjoint}%
-\ty{adjoint 1}%
+\ty{adjoint}%
 \tv{right adjoint}%
 %
 \fl{vinstri oddsvigi}%
@@ -35373,7 +35373,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{vinstri hlutleysa}%
 \tya{left neutral element}%
-\ty{left identity 1}%
+\ty{left identity}%
 \sh{hlutleysa frá vinstri}%
 %
 \fl{vinstri svigi}%
@@ -35405,7 +35405,7 @@ almenns brots í tuga\-brot}%
 \ty{projective transformation}%
 \tv{collineation}%
 \tv{collineatory transformation}%
-\tv{homography 2}%
+\tv{homography}%
 \sh{línuleg varpmótun}%
 %
 \fl{vísalækkun}%
@@ -35432,7 +35432,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{víðátta með jaðri}%
 \tya{manifold with boundary}%
-\tv{bounded 2}%
+\tv{bounded}%
 \tv{bounding manifold}%
 %
 \fl{víðátta án jaðars}%
@@ -35445,8 +35445,8 @@ almenns brots í tuga\-brot}%
 \fl{vörpun}%
 \na%
 \tya{mapping}%
-\ty{map 1}%
-\ty{transformation 1}%
+\ty{map}%
+\ty{transformation}%
 \tv{correspondence}%
 \tv{function}%
 \tv{functional}%
@@ -35493,7 +35493,7 @@ almenns brots í tuga\-brot}%
 \fl{villa}%
 \na%
 \tya{mistake}%
-\ty{error 2}%
+\ty{error}%
 \sh{mistök}%
 %
 \fl{vægi}%
@@ -35602,7 +35602,7 @@ almenns brots í tuga\-brot}%
 \fl{vaxtarröð}%
 \tya{order of growth}%
 \ty{growth order}%
-\ty{order 12}%
+\ty{order}%
 \sh{vaxtarraðstig}%
 %
 \fl{venjulegur}%
@@ -35644,7 +35644,7 @@ almenns brots í tuga\-brot}%
 \fl{vöndur}%
 \na%
 \tya{pencil}%
-\tv{bundle 2}%
+\tv{bundle}%
 \sh{hneppi}%
 %
 \fl{vöndur af hringum}%
@@ -35685,7 +35685,7 @@ almenns brots í tuga\-brot}%
 \fl{víxlanlegur}%
 \ls%
 \tya{permutable}%
-\ty{commuting 1}%
+\ty{commuting}%
 \ty{interchangeable}%
 %
 \fl{vendistuðull}%
@@ -35725,7 +35725,7 @@ almenns brots í tuga\-brot}%
 \fl{veldisvísir}%
 \tya{power exponent}%
 \ty{exponent}%
-\tv{power 1}%
+\tv{power}%
 %
 \fl{veldisfall}%
 \tya{power function}%
@@ -35849,7 +35849,7 @@ almenns brots í tuga\-brot}%
 \ty{projective mapping}%
 \tv{collineation}%
 \tv{collineatory transformation}%
-\tv{homography 2}%
+\tv{homography}%
 \tv{projectivity}%
 \sh{línuleg varpmótun}%
 %
@@ -35872,7 +35872,7 @@ almenns brots í tuga\-brot}%
 \fl{veldisstofn}%
 \na%
 \tya{radix}%
-\ty{base 5}%
+\ty{base}%
 %
 \fl{vídd}%
 \na%
@@ -35894,7 +35894,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{vigursumma}%
 \tya{resultant vector}%
-\ty{resultant 3}%
+\ty{resultant}%
 %
 \fl{vörpunarsetning Riemanns}%
 \tya{Riemann mapping theorem}%
@@ -35907,7 +35907,7 @@ almenns brots í tuga\-brot}%
 \na%
 \tya{roulette}%
 \tv{base curve}%
-\tv{base line 2}%
+\tv{base line}%
 \tv{cycloid}%
 \tv{epicycloid}%
 \tv{trochoid}%
@@ -35925,7 +35925,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{vindingur}%
 \tya{second curvature}%
-\ty{torsion 1}%
+\ty{torsion}%
 %
 \fl{val}%
 \na%
@@ -36050,7 +36050,7 @@ almenns brots í tuga\-brot}%
 \fl{virðing}%
 \na%
 \tya{valuation}%
-\tv{absolute value~1}%
+\tv{absolute value}%
 \tv{Archi\-medean valuation}%
 \tv{non-archimedean valuation}%
 %
@@ -36095,7 +36095,7 @@ almenns brots í tuga\-brot}%
 \fl{vigurgrunnur}%
 \tya{vector basis}%
 \ty{algebraic basis}%
-\ty{basis 2}%
+\ty{basis}%
 \ty{Hamel basis}%
 \ty{linear basis}%
 \sh{línulegur grunnur}%
@@ -36104,7 +36104,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{vigurbundin}%
 \tya{vector bundle}%
-\tv{bundle 2}%
+\tv{bundle}%
 \tv{line bundle}%
 \tv{fibre bundle}%
 %
@@ -36116,9 +36116,9 @@ almenns brots í tuga\-brot}%
 %
 \fl{vigurmargfeldi}%
 \tya{vector product}%
-\ty{alternating product 2}%
-\ty{cross product 1}%
-\ty{outer product 4}%
+\ty{alternating product}%
+\ty{cross product}%
+\ty{outer product}%
 \ty{skew product}%
 \sh{vigurfeldi}%
 \sh{krossfeldi}%
@@ -36164,14 +36164,14 @@ almenns brots í tuga\-brot}%
 \ty{decimal logarithm}%
 \sh{Briggs-logri}%
 \sh{tugalogri}%
-\sh{logri með grunntölu 10}%
-\sh{logri með stofntölu 10}%
+\sh{logri með grunntölu}%
+\sh{logri með stofntölu}%
 %
 \fl{vegur}%
 \na%
 \tya{walk}%
 \ty{edge sequence}%
-\tv{path 2}%
+\tv{path}%
 \tv{trail}%
 \sh{leggjaruna}%
 %
@@ -36258,7 +36258,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{vafningstala}%
 \tya{winding number}%
-\ty{index 4}%
+\ty{index}%
 %
 \fl{vinningsbandalag}%
 \tya{winning coalition}%
@@ -36298,7 +36298,7 @@ almenns brots í tuga\-brot}%
 \fl{ytra deildaform}%
 \tya{alternating differential form}%
 \ty{exterior differential form}%
-\ty{differential form~1}%
+\ty{differential form}%
 \sh{ytra diffurform}%
 \sh{deildaform}%
 \sh{diffurform}%
@@ -36346,7 +36346,7 @@ almenns brots í tuga\-brot}%
 \fl{yfirgnæfa}%
 \sag%
 \tya{dominate}%
-\tv{majorize 2}%
+\tv{majorize}%
 %
 \fl{yfirgnæfð samleitni}%
 \tya{dominated convergence}%
@@ -36358,13 +36358,13 @@ almenns brots í tuga\-brot}%
 \fl{yfirsvið}%
 \tya{extension field}%
 \ty{overfield}%
-\tv{extension 2}%
+\tv{extension}%
 \tv{field extension}%
 %
 \fl{yfirbaugur}%
 \tya{extension ring}%
 \ty{overring}%
-\tv{extension 2}%
+\tv{extension}%
 \tv{ring extension}%
 %
 \fl{ytri}%
@@ -36409,7 +36409,7 @@ almenns brots í tuga\-brot}%
 \fl{ytra deildaform}%
 \tya{exterior differential form}%
 \ty{alternating differential form}%
-\ty{differential form 1}%
+\ty{differential form}%
 \sh{ytra diffurform}%
 \sh{deildaform}%
 \sh{diffurform}%
@@ -36435,9 +36435,9 @@ almenns brots í tuga\-brot}%
 %
 \fl{ytra margfeldi}%
 \tya{exterior product}%
-\ty{alternating product 1}%
+\ty{alternating product}%
 \ty{Grassmann product}%
-\ty{outer product 1}%
+\ty{outer product}%
 \ty{wedge product}%
 \sh{útfeldi}%
 \sh{Grass\-mann-margfeldi}%
@@ -36449,8 +36449,8 @@ almenns brots í tuga\-brot}%
 \ty{external law of composition}%
 \ty{external operation}%
 \tv{action}%
-\tv{operation 1}%
-\tv{operation~2}%
+\tv{operation}%
+\tv{operation}%
 \sh{ytri reikniaðgerð}%
 %
 \fl{ytri fylgni}%
@@ -36521,11 +36521,11 @@ almenns brots í tuga\-brot}%
 %
 \fl{yfirfall}%
 \tya{majorant function}%
-\ty{majorant 2}%
+\ty{majorant}%
 %
 \fl{yfirröð}%
 \tya{majorant series}%
-\ty{majorant 3}%
+\ty{majorant}%
 %
 \fl{yfirmetanlegur}%
 \ls%
@@ -36597,7 +36597,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{ytra margfeldi}%
 \tya{outer product}%
-\ty{alternating product 1}%
+\ty{alternating product}%
 \ty{Grassmann product}%
 \ty{exterior product}%
 \ty{wedge product}%
@@ -36629,7 +36629,7 @@ almenns brots í tuga\-brot}%
 \na%
 \tya{overfield}%
 \ty{extension field}%
-\tv{extension 2}%
+\tv{extension}%
 \tv{field extension}%
 %
 \fl{yfirstrik}%
@@ -36647,7 +36647,7 @@ almenns brots í tuga\-brot}%
 \na%
 \tya{overring}%
 \ty{extension ring}%
-\tv{extension 2}%
+\tv{extension}%
 \tv{ring extension}%
 %
 \fl{yrðingareikningur}%
@@ -36658,7 +36658,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{yrðingamót}%
 \tya{propositional form}%
-\tv{form 2}%
+\tv{form}%
 %
 \fl{yrðingafall}%
 \tya{propositional function}%
@@ -36680,7 +36680,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{yfirstak}%
 \tya{right bound}%
-\ty{majorant 1}%
+\ty{majorant}%
 \ty{upper bound}%
 \tv{bound}%
 \tv{least upper bound}%
@@ -36740,16 +36740,16 @@ almenns brots í tuga\-brot}%
 %
 \fl{yfirborðsmál}%
 \tya{surface area}%
-\ty{area 2}%
+\ty{area}%
 \ty{surface measure}%
-\tv{area 2}%
+\tv{area}%
 \tv{measure of area}%
 \sh{yfirborð}%
 \sh{flatarmál}%
 %
 \fl{yfirstak}%
 \tya{upper bound}%
-\ty{majorant 1}%
+\ty{majorant}%
 \ty{right bound}%
 \tv{bound}%
 \tv{least upper bound}%
@@ -36901,7 +36901,7 @@ almenns brots í tuga\-brot}%
 \fl{áttaður}%
 \ls%
 \tya{directed}%
-\ty{oriented 2}%
+\ty{oriented}%
 \sh{stefndur}%
 \sh{stefnubundinn}%
 %
@@ -37040,7 +37040,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{áttaður hringur}%
 \tya{oriented circle}%
-\ty{cycle 7}%
+\ty{cycle}%
 %
 \fl{áttuð víðátta}%
 \tya{oriented manifold}%
@@ -37193,7 +37193,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{ívarp}%
 \tya{inclusion mapping}%
-\ty{inclusion 2}%
+\ty{inclusion}%
 \ty{inclusion function}%
 %
 \fl{ílag}%
@@ -37219,7 +37219,7 @@ almenns brots í tuga\-brot}%
 \na%
 \tya{iterate}%
 \ty{iterated mapping}%
-\tv{iteration 1}%
+\tv{iteration}%
 \sh{ítrekuð vörpun}%
 %
 \fl{ítrekað heildi}%
@@ -37245,7 +37245,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{ítrekunarrás}%
 \tya{iterative cycle}%
-\ty{cycle 6}%
+\ty{cycle}%
 \sh{ítrekunarhringur}%
 \sh{ítrekunarlykkja}%
 %
@@ -37274,21 +37274,21 @@ almenns brots í tuga\-brot}%
 %
 \fl{ílangur sporvölusnúður}%
 \tya{ovary ellipsoid}%
-\ty{prolate ellipsoid 1}%
+\ty{prolate ellipsoid}%
 %
 \fl{ílangur sporvölusnúðflötur}%
 \tya{ovary ellipsoid}%
-\ty{prolate ellipsoid 2}%
+\ty{prolate ellipsoid}%
 %
 \fl{ílangur sporvölusnúður}%
 \tya{prolate ellipsoid}%
-\ty{prolate spheroid 1}%
-\tv{oblate ellipsoid~1}%
+\ty{prolate spheroid}%
+\tv{oblate ellipsoid}%
 %
 \fl{ílangur sporvölusnúðflötur}%
 \tya{prolate ellipsoid}%
-\ty{prolate spheroid 2}%
-\tv{oblate ellipsoid 2}%
+\ty{prolate spheroid}%
+\tv{oblate ellipsoid}%
 %
 \fl{í punkti}%
 \ls%
@@ -37331,7 +37331,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{óðal}%
 \tya{actual domain}%
-\ty{domain 3}%
+\ty{domain}%
 \ty{left domain}%
 \tv{latent domain}%
 %
@@ -37447,7 +37447,7 @@ almenns brots í tuga\-brot}%
 \tya{domain}%
 \ty{actual domain}%
 \ty{left domain}%
-\tv{domain carrier 1}%
+\tv{domain carrier}%
 %
 \fl{ósammiðja}%
 \ls%
@@ -37464,7 +37464,7 @@ almenns brots í tuga\-brot}%
 \tya{essential singular point}%
 \ty{irregular singular point}%
 \ty{irregular singularity}%
-\tv{inessential singular point 2}%
+\tv{inessential singular point}%
 %
 \fl{óendanleg þáttun}%
 \tya{expansion in an infinite product}%
@@ -37498,7 +37498,7 @@ almenns brots í tuga\-brot}%
 %
 \fl{óhliðruð línuleg deildajafna}%
 \tya{homogeneous linear differential equation}%
-\ty{homogeneous differential equation 2}%
+\ty{homogeneous differential equation}%
 \sh{óhliðruð línuleg diffurjafna}%
 %
 \fl{óhliðruð línuleg jafna}%
@@ -37769,9 +37769,9 @@ almenns brots í tuga\-brot}%
 %
 \fl{óverulegur sérstöðupunktur}%
 \tya{inessential singularity}%
-\ty{inessential singular point 1}%
-\ty{regular singular point 1}%
-\ty{regular singularity 1}%
+\ty{inessential singular point}%
+\ty{regular singular point}%
+\ty{regular singularity}%
 %
 \fl{óendanlegur}%
 \ls%
@@ -37785,7 +37785,7 @@ almenns brots í tuga\-brot}%
 \tya{infinite cardinal}%
 \ty{transfinite cardinal}%
 \tv{aleph}%
-\tv{infinite number 2}%
+\tv{infinite number}%
 \sh{ofurendanleg fjöldatala}%
 %
 \fl{óendanlegt tugabrot}%
@@ -37799,7 +37799,7 @@ almenns brots í tuga\-brot}%
 \fl{óendanleg tala}%
 \tya{infinite number}%
 \tv{infinite quantity}%
-\tv{infinity 2}%
+\tv{infinity}%
 %
 \fl{óendanlegur fjöldi}%
 \tya{infinite number}%
@@ -37819,19 +37819,19 @@ almenns brots í tuga\-brot}%
 %
 \fl{óendanleg stærð}%
 \tya{infinite quantity}%
-\ty{infinity~2}%
-\tv{infinite number 1}%
+\ty{infinity}%
+\tv{infinite number}%
 %
 \fl{óendanleg runa}%
 \tya{infinite sequence}%
-\ty{sequence 1}%
-\tv{sequence 2}%
+\ty{sequence}%
+\tv{sequence}%
 \sh{runa}%
 %
 \fl{óendanleg röð}%
 \tya{infinite series}%
-\ty{series 1}%
-\tv{series 2}%
+\ty{series}%
+\tv{series}%
 \sh{röð}%
 %
 \fl{óendanlegt mengi}%
@@ -37875,7 +37875,7 @@ almenns brots í tuga\-brot}%
 \ty{infinite quantity}%
 \ins{{\it tend to infinity}: stefna á óendanlegt; {\it the value at 
 infinity}: gildið í óendanlegu}%
-\tv{infinite number 1}%
+\tv{infinite number}%
 %
 \fl{óendanleikafrumsenda}%
 \tya{infinity axiom}%
@@ -37999,7 +37999,7 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{óreglulegur sér\-stöðu\-punkt\-ur}%
 \tya{irregular singularity}%
-\ty{essential singular point 2}%
+\ty{essential singular point}%
 \ty{irregular singular point}%
 %
 \fl{óleysanlegur}%
@@ -38011,8 +38011,8 @@ infinity}: gildið í óendanlegu}%
 \fl{óðal}%
 \tya{left domain}%
 \ty{actual domain}%
-\ty{domain 3}%
-\tv{domain carrier~1}%
+\ty{domain}%
+\tv{domain carrier}%
 \tv{right domain}%
 %
 \fl{óbreyttur frá vinstri}%
@@ -38045,7 +38045,7 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{ósamrýmanlegir tveir og tveir}%
 \tya{mutually exclusive}%
-\ty{mutually disjoint 1}%
+\ty{mutually disjoint}%
 \sh{sundurlægir tveir og tveir}%
 %
 \fl{ósamþátta}%
@@ -38167,7 +38167,7 @@ infinity}: gildið í óendanlegu}%
 \fl{óúrkynjaður}%
 \ls%
 \tya{non-degenerate}%
-\ty{non-singular 1}%
+\ty{non-singular}%
 \sh{ósérstæður}%
 %
 \fl{óteljanlegur}%
@@ -38183,7 +38183,7 @@ infinity}: gildið í óendanlegu}%
 \fl{óáttaður}%
 \ls%
 \tya{non-directed}%
-\ty{non-oriented 2}%
+\ty{non-oriented}%
 \ty{undirected}%
 \sh{óstefndur}%
 \sh{óstefnubundinn}%
@@ -38288,7 +38288,7 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{óröðuð tvennd}%
 \tya{non-ordered pair}%
-\ty{pair 2}%
+\ty{pair}%
 \ty{plain pair}%
 \ty{unordered pair}%
 %
@@ -38487,7 +38487,7 @@ infinity}: gildið í óendanlegu}%
 \fl{óröðuð tvennd}%
 \tya{plain pair}%
 \ty{non-ordered pair}%
-\ty{pair 2}%
+\ty{pair}%
 \ty{unordered pair}%
 %
 \fl{ósamfelldnipunktur}%
@@ -38525,9 +38525,9 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{óverulegur sérstöðupunktur}%
 \tya{regular singular point}%
-\ty{inessential singular point 1}%
-\ty{inessential singularity~1}%
-\ty{regular singularity 1}%
+\ty{inessential singular point}%
+\ty{inessential singularity}%
+\ty{regular singularity}%
 \tv{essential singularity}%
 %
 \fl{ósamþátta}%
@@ -38697,7 +38697,7 @@ infinity}: gildið í óendanlegu}%
 \ls%
 \tya{undirected}%
 \ty{non-directed}%
-\ty{non-oriented 2}%
+\ty{non-oriented}%
 \sh{óstefndur}%
 \sh{óstefnubundinn}%
 %
@@ -38782,7 +38782,7 @@ infinity}: gildið í óendanlegu}%
 \fl{óröðuð tvennd}%
 \tya{unordered pair}%
 \ty{non-ordered pair}%
-\ty{pair 2}%
+\ty{pair}%
 \ty{plain pair}%
 %
 \fl{ósannanleiki}%
@@ -38834,22 +38834,22 @@ infinity}: gildið í óendanlegu}%
 \tya{circuit}%
 \ty{closed arc sequence}%
 \ty{closed arc progression}%
-\ty{cycle~1}%
-\ty{directed circuit~1}%
+\ty{cycle}%
+\ty{directed circuit}%
 %
 \fl{örvahringur}%
 \na%
 \tya{circuit}%
-\ty{cycle~3}%
-\ty{circuit graph~1}%
+\ty{cycle}%
+\ty{circuit graph}%
 \ty{directed circuit graph}%
 %
 \fl{örvarás}%
 \tya{closed arc sequence}%
-\ty{circuit 2}%
+\ty{circuit}%
 \ty{closed arc progression}%
-\ty{cycle 1}%
-\ty{directed circuit 1}%
+\ty{cycle}%
+\ty{directed circuit}%
 %
 \fl{öryggisbelti}%
 \tya{confidence belt}%
@@ -38907,16 +38907,16 @@ infinity}: gildið í óendanlegu}%
 \fl{örvarás}%
 \na%
 \tya{cycle}%
-\ty{circuit~2}%
+\ty{circuit}%
 \ty{closed arc sequence}%
 \ty{closed arc progression}%
-\ty{directed circuit~1}%
+\ty{directed circuit}%
 %
 \fl{örvahringur}%
 \na%
 \tya{cycle}%
-\ty{circuit~4}%
-\ty{circuit graph~1}%
+\ty{circuit}%
+\ty{circuit graph}%
 \ty{directed circuit graph}%
 %
 \fl{örvarit}%
@@ -38932,7 +38932,7 @@ infinity}: gildið í óendanlegu}%
 \fl{ör}%
 \na%
 \tya{diedge}%
-\ty{arc 3}%
+\ty{arc}%
 \ty{directed edge}%
 \sh{örvarleggur}%
 \sh{stefndur leggur}%
@@ -38947,20 +38947,20 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{örvarás}%
 \tya{directed circuit}%
-\ty{circuit 2}%
+\ty{circuit}%
 \ty{closed arc sequence}%
 \ty{closed arc progression}%
-\ty{cycle 1}%
+\ty{cycle}%
 %
 \fl{örvahringur}%
 \tya{directed circuit graph}%
-\ty{circuit~4}%
-\ty{circuit graph 1}%
-\ty{cycle 3}%
+\ty{circuit}%
+\ty{circuit graph}%
+\ty{cycle}%
 %
 \fl{ör}%
 \tya{directed edge}%
-\ty{arc 3}%
+\ty{arc}%
 \ty{diedge}%
 \tv{edge}%
 \sh{örvarleggur}%
@@ -38993,7 +38993,7 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{öfugt markgildi}%
 \tya{inverse limit}%
-\ty{limit 2}%
+\ty{limit}%
 \ty{projective limit}%
 %
 \fl{öfug þríliða}%
@@ -39034,7 +39034,7 @@ infinity}: gildið í óendanlegu}%
 \fl{öfugt markgildi}%
 \tya{projective limit}%
 \ty{inverse limit}%
-\ty{limit 2}%
+\ty{limit}%
 \tv{inductive limit}%
 %
 \fl{öfug röð}%
@@ -39140,7 +39140,7 @@ infinity}: gildið í óendanlegu}%
 \fl{útkomandi}%
 \na%
 \tya{eliminant}%
-\ty{resultant 1}%
+\ty{resultant}%
 %
 \fl{útrýma}%
 \sag%
@@ -39292,7 +39292,7 @@ infinity}: gildið í óendanlegu}%
 \fl{útgildi}%
 \na%
 \tya{extremum}%
-\ty{extreme 1}%
+\ty{extreme}%
 \ty{extreme value}%
 \tv{maximum}%
 \tv{minimum}%
@@ -39313,7 +39313,7 @@ infinity}: gildið í óendanlegu}%
 \na%
 \tya{outcome}%
 \ty{result}%
-\tv{solution 3}%
+\tv{solution}%
 \sh{niðurstaða}%
 %
 \fl{útstig}%
@@ -39359,7 +39359,7 @@ infinity}: gildið í óendanlegu}%
 \fl{útkomandi}%
 \na%
 \tya{resultant}%
-\ty{eliminant 1}%
+\ty{eliminant}%
 %
 \fl{útstætt horn}%
 \tya{salient angle}%
@@ -39417,10 +39417,10 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{útfeldi}%
 \tya{wedge product}%
-\ty{alternating product 1}%
+\ty{alternating product}%
 \ty{exterior product}%
 \ty{Grassmann product}%
-\ty{outer product 1}%
+\ty{outer product}%
 \sh{ytra margfeldi}%
 \sh{Grassmann-margfeldi}%
 \sh{Grassmann-feldi}%
@@ -39440,7 +39440,7 @@ infinity}: gildið í óendanlegu}%
 \fl{þversögn}%
 \na%
 \tya{antinomy}%
-\ty{paradox~1}%
+\ty{paradox}%
 \sh{þverstæða}%
 %
 \fl{þrepun upp á við}%
@@ -39553,7 +39553,7 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{þjappaður virki}%
 \tya{compact operator}%
-\tv{completely continuous 1}%
+\tv{completely continuous}%
 %
 \fl{þjappað mengi}%
 \tya{compact set}%
@@ -39613,8 +39613,8 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{þverás}%
 \tya{conjugate axis}%
-\ty{minor axis 2}%
-\tv{major axis 2}%
+\ty{minor axis}%
+\tv{major axis}%
 \tv{transverse axis}%
 %
 \fl{þvingaður}%
@@ -39642,7 +39642,7 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{þekjuvörpun}%
 \tya{covering map}%
-\ty{covering 2}%
+\ty{covering}%
 %
 \fl{þekjurúm}%
 \tya{covering space}%
@@ -39687,7 +39687,7 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{þriðja stigs jafna}%
 \tya{cubic equation}%
-\ty{cubic 3}%
+\ty{cubic}%
 %
 \fl{þekjufærsla}%
 \tya{deck transformation}%
@@ -39710,7 +39710,7 @@ infinity}: gildið í óendanlegu}%
 \fl{þættanlegur}%
 \ls%
 \tya{decomposible}%
-\ty{reducible 1}%
+\ty{reducible}%
 \tv{factorable}%
 \sh{kljúfanlegur}%
 \sh{kleyfur}%
@@ -39733,7 +39733,7 @@ infinity}: gildið í óendanlegu}%
 \fl{þrep}%
 \na%
 \tya{degree}%
-\ty{order~11}%
+\ty{order}%
 \sh{stig}%
 %
 \fl{þéttur}%
@@ -39757,7 +39757,7 @@ infinity}: gildið í óendanlegu}%
 \tya{density function}%
 \ty{distribution density function}%
 \ty{probability density function}%
-\ty{probability function 3}%
+\ty{probability function}%
 \tv{relative frequency function}%
 \sh{líkindaþéttleikafall}%
 \sh{dreifingarþéttleikafall}%
@@ -39774,7 +39774,7 @@ infinity}: gildið í óendanlegu}%
 \fl{þáttun}%
 \na%
 \tya{development}%
-\ty{expansion 2}%
+\ty{expansion}%
 %
 \fl{þvermál}%
 \na%
@@ -39791,7 +39791,7 @@ infinity}: gildið í óendanlegu}%
 \fl{þáttun}%
 \na%
 \tya{expansion}%
-\ty{development 2}%
+\ty{development}%
 %
 \fl{þáttur}%
 \na%
@@ -39806,14 +39806,14 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{þáttagreining}%
 \tya{factor analysis}%
-\ty{component analysis 2}%
+\ty{component analysis}%
 %
 \fl{þættanlegur}%
 \ls%
 \tya{factorable}%
 \ty{factorizable}%
 \tv{decomposible}%
-\tv{reducible 1}%
+\tv{reducible}%
 %
 \fl{þættanleg margliða}%
 \tya{factorable polynomial}%
@@ -39922,7 +39922,7 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{þverhluti}%
 \tya{imaginary part}%
-\tv{Im 2}%
+\tv{Im}%
 %
 \fl{þverkyns rót}%
 \tya{imaginary root}%
@@ -40015,14 +40015,14 @@ infinity}: gildið í óendanlegu}%
 \fl{þverás}%
 \tya{minor axis}%
 \ty{conjugate axis}%
-\tv{minor axis 2}%
+\tv{minor axis}%
 \tv{transverse axis}%
 %
 \fl{þver}%
 \ls%
 \tya{normal}%
 \ty{orthogonal}%
-\ty{perpendicular 1}%
+\ty{perpendicular}%
 \sh{þverstæður}%
 \sh{hornréttur}%
 \sh{þverlægur}%
@@ -40089,7 +40089,7 @@ infinity}: gildið í óendanlegu}%
 \fl{þrep}%
 \na%
 \tya{order}%
-\ty{degree 7}%
+\ty{degree}%
 \sh{stig}%
 %
 \fl{þvergrunnur}%
@@ -40100,7 +40100,7 @@ infinity}: gildið í óendanlegu}%
 \fl{þverfyllirúm}%
 \tya{orthogonal complement}%
 \ty{orthocomplement}%
-\tv{annihilator 3}%
+\tv{annihilator}%
 \sh{hornrétt fyllirúm}%
 %
 \fl{þverhnitakerfi}%
@@ -40231,12 +40231,12 @@ infinity}: gildið í óendanlegu}%
 \fl{þýði}%
 \tya{parent population}%
 \ty{population}%
-\ty{universe 2}%
+\ty{universe}%
 %
 \fl{þverstæður}%
 \ls%
 \tya{perpendicular}%
-\ty{normal 2}%
+\ty{normal}%
 \ty{orthogonal}%
 \sh{þver}%
 \sh{hornréttur}%
@@ -40267,12 +40267,12 @@ infinity}: gildið í óendanlegu}%
 \na%
 \tya{population}%
 \ty{parent population}%
-\ty{universe 2}%
+\ty{universe}%
 %
 \fl{þýðismeðalgildi}%
 \tya{population mean}%
 \ty{true mean}%
-\tv{mean 2}%
+\tv{mean}%
 \sh{raunverulegt meðalgildi}%
 %
 \fl{þýðisstiki}%
@@ -40300,13 +40300,13 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{þvertala}%
 \tya{purely imaginary number}%
-\ty{imaginary number 2}%
+\ty{imaginary number}%
 \ty{pure imaginary number}%
 %
 \fl{þraut}%
 \na%
 \tya{puzzle}%
-\tv{problem 2}%
+\tv{problem}%
 %
 \fl{þrepunarskilgreining}%
 \tya{recursive definition}%
@@ -40320,7 +40320,7 @@ infinity}: gildið í óendanlegu}%
 \ls%
 \tya{reducible}%
 \ty{decomposible}%
-\tv{factorable 2}%
+\tv{factorable}%
 \sh{kljúfanlegur}%
 \sh{kleyfur}%
 %
@@ -40488,7 +40488,7 @@ infinity}: gildið í óendanlegu}%
 %
 \fl{þinfeldi}%
 \tya{tensor product}%
-\ty{outer product 3}%
+\ty{outer product}%
 \tv{dyadic product}%
 %
 \fl{þinföldun}%
@@ -40499,13 +40499,13 @@ infinity}: gildið í óendanlegu}%
 \fl{þríunda-}%
 \ls%
 \tya{ternary}%
-\ty{triadic 1}%
+\ty{triadic}%
 %
 \fl{þrístæður}%
 \ls%
 \tya{ternary}%
 \ty{three-place}%
-\ty{triadic 2}%
+\ty{triadic}%
 %
 \fl{þríundatala}%
 \tya{ternary numeral}%
@@ -40554,8 +40554,8 @@ infinity}: gildið í óendanlegu}%
 \fl{þrístæður}%
 \ls%
 \tya{three-place}%
-\ty{ternary 2}%
-\ty{triadic~2}%
+\ty{ternary}%
+\ty{triadic}%
 %
 \fl{þrístæð vensl}%
 \tya{three-place relation}%
@@ -40609,34 +40609,34 @@ infinity}: gildið í óendanlegu}%
 \fl{þríunda-}%
 \ls%
 \tya{triadic}%
-\ty{ternary 1}%
+\ty{ternary}%
 %
 \fl{þrístæður}%
 \ls%
 \tya{triadic}%
-\ty{ternary 2}%
+\ty{ternary}%
 \ty{three-place}%
 %
 \fl{þríhyrningur}%
 \na%
 \tya{triangle}%
-\tv{acute 2}%
+\tv{acute}%
 \tv{aliquot triangle}%
 \tv{altitude}%
 \tv{altitude theorem}%
 \tv{asymptotic triangle}%
-\tv{base 7}%
+\tv{base}%
 \tv{cevian triangle}%
 \tv{circular triangle}%
 \tv{congruence theorem}%
 \tv{diagonal triangle}%
 \tv{doubly asymptotic triangle}%
-\tv{equiangular 4}%
+\tv{equiangular}%
 \tv{equilateral triangle}%
 \tv{height}%
-\tv{leg 2}%
-\tv{median 3}%
-\tv{mid-perpendicular 3}%
+\tv{leg}%
+\tv{median}%
+\tv{mid-perpendicular}%
 \tv{orthic triangle}%
 \tv{orthoptic triangle}%
 \tv{Pascal's triangle}%
@@ -40652,10 +40652,10 @@ infinity}: gildið í óendanlegu}%
 \tv{self-polar triangle}%
 \tv{similar triangle}%
 \tv{spherical triangle}%
-\tv{transversal 2}%
+\tv{transversal}%
 \tv{trebly asymptotic triangle}%
 \tv{ultrametric triangle inequality}%
-\tv{vertex 4}%
+\tv{vertex}%
 %
 \fl{þríhyrningsójafna}%
 \tya{triangle inequality}%
@@ -40755,7 +40755,7 @@ infinity}: gildið í óendanlegu}%
 \fl{þýðismeðalgildi}%
 \tya{true mean}%
 \ty{population mean}%
-\tv{mean~2}%
+\tv{mean}%
 \sh{raunverulegt meðalgildi}%
 %
 \fl{þáttabaugur}%

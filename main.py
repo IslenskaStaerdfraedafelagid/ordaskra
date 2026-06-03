@@ -1,4 +1,6 @@
 import sys
+
+from count_conflicts import count_conflicts
 from parser.parse import parse
 from parser.lex import lex
 from parser.invert import invert
@@ -27,6 +29,8 @@ try:
 
     outfile_dat.write(str(reversed))
     outfile_csv.write(reversed.to_csv())
+
+    print(f'Fjöldi árekstra: {count_conflicts(ast)}')
 
 except OSError:
     sys.exit(f"Villa: {path} fannst ekki")

@@ -1,5 +1,3 @@
-from parser.ast import *
-
 def count_branching(ast):
     i = 0
 

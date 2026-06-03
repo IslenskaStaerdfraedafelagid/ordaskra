@@ -61,6 +61,24 @@ def replace_dollars(string):
 
     return new_string
 
+def remove_references(string):
+    new_string = string
+
+    if string[-1].isdigit():
+        i = string.rfind('~')
+
+        if i != -1:
+            new_string = new_string.replace('~', ' ')
+
+        i = new_string.rfind(' ')
+
+        return string[:i]
+    else:
+        return string
+
+
+
+
 # Þáttar orðaskránna í tákn sem er auðveldara að vinna með, bara einföld stöðuvél
 def lex(characters):
     tokens = []
@@ -68,6 +86,7 @@ def lex(characters):
     try:
         # Notað til þess að lesa beint inn strengi í sér tákn
         literal_mode = False
+        insert_mode = False
 
         it = peekable(characters)
 
@@ -90,6 +109,11 @@ def lex(characters):
                 next(it)
 
                 string = replace_dollars(string[:-1])
+
+                if not insert_mode:
+                    string = remove_references(string)
+
+                insert_mode = False
 
                 push_token(tokens, TokenType.STR, string)
                 push_token(tokens, TokenType.RBRACE)
@@ -223,6 +247,7 @@ def lex(characters):
 
                             if lookahead == "n" and next(it) == "s" and next(it) == "{":
                                 literal_mode = True
+                                insert_mode = True
 
                                 push_token(tokens, token_type)
                                 push_token(tokens, TokenType.LBRACE)
