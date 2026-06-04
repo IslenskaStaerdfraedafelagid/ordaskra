@@ -30,7 +30,7 @@ try:
     outfile_dat.write(str(reversed))
     outfile_csv.write(reversed.to_csv())
 
-    print(f'Fjöldi árekstra: {count_conflicts(ast)}')
+    #print(f'Fjöldi árekstra: {count_conflicts(ast)}')
 
 except OSError:
     sys.exit(f"Villa: {path} fannst ekki")

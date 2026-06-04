@@ -43,6 +43,31 @@ class Category(Enum):
             case Category.SKA: return "ska"
             case _: return ""
 
+    # TODO Setja á form sem Árnastofnun notar
+    def to_csv(self):
+        match self:
+            case Category.NA: return "na"
+            case Category.LS: return "ls"
+            case Category.SAG: return "sag"
+            case Category.SAM: return "sam"
+            case Category.AT: return "at"
+            case Category.PREF: return "pref"
+            case Category.SKA: return "ska"
+            case _: return ""
+
+class Kyn(Enum):
+    KK = 0
+    KVK = 1
+    HK = 2
+    NONE = 3
+
+    def __str__(self):
+        match self:
+            case Kyn.KK: return "kk"
+            case Kyn.KVK: return "kvk"
+            case Kyn.HK: return "hk"
+            case _: return ""
+
 class Item:
     def __init__(self):
         self.type = ItemType.NONE
@@ -168,6 +193,7 @@ class Entry:
         self.category = Category.NONE
         self.subentries = []
         self.plural = False
+        self.kyn = Kyn.NONE
 
     def __str__(self):
         string = f'\\fl{{{self.word}}}%\n'
@@ -188,7 +214,7 @@ class Entry:
     def to_csv(self):
         assert(len(self.subentries) == 1)
 
-        return f'{self.word}{SEP}{self.subentries[0].to_csv()}'
+        return f'{self.word}{SEP}{self.category.to_csv()}{SEP}{self.kyn}{SEP}{self.subentries[0].to_csv()}'
 
 
 class Ast:
@@ -215,7 +241,7 @@ class Ast:
         return list
 
     def to_csv(self):
-        string = f'Hugtak: is{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
+        string = f'Hugtak: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Orðaflokkur: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
 
         for entry in self.flatten():
             string += entry.to_csv() + "\n"

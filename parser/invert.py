@@ -1,4 +1,7 @@
 from .ast import *
+import pandas as pd
+
+bin_ordalisti = pd.read_csv("SHsnid.csv", delimiter=";", header=None).set_index(0)[2].to_dict()
 
 def invert(ast):
     reversed = Ast()
@@ -40,6 +43,16 @@ def invert(ast):
                 new_entry.category = entry.category
                 new_entry.subentries.append(new_subentry)
                 new_entry.plural = entry.plural
+
+                match bin_ordalisti.get(new_entry.word, None):
+                    case "kk":
+                        new_entry.kyn = Kyn.KK
+                    case "kvk":
+                        new_entry.kyn = Kyn.KVK
+                    case "hk":
+                        new_entry.kyn = Kyn.HK
+                    case _:
+                        pass
 
                 if reversed.entries_by_letter.get(letter):
                     reversed.entries_by_letter[letter].append(new_entry)

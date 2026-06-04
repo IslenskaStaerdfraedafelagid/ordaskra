@@ -10,8 +10,6 @@ def count_conflicts(ast):
     for entry in ast.flatten():
         for subentry in entry.subentries:
             for synonym in subentry.synonyms:
-                print(synonym)
-
                 word = unidecode(synonym.content)
                 letter = first_char(word).lower()
 
