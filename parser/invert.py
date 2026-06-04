@@ -1,7 +1,9 @@
 from .ast import *
 import pandas as pd
+from reynir import Greynir
 
-bin_ordalisti = pd.read_csv("SHsnid.csv", delimiter=";", header=None).set_index(0)[2].to_dict()
+#bin_ordalisti = pd.read_csv("SHsnid.csv", delimiter=";", header=None).set_index(0)[2].to_dict()
+g = Greynir()
 
 def invert(ast):
     reversed = Ast()
@@ -44,15 +46,30 @@ def invert(ast):
                 new_entry.subentries.append(new_subentry)
                 new_entry.plural = entry.plural
 
-                match bin_ordalisti.get(new_entry.word, None):
-                    case "kk":
-                        new_entry.kyn = Kyn.KK
-                    case "kvk":
-                        new_entry.kyn = Kyn.KVK
-                    case "hk":
-                        new_entry.kyn = Kyn.HK
-                    case _:
-                        pass
+                parsed = g.parse_single(new_entry.word)
+
+                noun = None
+
+                if parsed is not None and parsed.terminals is not None:
+                    nouns = list(filter(lambda t: t.category == "no", parsed.terminals))
+                    if nouns != []:
+                        noun = nouns[0]
+
+                # TODO Samsett orð
+                if noun is not None:
+                    variants = noun.variants
+
+                    # TODO Ná í fleirtölu hérna í leiðinni?
+
+                    match variants[1]:
+                        case "kk":
+                            new_entry.kyn = Kyn.KK
+                        case "kvk":
+                            new_entry.kyn = Kyn.KVK
+                        case "hk":
+                            new_entry.kyn = Kyn.HK
+                        case _:
+                            pass
 
                 if reversed.entries_by_letter.get(letter):
                     reversed.entries_by_letter[letter].append(new_entry)

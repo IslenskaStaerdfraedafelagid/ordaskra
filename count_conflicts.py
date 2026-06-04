@@ -1,8 +1,5 @@
-from parser.ast import *
-from parser.invert import invert
 from parser.parse import first_char
 from unidecode import unidecode
-
 
 def count_conflicts(ast):
     i = 0

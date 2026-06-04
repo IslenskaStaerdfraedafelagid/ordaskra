@@ -1,6 +1,7 @@
 import sys
 
 from count_conflicts import count_conflicts
+from count_ungendered import count_ungendered
 from parser.parse import parse
 from parser.lex import lex
 from parser.invert import invert
@@ -30,7 +31,7 @@ try:
     outfile_dat.write(str(reversed))
     outfile_csv.write(reversed.to_csv())
 
-    #print(f'Fjöldi árekstra: {count_conflicts(ast)}')
+    print(f'Fjöldi ókyngreindra orða: {count_ungendered(reversed)}')
 
 except OSError:
     sys.exit(f"Villa: {path} fannst ekki")
