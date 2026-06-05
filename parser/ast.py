@@ -1,5 +1,9 @@
 from enum import Enum
 
+from unidecode import unidecode
+
+from parser.util import first_char
+
 #SEP = chr(31)
 SEP = '|'
 
@@ -232,6 +236,22 @@ class Ast:
 
         return string
 
+    def lookup(self, word):
+        normalized_word = unidecode(word)
+        letter = first_char(normalized_word).lower()
+
+        #print(list(map(lambda e: e.word, self.entries_by_letter.get(letter, []))))
+
+        return word in map(lambda e: e.word, self.entries_by_letter.get(letter, []))
+
+    def exists(self, word):
+        #result = self.lookup(word)
+
+        #print(result)
+
+        #return result
+        return self.lookup(word)
+
     def flatten(self):
         list = []
 
@@ -241,9 +261,10 @@ class Ast:
         return list
 
     def to_csv(self):
-        string = f'Hugtak: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Orðaflokkur: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
+        string = f'Hugtak: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
 
         for entry in self.flatten():
+            print(f"Adding {entry} to CSV" )
             string += entry.to_csv() + "\n"
 
         return string

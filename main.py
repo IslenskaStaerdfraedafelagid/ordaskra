@@ -31,7 +31,7 @@ try:
     outfile_dat.write(str(reversed))
     outfile_csv.write(reversed.to_csv())
 
-    print(f'Fjöldi ókyngreindra orða: {count_ungendered(reversed)}')
+    #print(f'Fjöldi ókyngreindra orða: {count_ungendered(reversed)}')
 
 except OSError:
     sys.exit(f"Villa: {path} fannst ekki")
