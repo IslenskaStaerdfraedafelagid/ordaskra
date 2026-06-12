@@ -5,6 +5,49 @@ from reynir import Greynir
 #bin_ordalisti = pd.read_csv("SHsnid.csv", delimiter=";", header=None).set_index(0)[2].to_dict()
 g = Greynir()
 
+def analyze_gender(word):
+    if word.find("kk.") != -1:
+        idx = word.find("(")
+
+        return Kyn.KK, word[:idx-1]
+    elif word.find("kvk.") != -1:
+        idx = word.find("(")
+
+        return Kyn.KVK, word[:idx-1]
+    elif word.find("hk.") != -1:
+        idx = word.find("(")
+
+        return Kyn.HK, word[:idx-1]
+
+    parsed = g.parse_single(word)
+
+    noun = None
+
+    if parsed is not None and parsed.terminals is not None:
+        nouns = list(filter(lambda t: t.category == "no", parsed.terminals))
+        if nouns != []:
+            noun = nouns[0]
+
+    # TODO Samsett orð
+    if noun is not None:
+        variants = noun.variants
+
+        # TODO Ná í fleirtölu hérna í leiðinni?
+
+        match variants[1]:
+            case "kk":
+                return Kyn.KK, word
+            case "kvk":
+                return Kyn.KVK, word
+            case "hk":
+                return Kyn.HK, word
+            case _:
+                # TODO Fletta upp í orðalista BÍN ef Greynir virkar ekki?
+                return Kyn.NONE, word
+    else:
+        return Kyn.NONE, word
+
+
 def invert(ast):
     reversed = Ast()
 
@@ -46,30 +89,10 @@ def invert(ast):
                 new_entry.subentries.append(new_subentry)
                 new_entry.plural = entry.plural
 
-                parsed = g.parse_single(new_entry.word)
+                kyn, updated_word = analyze_gender(new_entry.word)
 
-                noun = None
-
-                if parsed is not None and parsed.terminals is not None:
-                    nouns = list(filter(lambda t: t.category == "no", parsed.terminals))
-                    if nouns != []:
-                        noun = nouns[0]
-
-                # TODO Samsett orð
-                if noun is not None:
-                    variants = noun.variants
-
-                    # TODO Ná í fleirtölu hérna í leiðinni?
-
-                    match variants[1]:
-                        case "kk":
-                            new_entry.kyn = Kyn.KK
-                        case "kvk":
-                            new_entry.kyn = Kyn.KVK
-                        case "hk":
-                            new_entry.kyn = Kyn.HK
-                        case _:
-                            pass
+                new_entry.kyn = kyn
+                new_entry.word = updated_word
 
                 if reversed.entries_by_letter.get(letter):
                     reversed.entries_by_letter[letter].append(new_entry)

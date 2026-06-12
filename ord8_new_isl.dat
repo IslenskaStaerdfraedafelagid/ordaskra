@@ -2744,7 +2744,7 @@ aðgreind mengi}%
 \ins{{\it distribution of primes}: dreifing frumtalnanna; {\it uniform distribution modulo \(1\)}: dreifing í jöfnum mæli mátað við 1}%
 \tv{value distribution}%
 %
-\fl{dreif ({\it kvk.})}%
+\fl{dreif}%
 \na%
 \tya{distribution}%
 \ty{generalized function}%
@@ -8608,7 +8608,7 @@ hnitaframsetning}%
 \ty{contractive mapping}%
 \sh{samdráttur}%
 %
-\fl{hnit ({\it hk.})}%
+\fl{hnit}%
 \na%
 \tya{coordinate}%
 \tv{abscissa}%
@@ -15752,7 +15752,7 @@ lið}%
 \ty{succedent}%
 \tv{antecedent}%
 %
-\fl{nafla ({\it hk.})}%
+\fl{nafla}%
 \tya{del operator}%
 \ty{del}%
 \ty{Hamiltonian}%
@@ -17120,7 +17120,7 @@ lið}%
 \sh{hlutfallslegt safntíðnifall}%
 \sh{mælt dreifingarfall}%
 %
-\fl{rót ({\it hk.})}%
+\fl{rót}%
 \na%
 \tya{curl}%
 \ty{rotation}%
@@ -18526,7 +18526,7 @@ lið}%
 \fl{sjálfstýring}%
 \tya{automatic control}%
 %
-\fl{sjálfvirki ({\it kk.})}%
+\fl{sjálfvirki}%
 \na%
 \tya{automaton}%
 %
@@ -26235,7 +26235,7 @@ almenns brots í tuga\-brot}%
 \tya{operational calculus}%
 \ty{operator calculus}%
 %
-\fl{virki ({\it kk.})}%
+\fl{virki}%
 \na%
 \tya{operator}%
 %
