@@ -46,8 +46,6 @@ def invert(ast):
                 new_entry.subentries.append(new_subentry)
                 new_entry.plural = entry.plural
 
-                print(f'Adding Icelandic entry {new_entry}')
-
                 parsed = g.parse_single(new_entry.word)
 
                 noun = None

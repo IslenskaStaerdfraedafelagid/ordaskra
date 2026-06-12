@@ -32,6 +32,10 @@ def zero_or_more(it, token):
     except StopIteration:
         pass
 
+def maybe_add_subentry(ast, subentry):
+    if subentry.translations != [] and not any(ast.exists(w.content) for w in subentry.synonyms):
+        entry.subentries.append(subentry)
+
 # Þetta eru global breytur sem eru notaðar til að smíða færslur yfir margar ítranir í innri lykkju parse()
 entry = Entry()
 subentry = SubEntry()
@@ -71,19 +75,7 @@ def parse(tokens):
                 # FL skipunin býr til nýja færslu í orðaskránni, held að það standi fyrir Foreign Language
                 case TokenType.FL:
                     # Bætum við "undirfærslunni" í seinustu færslu á undan áður en við búum til nýja
-                    # TODO Skoða öll subentry
-                    print(entry.word)
-                    print(list(map(lambda w: w.content, subentry.synonyms)))
-
-                    # Forðast tvítekningar
-                    if subentry.translations != [] and not any(ast.exists(w.content) for w in subentry.synonyms):
-                        #print(ast)
-                        print("None of the synonyms are already entries")
-                        entry.subentries.append(subentry)
-                    else:
-                        print("throw away")
-
-                    #entry.subentries.append(subentry)
+                    maybe_add_subentry(ast, subentry)
 
                     # Hreinsum núverandi undirfærslu
                     subentry = SubEntry()
@@ -94,8 +86,6 @@ def parse(tokens):
                         # Þetta er til þess að fjarlægja stafmerki þannig að orð eins og étale flokkist undir "e"
                         word = unidecode(entry.word)
                         letter = first_char(word).lower()
-
-                        #print(f'Adding entry: {entry}')
 
                         ast.entries_by_letter[letter].append(entry)
 
@@ -126,17 +116,7 @@ def parse(tokens):
                     expect(it, TokenType.RBRACE)
                 # TYA skipunin býr til nýjan þýðingaflokk
                 case TokenType.TYA:
-                    # TODO
-                    print(entry.word)
-                    print(list(map(lambda w: w.content, subentry.synonyms)))
-
-                    # Forðast tvítekningar
-                    if subentry.translations != [] and not any(ast.exists(w.content) for w in subentry.synonyms):
-                        #print(ast)
-                        print("None of the synonyms are already entries")
-                        entry.subentries.append(subentry)
-                    else:
-                        print("throw away")
+                    maybe_add_subentry(ast, subentry)
 
                     subentry = SubEntry()
 
@@ -170,17 +150,7 @@ def parse(tokens):
                     expect(it, TokenType.RBRACE)
                 # o.s.frv.
                 case TokenType.SHA:
-                    # TODO
-                    print(entry.word)
-                    print(list(map(lambda w: w.content, subentry.synonyms)))
-
-                    # Forðast tvítekningar
-                    if subentry.translations != [] and not any(ast.exists(w.content) for w in subentry.synonyms):
-                        #print(ast)
-                        print("None of the synonyms are already entries")
-                        entry.subentries.append(subentry)
-                    else:
-                        print("throw away")
+                    maybe_add_subentry(ast, subentry)
 
                     subentry = SubEntry()
 
@@ -208,17 +178,7 @@ def parse(tokens):
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.COA:
-                    # TODO
-                    print(entry.word)
-                    print(list(map(lambda w: w.content, subentry.synonyms)))
-
-                    # Forðast tvítekningar
-                    if subentry.translations != [] and not any(ast.exists(w.content) for w in subentry.synonyms):
-                        #print(ast)
-                        print("None of the synonyms are already entries")
-                        entry.subentries.append(subentry)
-                    else:
-                        print("throw away")
+                    maybe_add_subentry(ast, subentry)
 
                     subentry = SubEntry()
 
@@ -246,17 +206,7 @@ def parse(tokens):
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.TVA:
-                    # TODO
-                    print(entry.word)
-                    print(list(map(lambda w: w.content, subentry.synonyms)))
-
-                    # Forðast tvítekningar
-                    if subentry.translations != [] and not any(ast.exists(w.content) for w in subentry.synonyms):
-                        #print(ast)
-                        print("None of the synonyms are already entries")
-                        entry.subentries.append(subentry)
-                    else:
-                        print("throw away")
+                    maybe_add_subentry(ast, subentry)
 
                     subentry = SubEntry()
 

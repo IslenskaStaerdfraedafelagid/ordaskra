@@ -640,7 +640,7 @@ dæmi|na|||||sýnidæmi||||example|||||||
 dæmi|na|||||þraut, reikningsdæmi, æfingardæmi|||arithmetic problem|exercise||||problem|||
 draga (rót)|sag|kvk|||||||take|extract|||||||
 deildagrúpa||kvk||||||||factor group||||group of quotients, quotient group|||
-deildamótull||hk||||||||factor module||||quotient module|||
+deildamótull||kvk||||||||factor module||||quotient module|||
 deildabaugur||kk||||||||factor ring||||quotient ring, residue class ring|||
 deildamengi||||||||||factor set||||quotient set|||
 deildarúm||hk|||||||coset space|factor space||||identification space, quotient space|||
@@ -829,7 +829,7 @@ ekki núlldeilir||kk||||reglulegt stak||||non-zero divisor||||regular element|||
 einingarvigur||kk||||einingarvektor||||normalized vector||||unit vector|||
 einn|na|||||||||one||||unity|||
 einn og aðeins einn||||||nákvæmlega einn||||one and only one|||||||
-einrás|na|hk||||\(1\)-rás||||one-cycle|||||||
+einrás|na|kvk||||\(1\)-rás||||one-cycle|||||||
 einstafa tala||||||||||one-digit number||||single-digit number|||
 einvíður|ls|||||||||one-dimensional|||||||
 einvíð dreifing||kvk||||||||one-dimensional distribution||||univariate distribution|||
@@ -845,7 +845,7 @@ einhliða öryggisbil||hk||||||||one-sided confidence interval|||||||
 einhliða íðal|||||||||left ideal, right ideal|one-sided ideal|||||||
 einhliða markgildi||hk||||||||one-sided limit|||||||
 einhliða flötur||kk||||||||one-sided surface||||surface of one side, unilateral surface|||
-einhliða próf||kk||||||||one-sided test||||single-tail test|||
+einhliða próf||hk||||||||one-sided test||||single-tail test|||
 einvítt hvel|na|hk||||einhvel|||circle, Jordan curve|one-sphere|||||||
 einsþrepsaðferð||kvk||||||||one-step method|||||||
 einmargur|ls|||||||||one-to-many||||one-many|||
@@ -1022,7 +1022,7 @@ fjórveldi|na|hk||||fjórða veldi||||biquadrate|||||||
 fjórða stigs|ls||||||||biquadratic equation, biquadratic number|biquadratic||||quartic|||
 fjórða stigs jafna||||Stundum sér\-staklega notað um fjórða stigs jöfnu þar sem einungis koma fyrir jöfn veldi af óþekktu stærðinni||||||biquadratic equation||||quartic, quartic equation|||
 fjórveldi||hk||||fjórða veldi (af heilli tölu)||||biquadratic number|||||||
-fjórða rót||hk||||||||biquadratic root|||||||
+fjórða rót||kvk||||||||biquadratic root|||||||
 fæðingaferli||hk||||||||birth process|||||||
 fæðingatíðni||kvk||||||||birth rate|||||||
 fæðingar- og dánarferli||hk||||||||birth-and-death process|||||||
@@ -1437,7 +1437,7 @@ fulltrúa-|ls|||||||||representative|||||||
 fulltrúi|na|kk||||||||representative|||||||
 framsetjandi|ls|||||||||representing|||||||
 fleygaður frá hægri||||||nákvæmur frá hægri||||right exact|||||||
-ferningsmeðaltalsrót|na|hk|||||||quad\-ratic mean|root-mean-square||||root-sum-square|||
+ferningsmeðaltalsrót|na|kvk|||||||quad\-ratic mean|root-mean-square||||root-sum-square|||
 formerkjaregla||kvk||||||||rule of signs|||||||
 flökkupunktur||kk||||hlaupapunktur, breytilegur punktur||||running point|||||||
 fullnægjanlegur|ls|||||uppfyllanlegur||||satisfiable|||||||
@@ -1503,7 +1503,7 @@ gleypiregla||kvk||||||||absorption law|||||||
 gleypilíkindi||hk||||||||absorption probability|||||||
 grennsl|na|||||||||adjacency|||||||
 grennslafylki||||||hnútafylki||||adjacency matrix|||||||
-grannör||kvk||||grannstæð ör|||arc|adjacent arc|||||||
+grannör||hk||||grannstæð ör|||arc|adjacent arc|||||||
 grannleggur||||||grannstæður leggur||||adjacent edge|||||||
 grannhorn||hk||||aðlæg frændhorn||||adjacent supplementary angles|||||||
 grannhnútur||kk||||grannstæður hnútur||||adjacent vertex||||adjacent node|||
@@ -1542,7 +1542,7 @@ geymd|na|kvk||||||||carry||||carry-over|||
 geyma|sag|||||||||carry|||||||
 geymdur tölustafur||kk||||||||carry digit|||||||
 grúpuríki||||||||||category of groups|||||||
-gagnvegahnit||hk||||||||central coordinates||||geodesic coordinates|||
+gagnvegahnit||kvk||||||||central coordinates||||geodesic coordinates|||
 grúpumiðja|na|kvk||||miðja||||centre|||||||
 grunnpunktur|na|kk||||miðja||||centre|||||||
 grófara grannmynstur||hk||||veikara grannmynstur|||finer topology, stronger topology|coarser topology||||weaker topology|||
@@ -1806,7 +1806,7 @@ hlutfallstala||kvk||||hlutfallsþáttur||||constant of proportionality|||||||
 hæðarlína||kvk||||hæðarferill||||contour line||||depth contour, height contour, height line, isobath, isohypse, level curve, level line|||
 hæðarflötur||kk||||||||contour surface||||level surface|||
 herping|na|kvk||||samdráttur||||contraction||||contractive mapping|||
-hnit ({\it hk.})|na|kvk|||||||abscissa, affine coordinates, amplitude, angular coordinate, anomaly, azimuth, barycentric coordinates, cartesian coordinates, central coordinates, curvilinear coordinates, cylindrical coordinates, ellipsoidal coordinates, geodesic coordinates, homogeneous coordinates, inhomogeneous coordinates, local coordinate, normal coordinates, oblique coordinates, ordinate, orthogonal coordinates, orthonormal coordinates, parabolic coordinates, parallel coordinates, plane coordinates, polar angle, polar coordinates, projective coordinates, radius vector, rectangular coordinates, spatial coordinates, spherical coordinates, spherical polar coordinates, tetrahedral coordinates, triangular coordinates, trilinear coordinates|coordinate|||||||
+hnit ({\it hk.})|na|hk|||||||abscissa, affine coordinates, amplitude, angular coordinate, anomaly, azimuth, barycentric coordinates, cartesian coordinates, central coordinates, curvilinear coordinates, cylindrical coordinates, ellipsoidal coordinates, geodesic coordinates, homogeneous coordinates, inhomogeneous coordinates, local coordinate, normal coordinates, oblique coordinates, ordinate, orthogonal coordinates, orthonormal coordinates, parabolic coordinates, parallel coordinates, plane coordinates, polar angle, polar coordinates, projective coordinates, radius vector, rectangular coordinates, spatial coordinates, spherical coordinates, spherical polar coordinates, tetrahedral coordinates, triangular coordinates, trilinear coordinates|coordinate|||||||
 hnitás||kk||||hnitaás|||axis, real axis|coordinate axis|||||||
 hnitfall||hk||||hnitafall||||coordinate function|||||||
 hnitgrennd||kvk||||hnitagrennd||||coordinate neighbourhood|||||||
@@ -2007,7 +2007,7 @@ hágildissetning||kvk||||hágildislögmál, háalgildissetning, háalgildislögm
 hágildissetning||kvk||||hágildislögmál||||maximum principle||||principle of maximum|||
 hámarksleikáætlun||kvk||||hámarksáætlun|||optimum strategy|maximum strategy|||||||
 hálágmarkslögmál||hk||||fjalldalaregla||||maximum-minimum principle||||minimax principle|||
-hlið|na|kvk||||||||member||||side|||
+hlið|na|hk||||||||member||||side|||
 hugarreikningur||kk||||||||mental arithmetic|||||||
 höfuðhluti||kk||||||||meromorphic part||||principal part, singular part|||
 höfuðásaaðferð||kvk||||meginásaaðferð||||method of principal axes|||||||
@@ -2177,7 +2177,7 @@ hálfeinfaldur|ls|||||||||semisimple|||||||
 hálfur meginás||kk|||||||transverse axis|semitransverse axis|||||||
 hálftvílínulegur|ls|||||||||sesquilinear|||||||
 höggbylgja||kvk||||||||shock wave|||||||
-hlið|na|hk||||hliðarlína, hliðarstrik||||side|||||||
+hlið|na|kvk||||hliðarlína, hliðarstrik||||side|||||||
 hlutverutákn||hk||||||||sign of inclusion|||||||
 hreintóna hreyfing||||||||||simple harmonic motion|||||||
 hyrna|na|kvk||||||||simplex|||||||
@@ -2448,7 +2448,7 @@ Jacobi-ákveða||kvk||||||||functional determinant||||Jacobian, Jacobian determi
 Jacobi-fylki||hk||||||||functional matrix||||Jacobian, Jacobian matrix|||
 Jacobi-tákn||hk||||||||Jacobi symbol|||||||
 Jacobi-víðerni||hk||||||||Jacobian variety||||Jacobian|||
-Jacobson-rót||hk||||||||Jacobson radical|||||||
+Jacobson-rót||kvk||||||||Jacobson radical|||||||
 Jordan-ferill||kk||||einfaldur lokaður ferill||||Jordan curve||||simple closed curve|||
 kerfisbundin úrtakskönnun||kvk||||||||aligned sampling||||systematic sampling|||
 krossmargfeldi||hk||||vigurmargfeldi, vektormargfeldi, krossfeldi, vigurfeldi||||alternating product||||cross product, outer product, skew product, vector product|||
@@ -2577,7 +2577,7 @@ kjarni|na|kk|||||||Ker, null-space|kernel|||||||
 kjarnafall||hk||||||||kernel function|||||||
 kápuflatarmál||hk||||möttulflatarmál||||lateral area|||||||
 kápubrún||kvk||||möttulbrún||||lateral edge|||||||
-kápuhlið||kvk||||kápuhliðarflötur, möttulhlið, möttulhliðarflötur||||lateral face|||||||
+kápuhlið||hk||||kápuhliðarflötur, möttulhlið, möttulhliðarflötur||||lateral face|||||||
 kápuflötur||kk||||kápa, möttull, möttulflötur||||lateral surface|||||||
 kjálki|na|||||||||leg|||||||
 kompáslína|na|kvk||||||||loxodrome||||loxodromic curve, loxodromic line, loxodromic spiral, rhumb, rhumb line, spherical helix|||
@@ -2616,7 +2616,7 @@ knippisrúm||hk||||||||sheaf space|||||||
 knippafræði||kvk||||||||sheaf theory|||||||
 kúlu-|ls|||||hnatt-, hvel-||||spherical|||||||
 kúluhorn||hk||||hnatthorn||||spherical angle|||||||
-kúluhnit||kvk||||||||spherical coordinates||||spherical polar coordinates|||
+kúluhnit||hk||||||||spherical coordinates||||spherical polar coordinates|||
 kúlufall||hk||||hvelfall||||spherical function|||||||
 kúlurúmfræði||kvk||||||||spherical geometry||||spherics|||
 kúlnarúmfræði||kvk||||||||spherical geometry|||||||
@@ -3166,7 +3166,7 @@ mínúta|na|kvk|||||||centesimal minute, sexagesimal minute, min|minute|||||||
 mátform||hk||||||||modular form|||||||
 mátfall||hk||||||||modular function|||||||
 mátgrúpa||kvk||||||||modular group|||||||
-mótull|na|kvk|||||||linear space, vector space|module|||||||
+mótull|na|hk|||||||linear space, vector space|module|||||||
 mótulgrunnur||||||||||module basis||||module base|||
 mótulinnanmótun||||||||||module endomorphism|||||||
 mótulmótun||||||línuleg vörpun|||linear mapping|module homomorphism|||||||
@@ -3262,7 +3262,7 @@ margliðubaugur||||||||||polynomial ring|||||||
 mætti|na|||||||||potential|||||||
 mættisfall||||||||||potential function|||||||
 mættisfræði||||||||||potential theory|||||||
-mið|na|kk||||veldi|||spherical power|power|||||||
+mið|na|hk||||veldi|||spherical power|power|||||||
 megin-|ls|||||höfuð-, aðal-||||principal|||||||
 meginhorn||hk||||||||principal argument|||||||
 meginásasetning||kvk||||||||principal axes theorem|||||||
@@ -3485,7 +3485,7 @@ núllmengi||||||||||null set||||set of measure zero|||
 núlllausn||kvk||||||||null solution|||||||
 núllvigur||kk||||núllvektor||||null vector||||zero vector|||
 núllstætt fall||hk||||||||nullary function|||||||
-núllrót|na|kvk||||||||null-radical|||||||
+núllrót|na|hk||||||||null-radical|||||||
 núllendurkvæmur|ls|||||núll\-aftur\-kvæmur||||null-recurrent|||||||
 núllstöðvasetning|na|kvk||||||||Nullstellensatz|||||||
 nærþjappaður|ls|||||||||paracompact|||||||
@@ -3566,7 +3566,7 @@ orðalengd||||||||||word length|||||||
 orðaverkefni||hk||||||||word problem|||||||
 plús||kk||||plúsmerki, samlagningarmerki|||summation sign|addition sign||||plus, plus sign, sign of addition|||
 prósentustöplarit, hlutfallsstöplarit||||||||||band chart|||||||
-próf|na|hk||||||||criterion|||||||
+próf|na|kk||||||||criterion|||||||
 prófhending||kvk||||||||critical function||||test function|||
 punktur sem er ekki hvarfpunktur||kk|||||||critical point|non-critical point|||||||
 paraður samanburður||kk||||||||paired comparison|||||||
@@ -3588,7 +3588,7 @@ pólskt rúm||hk||||||||Polish space|||||||
 pýþagórsk aljafna||||||||||pythagorean identity|||||||
 pýþagórskur þríhyrningur||||||||||pythagorean triangle|||||||
 pýþagórsk þrennd||||||||||pythagorean triple|||||||
-próf|na|hk||||||||test|||||||
+próf|na|kk||||||||test|||||||
 prófunarfall||hk||||||||test function|||||||
 Picard-setningin meiri||||||stóra Picard-setningin|||little Picard theorem|great Picard theorem|||||||
 Phragmén-Lindelöf-fall||hk||||vísifall||||indicator function||||Phragmén-Lindelöf function|||
@@ -3644,10 +3644,10 @@ ríki|na|||||||||category|||||||
 ríki af ríkjum||hk||||ríkjaríki||||category of categories|||||||
 ríkjafræði||kvk||||||||category theory|||||||
 reitur|na|kk||||||||cell||||table cell|||
-rás|na|hk||||||||circuit||||closed edge sequence, closed edge progression, closed walk, cycle|||
-rás||kvk||||rásuð uppstokkun, rásuð umröðun||||circular permutation||||cycle, cyclic permutation|||
+rás|na|kvk||||||||circuit||||closed edge sequence, closed edge progression, closed walk, cycle|||
+rás||hk||||rásuð uppstokkun, rásuð umröðun||||circular permutation||||cycle, cyclic permutation|||
 réttsælis|at|||||sólarsinnis||||clockwise|||||||
-rás||hk||||lokuð keðja||||closed chain||||cycle|||
+rás||kvk||||lokuð keðja||||closed chain||||cycle|||
 raðfylgnistuðull||kk|||||||Kendall rank correlation coefficient, Spearman rank correlation coefficient|coefficient of rank correlation||||rank correlation coefficient|||
 reiknanleiki|na|||||||||computability|||||||
 reiknanleikafræði|||||||||recursive function theory|computability theory|||||||
@@ -3764,7 +3764,7 @@ reglulegur margflötungur||kk||||platónskur margflötungur||||platonic body||||
 regla|na|kvk||||lögmál||||principle|||||||
 runa|na|kvk||||töluhlaup|||arithmetic progression, geometric progression, sequence, sequence|progression|||||||
 rót|na|hk|||||||solution by radicals, surd|radical||||radix, root|||
-rót|na|kvk||||||||radical|||||||
+rót|na|hk||||||||radical|||||||
 rótaríðal||||||||||radical ideal|||||||
 rótarstofn|na|kk||||||||radicand|||||||
 ræður|ls|||||||||rational|||||||
@@ -3841,9 +3841,9 @@ réttstæð strýta||kvk||||réttstæður píramíti||||right pyramid|||||||
 rétthyrndur þríhyrningur||kk||||||||right triangle||||right-angled triangle|||
 rétthyrndur|ls|||||||||right-angled|||||||
 rómverskar tölur||kvk||||rómversk tölutákn||||Roman numerals|||||||
-rót|na|kvk||||lausn||||root||||solution|||
+rót|na|hk||||lausn||||root||||solution|||
 rót|na|hk||||núllstöð||||root|||||||
-rót|na|kvk||||||||root|||||||
+rót|na|hk||||||||root|||||||
 rótarfall||hk||||||||root function|||||||
 rótarpróf||hk||||||||root test|||||||
 rótartré||hk||||||||rooted tree|||||||
@@ -3872,7 +3872,7 @@ rúmheildi||hk||||||||space integral||||volume integral|||
 rúmpunktur||kk||||punktur í rúmi||||space point|||||||
 rúm-|ls|||||rúmstæður, rúmlægur||||spatial|||||||
 rúmstæða||||||stæða í rúmi||||spatial configuration|||||||
-rúmhnit||kvk||||||||spatial coordinates|||||||
+rúmhnit||hk||||||||spatial coordinates|||||||
 raðfylgnistuðull Spearmans||kk||||||||Spearman rank correlation coefficient|||||||
 rófgreining||kvk||||||||spectral analysis|||||||
 róf{}liðun||||||||||spectral decomposition|||||||
@@ -4205,7 +4205,7 @@ snið|na|hk|||||||section|cut|||||||
 stýrifræði|na|kvk||||||||cybernetics|||||||
 sívalningur|na|kk||||||||cylinder|||||||
 snúðsívalningur||kk||||hring\-sívalningur||||cylinder of revolution|||||||
-sívalningshnit||hk||||||||cylindrical coordinates|||||||
+sívalningshnit||kvk||||||||cylindrical coordinates|||||||
 sívalningsflötur||kk||||||||cylindrical surface|||||||
 samfellu\-frum\-senda Dedekinds||kvk||||samfellufrumsetning Dedekinds, samfelldnifrumsenda Dedekinds, samfelldnifrumsetning Dedekinds||||Dedekind continuity axiom|||||||
 skilgreinanleiki|na|||||||||definability|||||||
@@ -4424,7 +4424,7 @@ samsemdarvensl||hk|||||||equality, identity|identity relation|||||||
 samsemdarsetning||kvk||||||||identity theorem|||||||
 setning um fólgin föll||kvk||||||||implicit function theorem|||||||
 stíga|sag|||||vaxa, hækka||||increase|||||||
-stígandi|ls|kvk||||vaxandi, hækkandi|||order-preserving, strictly increasing|increasing||||isotone, isotonic, monotonically increasing, non-decreasing|||
+stígandi|ls|kk||||vaxandi, hækkandi|||order-preserving, strictly increasing|increasing||||isotone, isotonic, monotonically increasing, non-decreasing|||
 stækkun|ls|kvk||||viðbót, auki||||increment|||||||
 stakbreyta||kvk||||||||individual variable||||object variable|||
 skipun|na|kvk||||||||instruction|||||||
@@ -4462,7 +4462,7 @@ sniðlína||kvk||||skurðlína||||line of intersection|||||||
 staðbundinn|ls|||||stað-||||local|||||||
 staðalgebra||kvk||||||||local algebra|||||||
 staðþjappleiki||||||staðþjöppun||||local compactness|||||||
-staðhnit||kvk||||staðhnitafall|||local coordinate system|local coordinate|||||||
+staðhnit||hk||||staðhnitafall|||local coordinate system|local coordinate|||||||
 staðsvið||hk||||staðkroppur||||local field|||||||
 staðbundin Lie-grúpa||kvk||||Lie-grúpukím||||local Lie group|||||||
 setning um staðbundið markgildi||kvk||||||||local limit theorem|||||||
@@ -4559,7 +4559,7 @@ skáhorn||hk||||||||oblique angle|||||||
 skásett hringkeila||||||skökk hringkeila||||oblique circular cone|||||||
 skásettur hringsívalningur||||||skakkur hringsívalningur||||oblique circular cylinder|||||||
 skásett hnitakerfi||hk||||skakkt hnitakerfi||||oblique coordinate system|||||||
-skásett hnit||hk||||skökk hnit|||affine coordinates, cartesian coordinates, parallel coordinates, orthogonal coordinates, rectangular coordinates|oblique coordinates|||||||
+skásett hnit||kvk||||skökk hnit|||affine coordinates, cartesian coordinates, parallel coordinates, orthogonal coordinates, rectangular coordinates|oblique coordinates|||||||
 skakkur samhliðungur||kk||||skásettur samhliðungur||||oblique parallelepipedon|||||||
 skástrendingur||kk||||skakkur strendingur||||oblique prism|||||||
 skakkt ofanvarp||hk||||||||oblique projection||||skew projection|||
@@ -4650,7 +4650,7 @@ samleitinn í hverjum punkti||||||||||pointwise convergent|||||||
 skauthnitás||kk||||skauthnitaás, pólhnitás, pólhnitaás||||polar axis|||||||
 skauthringur||kk||||||||polar circle|||||||
 skauthnitakerfi||hk||||pólhnitakerfi||||polar coordinate system|||||||
-skauthnit||kvk||||pólhnit||||polar coordinates|||||||
+skauthnit||hk||||pólhnit||||polar coordinates|||||||
 skauthnitaferill||kk||||pólhnitaferill, ferill í skauthnitum (pólhnitum)||||polar curve|||||||
 skautþáttun||kvk||||pólþáttun||||polar decomposition|||||||
 skauthnitajafna||kvk||||pólhnitajafna||||polar equation|||||||
@@ -4679,7 +4679,7 @@ strendingur|na|kk||||||||prism|||||||
 strendingsflötur||kk||||||||prismatic surface|||||||
 strendingsfrændi|na|kk||||||||prismatoid|||||||
 strendingsbróðir|na|kk||||||||prismoid|||||||
-slembilíkan||hk||||líkindalíkan||||probability model||||stochastic model|||
+slembilíkan||kvk||||líkindalíkan||||probability model||||stochastic model|||
 sannanafræði||kvk||||||||proof theory|||||||
 strangt þríhyrningsfylki||hk||||||||properly triangular matrix||||strictly triangular matrix|||
 setning|na|kvk|||||||theorem|proposition|||||||
@@ -4967,7 +4967,7 @@ samfelldni í jöfnum mæli||kvk||||jöfn samfelldni||||uniform continuity||||||
 samleitni í jöfnum mæli||kvk||||jöfn samleitni||||uniform convergence|||||||
 staðalgrannmynstur||hk|||||||norm topology|uniform topology|||||||
 samfelldur í jöfnum mæli||kvk||||||||uniformly continuous|||||||
-samleitinn í jöfnum mæli||kvk||||||||uniformly convergent|||||||
+samleitinn í jöfnum mæli||kk||||||||uniformly convergent|||||||
 setning um ótvíræða þáttun||kvk||||||||unique factorization theorem|||||||
 stofnbrot||hk||||||||unit fraction|||||||
 sveigfeldi||||||||||wreath product|||||||
@@ -5155,7 +5155,7 @@ tvípunktur||kk||||tvöfaldur punktur||||double point|||||||
 tvöföld rót||kvk||||||||double root|||||||
 tvöföld runa||||||||||double sequence|||||||
 tvöföld röð||kvk||||||||double series|||||||
-tvíhliða próf||hk||||||||double-tailed test||||two-sided test|||
+tvíhliða próf||kk||||||||double-tailed test||||two-sided test|||
 tvíaðfelldur þríhyrningur||kk||||||||doubly asymptotic triangle|||||||
 tvöfaldlega samanhangandi||kk||||tvöfaldlega samhangandi||||doubly connected|||||||
 tvílotubundinn||||||tvílotulegur||||doubly periodic|||||||
@@ -5337,7 +5337,7 @@ tvíhliða|ls|||||||||two-sided|||||||
 tvíhliða öryggisbil||hk||||||||two-sided confidence interval|||||||
 tvíhliða íðal||||||||||two-sided ideal|||||||
 tvíhliða umhverfa||||||||||two-sided inverse|||||||
-tvíhliða mótull||kvk||||||||two-sided module|||||||
+tvíhliða mótull||hk||||||||two-sided module|||||||
 tvíhliða flötur||kk||||||||two-sided surface|||||||
 tvígildur|ls|||||||||two-valued|||||||
 tvígild rökfræði||kvk||||||||two-valued logic|||||||
@@ -5500,7 +5500,7 @@ vildur|ls|||||vildar-||||affine|||||||
 vildarlokun||kvk||||vildarhjúpur|||linear closure|affine closure|||||||
 vild samlínumótun||kvk||||||||affine collineation|||||||
 vildarsamgangur||kk|||||||connection|affine connection|||||||
-vildarhnit||kvk||||samsíða hnit|||cartesian coordinates, oblique coordinates|affine coordinates||||parallel coordinates|||
+vildarhnit||hk||||samsíða hnit|||cartesian coordinates, oblique coordinates|affine coordinates||||parallel coordinates|||
 vildarfall||hk||||línufall||||affine function|||||||
 vildarrúmfræði||kvk||||||||affine geometry|||||||
 vildargrúpa||kvk||||||||affine group|||||||
@@ -5706,7 +5706,7 @@ verkefni|na|hk|||||||allocation problem, assignment problem, boundary problem, b
 vinnsla|na|kvk||||||||processing|||||||
 varp-|ls|||||||||projective|||||||
 varpkeilusnið||hk||||||||projective conic|||||||
-varphnit||hk||||||||projective coordinates|||||||
+varphnit||kvk||||||||projective coordinates|||||||
 varprúmfræði||kvk||||||||projective geometry|||||||
 varplína||kvk||||||||projective line|||||||
 varpmótull||kvk||||||||projective module|||||||
@@ -5837,7 +5837,7 @@ ytri sjálfmótun||kvk||||||||outer automorphism|||||||
 ytra mál||hk||||utanmál||||outer volume|||||||
 yfirferðarpunktur|na|kk||||||||overcrossing|||||||
 yfirákvarðaður|ls|||||ofá\-kvarðaður||||over-determined|||||||
-yfirmótull|na|hk||||||||overmodule|||||||
+yfirmótull|na|kvk||||||||overmodule|||||||
 yrðingareikningur||kk||||fullyrðingareikningur|||propositional logic|propositional calculus||||sentential calculus|||
 yrðingamót||hk|||||||form|propositional form|||||||
 yrðingafall||hk|||||||predicate|propositional function||||sentential function, statement function|||
@@ -5928,7 +5928,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu||kvk|||||||ZFC|Zermelo-Fraenkel
 í hið óendanlega||||||||||ad infinitum|||||||
 íðalkeðja||||||||||chain of ideals|||||||
 íholur|ls|||||íbjúgur||||concave|||||||
-ítrekunarrás|na|kvk||||ítrekunarhringur, ítrekunarlykkja||||cycle||||iterative cycle|||
+ítrekunarrás|na|hk||||ítrekunarhringur, ítrekunarlykkja||||cycle||||iterative cycle|||
 íðal-|ls|||||||||ideal|||||||
 íðal|na|||||||||ideal|||||||
 íðalflokkur||||||||||ideal class|||||||
@@ -6229,7 +6229,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu||kvk|||||||ZFC|Zermelo-Fraenkel
 ör|na|hk||||örvarleggur, stefndur leggur|||edge|arc||||diedge, directed edge|||
 örvasamanhangandi||kk||||örvasamhangandi||||arcwise connected|||||||
 ör|na|hk||||píla|||morphism|arrow|||||||
-örvarás|na|kvk||||||||circuit||||closed arc sequence, closed arc progression, cycle, directed circuit|||
+örvarás|na|hk||||||||circuit||||closed arc sequence, closed arc progression, cycle, directed circuit|||
 örvahringur|na|kk||||||||circuit||||cycle, circuit graph, directed circuit graph|||
 öryggisbelti||hk||||||||confidence belt|||||||
 öryggisstuðull||kk|||||||confidence level|confidence coefficient|||||||
@@ -6398,7 +6398,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu||kvk|||||||ZFC|Zermelo-Fraenkel
 þættanleg margliða||kvk||||||||factorable polynomial||||reducible polynomial|||
 þættaður|ls|||||||||factored|||||||
 þáttatilraun||kvk||||||||factorial experiment|||||||
-þáttalíkan||hk||||||||factorial model||||factor model|||
+þáttalíkan||kvk||||||||factorial model||||factor model|||
 þáttabaugur||kk||||||||factorial ring||||unique factorization domain, unique factorization ring|||
 þáttun|na|kvk|||||||decomposition, prime decomposition, prime factorization|factorization||||factoring, factorizing|||
 þröngvaður|ls|||||||||forced|||||||
@@ -6529,7 +6529,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu||kvk|||||||ZFC|Zermelo-Fraenkel
 þríhyrningur|na|kk|||||||acute, aliquot triangle, altitude, altitude theorem, asymptotic triangle, base, cevian triangle, circular triangle, congruence theorem, diagonal triangle, doubly asymptotic triangle, equiangular, equilateral triangle, height, leg, median, mid-perpendicular, orthic triangle, orthoptic triangle, Pascal's triangle, pedal triangle, perspective triangles, polar triangle, pythagorean triangle, regular triangle, right-angled triangle, right triangle, scalene triangle, scalenous triangle, self-polar triangle, similar triangle, spherical triangle, transversal, trebly asymptotic triangle, ultrametric triangle inequality, vertex|triangle|||||||
 þríhyrningsójafna||kvk||||||||triangle inequality||||triangular inequality|||
 þríhyrningsgerlegur|ls|||||||||triangulable|||||||
-þríhyrningshnit||hk||||||||triangular coordinates||||trilinear coordinates|||
+þríhyrningshnit||kvk||||||||triangular coordinates||||trilinear coordinates|||
 þríhyrningaskipting||kvk|||||||triangulation|triangular decomposition|||||||
 þríhyrningsfylki||hk||||||||triangular matrix|||||||
 þríhyrningstala||kvk||||þríhyrnd tala|||figurate number|triangular number|||||||
