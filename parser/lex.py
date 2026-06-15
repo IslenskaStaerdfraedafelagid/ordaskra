@@ -76,7 +76,13 @@ def remove_references(string):
     else:
         return string
 
+def remove_artifacts(string):
+    new_string = string
 
+    new_string = new_string.replace('\\-', '')
+    new_string = new_string.replace('{}', '')
+
+    return new_string
 
 
 # Þáttar orðaskránna í tákn sem er auðveldara að vinna með, bara einföld stöðuvél
@@ -112,6 +118,8 @@ def lex(characters):
 
                 if not insert_mode:
                     string = remove_references(string)
+
+                string = remove_artifacts(string)
 
                 insert_mode = False
 

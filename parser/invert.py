@@ -5,23 +5,71 @@ from reynir import Greynir
 #bin_ordalisti = pd.read_csv("SHsnid.csv", delimiter=";", header=None).set_index(0)[2].to_dict()
 g = Greynir()
 
-def analyze_gender(word):
-    noun = None
+def analyze_word(word):
+    category = Category.NONE
+    main_word = None
     kyn = Kyn.NONE
     plural = False
 
+    print(f'Analyzing {word}')
+
     parsed = g.parse_single(word)
+
+    print(parsed)
 
     if parsed is not None and parsed.terminals is not None:
         nouns = list(filter(lambda t: t.category == "no", parsed.terminals))
+        adj = list(filter(lambda t: t.category == "lo", parsed.terminals))
+
+        print(parsed.terminals)
+
         if nouns != []:
-            noun = nouns[0]
+            print(f'Fann eftirfarandi nafnorð {nouns}, vel fyrsta')
+            main_word = nouns[0]
 
-    # TODO Samsett orð
-    if noun is not None:
-        variants = noun.variants
+            print(main_word.variants)
 
-        # TODO Ná í fleirtölu hérna í leiðinni?
+            category = Category.NA
+        elif adj != []:
+            print(f'Fann eftirfarandi lýsingarorð {adj}')
+            main_word = adj[0]
+
+            print(main_word.variants)
+
+            category = Category.LS
+        else:
+            print(f'Flokkur: {parsed.terminals[0].category}')
+
+            print(parsed.terminals[0].variants)
+
+            # TODO
+            match parsed.terminals[0].category:
+                case "no":
+                    category = Category.NA
+                case "person":
+                    category = Category.NA
+                case "sérnafn":
+                    category = Category.NA
+                case "entity":
+                    category = Category.NA
+                case "so":
+                    category = Category.SAG
+                case "lo":
+                    category = Category.LS
+                case "ao":
+                    category = Category.AT
+                case "eo":
+                    category = Category.AT
+                case "st":
+                    category = Category.SAM
+                case "stt":
+                    category = Category.SAM
+                case "":
+                    category = Category.NONE
+
+    if main_word is not None:
+        variants = main_word.variants
+
         plural = variants[0] == "ft"
 
         match variants[1]:
@@ -38,17 +86,17 @@ def analyze_gender(word):
     if word.find("kk.") != -1:
         idx = word.find("(")
 
-        return Kyn.KK, word[:idx-1], plural
+        return Kyn.KK, word[:idx-1], plural, category
     elif word.find("kvk.") != -1:
         idx = word.find("(")
 
-        return Kyn.KVK, word[:idx-1], plural
+        return Kyn.KVK, word[:idx-1], plural, category
     elif word.find("hk.") != -1:
         idx = word.find("(")
 
-        return Kyn.HK, word[:idx-1], plural
+        return Kyn.HK, word[:idx-1], plural, category
     else:
-        return kyn, word, plural
+        return kyn, word, plural, category
 
 def invert(ast):
     reversed = Ast()
@@ -91,7 +139,7 @@ def invert(ast):
                 new_entry.subentries.append(new_subentry)
                 new_entry.plural = entry.plural
 
-                kyn, updated_word, plural = analyze_gender(new_entry.word)
+                kyn, updated_word, plural, category = analyze_word(new_entry.word)
 
                 new_entry.kyn = kyn
                 new_entry.word = updated_word
@@ -99,6 +147,10 @@ def invert(ast):
                 # Viljum að \pl skipanir ráði
                 if not new_entry.plural:
                     new_entry.plural = plural
+
+                # Viljum að flokksskipanir ráði
+                if new_entry.category == Category.NONE:
+                    new_entry.category = category
 
                 if reversed.entries_by_letter.get(letter):
                     reversed.entries_by_letter[letter].append(new_entry)
