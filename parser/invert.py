@@ -6,22 +6,11 @@ from reynir import Greynir
 g = Greynir()
 
 def analyze_gender(word):
-    if word.find("kk.") != -1:
-        idx = word.find("(")
-
-        return Kyn.KK, word[:idx-1]
-    elif word.find("kvk.") != -1:
-        idx = word.find("(")
-
-        return Kyn.KVK, word[:idx-1]
-    elif word.find("hk.") != -1:
-        idx = word.find("(")
-
-        return Kyn.HK, word[:idx-1]
+    noun = None
+    kyn = Kyn.NONE
+    plural = False
 
     parsed = g.parse_single(word)
-
-    noun = None
 
     if parsed is not None and parsed.terminals is not None:
         nouns = list(filter(lambda t: t.category == "no", parsed.terminals))
@@ -33,20 +22,33 @@ def analyze_gender(word):
         variants = noun.variants
 
         # TODO Ná í fleirtölu hérna í leiðinni?
+        plural = variants[0] == "ft"
 
         match variants[1]:
             case "kk":
-                return Kyn.KK, word
+                kyn = Kyn.KK
             case "kvk":
-                return Kyn.KVK, word
+                kyn = Kyn.KVK
             case "hk":
-                return Kyn.HK, word
+                kyn = Kyn.HK
             case _:
                 # TODO Fletta upp í orðalista BÍN ef Greynir virkar ekki?
-                return Kyn.NONE, word
-    else:
-        return Kyn.NONE, word
+                pass
 
+    if word.find("kk.") != -1:
+        idx = word.find("(")
+
+        return Kyn.KK, word[:idx-1], plural
+    elif word.find("kvk.") != -1:
+        idx = word.find("(")
+
+        return Kyn.KVK, word[:idx-1], plural
+    elif word.find("hk.") != -1:
+        idx = word.find("(")
+
+        return Kyn.HK, word[:idx-1], plural
+    else:
+        return kyn, word, plural
 
 def invert(ast):
     reversed = Ast()
@@ -89,10 +91,14 @@ def invert(ast):
                 new_entry.subentries.append(new_subentry)
                 new_entry.plural = entry.plural
 
-                kyn, updated_word = analyze_gender(new_entry.word)
+                kyn, updated_word, plural = analyze_gender(new_entry.word)
 
                 new_entry.kyn = kyn
                 new_entry.word = updated_word
+
+                # Viljum að \pl skipanir ráði
+                if not new_entry.plural:
+                    new_entry.plural = plural
 
                 if reversed.entries_by_letter.get(letter):
                     reversed.entries_by_letter[letter].append(new_entry)

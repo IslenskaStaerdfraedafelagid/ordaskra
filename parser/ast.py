@@ -169,6 +169,9 @@ class SubEntry:
         if len(self.translations) > 0:
             string += f'{self.translations[0].content}{SEP}'
 
+        # TODO Ensk tala?
+        # Tala: en
+
         # Skilgreining, en
         string += f'{SEP}'
 
@@ -218,7 +221,9 @@ class Entry:
     def to_csv(self):
         assert(len(self.subentries) == 1)
 
-        return f'{self.word}{SEP}{self.category.to_csv()}{SEP}{self.kyn}{SEP}{self.subentries[0].to_csv()}'
+        tala = 'Fleirtala' if self.plural else 'Eintala'
+
+        return f'{self.word}{SEP}{self.category.to_csv()}{SEP}{self.kyn}{SEP}{tala}{SEP}{self.subentries[0].to_csv()}'
 
 
 class Ast:
@@ -254,7 +259,8 @@ class Ast:
         return list
 
     def to_csv(self):
-        string = f'Hugtak: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
+        #string = f'Hugtak: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Tala: is{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Tala: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
+        string = f'Hugtak: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Tala: is{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
 
         for entry in self.flatten():
             string += entry.to_csv() + "\n"
