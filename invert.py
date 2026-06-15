@@ -1,8 +1,6 @@
-from .ast import *
-import pandas as pd
+from parser.ast import *
 from reynir import Greynir
 
-#bin_ordalisti = pd.read_csv("SHsnid.csv", delimiter=";", header=None).set_index(0)[2].to_dict()
 g = Greynir()
 
 def analyze_word(word):

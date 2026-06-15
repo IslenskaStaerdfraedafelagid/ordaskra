@@ -1,10 +1,8 @@
 import sys
 
-from count_conflicts import count_conflicts
-from count_ungendered import count_ungendered
 from parser.parse import parse
 from parser.lex import lex
-from parser.invert import invert
+from invert import invert
 from pathlib import Path
 
 if len(sys.argv) < 2:
