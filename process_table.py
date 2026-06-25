@@ -136,11 +136,13 @@ for row in split_rows(body):
     if len(cells) == 0:
         continue
 
-    if len(cells) == 3 and cells[0].strip().isdigit():
+    if len(cells) == 5 and cells[0].strip().isdigit():
         parsed_rows.append({
             "id": cells[0].strip(),
             "Hugtök": cells[1],
             "Skilgreining": cells[2],
+            "Skýring": cells[3],
+            "Athugasemdir": cells[4],
         })
 
 df = pd.DataFrame(parsed_rows)
@@ -204,15 +206,17 @@ defined_terms = df[df.index.isin(reachable_rows)]
 
 f = open("ordaskra_table_finished.tex", "w", encoding="utf-8")
 
-f.write("\\begin{longtable}{p{0.49\\textwidth} | p{0.49\\textwidth}}\n")
+f.write("\\begin{longtable}{p{0.23\\textwidth} | p{0.23\\textwidth} | p{0.23\\textwidth} | p{0.23\\textwidth}}\n")
 f.write("\\hline\n")
-f.write("\\textbf{Hugtök} & \\textbf{Skilgreining} \\\\\n")
+f.write("\\textbf{Hugtök} & \\textbf{Skilgreining} & \\textbf{Skýring} & \\textbf{Athugasemdir} \\\\\n")
 f.write("\\hline\n")
 
 for idx, row in defined_terms.iterrows():
     term = str(row["Hugtök"]).replace("&", "\\&")
     definition = str(row["Skilgreining"]).replace("&", "\\&")
-    f.write(f"\\hypertarget{{row:{idx}}}{{{term}}} & {definition} \\\\\n\\hline\n")
+    explanation = str(row["Skýring"]).replace("&", "\\&")
+    comments = str(row["Athugasemdir"]).replace("&", "\\&")
+    f.write(f"\\hypertarget{{row:{idx}}}{{{term}}} & {definition} & {explanation} & {comments} \\\\\n\\hline\n")
 
 f.write("\\hline\n")
 f.write("\\end{longtable}\n")
