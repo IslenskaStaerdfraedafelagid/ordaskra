@@ -206,9 +206,9 @@ defined_terms = df[df.index.isin(reachable_rows)]
 
 f = open("ordaskra_table_finished.tex", "w", encoding="utf-8")
 
-f.write("\\begin{longtable}{p{0.23\\textwidth} | p{0.23\\textwidth} | p{0.23\\textwidth} | p{0.23\\textwidth}}\n")
+f.write("\\begin{longtable}{p{0.03\\textwidth} | p{0.22\\textwidth} | p{0.22\\textwidth} | p{0.22\\textwidth} | p{0.22\\textwidth}}\n")
 f.write("\\hline\n")
-f.write("\\textbf{Hugtök} & \\textbf{Skilgreining} & \\textbf{Skýring} & \\textbf{Athugasemdir} \\\\\n")
+f.write("\\textbf{id} & \\textbf{Hugtök} & \\textbf{Skilgreining} & \\textbf{Skýring} & \\textbf{Athugasemdir} \\\\\n")
 f.write("\\hline\n")
 
 for idx, row in defined_terms.iterrows():
@@ -216,7 +216,7 @@ for idx, row in defined_terms.iterrows():
     definition = str(row["Skilgreining"]).replace("&", "\\&")
     explanation = str(row["Skýring"]).replace("&", "\\&")
     comments = str(row["Athugasemdir"]).replace("&", "\\&")
-    f.write(f"\\hypertarget{{row:{idx}}}{{{term}}} & {definition} & {explanation} & {comments} \\\\\n\\hline\n")
+    f.write(f"{idx} & \\hypertarget{{row:{idx}}}{{{term}}} & {definition} & {explanation} & {comments} \\\\\n\\hline\n")
 
 f.write("\\hline\n")
 f.write("\\end{longtable}\n")
