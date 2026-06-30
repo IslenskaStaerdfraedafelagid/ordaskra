@@ -1,7 +1,7 @@
 import pandas as pd
 
 # GPT kóði
-
+# TODO Fara yfir
 df = pd.read_csv("ordaskra_sorted.csv")
 df = df[["Hugtök: is", "Skilgreining: is", "id"]].fillna("")
 

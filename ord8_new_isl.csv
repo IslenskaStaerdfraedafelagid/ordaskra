@@ -42,6 +42,9 @@ aðlæg horn|na|hk|Fleirtala||||samlæg horn, samliggjandi horn||||adjacent angl
 aðlæg hlið|na|kvk|Eintala||||||||adjacent side|||||||
 aðoka|ls||Eintala||||aðoka frá vinstri|||coadjoint, right-adjoint|adjoint||||left-adjoint|||
 aðoka|ls||Eintala|||||||self-adjoint|adjoint|||||||
+aðoki|na||Eintala||||aðoka varpi||||adjoint functor||||adjoint|||
+aðoka fylki|na||Eintala||||||||adjoint matrix||||adjoint, adjugate matrix, associate matrix, conjugate-transpose, conjugate-transpose matrix, hermitian adjoint, hermitian conjugate, hermitian conjugate matrix|||
+aðoki|na||Eintala||||aðoka virki||||adjoint operator||||adjoint, hermitian conjugate, hermitian conjugate operator|||
 andhverfa (fylkis)|||Eintala||||umhverfa (fylkis), andhverft fylki, umhverft fylki||||adjugate matrix||||inverse matrix, reciprocal matrix|||
 aðstreymi|na|hk|Eintala||||||||advection|||||||
 alef|na||Eintala|||||||infinite cardinal, transfinite cardinal|aleph|||||||
@@ -91,11 +94,11 @@ andhermískt form|na||Eintala|||||||inner product, scalar product|antihermitian 
 andfágaður|ls|kk|Eintala||||||||antiholomorphic|||||||
 andsammótun|na|kvk|Eintala||||andmótun||||antihomomorphism|||||||
 andhverft breiðbogafall|na|hk|Eintala||||||||antihyperbolic function||||area-hyperbolic function, inverse hyperbolic function|||
-andeinsmóta|ls|kvk|Fleirtala||||||||antiisomorphic|||||||
+andeinsmóta|ls|hk|Eintala||||||||antiisomorphic|||||||
 andeinsmótun|na|kvk|Eintala||||||||antiisomorphism|||||||
 andlínulegur|ls|kk|Eintala||||||||antilinear||||conjugate linear|||
 andlogri|na||Eintala||||||||antilogarithm||||inverse logarithm|||
-andsamsíða|ls|kvk|Fleirtala||||||||antiparallel|||||||
+andsamsíða|ls|hk|Fleirtala||||||||antiparallel|||||||
 andfætisvörpun|na||Eintala||||||||antipodal mapping|||||||
 andfætispunktar|na||Eintala||||gagnstæðir punktar||||antipodal points|||||||
 andsjálfhverfur|ls|kk|Eintala||||||||antireflexive||||inflexive, irreflective, irreflexive|||
@@ -118,7 +121,6 @@ andhverfur breiðbogakótangens|na|kvk|Fleirtala||||||||area-hyperbolic cotangen
 andhverfur breiðbogasínus|na|kk|Eintala||||||||area-hyperbolic sine||||inverse hyperbolic sine|||
 andhverfur breiðbogatangens|na|kk|Eintala||||||||area-hyperbolic tangent||||inverse hyperbolic tangent|||
 armur|na|kk|Eintala||||||||arm||||lateral side, leg, side|||
-armur|na|kk|Eintala||||||||arm||||leg, side|||
 afturmunur|na|kk|Eintala||||||||ascending difference||||backward difference|||
 aðfella|na|kvk|Eintala||||||||asymptote|||||||
 aðfelldur|ls|kk|Eintala||||aðfellu-||||asymptotic|||||||
@@ -186,6 +188,8 @@ atburður|na|kk|Eintala||||atvik, tilvik||||event|||||||
 alls staðar samleitinn|ls|kk|Eintala||||alstaðar samleitinn||||everywhere convergent|||||||
 alls staðar þéttur|ls|kk|Eintala||||alstaðar þéttur||||everywhere dense|||||||
 aðfaldaður|ls|kk|Eintala||||hrópmerktur||||factorial|||||||
+aðfeldisfall|na|hk|Eintala|||||||gamma function|factorial function||||factorial|||
+aðfeldi|na|hk|Eintala||||hrópmerkt tala|||factorial|factorial number||||factorial|||
 aðfeldaröð|na|kvk|Eintala||||||||factorial series|||||||
 afsannanleiki|na|kk|Eintala||||||||falsifiability|||||||
 aðlaga|sag||Eintala||||||||fit|||||||
@@ -194,7 +198,6 @@ andhverfuregla Fouriers|na|kvk|Eintala||||||||Fourier inversion formula|||||||
 almenn línuleg grúpa|na|kvk|Eintala||||||||full linear group||||general linear group|||
 almennur|ls|kk|Eintala|||||||general case, general term|general|||||||
 alhæfur|ls|kk|Eintala||||altækur|||general proposition|general|||||||
-almennur|ls|kk|Eintala|||||||general point, general position|general||||generic|||
 almenn algebrujafna|na|kvk|Eintala||||almenn margliðujafna||||general algebraic equation|||||||
 almennt tilfelli|na|hk|Eintala||||almennt tilvik||||general case|||||||
 almenn samfellutilgáta|na|kvk|Eintala||||alhæfð samfellutilgáta|||Cantor's continuum hypothesis, GCH|general continuum hypothesis||||generalized continuum hypothesis|||
@@ -208,6 +211,7 @@ almenn grannfræði|na|kvk|Eintala||||mengjagrannfræði||||general topology||||
 alhæfi|na||Eintala||||altæki||||generality|||||||
 alhæfing|na|kvk|Eintala||||||||generalization|||||||
 alhæfa|sag||Eintala||||||||generalize|||||||
+alhæfður|ls|kk|Eintala||||||||generalized||||general|||
 alhæfð runa|ls|hk|Fleirtala||||nót, net||||generalized sequence||||net|||
 almennt|at|hk|Eintala||||að jafnaði||||generally||||in general|||
 almennur ferill|na|kk|Eintala||||||||generic curve|||||||
@@ -226,11 +230,11 @@ andhverfa|na|kvk|Eintala|||||||inverse function, inverse mapping|inverse|||||||
 andhverfa (falls)|||Eintala||||andhverft fall|||inverse|inverse function|||||||
 andhverfa (vörpunar)|||Eintala||||andhverf vörpun|||inverse|inverse mapping|||||||
 andhverfusetning|na|kvk|Eintala||||||||inverse mapping theorem|||||||
+andhverf vensl|na|hk|Fleirtala||||||||inverse relation||||dual|||
 andhverfuformúla|na|kvk|Eintala||||andhverfuformkorn||||inversion formula|||||||
 andhverfður|ls||Eintala||||umhverfður||||inverted|||||||
 andhverfanlegur|ls|kk|Eintala|||||||inverse|invertible|||||||
 aftasti tölustafur|na|kk|Eintala||||||||last digit|||||||
-aðmengi|sag||Eintala||||bakmengi|||actual range|latent range||||range carrier, target|||
 aðalhornalína|na|kvk|Eintala||||meginhornalína||||leading diagonal||||main diagonal, major diagonal, principal diagonal|||
 algildisminnsta leif|na|kvk|Eintala||||||||least absolute remainder||||minimal residue|||
 afgangur|na|kk|Eintala||||minnsta leif||||least non-negative residue||||principal remainder, remainder|||
@@ -257,9 +261,11 @@ algebrulegt varpvíðerni|na|hk|Eintala||||||||projective algebraic variety|||||
 almenn línuleg varpgrúpa|na|kvk|Eintala||||||||projective general linear group|||||||
 annars stigs|ls||Eintala||||fernings-||||quadratic||||quadric|||
 annars stigs ferill|na||Eintala||||ferningsferill|||conic section|quadratic curve||||quadric, quadric curve|||
+annars stigs jafna|na||Eintala||||ferningsjafna||||quadratic equation||||quadratic, quadric|||
 annars stigs sviðsútvíkkun|na||Eintala||||ferningssviðsútvíkkun, annars stigs sviðsvíkkun, ferningssviðsvíkkun||||quadratic field extension|||||||
 annars stigs margliða|na||Eintala||||ferningsmargliða||||quadratic polynomial|||||||
 annars stigs ferill|na||Eintala||||||||quadric|||||||
+annars stigs jafna|na||Eintala||||ferningsjafna, annars stigs flötur||||quadric||||quadratic, quadratic equation|||
 afsannanleiki|na|kk|Eintala||||hrekjanleiki||||refutability|||||||
 afsannanlegur|ls|kk|Eintala||||hrekjanlegur||||refutable|||||||
 afsönnun|na|kvk|Eintala||||hrakning||||refutation||||refutal|||
@@ -300,6 +306,7 @@ aðskilja|sag||Eintala||||skilja að, greina á milli, aðgreina|||distinguish|s
 aðskilnaður|na|kk|Eintala||||||||separation|||||||
 aukaskilyrði|na|hk|Fleirtala||||hliðarskilyrði||||side condition|||||||
 andhermískur|ls||Eintala||Einnig ritað {\it skew-Hermitian}||||||skew-hermitian|||||||
+andsamhverfur, oddhverfur|ls|kk|Eintala||||||||skew-symmetric||||skew-symmetrical, antisymmetric|||
 algjörlega takmarkaður|ls|kk|Eintala||||algjörlega skorðaður||||totally bounded|||||||
 algjörlega ósamanhangandi|na|kk|Eintala||||algjörlega ósamhangandi||||totally disconnected|||||||
 andsamsíðungur|na|kk|Eintala||||ferhyrningur með engar hliðar samsíða||||trapezoid||||trapezium|||
@@ -309,7 +316,7 @@ augljós lausn|na|kvk|Eintala|||||||zero solution|trivial solution|||||||
 augljóst grannmynstur|na|hk|Eintala||||fábrotið grannmynstur||||trivial topology|||||||
 augljósleiki|na||Eintala||||||||triviality|||||||
 alsamleitni í jöfnum mæli|na|kvk|Eintala|||||||normal convergence|uniform absolute convergence|||||||
-alsamleitinn í jöfnum mæli|na|kvk|Fleirtala|||||||normally convergent|uniformly absolutely convergent|||||||
+alsamleitinn í jöfnum mæli|na|kk|Fleirtala|||||||normally convergent|uniformly absolutely convergent|||||||
 algebra með einingarstaki|na|kvk|Eintala||||||||unitary algebra|||||||
 allsherjar-|ls||Eintala||||||||universal|||||||
 allsherjaralgebra|na|kvk|Eintala||||||||universal algebra|||||||
@@ -327,7 +334,7 @@ alheimur|na|kk|Eintala||||||||universe|||||||
 afvinding|na|kvk|Eintala||||||||unwinding|||||||
 bein skekkja|na|kvk|Eintala||||||||absolute error|||||||
 beinn stöðugleiki|na|kk|Eintala||||||||absolute stability|||||||
-burtséð frá|ls|kvk|Eintala||||||||apart from||||except for, up to|||
+burtséð frá|ls|hk|Fleirtala||||||||apart from||||except for, up to|||
 bogi|na||Eintala||||ferilbogi||||arc|||||||
 bogalengd|na||Eintala||||||||arc length|||||||
 bogalengdarfrymi|na|hk|Eintala||||||||arc length element|||||||
@@ -356,7 +363,7 @@ brotpunktur|na|kk|Eintala||||||||break point|||||||
 brú|ls|kvk|Eintala||||||||bridge||||cut edge, isthmus, separating edge|||
 brotið línustrik|na|hk|Eintala||||||||broken line||||polygonal line|||
 bundin|na|hk|Fleirtala|||||||bundle of lines, pencil|bundle||||sheaf|||
-bundin|na|kvk|Eintala|||||||complex line bundle, dual bundle, fibre bundle, jet bundle, line bundle, normal bundle, spin bundle, tangent bundle, tensor bundle, trivial bundle, vector bundle|bundle|||||||
+bundin|na|hk|Fleirtala|||||||complex line bundle, dual bundle, fibre bundle, jet bundle, line bundle, normal bundle, spin bundle, tangent bundle, tensor bundle, trivial bundle, vector bundle|bundle|||||||
 bundin af línum|na|kvk|Fleirtala||||línubundin||||bundle of lines||||sheaf of lines|||
 bundin af samsíða línum|na|kvk|Fleirtala||||samsíðubundin||||bundle of parallel lines||||sheaf of parallel lines|||
 bundin af sléttum|na|kvk|Fleirtala||||sléttubundin|||pencil of planes|bundle of planes||||sheaf of planes|||
@@ -476,6 +483,7 @@ blandinn liður|na|kk|Eintala||||blandaður liður||||mixed term|||||||
 blöndun|na|kvk|Eintala||||||||mixing|||||||
 blendið slembiferli|na|hk|Eintala||||||||mixing stochastic process|||||||
 brigðgengur|ls|kk|Eintala||||||||non-deterministic|||||||
+biðröð|na|kvk|Eintala||||||||\nobreak waiting line||||queue|||
 biðtími|na|kk|Eintala||||||||\nobreak waiting time|||||||
 bestur|ls||Eintala||||||||optimal|||||||
 bestunarverkefni|na|hk|Eintala||||||||optimization problem|||||||
@@ -510,7 +518,7 @@ bylting|na|kvk|Eintala||||||||transposition|||||||
 brennimiðstrengur|na|kk|Eintala||||||||transverse diameter|||||||
 breytilegur|ls|kk|Eintala|||||||running|variable|||||||
 breyta|na|kvk|Eintala||||breytistærð, breytileg stærð||||variable|||||||
-breytulaus|ls|kvk|Eintala||||||||variable-free|||||||
+breytulaus|ls|hk|Fleirtala||||||||variable-free|||||||
 breytast|sag||Eintala||||||||vary|||||||
 breytast með samfelldum hætti|||Eintala||||||||vary continuously|||||||
 bylgja|na|kvk|Eintala||||alda||||wave|||||||
@@ -596,6 +604,7 @@ deildanlegur frá vinstri|na|hk|Eintala||||diffranlegur frá vinstri||||differen
 deildanlegur frá hægri|ls|kk|Eintala||||diffranlegur frá hægri||||differentiable on the right||||right differentiable, right-hand differentiable|||
 deildi|na||Eintala||||diffur|||total differential|differential|||||||
 deildareikningur|na|kk|Eintala||||diffurreikningur|||differential and integral calculus|differential calculus|||||||
+deildastuðull|na|kk|Eintala||||deildahlutfall, diffurkvóti, afleiða (í punkti)||||differential coefficient||||derivative at a point, differential quotient|||
 deildajafna|na|kvk|Eintala||||afleiðujafna, diffurjafna|||ordinary differential equation, partial differential equation|differential equation|||||||
 deildaform|na|hk|Eintala||||diffurform|||symmetric differential form|differential form|||||||
 deildarúmfræði|na|kvk|Eintala||||diffurrúmfræði||||differential geometry|||||||
@@ -639,10 +648,9 @@ dæmi|na||Eintala||||sýnidæmi||||example|||||||
 dæmi|na||Eintala||||þraut, reikningsdæmi, æfingardæmi|||arithmetic problem|exercise||||problem|||
 draga (rót)|sag|kvk|Eintala|||||||take|extract|||||||
 deildagrúpa|na|kvk|Eintala||||||||factor group||||group of quotients, quotient group|||
-deildamótull|na|kvk|Eintala||||||||factor module||||quotient module|||
+deildamótull|na|hk|Eintala||||||||factor module||||quotient module|||
 deildabaugur|na|kk|Eintala||||||||factor ring||||quotient ring, residue class ring|||
 deildamengi|sag||Eintala||||||||factor set||||quotient set|||
-deildarúm|na|hk|Eintala|||||||coset space|factor space||||identification space, quotient space|||
 deildamyndun|na|kvk|Eintala||||||||factorization|||||||
 deildagrannmynstur|na|hk|Eintala||||||||identification topology||||quotient topology|||
 drómi|na||Eintala||||||||monodromy|||||||
@@ -675,6 +683,7 @@ eðun|na|kvk|Eintala||||||||alternation||||disjunction, inclusive disjunction, l
 eyða|sag|kvk|Eintala||||||||annihilate|||||||
 eyðir|na|kk|Eintala||||eyðingarvirki||||annihilation operator||||annihilator|||
 eyðingarrúm|na|hk|Eintala|||||||orthogonal complement|annihilator|||||||
+eyðir|na|kk|Eintala||||eyðingaríðal||||annihilator ideal||||annihilator|||
 eyðingaraðferð|na|kvk|Eintala||||||||annihilator method|||||||
 einkenni|na|hk|Eintala||||eigind||||attribute|||||||
 eiginfylgni|na|kvk|Eintala||||sjálffylgni||||autocorrelation|||||||
@@ -688,7 +697,6 @@ eintækur|ls|kk|Eintala||||||||biunique||||injective, one-one, one-to-one, one-t
 eindreginn|ls|kk|Eintala||||||||categorical|||||||
 eindregið frumsendukerfi|na|hk|Eintala||||eindregið frumsetningakerfi||||categorical axiom system|||||||
 einslögunarmiðja|na|kvk|Eintala||||stríkkunarmiðja||||centre of similitude||||homothetic centre, centre of similarity, similarity centre|||
-einkenni|na|hk|Eintala||||||||character||||characteristic|||
 eiginfall|na|hk|Eintala|||||||characteristic vector|characteristic function||||eigenfunction, proper function|||
 eiginslétta|na|kvk|Eintala||||||||characteristic plane|||||||
 eiginrúm|na|hk|Eintala||||||||characteristic space||||eigenspace|||
@@ -704,7 +712,7 @@ eftirlit|na|hk|Eintala||||||||control|||||||
 eftirlitsrit|na|hk|Eintala||||||||control chart|||||||
 einslæg horn|na|hk|Fleirtala||||||||corresponding angles||||exterior-interior angles|||
 eiði|na|hk|Eintala||||slitmengi||||cut set||||separating set|||
-einhliða afleiða|ls|kvk|Fleirtala||||||||derivative on one side||||one-sided derivative, unilateral derivative|||
+einhliða afleiða|ls|hk|Fleirtala||||||||derivative on one side||||one-sided derivative, unilateral derivative|||
 einhliða deildanleiki|na||Eintala||||einhliða diffranleiki||||differentiability on one side||||one-sided differentiability, unilateral differentiability|||
 eiginlega samsniða|||Eintala|||||||congruent, inversely congruent, oppositely congruent|directly congruent|||||||
 eðunarhluti|na||Eintala||||eðunarliður||||disjunct||||partial disjunction|||
@@ -773,6 +781,7 @@ einsleitt íðal|na||Eintala||||||||homogeneous ideal|||||||
 einsleitt Markov-ferli|na|hk|Eintala||||||||homogeneous Markov process|||||||
 einsleitt rúm|na|hk|Eintala||||||||homogeneous space|||||||
 einblaða breiðbogaflötur|na|kk|Eintala||||einskála breiðbogaflötur||||hyperboloid of one sheet||||one-sheet hyperboloid|||
+eining|na|kvk|Eintala||||einingarstak, margföldunarhlutleysa||||identity element||||identity, one, unit element, unit, unity, unity element|||
 einingarfylki|na|hk|Eintala||||||||identity matrix||||unit matrix|||
 ef og aðeins ef|na|hk|Eintala||||þá og því aðeins að|||iff|if and only if||||when and only when|||
 eiginleg tvinntala|na|kvk|Eintala||||þverkynja tala, þverkyns tala||||imaginary number|||||||
@@ -785,7 +794,7 @@ einangraður sérstöðupunktur|na|kk|Eintala||||||||isolated singularity||||iso
 einsfirða|ls||Eintala||||||||isometric|||||||
 einsfirðun|na||Eintala||||firðrækin vörpun|||isometric, motion, orthogonal linear transformation, orthogonal mapping|isometry|||||||
 einsfirðanagrúpa|na||Eintala||||||||isometry group|||||||
-einsmóta|ls|hk|Fleirtala||||||||isomorphic|||||||
+einsmóta|ls|kk|Eintala||||||||isomorphic|||||||
 einsmótun|na|kvk|Eintala|||||||isomorphism|isomorphic mapping|||||||
 einsmótunarflokkur|na|kk|Eintala||||||||isomorphism class|||||||
 einsmótunarsetning|na|kvk|Eintala||||||||isomorphism theorem||||isomorphy theorem|||
@@ -796,6 +805,7 @@ einsátta|ls||Eintala||||||||isotropic|||||||
 einsátta rúm|na|hk|Eintala||||||||isotropic space|||||||
 einfaldur bogi|ls|kk|Eintala||||einfaldur ferill||||Jordan arc||||simple arc|||
 efra mark|na|hk|Eintala||||hámark|||bound, join, l. u. b.\ekkipunktur|least upper bound||||lowest upper bound, supremum|||
+endapunktur|na|kk|Eintala||||heildunarmark, heildismark, tegrunarmark, tegurmark||||limit of integration||||limit|||
 efra markgildi|na|hk|Eintala||||stærsti þéttipunktur, efsti þéttipunktur||||limit superior||||limes superior, superior limit, upper limit|||
 efra flokksmark|na|hk|Eintala||||||||lower class limit|||||||
 efra stýrimark|na|hk|Eintala||||||||lower control limit|||||||
@@ -806,9 +816,10 @@ einungur|na|kk|Eintala||||hálfgrúpa með hlutleysu|||demigroup, semigroup|mono
 einungamótun|na|kvk|Eintala||||||||monoid homomorphism|||||||
 einliða|na|kvk|Eintala||||||||monomial|||||||
 einliða jafna|na|kvk|Eintala||||||||monomial equation|||||||
+einmóta|ls|kvk|Fleirtala||||ímóta||||monomorphic||||monic|||
 einmótun|na|kvk|Eintala||||ímótun||||monomorphism|||||||
 einhalla samleitni|na|kvk|Eintala||||||||monotone convergence|||||||
-einhalla|ls|kvk|Fleirtala||||||||monotonic||||monotone|||
+einhalla|ls|hk|Fleirtala||||||||monotonic||||monotone|||
 einhalla fall|na|hk|Eintala||||||||monotonic function|||||||
 einhalla runa|ls|kk|Fleirtala||||||||monotonic sequence|||||||
 einhalli|na|kk|Eintala||||||||monotonicity||||monotony|||
@@ -844,7 +855,7 @@ einhliða öryggisbil|na|hk|Eintala||||||||one-sided confidence interval|||||||
 einhliða íðal|na||Eintala|||||||left ideal, right ideal|one-sided ideal|||||||
 einhliða markgildi|na|hk|Eintala||||||||one-sided limit|||||||
 einhliða flötur|na|kk|Eintala||||||||one-sided surface||||surface of one side, unilateral surface|||
-einhliða próf|na|hk|Eintala||||||||one-sided test||||single-tail test|||
+einhliða próf|na|kk|Eintala||||||||one-sided test||||single-tail test|||
 einvítt hvel|na|hk|Eintala||||einhvel|||circle, Jordan curve|one-sphere|||||||
 einsþrepsaðferð|na|kvk|Eintala||||||||one-step method|||||||
 einmargur|ls||Eintala||||||||one-to-many||||one-many|||
@@ -903,7 +914,7 @@ einskorðunarmótun|na|kvk|Eintala||||||||restriction homomorphism|||||||
 einingarrót|na|kvk|Eintala||||||||root of unity|||||||
 einvíð stærð|na|kvk|Eintala||||tölustærð, stigastærð||||scalar||||scalar quantity|||
 eintækt fall|na|hk|Eintala|||||||injection|schlicht function||||univalent function|||
-einslaga|ls|kvk|Fleirtala||||einslagaður||||similar|||||||
+einslaga|ls|hk|Fleirtala||||einslagaður||||similar|||||||
 einshyrndur|ls|kk|Eintala||||||||similar|||||||
 einslaga þríhyrningur|na|kk|Eintala||||einshyrndur þríhyrningur||||similar triangle|||||||
 einslögun|na|kvk|Eintala||||||||similarity|||||||
@@ -1061,6 +1072,7 @@ fyllirúm|na|hk|Eintala||||||||complement||||complementary subspace, supplement,
 fyllimengi|na|hk|Eintala|||||||difference|complement||||complementary subset|||
 falljafna Eulers|sag||Eintala||||||||complement relation|||||||
 fyllingarskilyrði|na|hk|Eintala||||||||complementarity|||||||
+fylliatburður|na|kk|Eintala||||andstæða, andstæður atburður||||complementary event||||complement|||
 fyllitala|na|kvk|Eintala||||tölufylling||||complementary number|||||||
 fyllilíkindi|na|hk|Fleirtala||||||||complementary probability|||||||
 fylliaðgerð|na|kvk|Eintala||||||||complementation|||||||
@@ -1114,14 +1126,13 @@ ferilaðlögun|na|kvk|Eintala||||||||curve fitting|||||||
 fátækleg tala|ls|hk|Fleirtala||||||||deficient number||||defective number, diminute number|||
 fylgibreyta|na|kvk|Eintala||||fylgistærð, háð breyta, háð breytistærð|||basic variable, independent variable|dependent variable|||||||
 fallandi|ls|kk|Eintala||||minnkandi||||descending|||||||
-fallandi keðja|ls|kk|Fleirtala||||minnkandi keðja||||descending chain|||||||
+fallandi keðja|ls|kvk|Fleirtala||||minnkandi keðja||||descending chain|||||||
 frammunur|na|kk|Eintala||||||||descending difference||||forward difference|||
 ferningssumma frávika|na|kvk|Eintala||||ferningsfrávik||||deviance||||squariance|||
 frávik|na|hk|Eintala||||||||deviation|||||||
 fjarlægð|na|kvk|Eintala|||||||metric|distance|||||||
 firðrækinn|ls|kk|Eintala||||||||distance-preserving||||isometric|||
 forhlutur|na|kk|Eintala||||fráhlutur, óðal||||domain||||domain carrier, domain object, source|||
-formengi|na|hk|Eintala||||frámengi|||domain|domain carrier||||latent domain, source|||
 fágunarsvæði|na|hk|Eintala||||||||domain of holomorphy|||||||
 frekar jákvæður deilir|na|kvk|Fleirtala||||||||effective divisor||||non-negative divisor|||
 fallfrymi|na|hk|Eintala||||||||element||||function element|||
@@ -1177,6 +1188,7 @@ formleg sönnun|na|kvk|Eintala||||||||formal proof|||||||
 formlegt kerfi|na|hk|Eintala||||formkerfi||||formal system|||||||
 formhyggja|na|kvk|Eintala||||||||formalism|||||||
 formgera|sag||Eintala||||||||formalize|||||||
+formleg kenning|na|kvk|Eintala||||formgerð kenning||||formalized theory||||formalism|||
 formlega samkvæmur|ls|kk|Eintala||||||||formally consistent|||||||
 formlegt raunsvið|na|hk|Eintala||||||||formally real field|||||||
 formúla|na|kvk|Eintala||||formkorn, formáli||||formula|||||||
@@ -1315,7 +1327,6 @@ fleygbogariti|na||Eintala||||||||parabolograph|||||||
 fleygbogaflötur|na|kk|Eintala||||||||paraboloid|||||||
 fleygbogasnúðflötur|na|kk|Eintala||||||||paraboloid of revolution|||||||
 fjarstæða|ls|kvk|Eintala||||||||paradox|||||||
-formerki|na||Eintala||||||||parity||||sign, signature, signum|||
 ferill|na|kk|Eintala||||vegur, leið|||curve|path|||||||
 ferillyfting|na|kvk|Eintala||||||||path lifting|||||||
 ferlarúm|na|hk|Eintala||||vegarúm, leiðarúm||||path space|||||||
@@ -1331,6 +1342,7 @@ fullgerð útvíkkun|na|kvk|Eintala||||heilsteypt útvíkkun, fullgerð víkkun,
 fullgert svið|na|hk|Eintala||||heilsteypt svið||||perfect field|||||||
 fullkomin tala|ls|hk|Fleirtala||||||||perfect number|||||||
 ferningstala|na|kvk|Eintala||||ferhyrnd tala|||figurate number, square|perfect square||||square number|||
+fullt horn|na|hk|Eintala||||\(360^\circ\)  horn||||perigon||||full angle, round angle|||
 fasi|na||Eintala||||||||phase|||||||
 fasameðaltal|na|hk|Eintala||||||||phase average|||||||
 fasaferill|na|kk|Eintala|||||||orbit, trajectory|phase curve|||||||
@@ -1367,6 +1379,7 @@ frumtala|na|kvk|Eintala||||prímtala||||prime||||prime number|||
 frumstak|na|hk|Eintala||||||||prime||||prime element|||
 frumþáttun|na|kvk|Eintala|||||||factorization|prime decomposition||||prime factorization|||
 frumdeilir|sag||Eintala||||||||prime divisor|||||||
+frumstak|na|hk|Eintala||||||||prime element||||prime|||
 frumþáttur|na|kk|Eintala||||||||prime factor|||||||
 frumsvið|na|hk|Eintala||||frumkroppur||||prime field|||||||
 frumíðal|na||Eintala||||||||prime ideal|||||||
@@ -1446,11 +1459,11 @@ formerkispróf|na|hk|Eintala||||||||sign test|||||||
 formerkjatala|na|kvk|Eintala||||||||signature|||||||
 forsenda til einföldunar|na|kvk|Eintala||||||||simplifying assumption|||||||
 ferð|na|kvk|Eintala||||||||speed|||||||
-ferningslaga|ls|kvk|Fleirtala||||||||square|||||||
+ferningslaga|ls|kk|Fleirtala||||||||square|||||||
 ferningur|na|kk|Eintala||||||||square|||||||
 ferninga|sag||Eintala|||||||squaring the circle|square|||||||
 fervik|na|hk|Eintala||||||||square deviation|||||||
-ferningslaus|ls|kk|Eintala||||||||square-free|||||||
+ferningslaus|ls|hk|Fleirtala||||||||square-free|||||||
 forgrunnur|na|kk|Eintala||||||||subbase|||||||
 frádráttur|na|kk|Eintala||||||||subtraction|||||||
 frádragi|na|kk|Eintala||||||||subtrahend|||||||
@@ -1470,12 +1483,14 @@ fræði|na|kvk|Eintala|||||||additive number theory, algebraic number theory, al
 flytja|sag||Eintala||||||||transfer|||||||
 flutningsíðal|na||Eintala||||||||transfer ideal|||||||
 færslufylki|na|hk|Eintala||||||||transition matrix|||||||
+færslulíkindi|na|hk|Fleirtala||||||||transition probability||||transition function|||
 flæðinet|na|hk|Eintala||||||||transportation network|||||||
 farandsalaverkefni|na|hk|Eintala||||||||travelling salesman problem|||||||
 fábrotinn|ls|kk|Eintala||||||||trivial|||||||
 fábrotinn hnútur|na|kk|Eintala||||||||trivial knot|||||||
 fábrotleiki|na||Eintala||||||||triviality|||||||
 fánýti|na|hk|Eintala||||||||triviality|||||||
+formerkislaus|ls|kk|Eintala||||án formerkis||||unsigned||||signless|||
 frumstak|na|hk|Eintala|||||||individual|urelement|||||||
 fallgildi|sag||Eintala||||||||value of a function|||||||
 Fermat-frumtala|na|kvk|Eintala||||||||Fermat prime|||||||
@@ -1517,7 +1532,6 @@ gera ráð fyrir|sag|hk|Fleirtala||||setja sem svo, ganga út frá, gefa sér|||
 grenndagrunnur|na||Eintala||||grunnur af grenndum||||base||||base at a point, local base, local basis, neighbourhood base, neighbourhood basis|||
 grunnur|na|kk|Eintala||||opinn grunnur||||base||||basis, open base|||
 grunntala|na|kvk|Eintala||||stofntala||||base|||||||
-grunntala|na|kvk|Eintala||||stofntala||||base||||radix|||
 grunnflötur|na|kk|Eintala||||||||base|||||||
 grunnlína|na|kvk|Eintala||||||||base|||||||
 grunnhorn|na|hk|Eintala||||||||base angle|||||||
@@ -1541,7 +1555,7 @@ geymd|na|kvk|Eintala||||||||carry||||carry-over|||
 geyma|sag||Eintala||||||||carry|||||||
 geymdur tölustafur|na|kk|Eintala||||||||carry digit|||||||
 grúpuríki|sag||Eintala||||||||category of groups|||||||
-gagnvegahnit|na|hk|Eintala||||||||central coordinates||||geodesic coordinates|||
+gagnvegahnit|na|kvk|Eintala||||||||central coordinates||||geodesic coordinates|||
 grúpumiðja|na|kvk|Eintala||||miðja||||centre|||||||
 grunnpunktur|na|kk|Eintala||||miðja||||centre|||||||
 grófara grannmynstur|na|hk|Eintala||||veikara grannmynstur|||finer topology, stronger topology|coarser topology||||weaker topology|||
@@ -1580,6 +1594,7 @@ gloppusetning|na|kvk|Eintala||||eyðusetning||||gap theorem|||||||
 gagnvega-|ls||Eintala||||||||geodesic|||||||
 gagnvegafjarlægð|na|kvk|Eintala||||||||geodesic distance|||||||
 gagnvegastreymi|sag||Eintala||||||||geodesic flow|||||||
+gagnvegur|na|kk|Eintala||||||||geodesic line||||geodesic|||
 gagnvegafullkominn|ls|kk|Eintala||||||||geodesically complete|||||||
 gildleiki|na|kk|Eintala||||||||girth|||||||
 gullinn rétthyrningur|na|kk|Eintala||||||||golden rectangle|||||||
@@ -1590,13 +1605,12 @@ grúpuútvíkkun|na|kvk|Eintala||||grúpuvíkkun||||group extension|||||||
 grúpumótun|na|kvk|Eintala||||grúpusammótun||||group homomorphism|||||||
 grúpueinsmótun|na|kvk|Eintala||||||||group isomorphism|||||||
 grúpuaðgerð|na|kvk|Eintala||||||||group law|||||||
-grúpuverkun|na||Eintala||||verkun grúpu||||group operation||||group operation|||
 grúpumynstur|na|hk|Eintala||||||||group structure|||||||
 grúputafla|na|kvk|Eintala||||||||group table|||||||
 grúpufræði|na|kvk|Eintala||||||||group theory|||||||
 grúpa með virkjum|na|kvk|Eintala||||||||group with operators|||||||
 grýpi|na||Eintala||||||||groupoid|||||||
-grannmóta|ls|hk|Fleirtala||||||||homeomorphic||||topologically equivalent|||
+grannmóta|ls|kk|Fleirtala||||||||homeomorphic||||topologically equivalent|||
 gildi|na||Eintala||||mynd (staks)||||image||||value|||
 greyptur|ls|kk|Eintala||||||||imbedded|||||||
 greypt frymið íðal|na||Eintala||||||||imbedded primary ideal|||||||
@@ -1672,7 +1686,7 @@ gildisdreifing|na|kvk|Eintala||||||||value distribution|||||||
 gildisdreifingarfræði|na|kvk|Eintala||||||||value distribution theory|||||||
 gildamengi|na|hk|Eintala||||||||value set|||||||
 Grassmann-margfeldi|na|hk|Eintala||||Grassmann-feldi, ytra margfeldi, útfeldi||||alternating product||||exterior product, Grassmann product, outer product, wedge product|||
-Gauss-Markov-metill|ls|hk|Fleirtala||||||||best unbiased linear estimator||||best estimator, Gauss-Markov estimator|||
+Gauss-Markov-metill|ls|kvk|Eintala||||||||best unbiased linear estimator||||best estimator, Gauss-Markov estimator|||
 Gauss-tala|na|kvk|Eintala||||Gauss-heiltala||||complex integer||||Gaussian complex integer, Gaussian integer|||
 Gauss-dreifingarfall|na|hk|Eintala||||normlegt dreifingarfall, normlegt dreififall||||cumulative normal distribution||||normal distribution function|||
 Gauss-ferill|na|kk|Eintala||||normlegur dreififerill||||curve of normal distribution||||error curve, error distribution curve, Gaussian curve, Gaussian error curve, normal curve, normal distribution curve, normal error curve, normal frequency curve, normal probability curve|||
@@ -1690,6 +1704,7 @@ hrein stærðfræði|na|kvk|Eintala||||||||abstract mathematics||||pure mathemat
 hröðun|na|kvk|Eintala||||||||acceleration|||||||
 hvass|ls|kk|Eintala||||||||acute|||||||
 hvasshyrndur|ls|kk|Eintala||||||||acute|||||||
+hjáfylki|na|hk|Eintala||||bylt hjáþáttafylki, bylt fylgiþáttafylki||||adjoint matrix||||adjoint, adjugate matrix|||
 hafa (lausn)|sag||Eintala||||||||admit|||||||
 hending|na|kvk|Eintala||||slembibreyta, slembistærð, slemba||||aleatory variable||||chance variable, random variable, stochastic variable, variate|||
 hjáþáttur|na|kk|Eintala||||fylgiþáttur||||algebraic adjunct||||cofactor|||
@@ -1715,12 +1730,13 @@ hornhraði|na|kk|Eintala||||||||angular velocity||||angular speed|||
 hringkragi|na||Eintala||||kragi||||annulus||||circular ring|||
 heimfærður|ls|kk|Eintala||||||||applied|||||||
 heimfærð stærðfræði|na|kvk|Eintala||||||||applied mathematics|||||||
-hversu stór sem vera skal|ls|kk|Eintala||||||||arbitrarily great|||||||
+hversu stór sem vera skal|ls|kvk|Eintala||||||||arbitrarily great|||||||
 hversu lítill sem vera skal|ls|kk|Eintala||||||||arbitrarily small|||||||
 hrísla|na|kvk|Eintala|||||||tree|arborescence|||||||
 hringbogi|na|kk|Eintala||||bogi, örk||||arc||||circular arc|||
 hornaukasetning|na|kvk|Eintala||||||||argument principle||||principle of argument, principle of the argument|||
 hjálparlína|na|kvk|Eintala||||||||auxiliary line|||||||
+hlutmengjafrumsenda|na|kvk|Eintala||||hlutmengjafrumsetning, frumsenda um hlutmengi, frumsetning um hlutmengi||||axiom of subsets||||axiom of separation|||
 helminga|sag||Eintala||||||||bisect|||||||
 helmingalína|na|kvk|Eintala||||||||bisecting line||||bisector, bisectrix|||
 helmingaslétta|na|kvk|Eintala||||||||bisecting plane|||||||
@@ -1730,7 +1746,6 @@ hornklofi|na|kk|Eintala||||||||bracket|||||||
 hornklofamargföldun|na|kvk|Eintala||||Lie-margföldun|||Lie bracket|bracket operation|||||||
 hornklofamargfeldi|na|hk|Eintala||||Lie-margfeldi|||Lie bracket|bracket product|||||||
 hringabundin|ls|kvk|Eintala||||bundin af hringjum||||bundle of circles||||sheaf of circles|||
-hvelabundin|ls|hk|Fleirtala||||||||bundle of spheres||||sphere bundle|||
 hnikareikningur|na|kk|Eintala||||||||calculus of variations||||variational calculus|||
 hornalínuaðferð Cantors|na|kvk|Eintala|||||||diagonal method|Cantor's diagonal method|||||||
 hjartaferill|na|kk|Eintala||||||||cardioid|||||||
@@ -1749,8 +1764,8 @@ hringur|na|kk|Eintala||||hringferill, hringlína|||asymptotic circle, auxiliary 
 hringgrúpa|na||Eintala||||||||circle group|||||||
 hringaðferð|na||Eintala||||||||circle method|||||||
 hjúfurhringur|na|kk|Eintala||||krappahringur, sveigjuhringur||||circle of curvature||||osculating circle|||
-hringur|na|kk|Eintala|||||||stigm|circuit||||cycle, circuit graph|||
-hringlaga|ls|kk|Fleirtala||||kringlóttur, hring-||||circular|||||||
+hringlaga|ls|kk|Eintala||||kringlóttur, hring-||||circular|||||||
+hringskífa|||Eintala||||hringflötur||||circular disc||||circle, disc, disk|||
 hringskipting|na||Eintala||||||||circular division||||cyclotomy|||
 hringsvæði|na|hk|Eintala||||||||circular domain|||||||
 hornafall|na|hk|Eintala||||||||circular function||||trigonometric function|||
@@ -1770,7 +1785,7 @@ hjákarteskur ferningur|na||Eintala||||||||cocartesian square||||push-out diagra
 hjákeðja|na|kvk|Eintala||||||||cochain|||||||
 hjákeðjufléttingur|na|kk|Eintala||||||||cochain complex|||||||
 hjálokaður|ls|kk|Eintala||||||||coclosed|||||||
-hjárás|na|kvk|Eintala||||||||cocycle|||||||
+hjárás|na|hk|Eintala||||||||cocycle|||||||
 hjávídd|na|kvk|Eintala||||fyllivídd||||codimension|||||||
 hjáþáttafylki|na|hk|Eintala||||fylgiþáttafylki||||cofactor matrix|||||||
 hjátrefjun|na|kvk|Eintala||||||||co-fibering|||||||
@@ -1828,8 +1843,8 @@ hæði|na||Eintala||||||||dependence|||||||
 háður|ls|kk|Eintala|||||||algebraically dependent, linearly dependent|dependent|||||||
 háðir atburðir|na|kk|Fleirtala||||||||dependent events||||stochastically dependent events|||
 háðar hendingar|na|kvk|Fleirtala||||||||dependent random variables||||dependent variates|||
-hærri afleiða|ls|kvk|Fleirtala||||||||derivative of higher order||||higher derivative, higher-order derivative|||
-hægri afleiða|ls|kvk|Fleirtala||||afleiða frá hægri||||derivative on the right||||forward derivative, right derivative, right-hand derivative, right-handed derivative|||
+hærri afleiða|ls|hk|Fleirtala||||||||derivative of higher order||||higher derivative, higher-order derivative|||
+hægri afleiða|ls|hk|Fleirtala||||afleiða frá hægri||||derivative on the right||||forward derivative, right derivative, right-hand derivative, right-handed derivative|||
 hnig|na|hk|Eintala||||||||descent|||||||
 hnigaðferð|na|kvk|Eintala||||||||descent method||||method of descent|||
 hnigskref|na|hk|Eintala||||||||descent step|||||||
@@ -1879,7 +1894,6 @@ hliðarvirki|sag||Eintala||||||||face operator|||||||
 hlutfallsstuðull|na|kk|Eintala||||hlutfallsþáttur||||factor of proportionality|||||||
 hagstætt tilfelli|na|hk|Eintala||||||||favourable case|||||||
 hagstæður atburður|na|kk|Eintala||||||||favourable event|||||||
-hæðarlína|na|kvk|Eintala||||||||first principal line||||height line|||
 hæðarslétta|na|kvk|Eintala||||||||first principal plane||||height plane|||
 hverfipunktur|na|kk|Eintala||||beygjuskil||||flex point||||flex, inflection point, inflexion point, point of inflection, point of inflexion|||
 hverfisnertill|na|kk|Eintala||||beygjuskilasnertill||||flex tangent||||inflectional tangent, inflexional tangent, stationary tangent|||
@@ -1925,6 +1939,7 @@ háslétta|na|kvk|Eintala||||||||hyperplane|||||||
 háflötur|na|kk|Eintala||||||||hypersurface|||||||
 hugsaður|ls|kk|Eintala||||||||ideal|||||||
 hlutleysuþáttur|na|kk|Eintala||||||||identity component|||||||
+hlutleysa|na|kvk|Eintala||||hlutlaust stak||||identity element||||identity, neutral element|||
 halli|na||Eintala|||||||grade, slope|inclination|||||||
 hornið á milli|na||Eintala||{\it A triangle is determined by two sides and the  included 
 angle}: þríhyrningur ákvarðast af  tveimur hliðum og horninu á 
@@ -2001,10 +2016,8 @@ hámörkun|na|kvk|Eintala||||||||maximization|||||||
 hámarka|sag||Eintala||||||||maximize|||||||
 hágildispunktur|na|kk|Eintala||||||||maximum point|||||||
 hágildissetning|na|kvk|Eintala||||hágildislögmál, háalgildissetning, háalgildislögmál||||maximum principle||||maximum modulus principle, principle of maximum|||
-hágildissetning|na|kvk|Eintala||||hágildislögmál||||maximum principle||||principle of maximum|||
 hámarksleikáætlun|na|kvk|Eintala||||hámarksáætlun|||optimum strategy|maximum strategy|||||||
 hálágmarkslögmál|na|hk|Eintala||||fjalldalaregla||||maximum-minimum principle||||minimax principle|||
-hlið|na|kvk|Eintala||||||||member||||side|||
 hugarreikningur|na|kk|Eintala||||||||mental arithmetic|||||||
 höfuðhluti|na|kk|Eintala||||||||meromorphic part||||principal part, singular part|||
 höfuðásaaðferð|na|kvk|Eintala||||meginásaaðferð||||method of principal axes|||||||
@@ -2033,7 +2046,7 @@ hreiðraður|ls|kk|Eintala||||||||nested|||||||
 hreiðruð tvískipting|na|kvk|Eintala||||||||nested disection|||||||
 hreiðruð bil|na|hk|Fleirtala||||||||nested intervals|||||||
 hreiðruð margföldun|na|kvk|Eintala||||||||nested multiplication|||||||
-hlutlaus|ls|kk|Eintala||||||||neutral|||||||
+hlutlaus|ls|kvk|Eintala||||||||neutral|||||||
 hnútur|na|kk|Eintala||||gálma||||node|||||||
 hnútur|na|kk|Eintala||||punktur||||node||||vertex|||
 hnútflötur|na|kk|Eintala||||||||nodoid|||||||
@@ -2087,7 +2100,7 @@ heildunarferill|na|kk|Eintala||||heildunarvegur, tegrunarferill, tegrunarvegur||
 heilsteyptur|ls|kk|Eintala||||fullgerður||||perfect|||||||
 heilsteypt net|na|hk|Eintala||||||||perfect graph|||||||
 heilsteypt grúpa|na|kvk|Eintala||||||||perfect group|||||||
-heilsteypt mengi|ls|kvk|Eintala||||||||perfect set|||||||
+heilsteypt mengi|ls|hk|Fleirtala||||||||perfect set|||||||
 hægri lágvísir|na|kk|Eintala||||||||post-subscript|||||||
 hægri hávísir|na|kk|Eintala||||||||post-superscript|||||||
 höfnunarfall|na|hk|Eintala||||styrkleikafall, styrkfall||||power function|||||||
@@ -2116,7 +2129,7 @@ hefja (í veldi)|sag||Eintala||||||||raise|||||||
 hraður|ls|kk|Eintala||||||||rapid|||||||
 hröð samleitni|na|kvk|Eintala||||||||rapid convergence|||||||
 hraðminnkandi|||Eintala||||hraðfallandi||||rapidly decreasing|||||||
-hraðvaxandi|ls|kvk|Fleirtala||||hraðstækkandi||||rapidly increasing|||||||
+hraðvaxandi|ls|hk|Eintala||||hraðstækkandi||||rapidly increasing|||||||
 hlutfall|na|hk|Eintala|||||||fraction, quotient|ratio|||||||
 hlutfallspróf|na|hk|Eintala||||||||ratio test|||||||
 hornréttur|ls|kk|Eintala||||||||rectangular|||||||
@@ -2142,6 +2155,7 @@ hægri samsemdarmótun|na|kvk|Eintala||||||||right identity|||||||
 hægri andhverfa|na|kvk|Eintala||||andhverfa frá hægri||||right inverse|||||||
 hægri umhverfa|ls|kvk|Fleirtala||||umhverfa frá hægri, hægri andhverfa, andhverfa frá hægri||||right inverse|||||||
 hægri mótull|na|kvk|Eintala||||||||right module|||||||
+hægri hlutleysa|ls|hk|Fleirtala||||hlutleysa frá hægri||||right neutral element||||right identity|||
 hægri svigi|na|kk|Eintala||||||||right parenthesis|||||||
 hægri oddklofi|na|kk|Eintala|||||||pointed bracket|right pointed bracket|||||||
 hliðrun til hægri|na|kvk|Eintala||||hægri hliðrun||||right translation|||||||
@@ -2173,7 +2187,7 @@ hálfeinfaldur|ls|kk|Eintala||||||||semisimple|||||||
 hálfur meginás|na|kk|Eintala|||||||transverse axis|semitransverse axis|||||||
 hálftvílínulegur|ls|kk|Eintala||||||||sesquilinear|||||||
 höggbylgja|na|kvk|Eintala||||||||shock wave|||||||
-hlið|na|hk|Eintala||||hliðarlína, hliðarstrik||||side|||||||
+hlið|na|kvk|Eintala||||hliðarlína, hliðarstrik||||side|||||||
 hlutverutákn|na|hk|Eintala||||||||sign of inclusion|||||||
 hreintóna hreyfing|na||Eintala||||||||simple harmonic motion|||||||
 hyrna|na|kvk|Eintala||||||||simplex|||||||
@@ -2188,7 +2202,7 @@ hyrnuvörpun|na|kvk|Eintala||||||||simplicial mapping|||||||
 herming|na|kvk|Eintala||||||||simulation|||||||
 halli|na||Eintala||||hallatala|||grade, inclination|slope|||||||
 hallahorn|na|hk|Eintala||||||||slope angle|||||||
-hægvaxandi|ls|kk|Fleirtala||||hægstígandi||||slowly increasing|||||||
+hægvaxandi|ls|hk|Eintala||||hægstígandi||||slowly increasing|||||||
 hugbúnaður|na|kk|Eintala||||||||software|||||||
 hjólflötungur|ls|kk|Eintala||||hjólþykkvi||||solid torus||||tore, torus|||
 hraði|na||Eintala|||||||velocity|speed|||||||
@@ -2211,7 +2225,7 @@ hlutbil|na|hk|Eintala||||||||subinterval|||||||
 hlutgrind|na|kvk|Eintala||||||||sublattice|||||||
 hlutvíðátta|na|kvk|Eintala||||||||submanifold|||||||
 hlutlíkan|na|hk|Eintala||||||||submodel|||||||
-hlutmótull|na|hk|Eintala||||||||submodule|||||||
+hlutmótull|na|kvk|Eintala||||||||submodule|||||||
 hluteinungur|na|kk|Eintala||||||||submonoid|||||||
 hlutnet|na|hk|Eintala||||||||subnet|||||||
 hlutbaugur|na|kk|Eintala||||||||subring|||||||
@@ -2251,7 +2265,7 @@ hófur|na|kk|Eintala||||||||ungula|||||||
 hálfsamfelldur að ofan|ls|kk|Eintala||||||||upper semi-continuous||||upper continuous|||
 hverfa|sag|kvk|Eintala||||verða núll||||vanish|||||||
 hverfa alls staðar|na|kvk|Eintala||||vera alls staðar núll||||vanish identically|||||||
-hverfandi|ls|hk|Eintala||||sem hverfur||||vanishing|||||||
+hverfandi|ls|kvk|Eintala||||sem hverfur||||vanishing|||||||
 hvarf|na||Eintala||||||||vanishing|||||||
 hvarfsetning|na|kvk|Eintala||||||||vanishing theorem|||||||
 hnik|na|hk|Eintala||||||||variation|||||||
@@ -2306,9 +2320,7 @@ innri sjálfmótun|na|kvk|Eintala||||||||inner automorphism|||||||
 innra innihald|na|hk|Eintala||||innra Jordan-innihald||||inner content||||inner Jordan content, interior content, interior Jordan content|||
 innra mál|na|hk|Eintala||||innanmál||||inner measure||||interior measure, lower measure|||
 innri punktur|na|kk|Eintala||||||||inner point||||interior point|||
-innfeldi|na|hk|Eintala|||||||alternating bilinear form, antisymmetric bilinear form, symmetric bilinear form|inner product||||scalar product|||
 innra margfeldi|na|hk|Eintala|||||||contracted tensor, contraction, inner tensor multiplication, tensor product, transvection|inner product|||||||
-innfeldi|na|hk|Eintala|||||||antihermitian sesquilinear form, hermitian sesquilinear form|inner product||||scalar product|||
 innri margföldun|na|kvk|Eintala|||||||contraction, inner product|inner tensor multiplication||||inner multiplication, transvection|||
 inngeisli|na||Eintala||||geisli innritaðs hrings, geisli innritaðrar kúlu||||inradius|||||||
 innrita|sag||Eintala||||||||inscribe|||||||
@@ -2321,7 +2333,7 @@ iðurfeldi|sag||Eintala||||||||interior product|||||||
 innri aðgerð|na|kvk|Eintala||||innri reikniaðgerð|||algebraic operation, law of composition, operation|internal operation||||internal composition|||
 innra meðalfervik|na|hk|Eintala||||innri dreifni|||between-class variance|internal variance||||intra-class variance, within-class variance|||
 innri fylgni|na|kvk|Eintala|||||||between-class correlation|intra-class correlation||||within-class correlation|||
-innri jafna|ls|kk|Fleirtala||||||||intrinsic equation||||natural equation|||
+innri jafna|ls|hk|Fleirtala||||||||intrinsic equation||||natural equation|||
 innri firð|na|kvk|Eintala||||||||intrinsic metric|||||||
 innsæi|na|hk|Eintala||||skjótsæi, snarskyggni||||intuition|||||||
 innsæiskenning|na|kvk|Eintala||||||||intuitionism|||||||
@@ -2342,7 +2354,7 @@ innsetning|na|kvk|Eintala|||||||change of variables, integration by substitution
 innsetningaraðferð|na|kvk|Eintala||||||||substitution method|||||||
 innsetningarregla|na|kvk|Eintala||||||||substitution rule|||||||
 iða|na|kvk|Eintala||||||||turbulence|||||||
-innihaldslaus|ls|kk|Eintala||||||||vacuous|||||||
+innihaldslaus|ls|kvk|Eintala||||||||vacuous|||||||
 innihaldslaus staðhæfing|na|kvk|Eintala||||||||vacuous assertion|||||||
 jafnstæðugrúpa|na|kvk|Eintala||||||||alternating group|||||||
 jafnvígur hnútur|na|kk|Eintala||||||||amphicheiral knot|||||||
@@ -2394,6 +2406,7 @@ jafnmættislína|na||Eintala||||||||equipotential line|||||||
 jafnmættisflötur|na||Eintala||||||||equipotential surface|||||||
 jafngildi|na|hk|Eintala|||||||material equivalence, biconditional|equivalence|||||||
 jafngildisflokkur|na|kk|Eintala||||||||equivalence class|||||||
+jafngildisvensl|na|hk|Fleirtala||||||||equivalence relation||||equivalence|||
 jafngildur|ls|kk|Eintala||||||||equivalent|||||||
 jafnbreytinn|ls||Eintala||||||||equivariant|||||||
 jafnstæður|ls|kvk|Fleirtala|||||||odd|even|||||||
@@ -2416,7 +2429,7 @@ jafnhyrningur|na|kk|Eintala||||jafnhyrndur marghyrningur||||isogon|||||||
 jafnhorna|ls||Eintala||||sem mynda sama horn||||isogonal|||||||
 jafnhornaferill|na|kk|Eintala||||||||isogonal trajectory|||||||
 jafn að ummáli|ls|hk|Eintala||||ummálsjafn||||isoperimetric|||||||
-jafnarma|ls|kvk|Eintala||||||||isosceles|||||||
+jafnarma|ls|kvk|Fleirtala||||||||isosceles|||||||
 japanskur baugur|na|kk|Eintala||||||||Japanese ring|||||||
 jákvæður snúningur|na|kk|Eintala||||snúningur rangsælis||||left-handed rotation|||||||
 jaðarvörpun|na|kvk|Eintala||||||||mapping of the boundary|||||||
@@ -2439,7 +2452,7 @@ jöfn dreifing|na|kvk|Eintala|||||||rectangular distribution|uniform distributio
 jafnmælisrúm|na|hk|Eintala||||||||uniform space|||||||
 jafnmælismynstur|na|hk|Eintala||||||||uniform structure||||uniformity|||
 jafnmælisgrannmynstur|na|hk|Eintala||||||||uniform topology|||||||
-jafngildur í jöfnum mæli|na|kvk|Fleirtala||||||||uniformly equivalent|||||||
+jafngildur í jöfnum mæli|na|kk|Fleirtala||||||||uniformly equivalent|||||||
 Jacobi-ákveða|na|kvk|Eintala||||||||functional determinant||||Jacobian, Jacobian determinant|||
 Jacobi-fylki|na|hk|Eintala||||||||functional matrix||||Jacobian, Jacobian matrix|||
 Jacobi-tákn|na|hk|Eintala||||||||Jacobi symbol|||||||
@@ -2462,12 +2475,11 @@ kvíslideilir|na||Eintala||||||||branch divisor|||||||
 kvíslipunktur|na||Eintala||||kvíslunarpunktur||||branch point||||point of ramification, ramification point|||
 kvíslað fall|na|hk|Eintala||||marggilt fall||||branched function||||many-valued function, multifunction, multiple-valued function, multivalued function|||
 kvísluð lausn|na|kvk|Eintala||||||||branched solution|||||||
-kvíslun|na||Eintala||||||||branching||||ramification|||
 kvísliferli|na||Eintala||||kvíslunarferli|||branching|branching process|||||||
 kórbundin|ls|hk|Fleirtala||||||||canonical bundle|||||||
 kórgerð|na|kvk|Eintala|||||||Jordan canonical form|canonical form|||||||
 kórfærsla|na|kvk|Eintala||||kórhnitaskipti||||canonical transformation|||||||
-kórsamoka|ls|kvk|Fleirtala||||||||canonically conjugate|||||||
+kórsamoka|ls|hk|Fleirtala||||||||canonically conjugate|||||||
 kúluhattur|na|kk|Eintala||||kúluhetta||||cap||||spherical calotte, spherical cap, spherical zone, zone|||
 kúfur|na|kk|Eintala|||||||cup|cap|||||||
 kúffeldi|sag||Eintala|||||||cup product|cap product|||||||
@@ -2503,7 +2515,7 @@ kenniflokkur|na|kk|Eintala||||||||characteristic class|||||||
 kenniferill|na|kk|Eintala|||||||characteristic|characteristic curve|||||||
 kennijafna|na|kvk|Eintala||||||||characteristic equation|||||||
 kennifall|na|hk|Eintala|||||||Fourier transform|characteristic function|||||||
-kennifall|na|hk|Eintala||||||||characteristic function||||indicator, indicator function|||
+kennimargliða|na|kvk|Eintala||||||||characteristic polynomial||||characteristic function|||
 kennirót|na|hk|Eintala|||||||characteristic value|characteristic root|||||||
 kennileg hlutgrúpa|na|kvk|Eintala||||||||characteristic subgroup|||||||
 kenniflötur|na|kk|Eintala|||||||characteristic|characteristic surface|||||||
@@ -2523,7 +2535,8 @@ kúvending|na|kvk|Eintala||||||||complete pivoting|||||||
 klasi|na||Eintala||||||||complex|||||||
 keila|na|kvk|Eintala|||||||circular cone, right circular cone, right cone, conical surface|cone|||||||
 keilu-|ls||Eintala||||||||conic|||||||
-keilulaga|ls|kk|Fleirtala||||||||conic|||||||
+keilulaga|ls|kk|Eintala||||||||conic|||||||
+keilusnið|na|hk|Eintala|||||||quadratic curve|conic section||||conic|||
 keilu-|ls||Eintala||||||||conical|||||||
 keilulaga|ls|hk|Fleirtala||||||||conical|||||||
 keilustúfur|na|kk|Eintala||||||||conical frustum|||||||
@@ -2537,7 +2550,7 @@ kúpt fall|na|hk|Eintala||||||||convex function|||||||
 kúptur hjúpur|na|kk|Eintala|||||||convex closure|convex hull|||||||
 kúpt línuleg samantekt|na|kvk|Eintala||||||||convex linear combination|||||||
 kúptur marghyrningur|na|kk|Eintala||||úthyrndur marghyrningur||||convex polygon|||||||
-kúpt mengi|ls|kvk|Eintala||||||||convex set|||||||
+kúpt mengi|ls|hk|Fleirtala||||||||convex set|||||||
 kúpni|na||Eintala||||||||convexity|||||||
 kúpniskilyrði|na||Eintala||||||||convexity condition|||||||
 kósekans|na||Eintala||||||||cosecant|||||||
@@ -2573,7 +2586,7 @@ kjarni|na|kk|Eintala|||||||Ker, null-space|kernel|||||||
 kjarnafall|na|hk|Eintala||||||||kernel function|||||||
 kápuflatarmál|na|hk|Eintala||||möttulflatarmál||||lateral area|||||||
 kápubrún|na|kvk|Eintala||||möttulbrún||||lateral edge|||||||
-kápuhlið|na|kvk|Eintala||||kápuhliðarflötur, möttulhlið, möttulhliðarflötur||||lateral face|||||||
+kápuhlið|na|hk|Eintala||||kápuhliðarflötur, möttulhlið, möttulhliðarflötur||||lateral face|||||||
 kápuflötur|na|kk|Eintala||||kápa, möttull, möttulflötur||||lateral surface|||||||
 kjálki|na||Eintala||||||||leg|||||||
 kompáslína|na|kvk|Eintala||||||||loxodrome||||loxodromic curve, loxodromic line, loxodromic spiral, rhumb, rhumb line, spherical helix|||
@@ -2612,7 +2625,7 @@ knippisrúm|na|hk|Eintala||||||||sheaf space|||||||
 knippafræði|na|kvk|Eintala||||||||sheaf theory|||||||
 kúlu-|ls||Eintala||||hnatt-, hvel-||||spherical|||||||
 kúluhorn|na|hk|Eintala||||hnatthorn||||spherical angle|||||||
-kúluhnit|na|hk|Eintala||||||||spherical coordinates||||spherical polar coordinates|||
+kúluhnit|na|kvk|Eintala||||||||spherical coordinates||||spherical polar coordinates|||
 kúlufall|na|hk|Eintala||||hvelfall||||spherical function|||||||
 kúlurúmfræði|na|kvk|Eintala||||||||spherical geometry||||spherics|||
 kúlnarúmfræði|na|kvk|Eintala||||||||spherical geometry|||||||
@@ -2650,6 +2663,7 @@ lengd|na|kvk|Eintala||||staðall, tölugildi|||norm|absolute value|||||||
 leggja saman|sag||Eintala||||||||add|||||||
 leggja við|sag||Eintala||||bæta við||||add|||||||
 lokaður hjúpur|na|kk|Eintala||||lokun||||adherence||||closed hull, closure|||
+leggjanet|na|hk|Eintala||||aðoka net, afleitt net||||adjoint graph||||adjoint, derived graph, edge graph, line graph|||
 leyfilegur|ls|kk|Eintala||||||||admissible|||||||
 línulegur grunnur|na|kk|Eintala||||vigurgrunnur, Hamel-grunnur, grunnur||||algebraic basis||||basis, Hamel basis, linear basis, vector basis|||
 lausnartilgáta|na|kvk|Eintala||||||||Ansatz|||||||
@@ -2705,6 +2719,7 @@ leiðréttandi|na||Eintala|||||||predictor-corrector method|corrector|||||||
 lotubundið flökt|na|hk|Eintala||||||||cycle||||periodic fluctuation|||
 liðun í rásir|na|kvk|Eintala||||||||cycle decomposition|||||||
 lotubundin Markov-keðja|ls|hk|Fleirtala||||rásuð Markov-keðja||||cyclic Markov chain|||||||
+líkindaþéttleiki|sag||Eintala||||dreifingarþéttleiki, þéttleiki||||density of probability||||density, distribution density, probability density|||
 lýsandi tölfræði|na|kk|Eintala||||||||descriptive statistics|||||||
 löggengur|ls|kk|Eintala||||||||deterministic|||||||
 löggeng bestun|na|kvk|Eintala||||||||deterministic optimization|||||||
@@ -2770,6 +2785,7 @@ láta kyrrt|||Eintala||||||||let invariant|||||||
 l'Hôpital-regla|na|kvk|Eintala||||||||l'Hôpital's rule||||L'Hospital's rule|||
 lygaraþversögn|na|kvk|Eintala||||||||liar paradox|||||||
 lyfta|sag|kvk|Eintala||||||||lift|||||||
+lyfting|na|kvk|Eintala||||||||lifting||||lift|||
 lína|na|kvk|Eintala||||bein lína|||affine line, auxiliary line, axis, base line, bisecting line, broken line, bundle of lines, bundle of parallel lines, centre line, complex line, complex projective line, connecting line, continuum, convergence line, directed line, directing line, first principal line, focal line, fundamental line, generating line, geodesic line, half-line, ideal line, infinite line, line at infinity, long line, nodal line, normal line, number axis, number line, numeric line, numerical line, oriented line, parallel line, pencil of lines, pencil of parallel lines, perpendicular line, polar line, polygonal line, real axis, real line, real projective line, rectifying line, regression line, rejection line, secant line, sheaf of lines, sheaf of parallel lines, skew lines, slope line, supporting line, tangent line|line||||straight line|||
 lína|na|kvk|Eintala||||ferill|||base line, closed line, continuum, contour line, curve, equipotential line, flow line, geodesic line, height line, level line, loxodromic line, meridian line, rhumb line, screw line, stream line|line|||||||
 línubundin|ls|kvk|Eintala|||||||bundle, vector bundle|line bundle|||||||
@@ -2823,7 +2839,7 @@ langalína|na|kvk|Eintala||||||||long line|||||||
 langamargföldun|na|kvk|Eintala||||||||long multiplication|||||||
 lúpa|na|kvk|Eintala||||||||loop|||||||
 lykkjurúm|na|hk|Eintala||||||||loop space|||||||
-lægri miðjuruna|ls|kk|Fleirtala||||lægri miðjuturn||||lower central series|||||||
+lægri miðjuruna|ls|hk|Fleirtala||||lægri miðjuturn||||lower central series|||||||
 lágvísir|na|kk|Eintala||||knévísir||||lower index||||subscript|||
 langás|na|kk|Eintala|||||||focal axis, minor axis, principal axis|major axis|||||||
 landabréf|na|hk|Eintala||||kort||||map|||||||
@@ -2840,12 +2856,10 @@ lágfrumíðal|na||Eintala||||óminnkanlegt frumíðal||||minimal prime ideal|||
 lágflötur|na|kk|Eintala||||||||minimal surface|||||||
 lágmörkun|na|kvk|Eintala||||||||minimization||||minimizing|||
 lágmarka|sag||Eintala||||||||minimize|||||||
-lággildi|na||Eintala||||staðbundið lággildi||||minimum||||minimum in the small|||
 lággildissetning|na|kvk|Eintala||||lággildislögmál, lágalgildissetning, lágalgildislögmál||||minimum modulus principle||||minimum principle, principle of minimum|||
 lággildispunktur|na|kk|Eintala||||||||minimum point|||||||
-lággildissetning|na|kvk|Eintala||||lággildislögmál||||minimum principle||||principle of minimum|||
 lágmarksleikáætlun|na|kvk|Eintala||||lágmarksáætlun|||optimum strategy|minimum strategy|||||||
-líkan|na|hk|Eintala||||||||model|||||||
+líkan|na|kvk|Eintala||||||||model|||||||
 líkanafræði|na|kvk|Eintala||||||||model theory|||||||
 líkanagerð|na|kvk|Eintala||||||||modelling|||||||
 lengd|na|kvk|Eintala||||algildi, tölugildi|||absolute value|modulus|||||||
@@ -2901,6 +2915,7 @@ leifasetning|na|kvk|Eintala||||||||residue theorem||||theorem of residues|||
 leysifylki|na|hk|Eintala||||||||resolvent|||||||
 leysivirki|na||Eintala||||||||resolvent||||resolvent operator|||
 leysijafna|na|kvk|Eintala||||||||resolvent equation|||||||
+leysikjarni|na|kk|Eintala||||||||resolvent kernel||||resolvent|||
 leysimengi|sag||Eintala||||||||resolvent set|||||||
 lausn|na|kvk|Eintala||||úrlausn||||resolving||||solution, solving|||
 liðun|na|kvk|Eintala||||||||resolving|||||||
@@ -2964,7 +2979,6 @@ Lie-hornklofi|na|kk|Eintala||||Lie-margfeldi|||bracket operation, bracket produc
 Lie-grúpa|na|kvk|Eintala||||||||Lie group|||||||
 myndmengi|sag||Eintala||||seiling|||latent range|actual range||||counterdomain, range, right domain|||
 myndmengi|sag||Eintala||||mynd|||latent range|actual range||||image, image set, range|||
-mengi|na||Eintala||||||||aggregate||||set|||
 mengjaalgebra|na|kvk|Eintala||||||||algebra of subsets||||field of sets|||
 mishverfur|ls|kk|Eintala||||misvíxlinn||||alternating|||||||
 mishverft tvílínulegt form|na|hk|Eintala||||misvíxlið tvílínulegt form|||antisymmetric bilinear form, inner product, scalar product|alternating bilinear form||||symplectic bilinear form|||
@@ -2982,7 +2996,6 @@ missamhverfur|ls|kvk|Fleirtala||||mishverfur||||asymmetric||||asymmetrical|||
 missamhverf vensl|na|hk|Fleirtala||||mishverf vensl||||asymmetric relation|||||||
 meginhringur|na|kk|Eintala||||meginhvirfilhringur, hjálparhringur|||eccentric circle, minor circle|auxiliary circle||||major circle|||
 meðal-|ls||Eintala||||meðaltals-, að meðaltali||||average|||||||
-meðaltal|na|hk|Eintala|||||||average value, mean value|average||||mean|||
 meðalfrávik|na|hk|Eintala||||||||average deviation||||mean deviation|||
 meðalskekkja|na|kvk|Eintala||||||||average error||||mean error|||
 meðaltap|na|hk|Eintala||||||||average loss||||expected loss|||
@@ -2994,6 +3007,7 @@ markgildissetning Bernoullis|na|kvk|Eintala||||Bernoulli-lögmál mikils fjölda
 minnsta frávik|na|hk|Eintala||||||||best approximation|||||||
 milli|ls|kk|Eintala||||á milli||||between|||||||
 millumleiki|na||Eintala||||||||betweenness|||||||
+millumleikafrumsenda|na||Eintala||||millumleikafrumsetning|||axiom of order, order axiom|betweenness axiom||||axiom of betweenness|||
 millumleikavensl|na||Eintala||||||||betweenness relation|||||||
 miðpunktur|na|kk|Eintala||||||||bisecting point||||middle point, midpoint|||
 mismunareikningur|na|kk|Eintala||||||||calculus of finite differences||||calculus of differences|||
@@ -3037,7 +3051,7 @@ margfalda í kross|sag||Eintala||||||||cross-multiply|||||||
 minnka|sag||Eintala||||falla, lækka||||decrease|||||||
 margfeldni|na||Eintala||||||||degeneracy|||||||
 margfaldur|ls|kk|Eintala||||||||degenerate|||||||
-minnkandi atburðaruna|ls|hk|Fleirtala||||||||descending sequence of events|||||||
+minnkandi atburðaruna|ls|kk|Fleirtala||||||||descending sequence of events|||||||
 miðstrengur|na|kk|Eintala||||||||diameter|||||||
 munur|na|kk|Eintala||Orðið {\it afgangur} er einkum notað í samhengi sem þessu: {\it If we subtract \(5\)from \(7\) the remainder is \(2\): Þegar \(5\)eru dregnir frá \(7\)er afgangurinn (mismunurinn) \(2\)||mismunur, afgangur (í frádrætti)||||difference||||remainder|||
 mengjamunur|na|kk|Eintala||||mengjamismunur|||complement|difference||||relative complement|||
@@ -3153,7 +3167,6 @@ mælirúmfræði|na|kvk|Eintala||||||||metric geometry|||||||
 miðliður|na|kk|Eintala||||||||middle term|||||||
 miðþverslétta|na|kvk|Eintala||||||||mid-perpendicular|||||||
 miðþverill|na|kk|Eintala||||miðþverlína||||mid-perpendicular|||||||
-miðþverill|na|kk|Eintala||||||||mid-perpendicular||||perpendicular bisector, right bisector|||
 millimetrapappír|na|kk|Eintala||||||||millimeter squared paper|||||||
 minnsta stig|na|hk|Eintala||||lágstig||||minimal degree||||minimal valency|||
 mínus|na|kk|Eintala||||mínusmerki, mínusformerki, neikvætt formerki||||minus||||minus mark, minus sign, minus symbol, negative sign|||
@@ -3162,7 +3175,7 @@ mínúta|na|kvk|Eintala|||||||centesimal minute, sexagesimal minute, min|minute|
 mátform|na|hk|Eintala||||||||modular form|||||||
 mátfall|na|hk|Eintala||||||||modular function|||||||
 mátgrúpa|na|kvk|Eintala||||||||modular group|||||||
-mótull|na|kvk|Eintala|||||||linear space, vector space|module|||||||
+mótull|na|hk|Eintala|||||||linear space, vector space|module|||||||
 mótulgrunnur|na||Eintala||||||||module basis||||module base|||
 mótulinnanmótun|na||Eintala||||||||module endomorphism|||||||
 mótulmótun|na||Eintala||||línuleg vörpun|||linear mapping|module homomorphism|||||||
@@ -3211,7 +3224,6 @@ margföldunar-|ls||Eintala||||||||multiplicative|||||||
 margfeldisfrumsenda|na|kvk|Eintala||||margfeldisfrumsetning|||axiom of choice|multiplicative axiom|||||||
 margfeldið fall|na||Eintala||||||||multiplicative function|||||||
 margföldunargrúpa|na|kvk|Eintala||||||||multiplicative group|||||||
-margföldunarumhverfa|na|kvk|Eintala||||margföldunarandhverfa, umhverfa|||inverse|multiplicative inverse||||reciprocal, reciprocal element|||
 margfeldni|na||Eintala||||||||multiplicity|||||||
 margfaldari|na|kk|Eintala|||||||factor, multiplicand|multiplier||||multiplicator|||
 margfaldlega|at||Eintala||||||||multiply|||||||
@@ -3308,7 +3320,7 @@ málskipanarbreyta|na|kvk|Eintala|||||||metavariable|syntactic variable|||||||
 málskipan|na|kvk|Eintala||||||||syntax|||||||
 málskipanarfræði|na|kvk|Eintala||||||||syntax|||||||
 mynd|na|kvk|Eintala||||||||transform|||||||
-misstór|ls|kvk|Eintala||||misjafn||||unequal|||||||
+misstór|ls|hk|Fleirtala||||misjafn||||unequal|||||||
 markgildi í jöfnum mæli|na|hk|Eintala||||||||uniform limit|||||||
 mælieining|na|kvk|Eintala||||||||unit|||||||
 Monte-Carlo-útreikningur|na|kk|Eintala||||hermiútreikningur||||calculation by Monte Carlo method||||computation by Monte Carlo method|||
@@ -3325,6 +3337,7 @@ Monte-Carlo-aðferð|na|kvk|Eintala||||||||Monte Carlo method|||||||
 neðsta gildi|na|hk|Eintala||||lægsta gildi, minnsta gildi, minnsta lággildi, víðfeðmt lággildi|||minimum|absolute minimum||||global minimum, least value, lowest value, minimal value, minimum in the large, minimum value, smallest value|||
 nákvæmni|na|kvk|Eintala||||hittni||||accuracy||||precision|||
 nálægð|na|kvk|Eintala||||nánd||||accuracy||||closeness|||
+nykurrúm|na|hk|Eintala||||||||adjoint space||||adjoint, conjugate, conjugate space, dual, dual space|||
 næstum öruggur|ls|kk|Eintala||||öruggur með líkindum||||almost certain||||almost sure|||
 næstum alls staðar|||Eintala||||nærri alls staðar|||a. e.\ekkipunktur|almost everywhere|||||||
 næstum lotubundið fall|na|hk|Eintala||||||||almost periodic function|||||||
@@ -3358,10 +3371,10 @@ nauðsynlegt og nægjanlegt skilyrði|na|hk|Eintala||||nauðsynlegt og fullnægj
 neikvæður snúningur|na|kk|Eintala||||snúningur réttsælis||||clockwise rotation||||negative rotation, right-handed rotation|||
 nákvæmt deildi|ls|hk|Eintala||||fleygað deildi||||complete differential||||exact differential, perfect differential, total differential|||
 niðurstaða|na|kvk|Eintala||||ályktun, lokaályktun||||conclusion|||||||
-niðurstaða|na|kvk|Eintala|||||||antecedent|consequent||||succedent|||
 nafla|na|hk|Eintala||||naflavirki||||del operator||||del, Hamiltonian, nabla, nabla operator|||
 nefnari|na|kk|Eintala|||||||numerator|denominator|||||||
 niðji|na|kk|Eintala||||||||descendant|||||||
+niðurstigningaraðferð|na|kvk|Eintala||||||||descent method||||descent, method of descent|||
 normleg hlutgrúpa|na|kvk|Eintala||||óbreytt hlutgrúpa||||distinguished subgroup||||invariant subgroup, normal subgroup|||
 núlldeilir|sag||Eintala||||||||divisor of zero||||zero divisor|||
 nykraður|ls|kk|Eintala||||nykur-||||dual|||||||
@@ -3381,7 +3394,6 @@ nykursetning|na|kvk|Eintala||||nykruð setning||||dual theorem|||||||
 nykurfærsla|na|kvk|Eintala||||||||dual transformation|||||||
 nykrað vigurrúm|na|hk|Eintala||||nykurrúm||||dual vector space|||||||
 nykurlögmál|na|hk|Eintala||||nykurvensl||||duality|||||||
-nykurlögmál|na|hk|Eintala||||||||duality principle||||principle of duality|||
 nykrunarsetning|na||Eintala||||||||duality theorem|||||||
 nykrun|na||Eintala||||||||dualization|||||||
 nykra|sag|kvk|Eintala||||||||dualize|||||||
@@ -3411,6 +3423,7 @@ nærfágað deildi|ls|hk|Eintala||||||||meromorphic differential|||||||
 nærfágað fall|na|hk|Eintala||||||||meromorphic function|||||||
 nærfáguð vörpun|na|kvk|Eintala||||||||meromorphic mapping||||meromorphism|||
 nærfágun|na|kvk|Eintala||||||||meromorphy|||||||
+niðurstigning|na|kvk|Eintala||||niðurstigningaraðferð||||method of descent||||descent, descent method|||
 nútímarökfræði|na|kvk|Eintala|||||||mathematical logic|modern logic|||||||
 neitunarháttur|na|kk|Eintala||||||||modus tollens|||||||
 náttúrlegur|ls|kk|Eintala||||náttúrulegur, eðlilegur|||canonical, functorial|natural|||||||
@@ -3435,7 +3448,7 @@ nágranni|na|kk|Eintala||||granni||||neighbour|||||||
 nýraferill|na|kk|Eintala||||||||nephroid|||||||
 net|na|hk|Eintala|||||||transportation network|network|||||||
 núllvalda|ls||Eintala||||||||nilpotent|||||||
-núllrót|na|kvk|Eintala||||||||nil-radical|||||||
+núllrót|na|hk|Eintala||||||||nil-radical|||||||
 níusetning|na|kvk|Eintala||||||||nine lemma|||||||
 níupunktahringur|na|kk|Eintala||||||||nine-point circle|||||||
 noetherskur|ls||Eintala||Einnig ritað með upphafsstaf: {\it Noetherian}||Noether-||||noetherian|||||||
@@ -3463,7 +3476,6 @@ normgera|sag||Eintala||||||||normalize|||||||
 normleikagrúpa|na|kvk|Eintala||||||||normalizer|||||||
 norðurskaut|na|hk|Eintala||||norðurpóll||||north pole|||||||
 nyrðra hálfhvel|na|hk|Eintala||||norðurhvel||||northern hemisphere|||||||
-núll|na|hk|Eintala||||||||null||||zero|||
 núllstöð|na||Eintala||||||||null||||zero|||
 núllfall|na|hk|Eintala||||||||null function||||zero function|||
 núllgagnvegur|na|kk|Eintala||||||||null geodesic|||||||
@@ -3510,6 +3522,7 @@ og|sam||Eintala|||||||conjunction|and|||||||
 oddklofi|na|kk|Eintala||||||||angle bracket||||broken bracket, pointed bracket|||
 ofhorn|na|hk|Eintala|||||||angular defect|angular excess||||excess|||
 oddsvigi|na|kk|Eintala||||||||brace||||curly bracket|||
+ofanvarpsmiðja|na|kvk|Eintala||||varpmiðja||||centre of projection||||centre of perspective|||
 opinn og lokaður|ls|kk|Eintala||||||||clopen|||||||
 ofurþéttipunktur|na|kk|Eintala||||||||condensation point||||point of condensation|||
 ogunarhluti|na||Eintala||||ogunarþáttur||||conjunct||||partial conjunction|||
@@ -3583,7 +3596,7 @@ pólskt rúm|na|hk|Eintala||||||||Polish space|||||||
 pýþagórsk aljafna|na||Eintala||||||||pythagorean identity|||||||
 pýþagórskur þríhyrningur|na||Eintala||||||||pythagorean triangle|||||||
 pýþagórsk þrennd|na||Eintala||||||||pythagorean triple|||||||
-próf|na|kk|Eintala||||||||test|||||||
+próf|na|hk|Eintala||||||||test|||||||
 prófunarfall|na|hk|Eintala||||||||test function|||||||
 Picard-setningin meiri|na||Eintala||||stóra Picard-setningin|||little Picard theorem|great Picard theorem|||||||
 Phragmén-Lindelöf-fall|na|hk|Eintala||||vísifall||||indicator function||||Phragmén-Lindelöf function|||
@@ -3638,15 +3651,12 @@ rökreikningur|na|kk|Eintala|||||||predicate calculus, propositional calculus|ca
 ríki|na||Eintala||||||||category|||||||
 ríki af ríkjum|na|hk|Fleirtala||||ríkjaríki||||category of categories|||||||
 ríkjafræði|na|kvk|Eintala||||||||category theory|||||||
-reitur|na|kk|Eintala||||||||cell||||table cell|||
-rás|na|hk|Eintala||||||||circuit||||closed edge sequence, closed edge progression, closed walk, cycle|||
 rás|na|hk|Eintala||||rásuð uppstokkun, rásuð umröðun||||circular permutation||||cycle, cyclic permutation|||
 réttsælis|at||Eintala||||sólarsinnis||||clockwise|||||||
 rás|na|hk|Eintala||||lokuð keðja||||closed chain||||cycle|||
 raðfylgnistuðull|na|kk|Eintala|||||||Kendall rank correlation coefficient, Spearman rank correlation coefficient|coefficient of rank correlation||||rank correlation coefficient|||
 reiknanleiki|na||Eintala||||||||computability|||||||
 reiknanleikafræði|na||Eintala|||||||recursive function theory|computability theory|||||||
-reiknanlegur|ls|kk|Eintala||||||||computable||||effectively computable|||
 reikni-|ls||Eintala||||||||computational|||||||
 reikniskekkja|na|kvk|Eintala|||||||miscalculation|computational error|||||||
 reikna|sag||Eintala||||reikna út||||compute|||||||
@@ -3690,7 +3700,7 @@ reikul runa|ls|hk|Fleirtala||||hvarflandi runa||||improperly divergent sequence|
 rótarvísir|na|kk|Eintala||||||||index|||||||
 reglulegur sérstöðupunktur|na|kk|Eintala||||||||inessential singularity||||point of determinacy, point of determination, regular singular point, regular singularity|||
 reglulegur að innan|ls|kk|Eintala||||||||inner regular|||||||
-rótlaus|ls|hk|Fleirtala||||rótvana, hvirflalaus||||irrotational||||lamellar, non-rotational, non-vortical|||
+rótlaus|ls|kvk|Eintala||||rótvana, hvirflalaus||||irrotational||||lamellar, non-rotational, non-vortical|||
 runa|na|kvk|Eintala||||samstæða||||iteration||||run|||
 raðfylgnistuðull Kendalls|na|kk|Eintala||||||||Kendall rank correlation coefficient|||||||
 rökfræði|na|kvk|Eintala||||||||logic|||||||
@@ -3736,6 +3746,7 @@ raðvildarslétta|na|kvk|Eintala||||röðuð vildarslétta||||ordered affine pla
 raðaður grunnur|na|kk|Eintala||||raðgrunnur||||ordered basis|||||||
 raðsvið|na|hk|Eintala||||raðað svið, raðkroppur, raðaður kroppur||||ordered field|||||||
 raðgrúpa|na|kvk|Eintala||||röðuð grúpa||||ordered group|||||||
+röðuð \(n\)-d|||Eintala||||röðuð \(n\)-und, \(n\)-d, \(n\)-und|||tuple|ordered \(n\)-tuple||||\(n\)-tuple|||
 röðuð skipting|na|kvk|Eintala||||||||ordered partition|||||||
 raðslétta|na|kvk|Eintala||||||||ordered plane|||||||
 raðvarpslétta|na|kvk|Eintala||||röðuð varpslétta||||ordered projective plane|||||||
@@ -3746,6 +3757,7 @@ raðþrennd|na|kvk|Eintala||||þrennd, röðuð þrennd||||ordered triple||||ord
 raðeinsmótun|na|kvk|Eintala||||||||order-isomorphism|||||||
 raðtölu-|ls||Eintala||||||||ordinal|||||||
 raðtölureikningur|na|kk|Eintala||||||||ordinal arithmetic|||||||
+raðtala|na|kvk|Eintala||||||||ordinal number||||ordinal|||
 raðkvarði|na|kk|Eintala||||raðstigi||||ordinal scale|||||||
 raðtöluruna|na|kvk|Eintala||||||||ordinal series|||||||
 reglulegur að utan|ls|kk|Eintala||||||||outer regular|||||||
@@ -3758,8 +3770,9 @@ reglulegur margflötungur|na|kk|Eintala||||platónskur margflötungur||||platoni
 regla|na|kvk|Eintala||||lögmál||||principle|||||||
 runa|na|kvk|Eintala||||töluhlaup|||arithmetic progression, geometric progression, sequence, sequence|progression|||||||
 rót|na|hk|Eintala|||||||solution by radicals, surd|radical||||radix, root|||
-rót|na|kvk|Eintala||||||||radical|||||||
+rót|na|hk|Eintala||||||||radical|||||||
 rótaríðal|na||Eintala||||||||radical ideal|||||||
+rótarmerki|na|hk|Eintala||||||||radical sign||||radical, root sign|||
 rótarstofn|na|kk|Eintala||||||||radicand|||||||
 ræður|ls||Eintala||||||||rational|||||||
 ræður ferill|na|kk|Eintala||||||||rational curve||||unicursal curve|||
@@ -3794,6 +3807,7 @@ réttanlegur|ls|kk|Eintala||||||||rectifiable|||||||
 réttanlegur ferill|na|kk|Eintala||||||||rectifiable curve|||||||
 réttilína|na||Eintala||||||||rectifying line|||||||
 réttislétta|na||Eintala||||||||rectifying plane|||||||
+rakning|na|kvk|Eintala|||||||induction|recursion||||recurrence|||
 rakningarformúla|na|kvk|Eintala||||||||recursion formula||||recurrence formula|||
 rakningarfræði|na|kvk|Eintala|||||||recursive function theory|recursion theory|||||||
 rakinn|ls||Eintala||||||||recursive|||||||
@@ -3835,9 +3849,8 @@ réttstæð strýta|na|kvk|Eintala||||réttstæður píramíti||||right pyramid|
 rétthyrndur þríhyrningur|na|kk|Eintala||||||||right triangle||||right-angled triangle|||
 rétthyrndur|ls|kk|Eintala||||||||right-angled|||||||
 rómverskar tölur|na|kvk|Fleirtala||||rómversk tölutákn||||Roman numerals|||||||
-rót|na|hk|Eintala||||lausn||||root||||solution|||
 rót|na|hk|Eintala||||núllstöð||||root|||||||
-rót|na|kvk|Eintala||||||||root|||||||
+rót|na|hk|Eintala||||||||root|||||||
 rótarfall|na|hk|Eintala||||||||root function|||||||
 rótarpróf|na|hk|Eintala||||||||root test|||||||
 rótartré|na|hk|Eintala||||||||rooted tree|||||||
@@ -3866,7 +3879,7 @@ rúmheildi|na|hk|Eintala||||||||space integral||||volume integral|||
 rúmpunktur|na|kk|Eintala||||punktur í rúmi||||space point|||||||
 rúm-|ls||Eintala||||rúmstæður, rúmlægur||||spatial|||||||
 rúmstæða|||Eintala||||stæða í rúmi||||spatial configuration|||||||
-rúmhnit|na|hk|Eintala||||||||spatial coordinates|||||||
+rúmhnit|na|kvk|Eintala||||||||spatial coordinates|||||||
 raðfylgnistuðull Spearmans|na|kk|Eintala||||||||Spearman rank correlation coefficient|||||||
 rófgreining|na|kvk|Eintala||||||||spectral analysis|||||||
 rófliðun|na|kvk|Eintala||||||||spectral decomposition|||||||
@@ -3880,6 +3893,7 @@ reiknihending|na|kvk|Eintala||||lýsifall||||statistic|||||||
 ræma|na|kvk|Eintala||||||||strip|||||||
 rótarstæða|na|kvk|Eintala|||||||radical|surd|||||||
 rökhenda|na|kvk|Eintala||||||||syllogism|||||||
+reitur (í töflu)|na|kk|Eintala||||||||table cell||||cell|||
 rim|na|kvk|Eintala||||||||transversal|||||||
 réttur tölustafur|na|kk|Eintala|||||||significant digit|valid digit|||||||
 rúmmál|na|hk|Eintala||||rúmtak, rýmd||||volume|||||||
@@ -3930,8 +3944,8 @@ skáhæð|na|kvk|Eintala||||||||apothem||||slant height|||
 súlurit|na|hk|Eintala||||stuðlarit|||bar chart, bar diagram, bar graph, block diagram, column diagram|area histogram||||histogram|||
 strjál dreifing|na|kvk|Eintala||||||||arithmetic distribution||||discrete distribution|||
 stæðafjöldi|na|kk|Eintala||||||||arity||||rank|||
-stígandi|ls|kvk|Eintala||||vaxandi||||ascending|||||||
-stígandi keðja|ls|kk|Fleirtala||||vaxandi keðja||||ascending chain|||||||
+stígandi|ls|kk|Eintala||||vaxandi||||ascending|||||||
+stígandi keðja|ls|kvk|Fleirtala||||vaxandi keðja||||ascending chain|||||||
 skilyrði um vaxandi keðjur|na|kvk|Fleirtala||||skilyrði um stígandi keðjur|||a. c. c.\ekkipunktur|ascending chain condition|||||||
 safn|na|hk|Eintala||||samsafn, mengi|||collection, set|assemblage|||||||
 staðhæfing|na|kvk|Eintala|||||||statement, proposition, sentence|assertion|||||||
@@ -3954,6 +3968,7 @@ snúningsás|na|kk|Eintala||||möndull|||axis|axis of revolution||||axis of rota
 samhvarfsás|na|kk|Eintala||||samhverfuás||||axis of symmetry|||||||
 stöplarit|na|hk|Eintala|||||||area histogram, block diagram, histogram|bar diagram||||bar chart, bar graph, column diagram|||
 spannmengi (íðals)|na||Eintala||||íðalspannmengi, framleiðandi mengi, spannandi mengi|||set of generators|base||||basis, ideal base, ideal basis|||
+spannmengi|na||Eintala||||íðalspannmengi, framleiðandi mengi, spannandi mengi|||set of generators|basis||||base, ideal base, ideal basis|||
 stórt ríki|ls|hk|Eintala||||||||big category|||||||
 spegilsamhvarf|na|hk|Eintala||||spegilsamhverfni, sléttusamhverfni, tvíhvarf, tvíhverfni, tvíhliða samhvarf, tvíhliða samhverfni||||bilateral symmetry|||||||
 spegilsamhverfur|na|kvk|Fleirtala||||||||bilaterally symmetric|||||||
@@ -4061,7 +4076,6 @@ samok|na|hk|Eintala||||samoka tala, samoka tvinntala||||complex conjugate||||con
 samok|na|hk|Eintala||||samoka fylki||||complex conjugate||||conjugate|||
 samokun|na||Eintala||||||||complex conjugation||||conjugation|||
 samhengisþáttur|na|kk|Eintala||||þáttur||||component||||connected component, maximal connected subgraph|||
-samhengisþáttur|na|kk|Eintala||||þáttur||||component||||connected component|||
 skekkjuliður|na|kk|Eintala||||||||component of error|||||||
 samskeytanlegur|ls|kk|Eintala||||||||composable|||||||
 skeyta saman|sag||Eintala||||||||compose|||||||
@@ -4076,7 +4090,7 @@ samsett tala|ls|hk|Fleirtala||||þættanleg tala||||composite number|||||||
 samskeyting|na|kvk|Eintala||||||||composition|||||||
 samsett dreifing|na|kvk|Eintala||||||||compound distribution||||composite distribution, mixed distribution, superposition of distributions|||
 samsettur atburður|na|kk|Eintala||||||||compound event|||||||
-sammiðja|ls|kvk|Fleirtala||||||||concentric|||||||
+sammiðja|ls|kk|Fleirtala||||||||concentric|||||||
 skelferill|na|kk|Eintala||||||||conchoid|||||||
 sampunktleiki|na||Eintala||||||||concurrence|||||||
 sampunkta|ls||Eintala||||sem liggja gegnum sama punkt||||concurrent||||copunctal|||
@@ -4099,7 +4113,7 @@ snúðkeila|na|kvk|Eintala|||||||circular cone|cone of revolution|||||||
 stæða|na|kvk|Eintala||||||||configuration|||||||
 staða|na|kvk|Eintala||||stelling||||configuration|||||||
 stöðurúm|na|hk|Eintala||||svigrúm, stellingarúm||||configuration space|||||||
-samruna|ls|kvk|Fleirtala||||||||confluent|||||||
+samruna|ls|kk|Fleirtala||||||||confluent|||||||
 samrýndur bútur|na|kk|Eintala|||||||nonconforming element|conforming element|||||||
 samþættur|ls|kk|Eintala||||||||confounded|||||||
 samþætting|na|kvk|Eintala||||||||confounding|||||||
@@ -4109,13 +4123,14 @@ samsniða|ls||Eintala||||aljafn, eins|||directly congruent, inversely congruent,
 samsniða myndir|na||Eintala||||aljafnar myndir, eins myndir||||congruent figures|||||||
 samsniða fylki|na||Eintala||||||||congruent matrix|||||||
 samokunarflokkur|na||Eintala||||||||conjugacy class||||conjugate class, conjugation class|||
-samoka|ls|kvk|Fleirtala||||||||conjugate|||||||
+samoka|ls|hk|Fleirtala||||||||conjugate|||||||
 samoka algebruleg tala|na|kvk|Eintala|||||||algebraic conjugate|conjugate algebraic number|||||||
 samoka miðstrengur|na|kk|Eintala||||||||conjugate diameter|||||||
+samoka stak|na|hk|Eintala||||||||conjugate element||||conjugate|||
 samoka þýtt fall|na|hk|Eintala||||||||conjugate harmonic function|||||||
 samoka latneskur ferningur|na|kk|Eintala||||||||conjugate Latin square|||||||
 samoka fylki|na|hk|Eintala||||||||conjugate matrix|||||||
-samoka virki|ls|kk|Eintala||||||||conjugate operator|||||||
+samoka virki|ls|kvk|Fleirtala||||||||conjugate operator|||||||
 samoka röðun|na|kvk|Eintala||||||||conjugate ranking|||||||
 samoka hlutgrúpa|na|kvk|Eintala||||||||conjugate subgroup|||||||
 samanhangandi|ls|kk|Eintala||||samhangandi, tengdur||||connected|||||||
@@ -4124,7 +4139,7 @@ samgangur|na|kk|Eintala|||||||affine connection|connection||||connexion, transfe
 samgangsform|na|hk|Eintala||||||||connection form|||||||
 samtenging|na|kvk|Eintala||||tenging, tengill||||connective||||connective symbol, propositional connective, sentential connective, truth-functional connective|||
 samhengi|na|hk|Eintala||||||||connectivity|||||||
-samliggjandi|ls|kvk|Fleirtala||||í röð||||consecutive|||||||
+samliggjandi|ls|kk|Fleirtala||||í röð||||consecutive|||||||
 samkvæmni|na|kvk|Eintala||||||||consistency||||consistence|||
 samkvæmur|ls|kk|Eintala||||mótsagnalaus||||consistent|||||||
 samkvæmt mat|na|kk|Eintala||||||||consistent estimate|||||||
@@ -4198,7 +4213,7 @@ snið|na|hk|Eintala|||||||section|cut|||||||
 stýrifræði|na|kvk|Eintala||||||||cybernetics|||||||
 sívalningur|na|kk|Eintala||||||||cylinder|||||||
 snúðsívalningur|na|kk|Eintala||||hringsívalningur||||cylinder of revolution|||||||
-sívalningshnit|na|kvk|Eintala||||||||cylindrical coordinates|||||||
+sívalningshnit|na|hk|Eintala||||||||cylindrical coordinates|||||||
 sívalningsflötur|na|kk|Eintala||||||||cylindrical surface|||||||
 samfellufrumsenda Dedekinds|na|kvk|Eintala||||samfellufrumsetning Dedekinds, samfelldnifrumsenda Dedekinds, samfelldnifrumsetning Dedekinds||||Dedekind continuity axiom|||||||
 skilgreinanleiki|na||Eintala||||||||definability|||||||
@@ -4213,7 +4228,6 @@ skilgreinandi jafna|na|kvk|Eintala||||||||definitional identity|||||||
 stiglækkun|na|kvk|Eintala||||||||deflation|||||||
 stig|na|hk|Eintala||||||||degree||||linear rank|||
 stig|na|hk|Eintala||||||||degree|||||||
-stig|na|hk|Eintala||||gráða||||degree||||local degree, valency, vertex degree|||
 svigrúmsvídd|na|kvk|Eintala||||||||degree of freedom|||||||
 sannanleiki|na|kk|Eintala||||||||demonstrability||||provability|||
 sannanlegur|ls|kk|Eintala||||||||demonstrable||||provable|||
@@ -4246,7 +4260,8 @@ stefnu-|ls||Eintala||||||||directional|||||||
 stefnuafleiða|na|kvk|Eintala||||||||directional derivative|||||||
 stefnudeildun|na|kvk|Eintala||||stefnudiffrun||||directional differentiation|||||||
 samhlutfalla|||Eintala||||í beinu hlutfalli við, í réttu hlutfalli við|||inversely proportional, reciprocally proportional|directly proportional||||proportional|||
-sundurlaus|ls|kvk|Eintala||||strjáll||||discrete|||||||
+stýrihringur|na|kk|Eintala||||||||directrix circle||||director circle|||
+sundurlaus|ls|hk|Fleirtala||||strjáll||||discrete|||||||
 strjált dreifingarfall|na|hk|Eintala||||||||discrete distribution function|||||||
 strjált streymi|ls|hk|Eintala||||||||discrete flow|||||||
 strjál stærðfræði|na|kvk|Eintala||||||||discrete mathematics|||||||
@@ -4355,7 +4370,6 @@ spil|na|hk|Eintala||||leikur, keppni||||game|||||||
 spilfræði|na|kvk|Eintala||||spilafræði, leikjafræði, keppnisfræði||||game theory||||theory of games|||
 spanna|sag||Eintala||||||||generate|||||||
 spannandi vensl|na|hk|Fleirtala||||||||generating relations|||||||
-spannmengi|sag||Eintala|||||||base, generating family|generating set||||set of generators, system of generators|||
 spönnuður|na||Eintala||||||||generator|||||||
 sólsproti|na|kk|Eintala||||||||gnomon|||||||
 stigaður|ls|kk|Eintala||||||||graded|||||||
@@ -4364,7 +4378,7 @@ stigulaðferð|na|kvk|Eintala||||aðferð mesta bratta|||method of steepest asce
 stigun|na|kvk|Eintala||||||||graduation||||grading|||
 stórhringur|na|kk|Eintala|||||||small circle|great circle|||||||
 stærri|ls|kk|Fleirtala||||||||greater|||||||
-stærri eða jafn|ls|kk|Eintala||||stærri eða jafn og, frekar stærri||||greater than or equal to|||||||
+stærri eða jafn|ls|kk|Fleirtala||||stærri eða jafn og, frekar stærri||||greater than or equal to|||||||
 stærsti samdeilir|na|kk|Eintala||||stærsti sameiginlegi deilir|||g. c. d.\ekkipunktur|greatest common divisor||||highest common factor|||
 stærsta stak|na|hk|Eintala||||efsta stak, hæsta stak, síðasta stak|||max|greatest element||||largest element, last element, maximum, maximum element|||
 sjálfmótanagrúpa|na|kvk|Eintala||||||||group of automorphisms|||||||
@@ -4415,7 +4429,7 @@ samsemdarvensl|na|hk|Fleirtala|||||||equality, identity|identity relation|||||||
 samsemdarsetning|na|kvk|Eintala||||||||identity theorem|||||||
 setning um fólgin föll|na|kvk|Eintala||||||||implicit function theorem|||||||
 stíga|sag||Eintala||||vaxa, hækka||||increase|||||||
-stígandi|ls|kk|Eintala||||vaxandi, hækkandi|||order-preserving, strictly increasing|increasing||||isotone, isotonic, monotonically increasing, non-decreasing|||
+stígandi|ls|kvk|Eintala||||vaxandi, hækkandi|||order-preserving, strictly increasing|increasing||||isotone, isotonic, monotonically increasing, non-decreasing|||
 stækkun|ls|kvk|Eintala||||viðbót, auki||||increment|||||||
 stakbreyta|na|kvk|Eintala||||||||individual variable||||object variable|||
 skipun|na|kvk|Eintala||||||||instruction|||||||
@@ -4435,7 +4449,7 @@ sjálfþver|ls|kk|Eintala||||||||isotropic|||||||
 sjálfþver vigur|na|kk|Eintala||||||||isotropic vector||||null vector|||
 sporgert fall Jacobis|na|hk|Eintala||||||||Jacobian elliptic function|||||||
 stúfur|na|kk|Eintala||||||||jet|||||||
-stúfabundin|ls|hk|Fleirtala||||||||jet bundle|||||||
+stúfabundin|ls|kvk|Eintala||||||||jet bundle|||||||
 samstak|na||Eintala||||ok|||least upper bound, lowest upper bound, meet, supremum|join|||||||
 sammengi|na|hk|Eintala||||||||join||||union|||
 samneitun|na|kvk|Eintala||||sameiginleg neitun||||joint denial||||non-disjunction, rejection|||
@@ -4453,7 +4467,7 @@ sniðlína|na|kvk|Eintala||||skurðlína||||line of intersection|||||||
 staðbundinn|ls|kk|Eintala||||stað-||||local|||||||
 staðalgebra|na|kvk|Eintala||||||||local algebra|||||||
 staðþjappleiki|sag||Eintala||||staðþjöppun||||local compactness|||||||
-staðhnit|na|kvk|Eintala||||staðhnitafall|||local coordinate system|local coordinate|||||||
+staðhnit|na|hk|Eintala||||staðhnitafall|||local coordinate system|local coordinate|||||||
 staðsvið|na|hk|Eintala||||staðkroppur||||local field|||||||
 staðbundin Lie-grúpa|na|kvk|Eintala||||Lie-grúpukím||||local Lie group|||||||
 setning um staðbundið markgildi|na|kvk|Eintala||||||||local limit theorem|||||||
@@ -4474,7 +4488,7 @@ staðfastur|ls|kk|Eintala||||||||locally constant|||||||
 staðkúptur|ls|kk|Eintala||||||||locally convex|||||||
 staðendanlegur|ls|kk|Eintala||||||||locally finite|||||||
 staðendanlega spannaður|ls|kk|Eintala||||||||locally finitely generated|||||||
-staðfrjáls|ls|kvk|Eintala||||||||locally free|||||||
+staðfrjáls|ls|hk|Fleirtala||||||||locally free|||||||
 staðgrannmóta|||Eintala||||||||locally homeomorphic|||||||
 staðvegsamanhangandi|na|kk|Eintala||||staðvegsamhangandi||||locally path-connected|||||||
 staðbaugað rúm|na||Eintala||||||||locally ringed space|||||||
@@ -4564,7 +4578,6 @@ skilgreiningarmengi virkja|na|hk|Fleirtala||||||||operator domain|||||||
 stærð|na|kvk|Eintala||||þrep||||order|||||||
 stærð|na|kvk|Eintala||||fjöldatala||||order|||||||
 stig|na|hk|Eintala||||||||order|||||||
-stærð|na|kvk|Eintala||||||||order||||size|||
 snertistig|na||Eintala||||||||order of contact|||||||
 stærðarþrep|na|hk|Eintala||||tugaþrep||||order of magnitude|||||||
 sætistala|na|kvk|Eintala||||sæti||||ordinal position|||||||
@@ -4572,7 +4585,7 @@ staðalþverlægni|na|kvk|Eintala||||||||orthonormality|||||||
 sveifla|na|kvk|Eintala||||||||oscillation|||||||
 skarast|sag||Eintala||||||||overlap|||||||
 spegiltala|na|kvk|Eintala||||||||palindromic number|||||||
-samsíða|ls|kvk|Fleirtala||||samhliða||||parallel|||||||
+samsíða|ls|hk|Eintala||||samhliða||||parallel|||||||
 samgangshliðrun|na|kvk|Eintala||||||||parallel displacement|||||||
 samsíða leggur|ls|kk|Eintala|||||||multiple edge|parallel edge|||||||
 samsíða lína|na|kvk|Eintala||||||||parallel line|||||||
@@ -4586,7 +4599,7 @@ samhliðungur (í \(n\) víddum)|na||Eintala||||||||parallelotope|||||||
 stiki|na||Eintala||||hlaupi, hlaupabreyta, aukabreyta, hlaupastærð, færibreyta||||parameter|||||||
 skurður|na|kk|Eintala||||||||parameter||||pitch|||
 stikarúm|na|hk|Eintala||||hlauparúm||||parameter space|||||||
-stikalaus|ls|hk|Fleirtala||||||||parameter-free|||||||
+stikalaus|ls|kvk|Eintala||||||||parameter-free|||||||
 stikaður|ls|kk|Eintala||||stika-||||parametric|||||||
 stikaður ferill|na|kk|Eintala||||hlaupinn ferill||||parametric curve||||parameter curve|||
 stikajafna|na|kvk|Eintala||||hlaupajafna||||parametric equation|||||||
@@ -4606,7 +4619,6 @@ sérlausn|na|kvk|Eintala||||sérstök lausn|||particular integral|particular sol
 sérstakt gildi|ls|hk|Eintala||||||||particular value||||special value, specific value|||
 skipting|na|kvk|Eintala||||hlutun||||partition|||||||
 skipting|na|kvk|Eintala||||deildaskipting, flokkaskipting, hlutun||||partition|||||||
-skipting|na|kvk|Eintala||||hlutun||||partition||||subdivision|||
 skipta|sag||Eintala||||hluta||||partition|||||||
 skiptingarfall|na|hk|Eintala||||hlutunarfall||||partition function|||||||
 síkveða|na|kvk|Eintala||||||||permanent|||||||
@@ -4696,12 +4708,10 @@ slemba|sag|kvk|Eintala||||||||randomize|||||||
 slembdur|ls|kk|Eintala||||||||randomized|||||||
 slembingur|na||Eintala||||slembileiki||||randomness|||||||
 spönn|na|kvk|Eintala||||||||range||||range of variation|||
-sætistala|na|kvk|Eintala||||||||rank||||ranking|||
 stétt|na|kvk|Eintala||||myndvídd, metorð, tign||||rank|||||||
 stétt|na|kvk|Eintala||||tign||||rank|||||||
 sætisröðun|na|kvk|Eintala||||||||ranking|||||||
 sjaldgæfur atburður|na|kk|Eintala||||||||rare event|||||||
-samleitnihraði|sag||Eintala||||||||rate of convergence||||rapidity of convergence, speed of convergence|||
 stytta|sag|kvk|Eintala|||||||cancel|reduce|||||||
 stytting|na|kvk|Eintala|||||||cancellation|reduction|||||||
 speglun|na|kvk|Eintala||||||||reflection|||||||
@@ -4800,7 +4810,7 @@ sérstæður ferill|na|kk|Eintala||||||||singular curve|||||||
 sérstæð rás|na|kvk|Eintala||||||||singular cycle|||||||
 sérstæð svipfræði|na|kvk|Eintala||||||||singular homology|||||||
 sérstæður línulegur virki|na|kk|Eintala||||óandhverfanlegur línulegur virki||||singular linear operator|||||||
-sérstöðuleg|ls|hk|Fleirtala||||||||singular locus|||||||
+sérstöðuleg|ls|kvk|Eintala||||||||singular locus|||||||
 sérstöðupunktur|na|kk|Eintala|||||||isolated singular point|singular point||||singularity|||
 sérlausn|na|kvk|Eintala||||||||singular solution|||||||
 sérstaða|na|kvk|Eintala||||sérstæða||||singularity|||||||
@@ -4818,7 +4828,7 @@ spannandi hlutnet|na|hk|Eintala||||||||spanning subgraph|||||||
 sérstök línuleg grúpa|na|kvk|Eintala|||||||unimodular group|special linear group|||||||
 snertihvel|na||Eintala||||snertikúla||||sphere of contact|||||||
 spuni|na|kk|Eintala||||||||spin|||||||
-spunabundin|ls|hk|Fleirtala||||||||spin bundle|||||||
+spunabundin|ls|kvk|Eintala||||||||spin bundle|||||||
 spunagrúpa|na|kvk|Eintala||||||||spin group|||||||
 spunafylki|na|hk|Eintala||||||||spin matrix|||||||
 spunaútsetning|na|kvk|Eintala||||||||spin representation|||||||
@@ -4851,7 +4861,7 @@ sístætt streymi|ls|hk|Eintala||||æstætt streymi, jafnvægisstreymi||||statio
 sístætt Markov-ferli|na|hk|Eintala||||æstætt Markov-ferli, Markov-ferli í jafnvægi||||stationary Markov process|||||||
 sístætt ferli|na|hk|Eintala||||æstætt ferli, jafnvægisferli, ferli í jafnvægi||||stationary process|||||||
 sístætt ástand|na|hk|Eintala||||æstætt ástand||||stationary state|||||||
-standandi bylgja|ls|kvk|Fleirtala||||||||stationary wave|||||||
+standandi bylgja|ls|kk|Fleirtala||||||||stationary wave|||||||
 staðtala|na|kvk|Eintala||||lýsitala||||statistic|||||||
 slembióhæði|na|hk|Eintala||||óhæði||||statistical independence|||||||
 safneðlisfræði|na|kvk|Eintala||||safnaflfræði||||statistical mechanics|||||||
@@ -4873,8 +4883,8 @@ ströng ójafna|na|kvk|Eintala||||||||strict inequality||||strong inequality|||
 ströng röðun|na|kvk|Eintala||||||||strict ordering||||strong ordering|||
 stranglega|at||Eintala||||||||strictly|||||||
 strangminnkandi|na|kvk|Eintala||||stranglega minnkandi, strangfallandi, stranglega fallandi, stranglækkandi, stranglega lækkandi, síminnkandi, sífallandi, sílækkandi||||strictly decreasing|||||||
-strangvaxandi|ls|kk|Fleirtala||||stranglega vaxandi, strangstígandi, stranglega stígandi, stranghækkandi, stranglega hækkandi, sívaxandi, sístígandi, síhækkandi||||strictly increasing|||||||
-stranglega einhalla|ls|hk|Fleirtala||||||||strictly monotone||||strictly monotonic|||
+strangvaxandi|ls|kk|Eintala||||stranglega vaxandi, strangstígandi, stranglega stígandi, stranghækkandi, stranglega hækkandi, sívaxandi, sístígandi, síhækkandi||||strictly increasing|||||||
+stranglega einhalla|ls|kk|Fleirtala||||||||strictly monotone||||strictly monotonic|||
 stranglega neikvæður|ls|kk|Eintala||||stranglega frádrægur||||strictly negative|||||||
 stranglega jákvæður|ls|kk|Eintala||||stranglega viðlægur||||strictly positive|||||||
 strengur|na|kk|Eintala|||||||word|string|||||||
@@ -4957,7 +4967,7 @@ skilorðslaust samleitinn|||Eintala||||||||unconditionally convergent|||||||
 samfelldni í jöfnum mæli|na|kvk|Eintala||||jöfn samfelldni||||uniform continuity|||||||
 samleitni í jöfnum mæli|na|kvk|Eintala||||jöfn samleitni||||uniform convergence|||||||
 staðalgrannmynstur|na|hk|Eintala|||||||norm topology|uniform topology|||||||
-samfelldur í jöfnum mæli|na|kk|Fleirtala||||||||uniformly continuous|||||||
+samfelldur í jöfnum mæli|na|kvk|Fleirtala||||||||uniformly continuous|||||||
 samleitinn í jöfnum mæli|na|kk|Fleirtala||||||||uniformly convergent|||||||
 setning um ótvíræða þáttun|na|kvk|Eintala||||||||unique factorization theorem|||||||
 stofnbrot|na|hk|Eintala||||||||unit fraction|||||||
@@ -5029,7 +5039,7 @@ tvíliðu-|ls||Eintala||||tvíliða||||binomial|||||||
 tvíliða|na|kvk|Eintala||||tvíliða stærð||||binomial|||||||
 tvíliðustuðull|na|kk|Eintala||||||||binomial coefficient|||||||
 tvíliðudreifing|na|kvk|Eintala||||tvíkostadreifing, Bernoulli-dreifing|||Bernoulli distribution, multinomial distribution, polynomial distribution|binomial distribution|||||||
-tvíliða jafna|ls|kvk|Fleirtala||||tvíliðujafna||||binomial equation|||||||
+tvíliða jafna|ls|kk|Fleirtala||||tvíliðujafna||||binomial equation|||||||
 tvíliðuregla|na|kvk|Eintala|||||||binomial theorem|binomial formula|||||||
 tvíliðuröð|na|kvk|Eintala||||||||binomial series|||||||
 tvíliðusetning|na|kvk|Eintala|||||||binomial formula|binomial theorem|||||||
@@ -5061,7 +5071,7 @@ tilviljunarákvörðun|na|kvk|Eintala||||tilviljanakennd ákvörðun||||chance d
 taka saman|sag||Eintala||||||||collect|||||||
 tengd ástönd|na|kvk|Eintala||||||||communicating states|||||||
 teikning með hringfara|na|kvk|Eintala||||||||compass construction|||||||
-tugafylling|na|kvk|Eintala||||tugafyllitala||||complement with respect to|||||||
+tugafylling|na|kvk|Eintala||||tugafyllitala||||complement with respect to 10|||||||
 tvinn-|ls||Eintala||||tvinntalna-||||complex|||||||
 tvinnfallagreining|na|kvk|Eintala||||tvinnfallafræði, tvinngreining||||complex analysis||||function theory|||
 tvinntalnasvið|na|hk|Eintala||||||||complex field||||complex number field, field of complex numbers|||
@@ -5118,6 +5128,7 @@ tugatala|na|kvk|Eintala||||tala í tugakerfi||||decimal||||decimal number|||
 tugastafur|na|kk|Eintala||||||||decimal digit|||||||
 tugabrotsliðun|na|kvk|Eintala||||tugabrotsrakning, tugabrotsteygð||||decimal expansion|||||||
 tugabrot|na|hk|Eintala||||||||decimal fraction|||||||
+tugatala|na|kvk|Eintala||||tala í tugakerfi||||decimal number||||decimal|||
 tugakerfi|na|hk|Eintala|||||||numeration system|decimal numeration system||||decimal number system, decimal system (of numeration)|||
 tugabrotshluti|sag||Eintala||||||||decimal part|||||||
 tugasæti|na|hk|Eintala||||||||decimal place|||||||
@@ -5146,7 +5157,7 @@ tvípunktur|na|kk|Eintala||||tvöfaldur punktur||||double point|||||||
 tvöföld rót|na|kvk|Eintala||||||||double root|||||||
 tvöföld runa|ls|hk|Fleirtala||||||||double sequence|||||||
 tvöföld röð|na|kvk|Eintala||||||||double series|||||||
-tvíhliða próf|na|kk|Eintala||||||||double-tailed test||||two-sided test|||
+tvíhliða próf|na|hk|Eintala||||||||double-tailed test||||two-sided test|||
 tvíaðfelldur þríhyrningur|na|kk|Eintala||||||||doubly asymptotic triangle|||||||
 tvöfaldlega samanhangandi|na|kk|Eintala||||tvöfaldlega samhangandi||||doubly connected|||||||
 tvílotubundinn|ls|kk|Eintala||||tvílotulegur||||doubly periodic|||||||
@@ -5181,7 +5192,7 @@ trygg útsetning|na|kvk|Eintala||||||||faithful representation|||||||
 tryggilega flatur|ls|kk|Eintala||||||||faithfully flat|||||||
 trefjun|na|kvk|Eintala|||||||fibre space|fibration||||fibering, fibring|||
 trefja|na|kvk|Eintala||||||||fibre||||fiber|||
-trefjabundin|ls|hk|Fleirtala|||||||bundle, vector bundle|fibre bundle|||||||
+trefjabundin|ls|kvk|Eintala|||||||bundle, vector bundle|fibre bundle|||||||
 trefjarækin vörpun|na|kvk|Eintala||||||||fibre preserving mapping|||||||
 trefjamargfeldi|na|hk|Eintala||||||||fibre product||||fibred product, pull-back|||
 trefjarúm|na|hk|Eintala|||||||fibration, fibring|fibre space|||||||
@@ -5233,9 +5244,9 @@ talnakerfi|na|hk|Eintala||||||||number system|||||||
 talnafræðingur|na|kk|Eintala||||||||number theorist|||||||
 talnaeining|na|kvk|Eintala||||||||number unit|||||||
 tölusettur|ls|kk|Eintala||||||||numbered|||||||
-tölusetning|na|kvk|Eintala|||||||denumeration, enumeration|numbering||||numeration|||
 talnafræðilegur|ls|kk|Eintala||||||||number-theoretic|||||||
 tölustafur|na|kk|Eintala|||||||digit|numeral|||||||
+talnaritunarkerfi|na|hk|Eintala|||||||binary numeration system, decimal numeration system, duodecimal numeration system, hexadecimal numeration system, octal numeration system, place value system, Roman numerals, sexadecimal numeration system, sexagesimal numeration system, ternary numeration system, vicenary numeration system|numeration system||||number system, numeral system|||
 teljari|na|kk|Eintala|||||||denominator|numerator|||||||
 tölulegur|ls|kk|Eintala||||talnalegur||||numerical||||numeric|||
 töluleg greining|na|kvk|Eintala||||||||numerical analysis|||||||
@@ -5282,7 +5293,6 @@ tölumargfeldi (vigurs)|||Eintala||||||||scalar multiple||||scalar product|||
 tölumargföldun|na|kvk|Eintala||||||||scalar multiplication|||||||
 tölugildur|ls|kk|Eintala||||||||scalar valued|||||||
 teiknihorn|na||Eintala||||||||set square|||||||
-tákn|na|hk|Eintala||||merki||||sign||||symbol|||
 tala með formerki|na|hk|Fleirtala||||||||signed number|||||||
 tímarúm|na|hk|Eintala||||||||space-time|||||||
 takmörkuð afstæðiskenning|na|kvk|Eintala||||||||special theory of relativity|||||||
@@ -5322,18 +5332,18 @@ tvídeildanlegur|ls|kk|Eintala||||tvídiffranlegur||||twice differentiable||||||
 tveggjaferningasetning|na||Eintala||||||||two squares theorem|||||||
 tvístika fjölskylda|na||Eintala||||||||two-parameter family|||||||
 tveggja manna leikur|na|hk|Eintala||||||||two-person game|||||||
-tvíblaða|ls|hk|Fleirtala||||||||two-sheeted|||||||
+tvíblaða|ls|kvk|Fleirtala||||||||two-sheeted|||||||
 tvíblaða þekjurúm|na|hk|Eintala||||||||two-sheeted covering space|||||||
-tvíhliða|ls|kvk|Eintala||||||||two-sided|||||||
+tvíhliða|ls|kvk|Fleirtala||||||||two-sided|||||||
 tvíhliða öryggisbil|na|hk|Eintala||||||||two-sided confidence interval|||||||
 tvíhliða íðal|na||Eintala||||||||two-sided ideal|||||||
-tvíhliða umhverfa|ls|kvk|Fleirtala||||||||two-sided inverse|||||||
+tvíhliða umhverfa|ls|kk|Fleirtala||||||||two-sided inverse|||||||
 tvíhliða mótull|na|hk|Eintala||||||||two-sided module|||||||
 tvíhliða flötur|na|kk|Eintala||||||||two-sided surface|||||||
 tvígildur|ls|kk|Eintala||||||||two-valued|||||||
 tvígild rökfræði|na|kvk|Eintala||||||||two-valued logic|||||||
 takmörkun í jöfnum mæli|na|kvk|Eintala||||skorðun í jöfnum mæli, jafnmælisskorðun||||uniform boundedness|||||||
-takmarkaður í jöfnum mæli|na|kvk|Fleirtala||||skorðaður í jöfnum mæli||||uniformly bounded|||||||
+takmarkaður í jöfnum mæli|na|kk|Fleirtala||||skorðaður í jöfnum mæli||||uniformly bounded|||||||
 tilvistar- og ótvíræðnisetning|na|kvk|Eintala||||||||unique existence theorem|||||||
 tilfærsla á stuðlum|na|kvk|Eintala||||stuðlatilfærsla||||variation of parameters||||variation of constants|||
 topppunktur|na|kk|Eintala||||||||vertex|||||||
@@ -5366,7 +5376,7 @@ umritaður|ls|kk|Eintala|||||||inscribed|circumscribed|||||||
 umrituð kúla|ls|hk|Fleirtala||||||||circumscribed sphere||||circumsphere|||
 uppfylling fernings|na|kvk|Eintala||||||||completing the square||||completion of the square|||
 uppbygging|na|kvk|Eintala||||smíð||||construction|||||||
-uppbyggjandi|ls|hk|Eintala||||||||constructive|||||||
+uppbyggjandi|ls|kvk|Fleirtala||||||||constructive|||||||
 uppbyggjandi greining|na|kvk|Eintala||||||||constructive analysis|||||||
 uppbyggjandi tilvistarsetning|na|kvk|Eintala||||||||constructive existence proof|||||||
 uppbyggingarhyggja|na|kvk|Eintala||||||||constructivism|||||||
@@ -5438,6 +5448,7 @@ umsagnartákn|na|hk|Eintala||||||||predicate symbol|||||||
 umsagnarbreyta|na|kvk|Eintala||||||||predicate variable|||||||
 undirbúningssetning|na|kvk|Eintala||||||||preparation theorem|||||||
 umhverfur|ls|kvk|Fleirtala||||margföldunarumhverfur, andhverfur, margföldunarandhverfur||||reciprocal|||||||
+umhverfa|na|kvk|Eintala||||andhverfa||||reciprocal||||inverse, inverse element, reciprocal element|||
 umhverft fall|na|hk|Eintala||||marföldunarumhverfa falls, margföldunarandhverfa falls||||reciprocal function|||||||
 umrita|sag||Eintala||||||||reduce|||||||
 umritun|na|kvk|Eintala||||||||reduction|||||||
@@ -5446,7 +5457,7 @@ uppleysing|na|kvk|Eintala||||||||resolution|||||||
 umbunarfall|na|hk|Eintala||||||||reward function||||yield function|||
 umritun|na|kvk|Eintala||||||||rewriting|||||||
 umröðunarsetning Riemanns|na|kvk|Eintala||||||||Riemann's rearrangement theorem|||||||
-uppsprettulaus|ls|kvk|Eintala||||||||solenoidal|||||||
+uppsprettulaus|ls|hk|Fleirtala||||||||solenoidal|||||||
 uppsprettulaust svið|na|hk|Eintala||||||||solenoidal field||||source-free field, zero-divergence field|||
 uppspretta|na|kvk|Eintala||||lind||||source|||||||
 uppsprettustyrkur|na|kk|Eintala||||lindarstyrkur||||source strength|||||||
@@ -5465,7 +5476,7 @@ undirferðarpunktur|na|kk|Eintala||||||||undercrossing|||||||
 undirskipaður|ls|kk|Eintala||||||||underlying|||||||
 undirskipað mengi|ls|hk|Eintala||||||||underlying set|||||||
 upphafspunktur|na|kk|Eintala|||||||initial point|vertex|||||||
-viðunandi|ls|kvk|Fleirtala||||||||acceptable|||||||
+viðunandi|ls|kk|Fleirtala||||||||acceptable|||||||
 viðunandi gæðamörk|na|kvk|Eintala||||||||acceptable quality level|||||||
 viðtaka|na|kvk|Eintala||||viðtekt||||acceptance|||||||
 viðtökupróf|na|hk|Eintala||||||||acceptance inspection|||||||
@@ -5491,7 +5502,7 @@ vildur|ls|kk|Eintala||||vildar-||||affine|||||||
 vildarlokun|na|kvk|Eintala||||vildarhjúpur|||linear closure|affine closure|||||||
 vild samlínumótun|na|kvk|Eintala||||||||affine collineation|||||||
 vildarsamgangur|na|kk|Eintala|||||||connection|affine connection|||||||
-vildarhnit|na|kvk|Eintala||||samsíða hnit|||cartesian coordinates, oblique coordinates|affine coordinates||||parallel coordinates|||
+vildarhnit|na|hk|Eintala||||samsíða hnit|||cartesian coordinates, oblique coordinates|affine coordinates||||parallel coordinates|||
 vildarfall|na|hk|Eintala||||línufall||||affine function|||||||
 vildarrúmfræði|na|kvk|Eintala||||||||affine geometry|||||||
 vildargrúpa|na|kvk|Eintala||||||||affine group|||||||
@@ -5524,7 +5535,7 @@ veltibraut|sag||Eintala||||||||base line||||base curve|||
 veðmál|na|hk|Eintala|||||||stake|bet|||||||
 vörpunarstig|na|hk|Eintala||||||||Brouwer degree||||degree of mapping|||
 vægi um meðalgildi|na|hk|Eintala||||||||central moment|||||||
-viss|ls|hk|Fleirtala||||öruggur||||certain|||||||
+viss|ls|kk|Eintala||||öruggur||||certain|||||||
 viss atburður|na|kk|Eintala||||öruggur atburður||||certain event||||certainty|||
 vissa|na|kvk|Eintala||||fullvissa||||certainty|||||||
 val|na|hk|Eintala|||||||option, axiom of choice|choice|||||||
@@ -5611,6 +5622,7 @@ vísajafna|na|kvk|Eintala||||veldisvísajafna||||indicial equation|||||||
 vextir|na|kk|Fleirtala||||||||interest|||||||
 venslatenging|na|kvk|Eintala||||||||join|||||||
 verkun frá vinstri|na|kvk|Eintala||||||||left action||||left operation|||
+vinstri aðoki|na|hk|Eintala|||||||right adjoint|left adjoint||||adjoint|||
 vinstri oddsvigi|na|kk|Eintala||||||||left brace||||left curly bracket|||
 vinstri hornklofi|na|kk|Eintala||||||||left bracket|||||||
 vinstra hjámengi|ls|hk|Eintala||||||||left coset|||||||
@@ -5622,6 +5634,7 @@ vinstri samsemdarmótun|na|kvk|Eintala||||||||left identity|||||||
 vinstri andhverfa|na|kvk|Eintala||||andhverfa frá vinstri||||left inverse|||||||
 vinstri umhverfa|na|hk|Fleirtala||||umhverfa frá vinstri, vinstri andhverfa, andhverfa frá vinstri||||left inverse|||||||
 vinstri mótull|na|kvk|Eintala||||||||left module|||||||
+vinstri hlutleysa|na|hk|Fleirtala||||hlutleysa frá vinstri||||left neutral element||||left identity|||
 vinstri svigi|na|kk|Eintala||||||||left parenthesis|||||||
 vinstri oddklofi|na|kk|Eintala|||||||pointed bracket|left pointed bracket|||||||
 vinstri hlið|na|kvk|Eintala||||||||left-hand side||||left side|||
@@ -5635,6 +5648,7 @@ víðátta|na|kvk|Eintala|||||||algebraic manifold, analytic manifold, closed ma
 víðátta með jaðri|na|kvk|Eintala|||||||bounded, bounding manifold|manifold with boundary|||||||
 víðátta án jaðars|na|kvk|Eintala||||||||manifold without boundary|||||||
 viðbót|na|kvk|Eintala||||||||mantissa|||||||
+vörpun|na|kvk|Eintala||||færsla, myndun, ummyndun|||correspondence, function, functional, many-valued mapping, morphism, operator, single-valued mapping|mapping||||map, transformation|||
 vörpunarkeila|na|kvk|Eintala||||||||mapping cone|||||||
 vörpunarsívalningur|na|kk|Eintala||||||||mapping cylinder|||||||
 varpanarúm|na|hk|Eintala|||||||function space|mapping space|||||||
@@ -5700,7 +5714,7 @@ varpkeilusnið|na|hk|Eintala||||||||projective conic|||||||
 varphnit|na|kvk|Eintala||||||||projective coordinates|||||||
 varprúmfræði|na|kvk|Eintala||||||||projective geometry|||||||
 varplína|na|kvk|Eintala||||||||projective line|||||||
-varpmótull|na|hk|Eintala||||||||projective module|||||||
+varpmótull|na|kvk|Eintala||||||||projective module|||||||
 varpslétta|na|kvk|Eintala||||||||projective plane|||||||
 varprúm|na|hk|Eintala||||||||projective space|||||||
 varpóháður|ls|kk|Eintala||||||||projectively independent|||||||
@@ -5729,8 +5743,7 @@ vindingur|na|kk|Eintala||||||||torsion|||||||
 vindingsmótull|na|hk|Eintala||||||||torsion module|||||||
 vindingsfeldi|sag||Eintala||||||||torsion product|||||||
 vindingsþinur|na|kk|Eintala||||||||torsion tensor|||||||
-vindingslaus|ls|hk|Fleirtala||||vindingalaus||||torsion-free|||||||
-vindingslaus grúpa|na|kvk|Eintala||||vindingalaus grúpa||||torsion-free group||||group without torsion|||
+vindingslaus|ls|kvk|Eintala||||vindingalaus||||torsion-free|||||||
 vanákvarðað kerfi|na|hk|Eintala||||||||underdetermined system||||underdeterminate system|||
 víðfeðmt sterkasta próf|na|hk|Eintala||||||||uniformly most powerful test||||U. M. P. test|||
 venjulegur|ls|kk|Eintala||||||||usual|||||||
@@ -5747,7 +5760,7 @@ vigur|na|kk|Eintala||||vektor||||vector|||||||
 vigursamlagning|na|kvk|Eintala||||vigrasamlagning||||vector addition|||||||
 viguralgebra|na|kvk|Eintala||||||||vector algebra|||||||
 vigurgreining|na|kvk|Eintala||||||||vector analysis|||||||
-vigurbundin|ls|hk|Fleirtala|||||||bundle, line bundle, fibre bundle|vector bundle|||||||
+vigurbundin|ls|kvk|Eintala|||||||bundle, line bundle, fibre bundle|vector bundle|||||||
 vigursvið|na|hk|Eintala||||||||vector field|||||||
 vigurfall|na|hk|Eintala||||||||vector function|||||||
 vigur-|ls||Eintala||||||||vectorial|||||||
@@ -5755,7 +5768,6 @@ vigursumma|na|kvk|Eintala||||||||vectorial sum|||||||
 vigurgildur|ls|kk|Eintala||||||||vector-valued||||vector valued|||
 vigurgilt fall|na|hk|Eintala||||vigurfall||||vector-valued function|||||||
 vellauðugur|ls|kk|Eintala|||||||ample|very ample|||||||
-vítahringur|na|kk|Eintala||||hringrök||||vicious circle||||vicious circle|||
 veikur|ls|kk|Eintala||||||||weak|||||||
 veik lokun|na|kvk|Eintala||||||||weak closure|||||||
 veik samleitni|na|kvk|Eintala||||||||weak convergence|||||||
@@ -5790,14 +5802,14 @@ yfirgnæfð samleitni|na|kvk|Eintala||||||||dominated convergence|||||||
 yfirgnæfð röð|na|kvk|Eintala||||||||dominated series||||majorized series|||
 yfirsvið|na|hk|Eintala|||||||extension, field extension|extension field||||overfield|||
 yfirbaugur|na|kk|Eintala|||||||extension, ring extension|extension ring||||overring|||
-ytri|ls|kk|Fleirtala||||utanverður||||exterior|||||||
+ytri|ls|hk|Fleirtala||||utanverður||||exterior|||||||
 ytri algebra|na|kvk|Eintala||||Grassmann-algebra||||exterior algebra||||Grassmann algebra|||
 ytra horn|na|hk|Eintala||||utanvert horn||||exterior angle||||external angle|||
 ytra horn|na|hk|Eintala||||utanvert horn||||exterior angle|||||||
 ytri helmingalína|na|kvk|Eintala||||||||exterior bisector|||||||
 ytri einslögunarmiðja|na|kvk|Eintala||||||||exterior centre of similitude|||||||
 ytra innihald|na|hk|Eintala||||ytra Jordan-innihald||||exterior content||||exterior Jordan content, outer content, outer Jordan content|||
-ytri afleiða|ls|hk|Fleirtala||||||||exterior derivative|||||||
+ytri afleiða|ls|kk|Fleirtala||||||||exterior derivative|||||||
 ytra deildi|ls|hk|Eintala||||ytra diffur||||exterior differential|||||||
 ytra mál|na|hk|Eintala||||utanmál||||exterior measure||||outer measure, upper measure|||
 ytri margföldun|na|kvk|Eintala||||||||exterior multiplication|||||||
@@ -5812,6 +5824,8 @@ yrðingarökfræði|na|kvk|Eintala||||fullyrðingarökfræði|||propositional ca
 yfirsetning|na|kvk|Eintala||||yfirforsenda||||major premise|||||||
 yfirliður|na|kk|Eintala||||||||major term|||||||
 yfirstak|na||Eintala||||yfirskorða, yfirtala||||majorant||||right bound, upper bound|||
+yfirfall|na|hk|Eintala||||||||majorant function||||majorant|||
+yfirröð|na|kvk|Eintala||||||||majorant series||||majorant|||
 yfirmetanlegur|ls|kk|Eintala||||||||majorizable|||||||
 yfirgnæfa|sag||Eintala|||||||dominate|majorize|||||||
 yfirvíxlin grúpa|na||Eintala||||||||metabelian group|||||||
@@ -5870,7 +5884,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 ákvarðaður|ls||Eintala||||||||determinate|||||||
 áttaður|ls|kk|Eintala||||stefndur, stefnubundinn||||directed||||oriented|||
 áttað horn|na|hk|Eintala||||stefnt horn, snúningshorn||||directed angle||||oriented angle|||
-ámóta|ls|hk|Fleirtala||||||||epimorphic||||epic|||
+ámóta|ls|kvk|Fleirtala||||||||epimorphic||||epic|||
 ámótun|na|kvk|Eintala||||||||epimorphism|||||||
 áhættuleikur|na|kk|Eintala||||||||game of chance||||gamble, game of hazard|||
 álægur|ls|kk|Eintala||||||||incident|||||||
@@ -5903,7 +5917,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 áhættufall|na|hk|Eintala||||||||risk function|||||||
 áhættufræði|na|kvk|Eintala||||||||risk theory|||||||
 án formerkis|ls||Eintala||||||||signless||||unsigned|||
-ámóta|ls|kvk|Fleirtala||||||||similar|||||||
+ámóta|ls|hk|Fleirtala||||||||similar|||||||
 ámóta fylki|na|hk|Eintala||||||||similar matrix|||||||
 ástand|na|hk|Eintala|||||||state|situation|||||||
 ástand|na|hk|Eintala||||stand||||state|||||||
@@ -5926,6 +5940,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 íðalflokkagrúpa|na||Eintala||||||||ideal class group|||||||
 íðalgrúpa|na||Eintala||||||||ideal group|||||||
 ímyndaður hringur|na|kk|Eintala||||||||imaginary circle|||||||
+ívarp|sag||Eintala||||||||inclusion mapping||||inclusion, inclusion function|||
 ílag|na|hk|Eintala||||||||input|||||||
 ílagsgögn|na|hk|Fleirtala||||||||input data|||||||
 ílags-frálagsgreining|na|kvk|Eintala||||||||input-output analysis|||||||
@@ -5947,7 +5962,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 ílangur sporvölusnúður|na|kk|Eintala|||||||oblate ellipsoid|prolate ellipsoid||||prolate spheroid|||
 ílangur sporvölusnúðflötur|na|kk|Eintala|||||||oblate ellipsoid|prolate ellipsoid||||prolate spheroid|||
 í punkti|ls||Eintala||||í hverjum punkti||||punctual|||||||
-í jöfnum mæli|ls|kk|Fleirtala||||||||uniform|||||||
+í jöfnum mæli|ls|kvk|Fleirtala||||||||uniform|||||||
 óskilyrt ójafna|na|kvk|Eintala||||||||absolute inequality||||unconditional inequality|||
 óviðkennd tala|ls|hk|Fleirtala||||||||abstract number||||unnamed number|||
 óhlutbundinn hyrnuklasi|ls|kk|Eintala||||||||abstract simplicial complex|||||||
@@ -5977,7 +5992,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 ósamfelldur frá vinstri|na|hk|Eintala||||||||discontinuous on the right|||||||
 ósamleitni|na|kvk|Eintala||||||||divergence||||divergency|||
 ósamleitinn|ls|kk|Eintala||||||||divergent|||||||
-ósammiðja|ls|kvk|Fleirtala||||hjámiðja|||eccentric circle|eccentric|||||||
+ósammiðja|ls|hk|Eintala||||hjámiðja|||eccentric circle|eccentric|||||||
 óreiða|na|kvk|Eintala||||||||entropy|||||||
 óreglulegur sérstöðupunktur|na|kk|Eintala|||||||inessential singular point|essential singular point||||irregular singular point, irregular singularity|||
 óendanleg þáttun|na|kvk|Eintala||||margfeldisliðun, feldisliðun||||expansion in an infinite product||||product expansion|||
@@ -5987,6 +6002,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 ósannindi|na|hk|Fleirtala||||ósannleikur||||falsehood|||||||
 ófullkomleikasetning Gödels|na|kvk|Eintala||||||||Gödel's incompleteness theorem|||||||
 óhliðraður|ls|kk|Eintala||||||||homogeneous|||||||
+óhliðruð línuleg deildajafna|na|kvk|Eintala||||óhliðruð línuleg diffurjafna||||homogeneous linear differential equation||||homogeneous differential equation|||
 óhliðruð línuleg jafna|na|kvk|Eintala||||||||homogeneous linear equation|||||||
 óhliðrað jöfnuhneppi|na|hk|Eintala||||||||homogeneous system of equations|||||||
 ófullgerður|ls|kk|Eintala||||||||imperfect|||||||
@@ -5994,7 +6010,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 óbein skilgreining|na|kvk|Eintala||||fólgin skilgreining||||implicit definition|||||||
 óbein deildun|na|kvk|Eintala||||óbein diffrun, fólgin deildun, fólgin diffrun||||implicit differentiation|||||||
 ófærusönnun|na|kvk|Eintala||||ómöguleikasönnun||||impossibility proof|||||||
-ófær|ls|kk|Eintala||||ómögulegur||||impossible|||||||
+ófær|ls|kvk|Eintala||||ómögulegur||||impossible|||||||
 ómögulegur atburður|na|kk|Eintala||||||||impossible event|||||||
 óeiginlegur|ls|kk|Eintala||||||||improper|||||||
 óeiginlegur strengur|na|kk|Eintala||||||||improper chord|||||||
@@ -6075,12 +6091,12 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 óbreyttur|ls|kk|Eintala||||||||invariant|||||||
 óbreyta|na|kvk|Eintala||||||||invariant|||||||
 óbreyttur eiginleiki|na|kk|Eintala||||||||invariant property||||invariance property|||
-óbreytt mengi|ls|hk|Eintala||||||||invariant set|||||||
+óbreytt mengi|ls|hk|Fleirtala||||||||invariant set|||||||
 óbreytt hlutrúm|na|hk|Eintala||||||||invariant subspace|||||||
 óræður|ls|kk|Eintala||||||||irrational|||||||
+óræð tala|ls|hk|Fleirtala||||||||irrational number||||irrational|||
 óræðni|na|kvk|Eintala||||||||irrationality|||||||
 ókleyfi|na||Eintala||||óþættanleiki, ókljúfanleiki||||irreducibility|||||||
-óþættanlegur|ls|kk|Eintala||||ókljúfanlegur, ókleyfur||||irreducible||||non-decomposible|||
 ókljúfanleg algebrulegt mengi|na|hk|Eintala||||||||irreducible algebraic set|||||||
 ósmækkanlegt spannmengi|ls|hk|Eintala||||ósmækkanlegt spannandi mengi, óminnkanlegt spannmengi, óminnkanlegt spannandi mengi||||irreducible generating set||||minimal generating set, minimal set of generators, minimal system of generators|||
 óþættanleg Markov-keðja|ls|hk|Fleirtala||||||||irreducible Markov chain|||||||
@@ -6093,6 +6109,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 óstækkanleiki|na||Eintala||||||||maximality||||maximal property|||
 óminnkanleiki|na||Eintala||||||||minimality|||||||
 ósamþátta tveir og tveir|||Eintala||||ósamþættir tveir og tveir|||mutually prime|mutually coprime|||||||
+ósamrýmanlegir tveir og tveir|ls|kk|Fleirtala||||sundurlægir tveir og tveir||||mutually exclusive||||mutually disjoint|||
 óverulegur|ls|kk|Eintala||||hverfandi||||negligible|||||||
 óabelskur|ls||Eintala||||||||non-abelian|||||||
 óvíxlinn|ls||Eintala||||óabelskur|||non-commutative|non-abelian|||||||
@@ -6110,7 +6127,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 ósampunkta|ls||Eintala||||||||non-concurrent|||||||
 ósamrýndur bútur|na|kk|Eintala|||||||conforming element|nonconforming element|||||||
 ósamsniða|ls||Eintala||||||||non-congruent|||||||
-óuppbyggjandi|ls|hk|Eintala||||||||non-constructive|||||||
+óuppbyggjandi|ls|kk|Fleirtala||||||||non-constructive|||||||
 óuppbyggjandi tilvistarsönnun|na|kvk|Eintala||||||||non-constructive existence proof|||||||
 óúrkynjaður|ls|kk|Eintala||||ósérstæður||||non-degenerate||||non-singular|||
 óteljanlegur|ls|kk|Eintala||||||||non-denumerable||||non-enumerable, uncountable|||
@@ -6218,7 +6235,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 ör|na|hk|Eintala||||örvarleggur, stefndur leggur|||edge|arc||||diedge, directed edge|||
 örvasamanhangandi|na|kk|Eintala||||örvasamhangandi||||arcwise connected|||||||
 ör|na|hk|Eintala||||píla|||morphism|arrow|||||||
-örvarás|na|kvk|Eintala||||||||circuit||||closed arc sequence, closed arc progression, cycle, directed circuit|||
+örvarás|na|hk|Eintala||||||||circuit||||closed arc sequence, closed arc progression, cycle, directed circuit|||
 örvahringur|na|kk|Eintala||||||||circuit||||cycle, circuit graph, directed circuit graph|||
 öryggisbelti|na|hk|Eintala||||||||confidence belt|||||||
 öryggisstuðull|na|kk|Eintala|||||||confidence level|confidence coefficient|||||||
@@ -6292,6 +6309,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 útliður|na|kk|Eintala||||||||extreme||||extreme term|||
 útpunktur|na|kk|Eintala||||||||extreme point||||extremal point|||
 útgildisverkefni|na|hk|Eintala||||||||extreme value problem|||||||
+útgildi|na||Eintala|||||||maximum, minimum|extremum||||extreme, extreme value|||
 útgildispunktur|na|kk|Eintala||||||||extremum point|||||||
 útflötur|na|kk|Eintala||||hlið||||face|||||||
 útkoma|na|kvk|Eintala||||niðurstaða|||solution|outcome||||result|||
@@ -6333,7 +6351,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 þjöppuð víðátta|na|kvk|Eintala||||lokuð víðátta||||closed manifold||||compact manifold|||
 þéttipunktur|na|kk|Eintala|||||||accumulation point, limit point|cluster point|||||||
 þyrping|na|kvk|Eintala||||||||clustering|||||||
-þvingandi|ls|kk|Eintala||||||||coercive|||||||
+þvingandi|ls|hk|Fleirtala||||||||coercive|||||||
 þjöppuð samleitni|na|kvk|Eintala||||||||compact convergence|||||||
 þjöppuð eyðing|na|kvk|Eintala||||||||compact elimination|||||||
 þjappaður virki|ls|kk|Eintala|||||||completely continuous|compact operator|||||||
@@ -6356,15 +6374,17 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 þakning|na|kvk|Eintala||||||||covering||||cover|||
 þekjuvídd|na|kvk|Eintala||||||||covering dimension|||||||
 þekjugrúpa|na|kvk|Eintala||||||||covering group|||||||
+þekjuvörpun|na|kvk|Eintala||||||||covering map||||covering|||
 þekjurúm|na|hk|Eintala||||||||covering space|||||||
 þekjufærsla|na|kvk|Eintala||||||||covering transformation||||deck transformation|||
 þversnið|na|hk|Eintala||||||||cross cut|||||||
 þversnið|na|hk|Eintala||||snið||||cross section|||||||
 þríveldi|na|hk|Eintala||||þriðja veldi, teningur, verpill|||perfect cube|cube|||||||
-þriðja rót|na|kvk|Eintala||||teningsrót, verpilrót||||cube root|||||||
+þriðja rót|na|hk|Eintala||||teningsrót, verpilrót||||cube root|||||||
 þriðja stigs|ls||Eintala||||tenings-, verpils-||||cubic|||||||
 þriðja stigs ferill|na||Eintala||||||||cubic|||||||
 þriðja stigs flötur|na||Eintala||||||||cubic|||||||
+þriðja stigs jafna|na||Eintala||||||||cubic equation||||cubic|||
 þættanleiki|na||Eintala||||kljúfanleiki, kleyfi||||decomposability|||||||
 þætta|sag||Eintala||||kljúfa, sundurliða|||factor, factorize|decompose|||||||
 þættanlegur|ls|kk|Eintala||||kljúfanlegur, kleyfur|||factorable|decomposible||||reducible|||
@@ -6378,7 +6398,6 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 þéttleikafall|na|hk|Eintala||||líkindaþéttleikafall, dreifingarþéttleikafall|||relative frequency function|density function||||distribution density function, probability density function, probability function|||
 þvælistiki|sag||Eintala||||amastiki||||deranging parameter||||nuisance parameter|||
 þrepun niður á við|na|kvk|Eintala||||||||descending induction||||downward induction|||
-þáttun|na|kvk|Eintala||||||||development||||expansion|||
 þvermál|na|hk|Eintala||||||||diameter|||||||
 þinfeldi|na||Eintala|||||||tensor product|dyadic product|||||||
 þáttur|na|kk|Eintala||||||||factor|||||||
@@ -6402,6 +6421,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 þýtt fall|na|hk|Eintala||||||||harmonic function|||||||
 þýð fernd (af punktum)|na|kvk|Eintala||||||||harmonic group of points||||harmonic quadruplet|||
 þýður ferhliðungur|||Eintala||||||||harmonic quadrilateral|||||||
+þýð fernd|na|kvk|Eintala||||||||harmonic quadruplet||||harmonic group of points|||
 þýtt hlutfall|na|hk|Eintala||||||||harmonic ratio|||||||
 þak|na|hk|Eintala||||||||hat||||roof|||
 þver-|ls||Eintala||||þverkyns, ímyndaður||||imaginary|||||||
@@ -6454,7 +6474,6 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 þverstöðlun|na|kvk|Eintala||||||||orthonormalization|||||||
 þverstöðlunaraðgerð|na|kvk|Eintala||||||||orthonormalization method||||orthonormalization process|||
 þinföldun|na||Eintala||||||||outer multiplication||||tensor multiplication|||
-þinfeldi|na||Eintala||||||||outer product||||tensor product|||
 þversagnakennt mengi|ls|hk|Eintala|||||||proper class|paradoxical set|||||||
 þýði|sag||Eintala||||||||parent population||||population, universe|||
 þverslétta|na|kvk|Eintala||||||||perpendicular plane|||||||
@@ -6518,7 +6537,7 @@ Zermelo-Fraenkel-mengjafræði með valfrumsendu|na|kvk|Eintala|||||||ZFC|Zermel
 þríhyrningur|na|kk|Eintala|||||||acute, aliquot triangle, altitude, altitude theorem, asymptotic triangle, base, cevian triangle, circular triangle, congruence theorem, diagonal triangle, doubly asymptotic triangle, equiangular, equilateral triangle, height, leg, median, mid-perpendicular, orthic triangle, orthoptic triangle, Pascal's triangle, pedal triangle, perspective triangles, polar triangle, pythagorean triangle, regular triangle, right-angled triangle, right triangle, scalene triangle, scalenous triangle, self-polar triangle, similar triangle, spherical triangle, transversal, trebly asymptotic triangle, ultrametric triangle inequality, vertex|triangle|||||||
 þríhyrningsójafna|na|kvk|Eintala||||||||triangle inequality||||triangular inequality|||
 þríhyrningsgerlegur|ls|kk|Eintala||||||||triangulable|||||||
-þríhyrningshnit|na|hk|Eintala||||||||triangular coordinates||||trilinear coordinates|||
+þríhyrningshnit|na|kvk|Eintala||||||||triangular coordinates||||trilinear coordinates|||
 þríhyrningaskipting|na|kvk|Eintala|||||||triangulation|triangular decomposition|||||||
 þríhyrningsfylki|na|hk|Eintala||||||||triangular matrix|||||||
 þríhyrningstala|na|kvk|Eintala||||þríhyrnd tala|||figurate number|triangular number|||||||

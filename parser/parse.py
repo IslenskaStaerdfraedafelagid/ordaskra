@@ -1,14 +1,14 @@
 import sys
-from more_itertools import peekable
-from .lex import TokenType
-from .ast import *
-from unidecode import unidecode
 
-from .util import first_char
+from more_itertools import peekable
+
+from .ast import *
+from .lex import TokenType
 
 
 class ParseError(Exception):
     pass
+
 
 ###############################################################
 #### Frekar hefðbundinn þáttari fyrir sniðið á orðaskránni ####
@@ -19,10 +19,12 @@ def assert_type(token, token_type):
     if token["type"] != token_type:
         raise ParseError(token["type"])
 
+
 # Hunsar næsta tákn og tryggir að tagið á því sé rétt
 def expect(it, token_type):
     lookahead = next(it)
     assert_type(lookahead, token_type)
+
 
 # Hunsar núll eða fleiri tákn af sama tagi
 def zero_or_more(it, token):
@@ -32,20 +34,47 @@ def zero_or_more(it, token):
     except StopIteration:
         pass
 
-def maybe_add_subentry(ast, subentry):
-    if subentry.translations != [] and not any(ast.exists(w.content) for w in subentry.synonyms):
-        entry.subentries.append(subentry)
+
+def extract_references(string):
+    new_string = string
+
+    if string[-1].isdigit():
+        i = string.rfind('~')
+
+        if i != -1:
+            new_string = new_string.replace('~', ' ')
+
+        i = new_string.rfind(' ')
+
+        return string[:i], int(string[i + 1:])
+    else:
+        return string, 0
+
 
 # Þetta eru global breytur sem eru notaðar til að smíða færslur yfir margar ítranir í innri lykkju parse()
 entry = Entry()
 subentry = SubEntry()
 item = Item()
+entry_idx = 0
+
+
+def maybe_add_subentry(subentry):
+    global entry_idx
+
+    # TODO Ljót lausn
+    if subentry.translations != [] or subentry.synonyms != [] or subentry.related_words != []:
+        entry_idx += 1
+
+    if subentry.translations != []:
+        subentry.idx = entry_idx
+        entry.subentries.append(subentry)
 
 # Þáttarinn
 def parse(tokens):
     global entry
     global subentry
     global item
+    global entry_idx
 
     it = peekable(tokens)
 
@@ -67,15 +96,10 @@ def parse(tokens):
                     string = next(it)
                     assert_type(string, TokenType.STR)
                     expect(it, TokenType.RBRACE)
-
-                    # Gerum ekki greinarmun á stórum og litlum staf, miðum við lítinn staf
-                    letter = first_char(string["content"]).lower()
-
-                    ast.entries_by_letter[letter] = []
                 # FL skipunin býr til nýja færslu í orðaskránni, held að það standi fyrir Foreign Language
                 case TokenType.FL:
                     # Bætum við "undirfærslunni" í seinustu færslu á undan áður en við búum til nýja
-                    maybe_add_subentry(ast, subentry)
+                    maybe_add_subentry(subentry)
 
                     # Hreinsum núverandi undirfærslu
                     subentry = SubEntry()
@@ -83,14 +107,11 @@ def parse(tokens):
                     # TODO Fyrra skilyrðið er hakk til þess að koma í veg fyrir að tómu færslunni sem við byrjuðum með
                     # sé bætt inn í
                     if entry.word != "" and entry.subentries != []:
-                        # Þetta er til þess að fjarlægja stafmerki þannig að orð eins og étale flokkist undir "e"
-                        word = unidecode(entry.word)
-                        letter = first_char(word).lower()
-
-                        ast.entries_by_letter[letter].append(entry)
+                        ast.add_entry(entry)
 
                     # Hreinsa núverandi færslu
                     entry = Entry()
+                    entry_idx = 0
 
                     expect(it, TokenType.LBRACE)
 
@@ -106,7 +127,7 @@ def parse(tokens):
                     string = next(it)
                     assert_type(string, TokenType.STR)
 
-                    item.content = string["content"]
+                    item.content, item.idx = extract_references(string["content"])
                     item.type = ItemType.TY
 
                     subentry.translations.append(item)
@@ -116,7 +137,7 @@ def parse(tokens):
                     expect(it, TokenType.RBRACE)
                 # TYA skipunin býr til nýjan þýðingaflokk
                 case TokenType.TYA:
-                    maybe_add_subentry(ast, subentry)
+                    maybe_add_subentry(subentry)
 
                     subentry = SubEntry()
 
@@ -125,7 +146,7 @@ def parse(tokens):
                     string = next(it)
                     assert_type(string, TokenType.STR)
 
-                    item.content = string["content"]
+                    item.content, item.idx = extract_references(string["content"])
                     item.type = ItemType.TY
 
                     subentry.translations.append(item)
@@ -140,7 +161,7 @@ def parse(tokens):
                     string = next(it)
                     assert_type(string, TokenType.STR)
 
-                    item.content = string["content"]
+                    item.content, item.idx = extract_references(string["content"])
                     item.type = ItemType.SH
 
                     subentry.synonyms.append(item)
@@ -150,7 +171,7 @@ def parse(tokens):
                     expect(it, TokenType.RBRACE)
                 # o.s.frv.
                 case TokenType.SHA:
-                    maybe_add_subentry(ast, subentry)
+                    maybe_add_subentry(subentry)
 
                     subentry = SubEntry()
 
@@ -159,7 +180,7 @@ def parse(tokens):
                     string = next(it)
                     assert_type(string, TokenType.STR)
 
-                    item.content = string["content"]
+                    item.content, item.idx = extract_references(string["content"])
                     item.type = ItemType.SH
 
                     subentry.synonyms.append(item)
@@ -178,7 +199,7 @@ def parse(tokens):
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.COA:
-                    maybe_add_subentry(ast, subentry)
+                    maybe_add_subentry(subentry)
 
                     subentry = SubEntry()
 
@@ -197,7 +218,7 @@ def parse(tokens):
                     string = next(it)
                     assert_type(string, TokenType.STR)
 
-                    item.content = string["content"]
+                    item.content, item.idx = extract_references(string["content"])
                     item.type = ItemType.TV
 
                     subentry.related_words.append(item)
@@ -206,7 +227,7 @@ def parse(tokens):
 
                     expect(it, TokenType.RBRACE)
                 case TokenType.TVA:
-                    maybe_add_subentry(ast, subentry)
+                    maybe_add_subentry(subentry)
 
                     subentry = SubEntry()
 
@@ -215,7 +236,7 @@ def parse(tokens):
                     string = next(it)
                     assert_type(string, TokenType.STR)
 
-                    item.content = string["content"]
+                    item.content, item.idx = extract_references(string["content"])
                     item.type = ItemType.TV
 
                     subentry.related_words.append(item)
@@ -255,7 +276,7 @@ def parse(tokens):
                     string = next(it)
                     assert_type(string, TokenType.STR)
 
-                    item.content = string["content"]
+                    item.content, item.idx = extract_references(string["content"])
                     item.type = ItemType.INS
 
                     subentry.inserts.append(item)
@@ -275,7 +296,7 @@ def parse(tokens):
                     string = next(it)
                     assert_type(string, TokenType.STR)
 
-                    item.content = string["content"]
+                    item.content, item.idx = extract_references(string["content"])
                     item.type = ItemType.BIGINS
 
                     subentry.inserts.append(item)

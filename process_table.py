@@ -1,10 +1,12 @@
 import re
+
 import pandas as pd
 
 input_file = "ordaskra_table.tex"
 
-# Þetta kemur allt frá ChatGPT
 
+# Þetta kemur allt frá ChatGPT
+# TODO Fara yfir
 def strip_comments(text):
     out = []
     i = 0
@@ -117,6 +119,7 @@ def clean_cell(cell):
     cell = cell.strip()
     return cell
 
+
 text = open(input_file, "r", encoding="utf-8").read()
 text = strip_comments(text)
 
@@ -136,11 +139,13 @@ for row in split_rows(body):
     if len(cells) == 0:
         continue
 
-    if len(cells) == 3 and cells[0].strip().isdigit():
+    if len(cells) == 5 and cells[0].strip().isdigit():
         parsed_rows.append({
             "id": cells[0].strip(),
             "Hugtök": cells[1],
             "Skilgreining": cells[2],
+            "Skýring": cells[3],
+            "Athugasemdir": cells[4],
         })
 
 df = pd.DataFrame(parsed_rows)
@@ -148,6 +153,7 @@ df.set_index("id", inplace=True)
 
 non_empty = df[df["Skilgreining"] != ""]
 
+# Næstu tvö föll eru handskrifuð
 def collect_references_and_replace_with_hyperlinks(row):
     references = []
 
@@ -158,7 +164,7 @@ def collect_references_and_replace_with_hyperlinks(row):
     k = 0
 
     while i < len(string) and i != -1:
-        new_string += string[k:i-5]
+        new_string += string[k:i - 5]
 
         i += 7
 
@@ -168,9 +174,9 @@ def collect_references_and_replace_with_hyperlinks(row):
 
         references.append(ref)
 
-        k = string.find('<', j+1)
+        k = string.find('<', j + 1)
 
-        new_string += f'\\hyperlink{{row:{ref}}}{{{string[j+1:k]}}}'
+        new_string += f'\\hyperlink{{row:{ref}}}{{{string[j + 1:k]}}}'
 
         k += 6
 
@@ -180,7 +186,7 @@ def collect_references_and_replace_with_hyperlinks(row):
 
     return references, new_string
 
-def table_dfs(table, starting_row, reachable_rows):
+def collect_referenced_entries(table, starting_row, reachable_rows):
     references, new_row = collect_references_and_replace_with_hyperlinks(starting_row)
 
     table.loc[starting_row.name, "Skilgreining"] = new_row
@@ -191,31 +197,31 @@ def table_dfs(table, starting_row, reachable_rows):
 
         reachable_rows.add(ref)
 
-        reachable_rows.union(table_dfs(table, table.loc[ref], reachable_rows))
-
     return reachable_rows
+
 
 reachable_rows = set(non_empty.index)
 
 for _, row in non_empty.iterrows():
-    reachable_rows = reachable_rows.union(table_dfs(df, row, reachable_rows))
+    reachable_rows = reachable_rows.union(collect_referenced_entries(df, row, reachable_rows))
 
 defined_terms = df[df.index.isin(reachable_rows)]
 
 f = open("ordaskra_table_finished.tex", "w", encoding="utf-8")
 
-f.write("\\begin{longtable}{p{0.49\\textwidth} | p{0.49\\textwidth}}\n")
+f.write("\\begin{longtable}{p{0.03\\textwidth} | p{0.22\\textwidth} | p{0.22\\textwidth} | p{0.22\\textwidth} | p{0.22\\textwidth}}\n")
 f.write("\\hline\n")
-f.write("\\textbf{Hugtök} & \\textbf{Skilgreining} \\\\\n")
+f.write("\\textbf{id} & \\textbf{Hugtök} & \\textbf{Skilgreining} & \\textbf{Skýring} & \\textbf{Athugasemdir} \\\\\n")
 f.write("\\hline\n")
 
 for idx, row in defined_terms.iterrows():
     term = str(row["Hugtök"]).replace("&", "\\&")
     definition = str(row["Skilgreining"]).replace("&", "\\&")
-    f.write(f"\\hypertarget{{row:{idx}}}{{{term}}} & {definition} \\\\\n\\hline\n")
+    explanation = str(row["Skýring"]).replace("&", "\\&")
+    comments = str(row["Athugasemdir"]).replace("&", "\\&")
+    f.write(f"{idx} & \\hypertarget{{row:{idx}}}{{{term}}} & {definition} & {explanation} & {comments} \\\\\n\\hline\n")
 
 f.write("\\hline\n")
 f.write("\\end{longtable}\n")
 
 f.close()
-
