@@ -1,7 +1,9 @@
-from parser.ast import *
 from reynir import Greynir
 
+from parser.ast import *
+
 g = Greynir()
+
 
 def analyze_word(word):
     category = Category.NONE
@@ -62,23 +64,23 @@ def analyze_word(word):
             case "hk":
                 kyn = Kyn.HK
             case _:
-                # TODO Fletta upp í orðalista BÍN ef Greynir virkar ekki?
                 pass
 
     if word.find("kk.") != -1:
         idx = word.find("(")
 
-        return Kyn.KK, word[:idx-1], plural, category
+        return Kyn.KK, word[:idx - 1], plural, category
     elif word.find("kvk.") != -1:
         idx = word.find("(")
 
-        return Kyn.KVK, word[:idx-1], plural, category
+        return Kyn.KVK, word[:idx - 1], plural, category
     elif word.find("hk.") != -1:
         idx = word.find("(")
 
-        return Kyn.HK, word[:idx-1], plural, category
+        return Kyn.HK, word[:idx - 1], plural, category
     else:
         return kyn, word, plural, category
+
 
 def invert(ast):
     reversed = Ast()

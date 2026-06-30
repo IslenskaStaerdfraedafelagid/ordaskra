@@ -1,12 +1,13 @@
 import sys
-
-from parser.parse import parse
-from parser.lex import lex
-from invert import invert
 from pathlib import Path
 
+from invert import invert
+from parser.lex import lex
+from parser.parse import parse
+from remove_duplicates import remove_duplicates
+
 if len(sys.argv) < 2:
-    sys.exit("Notkun: python parse.py [skrá]")
+    sys.exit("Notkun: python main.py [skrá]")
 
 path = Path(sys.argv[1])
 outpath_dat = path.with_stem(path.stem + "_isl")
@@ -21,6 +22,8 @@ try:
 
     ast = parse(tokens)
 
+    ast = remove_duplicates(ast)
+
     reversed = invert(ast)
 
     outfile_dat = open(outpath_dat, "w")
@@ -28,8 +31,6 @@ try:
 
     outfile_dat.write(str(reversed))
     outfile_csv.write(reversed.to_csv())
-
-    #print(f'Fjöldi ókyngreindra orða: {count_ungendered(reversed)}')
 
 except OSError:
     sys.exit(f"Villa: {path} fannst ekki")

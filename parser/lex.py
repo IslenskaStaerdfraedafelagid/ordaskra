@@ -1,9 +1,12 @@
 import sys
 from enum import Enum
+
 from more_itertools import peekable
+
 
 class LexError(Exception):
     pass
+
 
 # Sjá parse.py fyrir skýringar á þessum táknum
 class TokenType(Enum):
@@ -33,10 +36,13 @@ class TokenType(Enum):
     PL = 23
     PREF = 24
 
+
 EOF = "\0"
 
-def push_token(tokens, type, string = ""):
+
+def push_token(tokens, type, string=""):
     tokens.append({"type": type, "content": string})
+
 
 # Breyir TeX kóða með dollaramerkjum í afturábak skástrik og sviga, $...$ -> \(...\)
 def replace_dollars(string):
@@ -51,7 +57,7 @@ def replace_dollars(string):
             k = string.find("$", j + 1)
 
             if j != -1 and k != -1:
-                new_string += string[i+1:j] + "\\(" + string[j+1:k] + "\\)"
+                new_string += string[i + 1:j] + "\\(" + string[j + 1:k] + "\\)"
                 i = k + 1
             else:
                 new_string += string[i:]
@@ -61,20 +67,6 @@ def replace_dollars(string):
 
     return new_string
 
-def remove_references(string):
-    new_string = string
-
-    if string[-1].isdigit():
-        i = string.rfind('~')
-
-        if i != -1:
-            new_string = new_string.replace('~', ' ')
-
-        i = new_string.rfind(' ')
-
-        return string[:i]
-    else:
-        return string
 
 def remove_artifacts(string):
     new_string = string
@@ -92,7 +84,6 @@ def lex(characters):
     try:
         # Notað til þess að lesa beint inn strengi í sér tákn
         literal_mode = False
-        insert_mode = False
 
         it = peekable(characters)
 
@@ -116,12 +107,7 @@ def lex(characters):
 
                 string = replace_dollars(string[:-1])
 
-                if not insert_mode:
-                    string = remove_references(string)
-
                 string = remove_artifacts(string)
-
-                insert_mode = False
 
                 push_token(tokens, TokenType.STR, string)
                 push_token(tokens, TokenType.RBRACE)
@@ -255,7 +241,6 @@ def lex(characters):
 
                             if lookahead == "n" and next(it) == "s" and next(it) == "{":
                                 literal_mode = True
-                                insert_mode = True
 
                                 push_token(tokens, token_type)
                                 push_token(tokens, TokenType.LBRACE)

@@ -1,10 +1,12 @@
 import re
+
 import pandas as pd
 
 input_file = "ordaskra_table.tex"
 
-# Þetta kemur allt frá ChatGPT
 
+# Þetta kemur allt frá ChatGPT
+# TODO Fara yfir
 def strip_comments(text):
     out = []
     i = 0
@@ -117,6 +119,7 @@ def clean_cell(cell):
     cell = cell.strip()
     return cell
 
+
 text = open(input_file, "r", encoding="utf-8").read()
 text = strip_comments(text)
 
@@ -148,6 +151,7 @@ df.set_index("id", inplace=True)
 
 non_empty = df[df["Skilgreining"] != ""]
 
+# Næstu tvö föll eru handskrifuð
 def collect_references_and_replace_with_hyperlinks(row):
     references = []
 
@@ -158,7 +162,7 @@ def collect_references_and_replace_with_hyperlinks(row):
     k = 0
 
     while i < len(string) and i != -1:
-        new_string += string[k:i-5]
+        new_string += string[k:i - 5]
 
         i += 7
 
@@ -168,9 +172,9 @@ def collect_references_and_replace_with_hyperlinks(row):
 
         references.append(ref)
 
-        k = string.find('<', j+1)
+        k = string.find('<', j + 1)
 
-        new_string += f'\\hyperlink{{row:{ref}}}{{{string[j+1:k]}}}'
+        new_string += f'\\hyperlink{{row:{ref}}}{{{string[j + 1:k]}}}'
 
         k += 6
 
@@ -179,6 +183,7 @@ def collect_references_and_replace_with_hyperlinks(row):
     new_string += string[k:]
 
     return references, new_string
+
 
 def table_dfs(table, starting_row, reachable_rows):
     references, new_row = collect_references_and_replace_with_hyperlinks(starting_row)
@@ -194,6 +199,7 @@ def table_dfs(table, starting_row, reachable_rows):
         reachable_rows.union(table_dfs(table, table.loc[ref], reachable_rows))
 
     return reachable_rows
+
 
 reachable_rows = set(non_empty.index)
 
@@ -218,4 +224,3 @@ f.write("\\hline\n")
 f.write("\\end{longtable}\n")
 
 f.close()
-

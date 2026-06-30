@@ -4,8 +4,10 @@ from unidecode import unidecode
 
 from parser.util import first_char
 
-#SEP = chr(31)
+# TODO
+# SEP = chr(31)
 SEP = '|'
+
 
 # Sjá parse.py fyrir skýringar á þessum táknum
 class ItemType(Enum):
@@ -18,12 +20,19 @@ class ItemType(Enum):
 
     def __str__(self):
         match self:
-            case ItemType.TY: return "ty"
-            case ItemType.SH: return "sh"
-            case ItemType.TV: return "tv"
-            case ItemType.INS: return "ins"
-            case ItemType.BIGINS: return "Ins"
-            case _: return ""
+            case ItemType.TY:
+                return "ty"
+            case ItemType.SH:
+                return "sh"
+            case ItemType.TV:
+                return "tv"
+            case ItemType.INS:
+                return "ins"
+            case ItemType.BIGINS:
+                return "Ins"
+            case _:
+                return ""
+
 
 # Sjá parse.py fyrir skýringar á þessum táknum
 class Category(Enum):
@@ -38,26 +47,43 @@ class Category(Enum):
 
     def __str__(self):
         match self:
-            case Category.NA: return "na"
-            case Category.LS: return "ls"
-            case Category.SAG: return "sag"
-            case Category.SAM: return "sam"
-            case Category.AT: return "at"
-            case Category.PREF: return "pref"
-            case Category.SKA: return "ska"
-            case _: return ""
+            case Category.NA:
+                return "na"
+            case Category.LS:
+                return "ls"
+            case Category.SAG:
+                return "sag"
+            case Category.SAM:
+                return "sam"
+            case Category.AT:
+                return "at"
+            case Category.PREF:
+                return "pref"
+            case Category.SKA:
+                return "ska"
+            case _:
+                return ""
 
     # TODO Setja á form sem Árnastofnun notar
     def to_csv(self):
         match self:
-            case Category.NA: return "na"
-            case Category.LS: return "ls"
-            case Category.SAG: return "sag"
-            case Category.SAM: return "sam"
-            case Category.AT: return "at"
-            case Category.PREF: return "pref"
-            case Category.SKA: return "ska"
-            case _: return ""
+            case Category.NA:
+                return "na"
+            case Category.LS:
+                return "ls"
+            case Category.SAG:
+                return "sag"
+            case Category.SAM:
+                return "sam"
+            case Category.AT:
+                return "at"
+            case Category.PREF:
+                return "pref"
+            case Category.SKA:
+                return "ska"
+            case _:
+                return ""
+
 
 class Kyn(Enum):
     KK = 0
@@ -67,18 +93,24 @@ class Kyn(Enum):
 
     def __str__(self):
         match self:
-            case Kyn.KK: return "kk"
-            case Kyn.KVK: return "kvk"
-            case Kyn.HK: return "hk"
-            case _: return ""
+            case Kyn.KK:
+                return "kk"
+            case Kyn.KVK:
+                return "kvk"
+            case Kyn.HK:
+                return "hk"
+            case _:
+                return ""
+
 
 class Item:
     def __init__(self):
         self.type = ItemType.NONE
         self.co = ""
         self.content = ""
+        self.idx = 0
 
-    def to_str(self, a = False):
+    def to_str(self, a=False):
         suffix = 'a' if a else ''
         if self.co != "":
             return f'\\co{suffix}{{{self.co}}}%\n\\{str(self.type)}{{{self.content}}}%\n'
@@ -87,6 +119,7 @@ class Item:
 
     def __str__(self):
         return self.to_str()
+
 
 def to_comma_separated(items):
     string = ""
@@ -116,8 +149,9 @@ class SubEntry:
         self.synonyms = []
         self.related_words = []
         self.inserts = []
+        self.idx = 0
 
-    def to_str(self, a = False):
+    def to_str(self, a=False):
         string = ""
 
         # Þetta er til þess að það sé ekki verið að búa til margar undirfærslur
@@ -167,7 +201,6 @@ class SubEntry:
         string += f'{to_comma_separated(self.related_words)}{SEP}'
 
         # Hugtak: en
-        # TODO Hvað á að vera hér?
         if len(self.translations) > 0:
             string += f'{self.translations[0].content}{SEP}'
 
@@ -197,6 +230,7 @@ class SubEntry:
 
         return string
 
+
 class Entry:
     def __init__(self):
         self.word = ""
@@ -222,7 +256,7 @@ class Entry:
         return string
 
     def to_csv(self):
-        assert(len(self.subentries) == 1)
+        assert (len(self.subentries) == 1)
 
         tala = 'Fleirtala' if self.plural else 'Eintala'
 
@@ -248,7 +282,7 @@ class Ast:
         normalized_word = unidecode(word)
         letter = first_char(normalized_word).lower()
 
-        return word in map(lambda e: e.word, self.entries_by_letter.get(letter, []))
+        return next((e for e in self.entries_by_letter.get(letter, []) if e.word == word), None)
 
     def exists(self, word):
         return self.lookup(word)
@@ -262,10 +296,20 @@ class Ast:
         return list
 
     def to_csv(self):
-        #string = f'Hugtak: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Tala: is{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Tala: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
         string = f'Hugtök: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Tala: is{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
 
         for entry in self.flatten():
             string += entry.to_csv() + "\n"
 
         return string
+
+    def add_entry(self, entry):
+        # Þetta er til þess að fjarlægjastafmerki þannig að orð eins og étale flokkist undir "e"
+        word = unidecode(entry.word)
+        # # Gerum ekki greinarmun á stórum og litlum staf, miðum við lítinn staf
+        letter = first_char(word).lower()
+
+        if not self.entries_by_letter.get(letter, []):
+            self.entries_by_letter[letter] = [entry]
+        else:
+            self.entries_by_letter[letter].append(entry)

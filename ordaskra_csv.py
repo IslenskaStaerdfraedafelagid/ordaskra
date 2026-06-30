@@ -11,6 +11,7 @@ co = df[
 ]
 
 # ChatGPT ber sökina á þessum kóða
+# TODO Fara yfir
 
 from collections import defaultdict, deque
 import pandas as pd
@@ -24,7 +25,6 @@ for idx, value in df["Hugtök: is"].dropna().items():
 
     for term in terms:
         term_to_indices[term].add(idx)
-
 
 seen = set()
 grouped_rows = []
