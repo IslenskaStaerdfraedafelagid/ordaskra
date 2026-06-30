@@ -132,7 +132,7 @@ p{0.22\textwidth}}
 \hline
 64 & aðhvarfsstuðull & & &  \\
 \hline
-65 & aðlæg hlið & & &  \\
+65 & aðlæg hlið &  & &  \\
 \hline
 66 & aðlæg horn, samlæg horn, samliggjandi horn & & &  \\
 \hline
@@ -148,9 +148,9 @@ p{0.22\textwidth}}
 \hline
 72 & aðlögunarpróf, mátunarpróf & & &  \\
 \hline
-73 & aðmengi, bakmengi & & &  \\
+73 & aðmengi, bakmengi & & & \\
 \hline
-74 & aðmengi, ítak, bakmengi & & &  \\
+74 & aðmengi, ítak, bakmengi & Það <ref idTerm=3270>mengi</ref> þar sem <ref idTerm=3282>vörpun</ref> getur <ref idTerm=5375>tekið gildi</ref> & & Impra á muninum milli bakmengis og myndmengis í skýringu. Nákvæmari skilgreining, taka mögulega út taka gildi - þetta ætti mögulega að skilgreina á sama tíma og vörpun \\
 \hline
 75 & aðoka & & &  \\
 \hline
@@ -704,7 +704,7 @@ p{0.22\textwidth}}
 \hline
 350 & átæk mótun, átæk sammótun & & &  \\
 \hline
-351 & átæk vörpun & & &  \\
+351 & átæk vörpun & <ref idTerm=3282>Vörpun</ref> sem hefur allt <ref idTerm=74>bakmengið</ref> sem <ref idTerm=3417>myndmengi</ref>, þ.e. vörpun $f:X \to Y$ sem uppfyllir $f(X)=Y$ & &  \\
 \hline
 352 & átækur & & &  \\
 \hline
@@ -1158,7 +1158,7 @@ p{0.22\textwidth}}
 \hline
 577 & brún & & &  \\
 \hline
-578 & brún & & &  \\
+578 & brún & <ref idTerm=2958>Línustrik</ref> þar sem tvær <ref idTerm=1325>hliðar</ref> <ref idTerm=6454>þrívíðs</ref> <ref idTerm=3133>margflötungs</ref> <ref idTerm=4771>skerast</ref> & & Ræða almenna margflötunga í skýringu \\
 \hline
 579 & brúnahorn & & &  \\
 \hline
@@ -1932,7 +1932,7 @@ p{0.22\textwidth}}
 \hline
 964 & einsþrepsaðferð & & &  \\
 \hline
-965 & eintæk vörpun & & &  \\
+965 & eintæk vörpun & <ref idTerm=3282>Vörpun</ref> sem varpar ólíkum stökum úr <ref idTerm=1343>formenginu</ref> í ólík stök úr <ref idTerm=74>bakmenginu</ref> & &  \\
 \hline
 966 & eintækt fall & & &  \\
 \hline
@@ -2158,7 +2158,7 @@ p{0.22\textwidth}}
 \hline
 1077 & faldrúm, margfeldisrúm & & &  \\
 \hline
-1078 & fall & & &  \\
+1078 & fall & <ref idTerm=3282>Vörpun</ref> sem hefur $\mathbb{R}$ eða $\mathbb{C}$ sem <ref idTerm=74>bakmengi</ref> & & Getur bakmengið verið hvaða svið sem er? \\
 \hline
 1079 & falla saman & & &  \\
 \hline
@@ -2390,7 +2390,14 @@ p{0.22\textwidth}}
 \hline
 1193 & fínt knippi & & &  \\
 \hline
-1194 & firð & & &  \\
+1194 & firð & <ref idTerm=1078>Fall</ref> $d:M \times M \to \mathbb{R}_+$ þar sem $M$ er <ref idTerm=3270>mengi</ref>, sem <ref idTerm=1504>uppfyllir</ref> 
+
+\begin{itemize}
+    \item $d(x,x)=0$ fyrir öll $x \in M$
+    \item $d(x,y)>0$ fyrir öll $x \neq y \in M$
+    \item $d(x,y)=d(y,x)$ fyrir öll $x,y \in M$
+    \item $d(x,y) \leq d(x,z) + d(z,y)$ fyrir öll $x,y,z \in M$
+\end{itemize} <ref idTerm=5102>Stærðin</ref> $d(x,y)$ er gjarnan kölluð <ref idTerm=1204>fjarlægðin</ref> milli $x$ og $y$ & &  \\
 \hline
 1195 & firð- & & &  \\
 \hline
@@ -2402,7 +2409,7 @@ p{0.22\textwidth}}
 \hline
 1199 & firðrækinn & & &  \\
 \hline
-1200 & firðrúm & <ref idTerm=5627>Tvennd</ref> sem samanstendur af <ref idTerm=3270>mengi</ref> $X$ og <ref idTerm=1194>firð</ref> $X \times X \to \mathbb{R}$ & & \\
+1200 & firðrúm & <ref idTerm=5627>Tvennd</ref> $(M,d)$ þar sem $M$ er <ref idTerm=3270>mengi</ref> og $d:M \times M \to \mathbb{R}_+$ er <ref idTerm=1194>firð</ref> & & \\
 \hline
 1201 & firðun & & &  \\
 \hline
@@ -2652,7 +2659,7 @@ p{0.22\textwidth}}
 \hline
 1324 & flötur & & &  \\
 \hline
-1325 & flötur, hliðarflötur, hlið & <ref idTerm=3161>Marghyrningur</ref> sem myndar <ref idTerm=2089>hluta</ref> <ref idTerm=2453>jaðars</ref> <ref idTerm=3133>margfletings</ref> & & \\
+1325 & flötur, hliðarflötur, hlið & <ref idTerm=3161>Marghyrningur</ref> sem myndar <ref idTerm=2089>hluta</ref> <ref idTerm=6256>yfirborðs</ref> <ref idTerm=3133>margflötungs</ref> & & \\
 \hline
 1326 & flutningagrúpa, hreyfingagrúpa & & &  \\
 \hline
@@ -2688,7 +2695,7 @@ p{0.22\textwidth}}
 \hline
 1342 & formengi, frámengi & & &  \\
 \hline
-1343 & formengi, frámengi, skilgreiningarmengi, óðal & & &  \\
+1343 & formengi, frámengi, skilgreiningarmengi, óðal & Það <ref idTerm=3270>mengi</ref> þar sem <ref idTerm=3282>vörpun</ref> er <ref idTerm=4779>skilgreind</ref> & & Skoða - þetta ætti mögulega að skilgreina á sama tíma og vörpun \\
 \hline
 1344 & formerki & & &  \\
 \hline
@@ -3174,7 +3181,7 @@ p{0.22\textwidth}}
 \hline
 1585 & gagntæk samsvörun, gagnkvæm samsvörun & & &  \\
 \hline
-1586 & gagntæk vörpun & & &  \\
+1586 & gagntæk vörpun & <ref idTerm=3282>Vörpun</ref> sem er bæði <ref idTerm=965>eintæk</ref> og <ref idTerm=351>átæk</ref> & &  \\
 \hline
 1587 & gagntækur & & &  \\
 \hline
@@ -4472,7 +4479,7 @@ p{0.22\textwidth}}
 \hline
 2234 & hornmínúta & & &  \\
 \hline
-2235 & hornpunktur, oddpunktur & & &  \\
+2235 & hornpunktur, oddpunktur & <ref idTerm=4001>Punktur</ref> þar sem tvær <ref idTerm=2048>hliðar</ref> <ref idTerm=3161>marghyrnings</ref> <ref idTerm=4771>skerast</ref> (í tveim <ref idTerm=6087>víddum</ref>) eða punktur þar sem þrjár eða fleiri <ref idTerm=1325>hliðar</ref> <ref idTerm=3133>margflötungs</ref> skerast (í þrem víddum) & & Ræða almenna margflötunga í skýringu  \\
 \hline
 2236 & hornrækin vörpun & & &  \\
 \hline
@@ -4640,7 +4647,7 @@ p{0.22\textwidth}}
 \hline
 2318 & hvasshyrndur & & &  \\
 \hline
-2319 & hvel, kúluhvel, kúluflötur, kúluyfirborð & <ref idTerm=3270>Mengi</ref> þeirra <ref idTerm=4001>punkta</ref> sem eru í sömu <ref idTerm=1204>fjarlægð</ref> frá tilteknum <ref idTerm=4001>punkti</ref> & & Taka fram að punktarnir þurfi að vera í firðrúmi í skýringu og minnast á miðju kúluhvelsins \\
+2319 & hvel, kúluhvel, kúluflötur, kúluyfirborð & <ref idTerm=3270>Mengi</ref> þeirra <ref idTerm=4001>punkta</ref> sem eru í sömu <ref idTerm=1204>fjarlægð</ref> frá tilteknum punkti & & Taka fram að punktarnir þurfi að vera í firðrúmi í skýringu og minnast á miðju kúluhvelsins \\
 \hline
 2320 & hvelabundin & & &  \\
 \hline
@@ -4980,7 +4987,7 @@ p{0.22\textwidth}}
 \hline
 2488 & jafngildi & & &  \\
 \hline
-2489 & jafngildisflokkur & & &  \\
+2489 & jafngildisflokkur & <ref idTerm=2098>Hlutmengi</ref> $A$ í <ref idTerm=3270>mengi</ref> $X$ sem uppfyllir $x \sim y$ fyrir öll $x,y \in A$ og $x \nsim y$ fyrir öll $x \in A$ og $y \in X \setminus A$ þar sem $\sim$ eru jafngildisvensl á $X$ & & Vantar færslu fyrir jafngildisvensl \\
 \hline
 2490 & jafngildur & & &  \\
 \hline
@@ -6268,7 +6275,7 @@ p{0.22\textwidth}}
 \hline
 3132 & margflötungstala & & &  \\
 \hline
-3133 & margflötungur, flötungur & <ref idTerm=6532>Rúmmynd</ref> með <ref idTerm=6256>yfirborð</ref> sem samanstendur af <ref idTerm=1009>endanlega</ref> mörgum <ref idTerm=3161>marghyrningum</ref> & & \\
+3133 & margflötungur, flötungur & <ref idTerm=6532>Rúmmynd</ref> með <ref idTerm=6256>yfirborði</ref> sem samanstendur af <ref idTerm=1009>endanlega</ref> mörgum <ref idTerm=3161>marghyrningum</ref> & & \\
 \hline
 3134 & margföld flokkun & & &  \\
 \hline
@@ -6324,7 +6331,7 @@ p{0.22\textwidth}}
 \hline
 3160 & marghyrningstala & & &  \\
 \hline
-3161 & marghyrningur, hyrningur & <ref idTerm=4891>Flatarmynd</ref> með <ref idTerm=2453>jaðar</ref> sem samanstendur af <ref idTerm=1009>endanlega</ref> mörgum <ref idTerm=2958>línustrikum</ref> & & Hvað er hægt að segja annað en jaðar í tveim víddum? \\
+3161 & marghyrningur, hyrningur & <ref idTerm=4891>Flatarmynd</ref> með <ref idTerm=2453>jaðri</ref> sem samanstendur af <ref idTerm=1009>endanlega</ref> mörgum <ref idTerm=2958>línustrikum</ref> & & Hvað er hægt að segja annað en jaðar í tveim víddum? \\
 \hline
 3162 & margkynjuð tala & & &  \\
 \hline
@@ -6542,7 +6549,7 @@ p{0.22\textwidth}}
 \hline
 3269 & meirihlutaákvörðun & & &  \\
 \hline
-3270 & mengi & & &  \\
+3270 & mengi & <ref idTerm=4308>Safn</ref> <ref idTerm=5114>hluta</ref> & & Taka fram að safnið (flokkurinn) þarf að uppfylla ZFC frumsemdurnar í skýringu. Setja hlekk beint á flokk frekar en safn? \\
 \hline
 3271 & mengjaaðgerð & & &  \\
 \hline
@@ -6566,7 +6573,7 @@ p{0.22\textwidth}}
 \hline
 3281 & mengjaríki & & &  \\
 \hline
-3282 & mengjavörpun & & &  \\
+3282 & vörpun & Regla sem úthlutar sérhverju staki úr mengi $X$ nákvæmlega einu staki úr öðru mengi $Y$ & & Nota texta frá Einari í skýringu: "Vörpun $f$ frá mengi $X$ yfir í mengið $Y$ er forskrift eða regla sem úthlutar sérhverju staki úr $X$ nákvæmlega einu staki úr $Y$. Stakið úr $Y$ sem $f$ úthlutar $x$ er táknað með $f(x)$ og kallast gildi vörpunarinnar $f$ í $x$. Jafnframt er sagt að $f$ varpi $x$ í $f(x)$. Mengið $X$ kallast skilgreiningarmengi vörpunarinnar og mengið $Y$ kallast bakmengi hennar. Rithátturinn $f: X \to Y$ er notaður til að tákna vörpun $f$ með skilgreiningarmengi $X$ og bakmengi $Y$ og ef forskrift hennar er þekkt er hún látin fylgja." Líka taka fram að ef bakmengið er $\mathbb{R}$ eða $\mathbb{C}$ er talað um fall frekar en vörpun? - Taka fram að $X$ kallast formengi og $Y$ bakmengi í skilgreiningu? \\
 \hline
 3283 & merkingafræði & & &  \\
 \hline
@@ -6952,7 +6959,7 @@ p{0.22\textwidth}}
 \hline
 3474 & náttúrleg mótun & & &  \\
 \hline
-3475 & náttúrleg tala & & &  \\
+3475 & náttúrleg tala & <ref idTerm=5128>Stak</ref> í <ref idTerm=3270>menginu</ref> $\{0, 1, 2, \dots\}$ (stundum er <ref idTerm=5397>talan</ref> <ref idTerm=3549>0</ref> ekki tekin með) & & Minnast á Peano frumsemdur í skýringu? \\
 \hline
 3476 & náttúrleg vörpun & & &  \\
 \hline
@@ -8336,7 +8343,7 @@ p{0.22\textwidth}}
 \hline
 4166 & rekjanlega teljanlegur & & &  \\
 \hline
-4167 & rétt horn & <ref idTerm=2198>Horn</ref> sem mælist $\frac{\pi}{2}$ <ref idTerm=478>radíana</ref> eða 90 <ref idTerm=1667>gráður</ref> & & Setja fram nákvæmari skilgreiningu með tilliti til lína \\
+4167 & rétt horn & <ref idTerm=2198>Horn</ref> sem <ref idTerm=2223>mælist</ref> $\frac{\pi}{2}$ <ref idTerm=478>radíana</ref> eða 90 <ref idTerm=1667>gráður</ref> & & Setja fram nákvæmari skilgreiningu með tilliti til lína \\
 \hline
 4168 & réttanlegur & & &  \\
 \hline
@@ -8352,7 +8359,7 @@ p{0.22\textwidth}}
 \hline
 4174 & rétthyrni & & &  \\
 \hline
-4175 & rétthyrningur & & &  \\
+4175 & rétthyrningur & ... & &  \\
 \hline
 4176 & réttilína & & &  \\
 \hline
@@ -8370,7 +8377,7 @@ p{0.22\textwidth}}
 \hline
 4183 & réttstæð strýta, réttstæður píramíti & & &  \\
 \hline
-4184 & réttstæður sívalningur & & &  \\
+4184 & sívalningur, réttstæður sívalningur & <ref idTerm=6532>Rúmmynd</ref> sem afmarkast af tveimur <ref idTerm=2474>jafnstórum</ref> <ref idTerm=2295>hringjum</ref>, sem liggja í <ref idTerm=4509>samsíða</ref> <ref idTerm=4884>sléttum</ref> og hafa <ref idTerm=3304>miðjur</ref> sem liggja á <ref idTerm=2911>línu</ref> sem er <ref idTerm=6469>hornrétt</ref> á hringina, og <ref idTerm=488>sveigðum</ref> <ref idTerm=4171>rétthyrndum</ref> <ref idTerm=4660>hliðarfleti</ref> sem fæst með því að tengja saman <ref idTerm=4001>punkta</ref> hringjanna með <ref idTerm=2958>línustriki</ref> & & Taka fram að hliðarflöturinn kallast möttull og kannski minnast á að almenn skilgreining á sívalningi krefst þess ekki að um rúmmynd sé að ræða né að ferillinn sem sker sívalninginn þurfi að vera lokaður? - Bætti við sívalningur sem möguleika frekar en að búa til nýja færslu, það ætti ábyggilega að vera valið sem íðorðið - sívalningur afmarkast af hringskífum, ekki hringjum? \\
 \hline
 4185 & réttstæður snúðsívalningur, réttstæður hringsívalningur & & &  \\
 \hline
@@ -9322,7 +9329,7 @@ p{0.22\textwidth}}
 \hline
 4659 & síun & & &  \\
 \hline
-4660 & sívalningsflötur & & &  \\
+4660 & sívalningsflötur & <ref idTerm=1075>Faldmengi</ref> $\mathcal{C} \times I$ þar sem $\mathcal{C} \in \mathbb{R}^2$ er <ref idTerm=1131>ferill</ref> og $I \subseteq \mathbb{R}$ & &  \\
 \hline
 4661 & sívalningshnit & & &  \\
 \hline
@@ -11256,7 +11263,7 @@ p{0.22\textwidth}}
 \hline
 5626 & tveir og tveir & & &  \\
 \hline
-5627 & tvennd, raðtvennd, röðuð tvennd & & &  \\
+5627 & tvennd, raðtvennd, röðuð tvennd & Par <ref idTerm=2123>hluta</ref> þar sem röð skiptir máli & & Taka fram að tvennd sé stak í faldmengi í skýringu \\
 \hline
 5628 & tvíaðfelldur þríhyrningur & & &  \\
 \hline
