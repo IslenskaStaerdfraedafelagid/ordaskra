@@ -11,5 +11,7 @@ jobs:
       - run: echo "Hef meðhöndlun á 'ordaskra_table.tex'"
       - name: Checkout repo
         uses: actions/checkout@v7.0.0
+      - name: Install pandas
+        run: pip install pandas
       - run: python process_table.py
       - run: echo "Meðhöndlun tókst, niðurstaðan hefur verið vistuð í 'ordaskra_table_finished.tex'
