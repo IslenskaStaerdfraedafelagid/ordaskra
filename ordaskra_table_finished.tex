@@ -2,6 +2,8 @@
 \hline
 \textbf{id} & \textbf{Hugtök} & \textbf{Skilgreining} & \textbf{Skýring} & \textbf{Athugasemdir} \\
 \hline
+46 & \hypertarget{row:46}{aðgerð, reikniaðgerð} & \hyperlink{row:3282}{Vörpun} af gerðinni $X \times \cdots \times X \to X$ þar sem $X$ er \hyperlink{row:3270}{mengi} kallast \textit{reikniaðgerð} á $X$ &  & Skilgreiningin í Hugtakasafninu er ekki nógu góð, hún krefst þess ekki að $X_k=X$ og eitt dæmið sem er gefið er meira að segja $(x,n) \mapsto x^n : \mathbb{R} \times \mathbb{N} \to \mathbb{R}$ sem er ekki reikniaðgerð á $\mathbb{R}$ \\
+\hline
 65 & \hypertarget{row:65}{aðlæg hlið} &  &  &  \\
 \hline
 74 & \hypertarget{row:74}{aðmengi, ítak, bakmengi} & Sjá \hyperlink{row:3282}{vörpun} &  &  \\
@@ -17,6 +19,10 @@
 488 & \hypertarget{row:488}{boginn, sveigður} &  &  &  \\
 \hline
 578 & \hypertarget{row:578}{brún} & \hyperlink{row:2958}{Línustrik} þar sem tvær \hyperlink{row:1325}{hliðar} \hyperlink{row:6454}{þrívíðs} \hyperlink{row:3133}{margflötungs} \hyperlink{row:4771}{skerast} &  & Ræða almenna margflötunga í skýringu \\
+\hline
+737 & \hypertarget{row:737}{eðun} & Fyrir sérhverjar \hyperlink{row:1515}{yrðingar} $p$ og $q$ er $p \vee q$ (lesið: „$p$ eða $q$“) sú yrðing sem segir að að minnsta kosti önnur yrðinganna $p$ og $q$ sé \hyperlink{row:4565}{sönn}. Yrðingin $p \vee q$ er þess vegna \hyperlink{row:3890}{ósönn} þegar yrðingarnar $p$ og $q$ eru báðar ósannar, en annars er hún sönn &  & Setja í skýringu: Þessari staðreynd má lýsa með töflunni að neðan, sem sýnir sanngildi $p \vee q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar. (ásamt mynd) \\
+\hline
+951 & \hypertarget{row:951}{einstæð aðgerð} & \hyperlink{row:46}{Aðgerð} á \hyperlink{row:3270}{mengi} $X$ af gerðinni $X \to X$ kallast \textit{einstæð aðgerð} &  &  \\
 \hline
 965 & \hypertarget{row:965}{eintæk vörpun} & \hyperlink{row:3282}{Vörpun} sem varpar ólíkum \hyperlink{row:5128}{stökum} úr \hyperlink{row:1343}{formenginu} í ólík stök úr \hyperlink{row:74}{bakmenginu} &  &  \\
 \hline
@@ -62,6 +68,19 @@
 1403 & \hypertarget{row:1403}{frændhorn} & Tvö \hyperlink{row:2198}{horn} sem samanlagt \hyperlink{row:2223}{mælast} 180 \hyperlink{row:1667}{gráður} &  & Skýrari skilgreining en sú á stæ.is?: "Ef hægt er að flytja horn þannig að það verði grannhorn annars horns, þá er sagt að hornin séu frændhorn." \\
 \hline
 1504 & \hypertarget{row:1504}{fullnægja, uppfylla} &  &  &  \\
+\hline
+1515 & \hypertarget{row:1515}{fullyrðing, yrðing} &  &  &  \\
+\hline
+1553 & \hypertarget{row:1553}{fyllimengi} & \hyperlink{row:3280}{Mengjamunur} á forminu $G \setminus A$ þar sem $A \subseteq G$ kallast \textit{fyllimengi} $A$ í $G$. Ef enginn vafi leikur á hvert mengið $G$ sé og við höfum ekki áhuga á því sem er utan $G$ (sem kallast þá \textit{grunnmengi}) köllum við þennan mengjamun einfaldlega fyllimengi $A$ og taknum hann með $A^c$ &  & Koma fyrir í skýringu: Oft er það svo að öll mengi, sem verið er að skoða í einhverju sambandi, eru hlutmengi af einu og sama menginu $G$. Þá getur verið gagnlegt að líta svo á að mengið $G$ innihaldi allt sem við höfum áhuga á að fjalla um og að það sem sé utan $G$ varði okkur engu. Þegar svo er gert er mengið $G$ stundum kallað grunnmengi.
+
+Við þessar aðstæður þarf oft að fjalla um mengjamun af taginu $G \setminus A$, þar sem $A$ er hlutmengi í $G$. Ef enginn vafi leikur á hvert mengið $G$ sé, þá er þessi mengjamunur kallaður fyllimengi mengisins $A$ og hann er táknaður með $A^c$. Ýmis önnur tákn þekkjast fyrir fyllimengi $A$; til dæmis $\overline{A}$, $A’$ og $\mathbf{C}A$. Við höfum sem sagt: \[ A^c = G \setminus A. \] Óformlega má segja að fyllimengið $A^c$ sé sá hluti grunnmengisins sem liggur utan mengisins $A$. Á Venn-myndum er venja að tákna grunnmengið með rétthyrningi og á myndinni að neðan er fyllimengið $A^c$ litað rautt. (ásamt mynd)
+
+Um fyllimengi sam- og sniðmengja gilda reglur De Morgans, sem segja að fyrir sérhver tvö mengi $A$ og $B$ gildi: \[ (A \cup B)^c = A^c \cap B^c \quad \text{og} \quad (A \cap B)^c = A^c \cup B^c. \] Jafnframt gilda eftirfarandi reglur fyrir mengin $A$ og $B$:
+
+$A \cap A^c = \varnothing$.
+$A \cup A^c = G$.
+$(A^c)^c = A$.
+$A \subset B$ ef og aðeins ef $B^c \subset A^c$. - Minnast líkar á aðrar leiðir til að tákna þetta \\
 \hline
 1586 & \hypertarget{row:1586}{gagntæk vörpun} & \hyperlink{row:3282}{Vörpun} sem er bæði \hyperlink{row:965}{eintæk} og \hyperlink{row:351}{átæk} &  &  \\
 \hline
@@ -151,6 +170,10 @@ með eitt \hyperlink{row:1647}{gleitt} \hyperlink{row:2198}{horn}. &  &  \\
 \hline
 3279 & \hypertarget{row:3279}{mengjamargfeldi, faldmengi, Kartesarmargfeldi, karteskt margfeldi} & \textit{Faldmengi} tveggja \hyperlink{row:3270}{mengja} $X$ og $Y$, táknað $X \times Y$, er mengi \hyperlink{row:5627}{para} $(x,y)$ þannig að $x \in X$ og $y \in Y$ &  & Koma með almenna skilgreiningu líka í leiðinni eða setja hana í skýringu? Síðan þarf kannski að minnast á það að það er farið svolítið losaralega að stundum með faldmengi og litið á $(X \times Y) \times Z$ sem $X \times Y \times Z$ \\
 \hline
+3280 & \hypertarget{row:3280}{mengjamunur, mengjamismunur} & \textit{Mengjamunur} tveggja \hyperlink{row:3270}{mengja} $A$ og $B$ er mengi þeirra \hyperlink{row:5128}{staka} sem eru í $A$ en ekki í $B$. Þetta mengi er táknað með $A \setminus B$ (lesið: $A$ án $B$) og það má rita á forminu \[ A \setminus B = \{x \in A \mid x \notin B\}. \] &  & Setja í skýringu: Óformlega má segja að mengjamunurinn $A \setminus B$ sé sá hluti mengisins $A$ sem er utan mengisins $B$ og á Venn-myndinni hér að neðan er hann litaður rauður. (ásamt mynd)
+
+Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi $A$ og fyllimengis $B$, þ.e. \[ A \setminus B = A \cap B^c. \] Jafnframt gildir fyrir öll mengi $A$ að $A \setminus \varnothing = A$ og $A \setminus A = \varnothing$. \\
+\hline
 3282 & \hypertarget{row:3282}{vörpun} & \textit{Vörpun} $f: X \to Y$ frá \hyperlink{row:3270}{mengi} $X$ yfir í mengið $Y$ er forskrift eða regla sem úthlutar sérhverju \hyperlink{row:5128}{staki} úr $X$ nákvæmlega einu staki úr $Y$. Mengið $X$ kallast \textit{skilgreiningarmengi} vörpunarinnar og mengið $Y$ kallast \textit{bakmengi} hennar. &  & Líka taka fram að ef bakmengið er $\mathbb{R}$ eða $\mathbb{C}$ er talað um fall frekar en vörpun? Koma þessu inn einhvern veginn?: Stakið úr $Y$ sem $f$ úthlutar $x$ er táknað með $f(x)$ og kallast gildi vörpunarinnar $f$ í $x$. Jafnframt er sagt að $f$ varpi $x$ í $f(x)$. \\
 \hline
 3304 & \hypertarget{row:3304}{miðja, miðdepill, miðpunktur} &  &  &  \\
@@ -165,9 +188,15 @@ með eitt \hyperlink{row:1647}{gleitt} \hyperlink{row:2198}{horn}. &  &  \\
 \hline
 3475 & \hypertarget{row:3475}{náttúrleg tala} & \hyperlink{row:5128}{Stak} í \hyperlink{row:3270}{menginu} $\{0, 1, 2, \dots\}$ (stundum er \hyperlink{row:5397}{talan} \hyperlink{row:3549}{0} ekki tekin með) &  & Minnast á Peano frumsemdur í skýringu? \\
 \hline
+3507 & \hypertarget{row:3507}{neitun} & Fyrir sérhverja \hyperlink{row:1515}{yrðingu} $p$ er $\neg p$ (lesið: „ekki $p$“) sú yrðing sem fæst með því að \textit{neita} yrðingunni $p$. Yrðingin $\neg p$ hefur þess vegna alltaf öfugt \hyperlink{row:4560}{sanngildi} við yrðinguna $p$ &  & Setja í skýringu: Þessari staðreynd má lýsa með eftirfarandi töflu, sem sýnir sanngildi $\neg p$ eftir ólíkum sanngildum $p$: (plús mynd) \\
+\hline
 3549 & \hypertarget{row:3549}{núll} &  &  &  \\
 \hline
 3661 & \hypertarget{row:3661}{oddpunktur, topppunktur, broddur} &  &  &  \\
+\hline
+3744 & \hypertarget{row:3744}{ogun} & Fyrir sérhverjar \hyperlink{row:1515}{yrðingar} $p$ og $q$ er $p \wedge q$ (lesið: „$p$ \textit{og} $q$“) sú yrðing sem segir að $p$ og $q$ séu báðar \hyperlink{row:4565}{sannar}. Yrðingin $p \wedge q$ er þess vegna sönn þegar yrðingarnar $p$ og $q$ eru báðar sannar, en annars er hún \hyperlink{row:3890}{ósönn} &  & Setja í skýringu: Þessu má lýsa með eftirfarandi töflu, sem sýnir sanngildi yrðingarinnar $p \wedge q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar: (ásamt mynd) \\
+\hline
+3890 & \hypertarget{row:3890}{ósannur} &  &  &  \\
 \hline
 4001 & \hypertarget{row:4001}{punktur, depill} &  &  &  \\
 \hline
@@ -185,7 +214,17 @@ með eitt \hyperlink{row:1647}{gleitt} \hyperlink{row:2198}{horn}. &  &  \\
 \hline
 4308 & \hypertarget{row:4308}{safn, samsafn, mengi} &  &  &  \\
 \hline
+4464 & \hypertarget{row:4464}{sammengi} & \textit{Sammengi} tveggja \hyperlink{row:3270}{mengja} $A$ og $B$ er mengi þeirra \hyperlink{row:5128}{staka} sem eru að minnsta kosti í öðru þeirra. Þetta mengi er táknað með $A \cup B$ (lesið: $A$ sam $B$) og það má rita á forminu \[ A \cup B = \{x \mid x \in A \text{ eða } x \in B\}. \] &  & Setja í skýringu: Á Venn-myndinni hér að neðan er $A \cup B$ litað rautt. (ásamt mynd)
+
+Til að einfalda rithátt er sammengi $n$ mengja $A_1 \cup A_2 \cup \cdots \cup A_n$ oft ritað á forminu $\bigcup_{i=1}^n A_i$.
+
+Sammengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ (A \cup B) \cup C = A \cup (B \cup C) \quad \text{og} \quad A \cup B = B \cup A. \] Jafnframt eru sammengi dreifin yfir sniðmengi, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ A \cup (B \cap C) = (A \cup B) \cap (A \cup C) \quad \text{og} \quad (B \cap C) \cup A = (B \cup A) \cap (C \cup A). \] Loks gildir fyrir öll mengi $A$ að $A \cup \varnothing = A$ og $A \cup A = A$. \\
+\hline
 4509 & \hypertarget{row:4509}{samsíða, samhliða} &  &  &  \\
+\hline
+4560 & \hypertarget{row:4560}{sanngildi} &  &  &  \\
+\hline
+4565 & \hypertarget{row:4565}{sannur} &  &  &  \\
 \hline
 4624 & \hypertarget{row:4624}{setningin um ytra horn} & Setning í \hyperlink{row:1030}{Evklíðskri rúmfræði} sem segir að \hyperlink{row:6295}{ytra horn} \hyperlink{row:6438}{þríhyrnings} sé jafn \hyperlink{row:2223}{stórt} og samanlögð fjarlægari innri horn &  &  \\
 \hline
@@ -205,6 +244,12 @@ með eitt \hyperlink{row:1647}{gleitt} \hyperlink{row:2198}{horn}. &  &  \\
 \hline
 4912 & \hypertarget{row:4912}{snertill, snertilína} & \hyperlink{row:2911}{Lína} sem sker \hyperlink{row:2295}{hring} í nákvæmlega einum \hyperlink{row:4001}{punkti} &  &  \\
 \hline
+4928 & \hypertarget{row:4928}{snið, sniðmengi, skurðmengi, skarmengi} & \textit{Sniðmengi} tveggja \hyperlink{row:3270}{mengja} $A$ og $B$ er mengi þeirra \hyperlink{row:5128}{staka} sem eru í báðum þeirra. Þetta mengi er táknað með $A \cap B$ (lesið: $A$ snið $B$) og það má rita á forminu \[ A \cap B = \{x \mid x \in A \text{ og } x \in B\}. \] &  & Á Venn-myndinni hér að neðan er $A \cap B$ litað rautt. Til að einfalda rithátt er sniðmengi $n$ mengja $A_1 \cap A_2 \cap \cdots \cap A_n$ oft ritað á forminu $\bigcap_{i=1}^n A_i$. (ásamt mynd)
+
+Ef mengin $A$ og $B$ hafa ekkert sameiginlegt stak, þ.e. ef $A \cap B = \varnothing$, er sagt að þau séu sundurlæg.
+
+Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ (A \cap B) \cap C = A \cap (B \cap C) \quad \text{og} \quad A \cap B = B \cap A. \] Jafnframt eru sniðmengi dreifin yfir sammengi, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ A \cap (B \cup C) = (A \cap B) \cup (A \cap C) \quad \text{og} \quad (B \cup C) \cap A = (B \cap A) \cup (C \cap A). \] Loks gildir fyrir öll mengi $A$ að $A \cap \varnothing = \varnothing$ og $A \cap A = A$. \\
+\hline
 4929 & \hypertarget{row:4929}{sniðill} & \hyperlink{row:2911}{Lína} sem sker \hyperlink{row:2295}{hring} í tveimur ólíkum \hyperlink{row:4001}{punktum} &  &  \\
 \hline
 4939 & \hypertarget{row:4939}{keila, snúðkeila, hringkeila} & \hyperlink{row:6532}{Rúmmynd} sem afmarkast af hringskífu og \hyperlink{row:2579}{fletinum} sem fæst með því að draga \hyperlink{row:2958}{línustrik} milli \hyperlink{row:4001}{punkta} \hyperlink{row:2295}{hringsins} sem skífan afmarkast af og eins punkts sem liggur á \hyperlink{row:2911}{línu} sem er \hyperlink{row:6469}{hornrétt} á skífuna og fer í gegnum \hyperlink{row:3304}{miðju} hennar &  & Þarf punkturinn að liggja fyrir utan grunnflötinn? - Rosalega óþjál skilgreining - Vantar færslu fyrir hringskífu \\
@@ -219,11 +264,17 @@ með eitt \hyperlink{row:1647}{gleitt} \hyperlink{row:2198}{horn}. &  &  \\
 \hline
 5397 & \hypertarget{row:5397}{tala} &  &  &  \\
 \hline
+5473 & \hypertarget{row:5473}{tengiregla} & \hyperlink{row:5702}{Tvístæð reikniaðgerð} $\odot : X \times X \to X$ á \hyperlink{row:3270}{mengi} $X$ kallast \textit{tengin} eða að hún fullnægi \textit{tengireglunni} ef fyrir sérhver \hyperlink{row:5128}{stök} $x,y,z \in X$ gildi að $(x \odot y) \odot z = x \odot (y \odot z)$ &  &  \\
+\hline
 5480 & \hypertarget{row:5480}{teningur, verpill, reglulegur sexflötungur} & \hyperlink{row:2559}{Kassi} þar sem allar \hyperlink{row:1325}{hliðar} eru \hyperlink{row:1163}{ferningar} &  &  \\
 \hline
 5568 & \hypertarget{row:5568}{topphorn, gagnstæð horn} & \hyperlink{row:3400}{Gagnstæðar} \hyperlink{row:1840}{hálflínur} við \hyperlink{row:334}{arma} \hyperlink{row:2198}{horns} mynda \hyperlink{row:3398}{mótlægt horn} upphaflega hornsins og sagt er að þessi tvö horn séu \textit{gagnstæð horn} &  &  \\
 \hline
 5627 & \hypertarget{row:5627}{tvennd, raðtvennd, röðuð tvennd} & Par \hyperlink{row:2123}{hluta} þar sem röð skiptir máli &  & Taka fram að tvennd sé stak í faldmengi í skýringu \\
+\hline
+5702 & \hypertarget{row:5702}{tvístæð aðgerð} & \hyperlink{row:46}{Aðgerð} á \hyperlink{row:3270}{mengi} $X$ af gerðinni $X \times X \to X$ kallast \textit{tvístæð aðgerð} &  &  \\
+\hline
+5757 & \hypertarget{row:5757}{umhverfa, andhverfa} & \textit{Andhverfa} \hyperlink{row:5128}{staks} $x$ í \hyperlink{row:3270}{mengi} $X$ með tilliti til \hyperlink{row:46}{reikniaðgerðarinnar} $\odot$ með \hyperlink{row:0}{hlutleysu} $e$ er stak $y \in X$ sem uppfyllir $x \odot y = y \odot x = e$ &  & Tala um $-x$ og $x^{-1}$ í skýringu, tengni neyðir andhverfu til að vera otvírætt ákvarðaða - Ekki alveg skýrt út frá skilgreiningunni að andhverfa þarf ekki endilega að vera til? \\
 \hline
 5774 & \hypertarget{row:5774}{ummál} &  &  &  \\
 \hline
@@ -233,7 +284,11 @@ með eitt \hyperlink{row:1647}{gleitt} \hyperlink{row:2198}{horn}. &  &  \\
 \hline
 5963 & \hypertarget{row:5963}{varðveita, rækja} &  &  &  \\
 \hline
+6013 & \hypertarget{row:6013}{veldismengi} & \hyperlink{row:3270}{Mengið} sem samanstendur af öllum \hyperlink{row:2098}{hlutmengjum} í tilteknu mengi $X$ kallast \textit{veldismengi} mengisins $X$ og er táknað með $\mathcal{P}(X)$ &  & Setja í skýringu: Almennt gildir að ef fjöldi staka í menginu $A$ er $n$, þar sem $n$ er náttúruleg tala, er fjöldi staka í veldismengi þess $2^n$. \\
+\hline
 6087 & \hypertarget{row:6087}{vídd, víddartala, rúmvídd} &  &  &  \\
+\hline
+6233 & \hypertarget{row:6233}{víxlregla} & \hyperlink{row:5702}{Tvístæð reikniaðgerð} $\odot : X \times X \to X$ á \hyperlink{row:3270}{mengi} $X$ kallast \textit{víxlin} eða að hún fullnægi \textit{víxlreglunni} ef fyrir sérhver \hyperlink{row:5128}{stök} $x,y \in X$ gildi að $x \odot y = y \odot x$ &  &  \\
 \hline
 6256 & \hypertarget{row:6256}{yfirborð} &  &  &  \\
 \hline
