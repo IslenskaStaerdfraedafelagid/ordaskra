@@ -1,17 +1,35 @@
 name: Sía töflu
-run-name: 
-on: 
+
+on:
   push:
     paths:
-      - 'ordaskra_table.tex'
+      - "ordaskra_table.tex"
+
+permissions:
+  contents: write
+
 jobs:
   sia_toflu:
     runs-on: ubuntu-latest
+
     steps:
       - run: echo "Hef meðhöndlun á 'ordaskra_table.tex'"
+
       - name: Checkout repo
         uses: actions/checkout@v7.0.0
+
       - name: Install pandas
         run: pip install pandas
+
       - run: python process_table.py
+
+      - name: Commit ordaskra_table_finished.tex
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ordaskra_table_finished.tex
+
+          git commit -m "Uppfæra ordaskra_table_finished.tex"
+          git push
+
       - run: echo "Meðhöndlun tókst, niðurstaðan hefur verið vistuð í 'ordaskra_table_finished.tex'"
