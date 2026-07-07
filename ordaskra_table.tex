@@ -94,7 +94,7 @@ p{0.22\textwidth}}
 \hline
 45 & aðgerð & & &  \\
 \hline
-46 & aðgerð, reikniaðgerð & & &  \\
+46 & aðgerð, reikniaðgerð & <ref idTerm=3282>Vörpun</ref> af gerðinni $X \times \cdots \times X \to X$ þar sem $X$ er <ref idTerm=3270>mengi</ref> kallast \textit{reikniaðgerð} á $X$ & & Skilgreiningin í Hugtakasafninu er ekki nógu góð, hún krefst þess ekki að $X_k=X$ og eitt dæmið sem er gefið er meira að segja $(x,n) \mapsto x^n : \mathbb{R} \times \mathbb{N} \to \mathbb{R}$ sem er ekki reikniaðgerð á $\mathbb{R}$ \\
 \hline
 47 & aðgerðagreining & & &  \\
 \hline
@@ -1476,7 +1476,7 @@ p{0.22\textwidth}}
 \hline
 736 & eða-tákn & & &  \\
 \hline
-737 & eðun & & &  \\
+737 & eðun & Fyrir sérhverjar <ref idTerm=1515>yrðingar</ref> $p$ og $q$ er $p \vee q$ (lesið: „$p$ eða $q$“) sú yrðing sem segir að að minnsta kosti önnur yrðinganna $p$ og $q$ sé <ref idTerm=4565>sönn</ref>. Yrðingin $p \vee q$ er þess vegna <ref idTerm=3890>ósönn</ref> þegar yrðingarnar $p$ og $q$ eru báðar ósannar, en annars er hún sönn & & Setja í skýringu: Þessari staðreynd má lýsa með töflunni að neðan, sem sýnir sanngildi $p \vee q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar. (ásamt mynd) \\
 \hline
 738 & eðunarhluti, eðunarliður & & &  \\
 \hline
@@ -1904,7 +1904,7 @@ p{0.22\textwidth}}
 \hline
 950 & einsmótunarsetning & & &  \\
 \hline
-951 & einstæð aðgerð & & &  \\
+951 & einstæð aðgerð & <ref idTerm=46>Aðgerð</ref> á <ref idTerm=3270>mengi</ref> $X$ af gerðinni $X \to X$ kallast \textit{einstæð aðgerð} & &  \\
 \hline
 952 & einstæð umsögn & & &  \\
 \hline
@@ -3115,7 +3115,16 @@ p{0.22\textwidth}}
 \hline
 1552 & fyllilíkindi & & &  \\
 \hline
-1553 & fyllimengi & & &  \\
+1553 & fyllimengi & <ref idTerm=3280>Mengjamunur</ref> á forminu $G \setminus A$ þar sem $A \subseteq G$ kallast \textit{fyllimengi} $A$ í $G$. Ef enginn vafi leikur á hvert mengið $G$ sé og við höfum ekki áhuga á því sem er utan $G$ (sem kallast þá \textit{grunnmengi}) köllum við þennan mengjamun einfaldlega fyllimengi $A$ og taknum hann með $A^c$ & & Koma fyrir í skýringu: Oft er það svo að öll mengi, sem verið er að skoða í einhverju sambandi, eru hlutmengi af einu og sama menginu $G$. Þá getur verið gagnlegt að líta svo á að mengið $G$ innihaldi allt sem við höfum áhuga á að fjalla um og að það sem sé utan $G$ varði okkur engu. Þegar svo er gert er mengið $G$ stundum kallað grunnmengi.
+
+Við þessar aðstæður þarf oft að fjalla um mengjamun af taginu $G \setminus A$, þar sem $A$ er hlutmengi í $G$. Ef enginn vafi leikur á hvert mengið $G$ sé, þá er þessi mengjamunur kallaður fyllimengi mengisins $A$ og hann er táknaður með $A^c$. Ýmis önnur tákn þekkjast fyrir fyllimengi $A$; til dæmis $\overline{A}$, $A’$ og $\mathbf{C}A$. Við höfum sem sagt: \[ A^c = G \setminus A. \] Óformlega má segja að fyllimengið $A^c$ sé sá hluti grunnmengisins sem liggur utan mengisins $A$. Á Venn-myndum er venja að tákna grunnmengið með rétthyrningi og á myndinni að neðan er fyllimengið $A^c$ litað rautt. (ásamt mynd)
+
+Um fyllimengi sam- og sniðmengja gilda reglur De Morgans, sem segja að fyrir sérhver tvö mengi $A$ og $B$ gildi: \[ (A \cup B)^c = A^c \cap B^c \quad \text{og} \quad (A \cap B)^c = A^c \cup B^c. \] Jafnframt gilda eftirfarandi reglur fyrir mengin $A$ og $B$:
+
+$A \cap A^c = \varnothing$.
+$A \cup A^c = G$.
+$(A^c)^c = A$.
+$A \subset B$ ef og aðeins ef $B^c \subset A^c$. - Minnast líkar á aðrar leiðir til að tákna þetta  \\
 \hline
 1554 & fylling & & &  \\
 \hline
@@ -6577,7 +6586,9 @@ með eitt <ref idTerm=1647>gleitt</ref> <ref idTerm=2198>horn</ref>.
 \hline
 3279 & mengjamargfeldi, faldmengi, Kartesarmargfeldi, karteskt margfeldi & \textit{Faldmengi} tveggja <ref idTerm=3270>mengja</ref> $X$ og $Y$, táknað $X \times Y$, er mengi <ref idTerm=5627>para</ref> $(x,y)$ þannig að $x \in X$ og $y \in Y$ & & Koma með almenna skilgreiningu líka í leiðinni eða setja hana í skýringu? Síðan þarf kannski að minnast á það að það er farið svolítið losaralega að stundum með faldmengi og litið á $(X \times Y) \times Z$ sem $X \times Y \times Z$ \\
 \hline
-3280 & mengjamunur, mengjamismunur & & &  \\
+3280 & mengjamunur, mengjamismunur & \textit{Mengjamunur} tveggja <ref idTerm=3270>mengja</ref> $A$ og $B$ er mengi þeirra <ref idTerm=5128>staka</ref> sem eru í $A$ en ekki í $B$. Þetta mengi er táknað með $A \setminus B$ (lesið: $A$ án $B$) og það má rita á forminu \[ A \setminus B = \{x \in A \mid x \notin B\}. \] & & Setja í skýringu: Óformlega má segja að mengjamunurinn $A \setminus B$ sé sá hluti mengisins $A$ sem er utan mengisins $B$ og á Venn-myndinni hér að neðan er hann litaður rauður. (ásamt mynd)
+
+Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi $A$ og fyllimengis $B$, þ.e. \[ A \setminus B = A \cap B^c. \] Jafnframt gildir fyrir öll mengi $A$ að $A \setminus \varnothing = A$ og $A \setminus A = \varnothing$. \\
 \hline
 3281 & mengjaríki & & &  \\
 \hline
@@ -7033,7 +7044,7 @@ með eitt <ref idTerm=1647>gleitt</ref> <ref idTerm=2198>horn</ref>.
 \hline
 3506 & neikvætt hálfákveðinn & & &  \\
 \hline
-3507 & neitun & & &  \\
+3507 & neitun & Fyrir sérhverja <ref idTerm=1515>yrðingu</ref> $p$ er $\neg p$ (lesið: „ekki $p$“) sú yrðing sem fæst með því að \textit{neita} yrðingunni $p$. Yrðingin $\neg p$ hefur þess vegna alltaf öfugt <ref idTerm=4560>sanngildi</ref> við yrðinguna $p$ & & Setja í skýringu: Þessari staðreynd má lýsa með eftirfarandi töflu, sem sýnir sanngildi $\neg p$ eftir ólíkum sanngildum $p$: (plús mynd) \\
 \hline
 3508 & neitunarháttur & & &  \\
 \hline
@@ -7507,7 +7518,7 @@ með eitt <ref idTerm=1647>gleitt</ref> <ref idTerm=2198>horn</ref>.
 \hline
 3743 & ögn & & &  \\
 \hline
-3744 & ogun & & &  \\
+3744 & ogun & Fyrir sérhverjar <ref idTerm=1515>yrðingar</ref> $p$ og $q$ er $p \wedge q$ (lesið: „$p$ \textit{og} $q$“) sú yrðing sem segir að $p$ og $q$ séu báðar <ref idTerm=4565>sannar</ref>. Yrðingin $p \wedge q$ er þess vegna sönn þegar yrðingarnar $p$ og $q$ eru báðar sannar, en annars er hún <ref idTerm=3890>ósönn</ref> & & Setja í skýringu: Þessu má lýsa með eftirfarandi töflu, sem sýnir sanngildi yrðingarinnar $p \wedge q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar: (ásamt mynd) \\
 \hline
 3745 & ogunarhluti, ogunarþáttur & & &  \\
 \hline
@@ -8950,7 +8961,11 @@ með eitt <ref idTerm=1647>gleitt</ref> <ref idTerm=2198>horn</ref>.
 \hline
 4463 & sammælanleiki & & &  \\
 \hline
-4464 & sammengi & & &  \\
+4464 & sammengi & \textit{Sammengi} tveggja <ref idTerm=3270>mengja</ref> $A$ og $B$ er mengi þeirra <ref idTerm=5128>staka</ref> sem eru að minnsta kosti í öðru þeirra. Þetta mengi er táknað með $A \cup B$ (lesið: $A$ sam $B$) og það má rita á forminu \[ A \cup B = \{x \mid x \in A \text{ eða } x \in B\}. \] & & Setja í skýringu: Á Venn-myndinni hér að neðan er $A \cup B$ litað rautt. (ásamt mynd)
+
+Til að einfalda rithátt er sammengi $n$ mengja $A_1 \cup A_2 \cup \cdots \cup A_n$ oft ritað á forminu $\bigcup_{i=1}^n A_i$.
+
+Sammengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ (A \cup B) \cup C = A \cup (B \cup C) \quad \text{og} \quad A \cup B = B \cup A. \] Jafnframt eru sammengi dreifin yfir sniðmengi, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ A \cup (B \cap C) = (A \cup B) \cap (A \cup C) \quad \text{og} \quad (B \cap C) \cup A = (B \cup A) \cap (C \cup A). \] Loks gildir fyrir öll mengi $A$ að $A \cup \varnothing = A$ og $A \cup A = A$.  \\
 \hline
 4465 & sammengisfrumsenda, sammengisfrumsetning, frumsenda um sammengi, frumsetning um sammengi & & &  \\
 \hline
@@ -9878,7 +9893,11 @@ með eitt <ref idTerm=1647>gleitt</ref> <ref idTerm=2198>horn</ref>.
 \hline
 4927 & snið, mót & & &  \\
 \hline
-4928 & snið, sniðmengi, skurðmengi, skarmengi & & &  \\
+4928 & snið, sniðmengi, skurðmengi, skarmengi & \textit{Sniðmengi} tveggja <ref idTerm=3270>mengja</ref> $A$ og $B$ er mengi þeirra <ref idTerm=5128>staka</ref> sem eru í báðum þeirra. Þetta mengi er táknað með $A \cap B$ (lesið: $A$ snið $B$) og það má rita á forminu \[ A \cap B = \{x \mid x \in A \text{ og } x \in B\}. \] & & Á Venn-myndinni hér að neðan er $A \cap B$ litað rautt. Til að einfalda rithátt er sniðmengi $n$ mengja $A_1 \cap A_2 \cap \cdots \cap A_n$ oft ritað á forminu $\bigcap_{i=1}^n A_i$. (ásamt mynd)
+
+Ef mengin $A$ og $B$ hafa ekkert sameiginlegt stak, þ.e. ef $A \cap B = \varnothing$, er sagt að þau séu sundurlæg.
+
+Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ (A \cap B) \cap C = A \cap (B \cap C) \quad \text{og} \quad A \cap B = B \cap A. \] Jafnframt eru sniðmengi dreifin yfir sammengi, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ A \cap (B \cup C) = (A \cap B) \cup (A \cap C) \quad \text{og} \quad (B \cup C) \cap A = (B \cap A) \cup (C \cap A). \] Loks gildir fyrir öll mengi $A$ að $A \cap \varnothing = \varnothing$ og $A \cap A = A$. \\
 \hline
 4929 & sniðill & <ref idTerm=2911>Lína</ref> sem sker <ref idTerm=2295>hring</ref> í tveimur ólíkum <ref idTerm=4001>punktum</ref> & &  \\
 \hline
@@ -10968,7 +10987,7 @@ með eitt <ref idTerm=1647>gleitt</ref> <ref idTerm=2198>horn</ref>.
 \hline
 5472 & tenginn & & &  \\
 \hline
-5473 & tengiregla & & &  \\
+5473 & tengiregla & <ref idTerm=5702>Tvístæð reikniaðgerð</ref> $\odot : X \times X \to X$ á <ref idTerm=3270>mengi</ref> $X$ kallast \textit{tengin} eða að hún fullnægi \textit{tengireglunni} ef fyrir sérhver <ref idTerm=5128>stök</ref> $x,y,z \in X$ gildi að $(x \odot y) \odot z = x \odot (y \odot z)$ & &  \\
 \hline
 5474 & tengivegur & & &  \\
 \hline
@@ -11426,7 +11445,7 @@ með eitt <ref idTerm=1647>gleitt</ref> <ref idTerm=2198>horn</ref>.
 \hline
 5701 & tvísniðill & & &  \\
 \hline
-5702 & tvístæð aðgerð & & &  \\
+5702 & tvístæð aðgerð & <ref idTerm=46>Aðgerð</ref> á <ref idTerm=3270>mengi</ref> $X$ af gerðinni $X \times X \to X$ kallast \textit{tvístæð aðgerð} & &  \\
 \hline
 5703 & tvístæð samtenging, tvístæður tengill & & &  \\
 \hline
@@ -11536,7 +11555,7 @@ með eitt <ref idTerm=1647>gleitt</ref> <ref idTerm=2198>horn</ref>.
 \hline
 5756 & umhverf tala, umhverfa, margföldunarumhverfa, andhverf tala, andhverfa, margföldunarandhverfa, gagnkvæm tala & & &  \\
 \hline
-5757 & umhverfa, andhverfa & & &  \\
+5757 & umhverfa, andhverfa & \textit{Andhverfa} <ref idTerm=5128>staks</ref> $x$ í <ref idTerm=3270>mengi</ref> $X$ með tilliti til <ref idTerm=46>reikniaðgerðarinnar</ref> $\odot$ með <ref idTerm=0>hlutleysu</ref> $e$ er stak $y \in X$ sem uppfyllir $x \odot y = y \odot x = e$ & & Tala um $-x$ og $x^{-1}$ í skýringu, tengni neyðir andhverfu til að vera otvírætt ákvarðaða - Ekki alveg skýrt út frá skilgreiningunni að andhverfa þarf ekki endilega að vera til? \\
 \hline
 5758 & umhverfanlegt fylki, andhverfanlegt fylki, reglulegt fylki, ósérstætt fylki & & &  \\
 \hline
@@ -12048,7 +12067,7 @@ með eitt <ref idTerm=1647>gleitt</ref> <ref idTerm=2198>horn</ref>.
 \hline
 6012 & veldisleifatákn & & &  \\
 \hline
-6013 & veldismengi & & &  \\
+6013 & veldismengi & <ref idTerm=3270>Mengið</ref> sem samanstendur af öllum <ref idTerm=2098>hlutmengjum</ref> í tilteknu mengi $X$ kallast \textit{veldismengi} mengisins $X$ og er táknað með $\mathcal{P}(X)$ & & Setja í skýringu: Almennt gildir að ef fjöldi staka í menginu $A$ er $n$, þar sem $n$ er náttúruleg tala, er fjöldi staka í veldismengi þess $2^n$. \\
 \hline
 6014 & veldisstofn & & &  \\
 \hline
@@ -12488,7 +12507,7 @@ með eitt <ref idTerm=1647>gleitt</ref> <ref idTerm=2198>horn</ref>.
 \hline
 6232 & víxlni & & &  \\
 \hline
-6233 & víxlregla & & &  \\
+6233 & víxlregla & <ref idTerm=5702>Tvístæð reikniaðgerð</ref> $\odot : X \times X \to X$ á <ref idTerm=3270>mengi</ref> $X$ kallast \textit{víxlin} eða að hún fullnægi \textit{víxlreglunni} ef fyrir sérhver <ref idTerm=5128>stök</ref> $x,y \in X$ gildi að $x \odot y = y \odot x$ & &  \\
 \hline
 6234 & víxlstefnuaðferð & & &  \\
 \hline
