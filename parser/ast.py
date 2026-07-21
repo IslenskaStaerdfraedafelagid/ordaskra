@@ -190,7 +190,7 @@ class SubEntry:
         string += f'{SEP}'
 
         # Samheiti: is
-        string += f'{to_comma_separated(self.synonyms)}{SEP}'
+        string += f'{SEP}'
 
         # Heimild
         string += f'{SEP}'
@@ -201,8 +201,7 @@ class SubEntry:
         string += f'{to_comma_separated(self.related_words)}{SEP}'
 
         # Hugtak: en
-        if len(self.translations) > 0:
-            string += f'{self.translations[0].content}{SEP}'
+        string += f'{to_comma_separated(self.translations)}{SEP}'
 
         # TODO Ensk tala?
         # Tala: en
@@ -217,7 +216,7 @@ class SubEntry:
         string += f'{SEP}'
 
         # Samheiti, en
-        string += f'{to_comma_separated(self.translations[1:])}{SEP}'
+        string += f'{SEP}'
 
         # Heimild, en
         string += f'{SEP}'
@@ -260,7 +259,13 @@ class Entry:
 
         tala = 'Fleirtala' if self.plural else 'Eintala'
 
-        return f'{self.word}{SEP}{self.category.to_csv()}{SEP}{self.kyn}{SEP}{tala}{SEP}{self.subentries[0].to_csv()}'
+        item = Item()
+        item.content = self.word
+
+        list = [item]
+        list.extend(self.subentries[0].synonyms)
+        # TODO
+        return f'{to_comma_separated(list)}{SEP}{SEP}{self.category.to_csv()}{SEP}{self.kyn}{SEP}{tala}{SEP}{self.subentries[0].to_csv()}'
 
 
 class Ast:
@@ -296,7 +301,7 @@ class Ast:
         return list
 
     def to_csv(self):
-        string = f'Hugtök: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Tala: is{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
+        string = f'Hugtök: is{SEP}Val: is{SEP}Orðaflokkur: is{SEP}Kyn{SEP}Tala: is{SEP}Skilgreining: is{SEP}Skýring: is{SEP}Dæmi: is{SEP}Samheiti: is{SEP}Heimild: is{SEP}Sérsvið: is{SEP}Vísun/sjá einnig: is{SEP}Hugtak: en{SEP}Val: en{SEP}Skilgreining: en{SEP}Skýring: en{SEP}Dæmi: en{SEP}Samheiti: en{SEP}Heimild: en{SEP}Sérsvið: en{SEP}Vísun/sjá einnig: en\n'
 
         for entry in self.flatten():
             string += entry.to_csv() + "\n"
@@ -313,3 +318,7 @@ class Ast:
             self.entries_by_letter[letter] = [entry]
         else:
             self.entries_by_letter[letter].append(entry)
+
+    def sort(self):
+        for k, entries in sorted(self.entries_by_letter.items(), key=lambda x: x[0].casefold()):
+            self.entries_by_letter[k] = list(sorted(entries, key=lambda x: x.word.casefold()))

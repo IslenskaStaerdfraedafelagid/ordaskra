@@ -26,6 +26,8 @@ try:
 
     reversed = invert(ast)
 
+    reversed.sort()
+
     outfile_dat = open(outpath_dat, "w")
     outfile_csv = open(outpath_csv, "w")
 

@@ -95,6 +95,7 @@ def invert(ast):
                 # Setjum enska orðið tengt færslunni sem fyrstu þýðingu
                 new_word = Item()
                 new_word.content = entry.word
+                new_word.co = íðorð.co
                 new_word.type = ItemType.TY
 
                 new_subentry = SubEntry()
