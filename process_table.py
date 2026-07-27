@@ -154,10 +154,10 @@ df.set_index("id", inplace=True)
 non_empty = df[df["Skilgreining"] != ""]
 
 # Næstu tvö föll eru handskrifuð
-def collect_references_and_replace_with_hyperlinks(row):
+def collect_references_and_replace_with_hyperlinks(table, row, column):
     references = []
 
-    string = str(row["Skilgreining"])
+    string = str(row[column])
     new_string = ""
 
     i = string.find('idTerm')
@@ -184,12 +184,13 @@ def collect_references_and_replace_with_hyperlinks(row):
 
     new_string += string[k:]
 
-    return references, new_string
+    table.loc[row.name, column] = new_string
+
+    return references
 
 def collect_referenced_entries(table, starting_row, reachable_rows):
-    references, new_row = collect_references_and_replace_with_hyperlinks(starting_row)
-
-    table.loc[starting_row.name, "Skilgreining"] = new_row
+    references = collect_references_and_replace_with_hyperlinks(table, starting_row, "Skilgreining")
+    references.extend(collect_references_and_replace_with_hyperlinks(table, starting_row, "Skýring"))
 
     for ref in references:
         if ref in reachable_rows:
