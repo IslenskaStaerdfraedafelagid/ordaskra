@@ -6569,7 +6569,7 @@ Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi
 \hline
 3324 & miðslétta &  &  &  \\
 \hline
-3325 & miðstrengur &  &  &  \\
+3325 & miðstrengur & Sjá <ref idTerm=5261>strengur</ref> &  &  \\
 \hline
 3326 & miðtengilína &  &  &  \\
 \hline
@@ -9332,7 +9332,19 @@ Sammengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir a�
 \hline
 4742 & skauthluti &  &  &  \\
 \hline
-4743 & skauthnit, pólhnit & <ref idTerm=2145>Hnitakerfi</ref> á <ref idTerm=1031>evklíðska sléttu</ref> þar sem <ref idTerm=4001>punktar</ref> eru staðsettir með því að tilgreina <ref idTerm=1204>fjarlægð</ref> þeirra og <ref idTerm=5135>stefnu</ref> séð frá gefnum punkti $O$ sem er kallaður \textit{skaut} eða \textit{póll} &  & Tala um hvernig maður breytir frá kassahnitum í pólhnit í skýringu \\
+4743 & skauthnit, pólhnit & <ref idTerm=2145>Hnitakerfi</ref> á <ref idTerm=1031>evklíðska sléttu</ref> þar sem <ref idTerm=4001>punktar</ref> eru staðsettir með því að tilgreina <ref idTerm=1204>fjarlægð</ref> þeirra og <ref idTerm=5135>stefnu</ref> séð frá gefnum punkti $O$ sem er kallaður \textit{skaut} eða \textit{póll} & Eftirfarandi mynd sýnir hvernig hægt er að tilgreina staðsetningu punkts í <ref idTerm=2554>karteskum hnitum</ref> annars vegar og pólhnitum annars vegar:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/polhnit.png}
+\end{center}
+
+Punkturinn í efra hægra horni hefur hnitin $(x,y)$ í karteskum hnitum og $(r,\theta)$ í pólhnitum. Látum $O=(0,0)$ vera upphafspunkt karteska hnitakerfisins og $E=(1,0)$ vera einingarpunktinn á $x$-ásnum. Ef $P=(x,y)$ er punktur í sléttunni, þá mælir \[r=|OP|=\sqrt{x^2+y^2}\] fjarlægð $P$ frá $O$. Stefnu $P$ séð frá $O$ má tilgreina með bogamáli hornsins $\angle EOP$, sem við köllum stefnuhorn punktsins $P$. Ef $P$ liggur ekki á neikvæða $x$-ásnum, þá liggur stefnuhornið á bilinu $\left]-\pi,\pi\right[$ og það er gefið með \[\theta = \begin{cases} \arccos\left(x/\sqrt{x^2+y^2}\right) & \text{ef $y \geq 0$},\\ -\arccos\left(x/\sqrt{x^2+y^2}\right) & \text{ef $y\leq 0$}. \end{cases}\] Skauthnit punktsins $P=(x,y)$ eru því gefin með tvenndinni $(r,\theta)_s$.
+
+Ekki er hægt að útvíkka skilgreininguna á stefnuhorni með skynsamlegum hætti fyrir punkta á neikvæða $x$-ásnum eða skautpunktinn $O$. Hinsvegar má snúa hnitakerfinu, og undanskilja í staðinn einhvera aðra hálflínu út frá $O$. Þannig mætti til dæmis láta stefnuhornið vera á bilinu $\left]-\pi/2,3\pi/2\right[$ og undanskilja í staðinn neikvæða hluta $y$-ássins.
+
+Ef punktur hefur skauthnit $(r,\theta)_s$, þá eru kartesk hnit hans gefin með \[x=r\,\cos\,\theta\qquad\text{og}\qquad y=r\,\sin\,\theta.\]
+
+& Tala um hvernig maður breytir frá kassahnitum í pólhnit í skýringu \\
 \hline
 4744 & skauthnitaferill, pólhnitaferill, ferill í skauthnitum (pólhnitum) &  &  &  \\
 \hline
@@ -9534,7 +9546,11 @@ Sammengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir a�
 \hline
 4844 & skúffuregla Dirichlets, skúffuregla &  &  &  \\
 \hline
-4845 & skurðpunktur, sniðpunktur & <ref idTerm=4001>Punktur</ref> þar sem tvö <ref idTerm=3270>mengi</ref> <ref idTerm=4771>skerast</ref> &  &  \\
+4845 & skurðpunktur, sniðpunktur & <ref idTerm=4001>Punktur</ref> þar sem tvö <ref idTerm=3270>mengi</ref> <ref idTerm=4771>skerast</ref> & Á eftirfarandi mynd skerast línurnar $l$ og $m$ í punktinum $A$: 
+
+\begin{center}
+\includegraphics[width=150px]{myndir/skurdpunktur.png}
+\end{center} &  \\
 \hline
 4846 & skurður &  &  &  \\
 \hline
@@ -9668,7 +9684,11 @@ Sammengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir a�
 \hline
 4911 & snertikeila, snertlakeila &  &  &  \\
 \hline
-4912 & snertill, snertilína & <ref idTerm=2911>Lína</ref> sem sker <ref idTerm=2295>hring</ref> í nákvæmlega einum <ref idTerm=4001>punkti</ref> &  &  \\
+4912 & snertill, snertilína & <ref idTerm=2911>Lína</ref> sem sker <ref idTerm=2295>hring</ref> í nákvæmlega einum <ref idTerm=4001>punkti</ref> & Á eftirfarandi mynd má sjá hring með miðju $M$ og snertil sem liggur í gegnum punktinn $C$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/snidill_snertill.png}
+\end{center} & Minnast á að snertillinn sé hornréttur á geislann? \\
 \hline
 4913 & snerting &  &  &  \\
 \hline
@@ -9700,13 +9720,21 @@ Sammengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir a�
 \hline
 4927 & snið, mót &  &  &  \\
 \hline
-4928 & snið, sniðmengi, skurðmengi, skarmengi & \textit{Sniðmengi} tveggja <ref idTerm=3270>mengja</ref> $A$ og $B$ er mengi þeirra <ref idTerm=5128>staka</ref> sem eru í báðum þeirra. Þetta mengi er táknað með $A \cap B$ (lesið: $A$ snið $B$) og það má rita á forminu \[ A \cap B = \{x \mid x \in A \text{ og } x \in B\}. \] &  & Á Venn-myndinni hér að neðan er $A \cap B$ litað rautt. Til að einfalda rithátt er sniðmengi $n$ mengja $A_1 \cap A_2 \cap \cdots \cap A_n$ oft ritað á forminu $\bigcap_{i=1}^n A_i$. (ásamt mynd)
+4928 & snið, sniðmengi, skurðmengi, skarmengi & \textit{Sniðmengi} tveggja <ref idTerm=3270>mengja</ref> $A$ og $B$ er mengi þeirra <ref idTerm=5128>staka</ref> sem eru í báðum þeirra. Þetta mengi er táknað með $A \cap B$ (lesið: $A$ snið $B$) og það má rita á forminu \[ A \cap B = \{x \mid x \in A \text{ og } x \in B\}. \] & Á Venn-myndinni hér að neðan er $A \cap B$ litað rautt. Til að einfalda rithátt er sniðmengi $n$ mengja $A_1 \cap A_2 \cap \cdots \cap A_n$ oft ritað á forminu $\bigcap_{i=1}^n A_i$.
 
-Ef mengin $A$ og $B$ hafa ekkert sameiginlegt stak, þ.e. ef $A \cap B = \varnothing$, er sagt að þau séu sundurlæg.
+\begin{center}
+\includegraphics[width=150px]{myndir/snid.png}
+\end{center}
 
-Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ (A \cap B) \cap C = A \cap (B \cap C) \quad \text{og} \quad A \cap B = B \cap A. \] Jafnframt eru sniðmengi dreifin yfir sammengi, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ A \cap (B \cup C) = (A \cap B) \cup (A \cap C) \quad \text{og} \quad (B \cup C) \cap A = (B \cap A) \cup (C \cap A). \] Loks gildir fyrir öll mengi $A$ að $A \cap \varnothing = \varnothing$ og $A \cap A = A$. \\
+Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ (A \cap B) \cap C = A \cap (B \cap C) \quad \text{og} \quad A \cap B = B \cap A. \] Jafnframt eru sniðmengi dreifin yfir sammengi, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir að \[ A \cap (B \cup C) = (A \cap B) \cup (A \cap C) \quad \text{og} \quad (B \cup C) \cap A = (B \cap A) \cup (C \cap A). \] Loks gildir fyrir öll mengi $A$ að $A \cap \varnothing = \varnothing$ og $A \cap A = A$ & \\
 \hline
-4929 & sniðill & <ref idTerm=2911>Lína</ref> sem sker <ref idTerm=2295>hring</ref> í tveimur ólíkum <ref idTerm=4001>punktum</ref> &  &  \\
+4929 & sniðill & <ref idTerm=2911>Lína</ref> sem sker <ref idTerm=2295>hring</ref> í tveimur ólíkum <ref idTerm=4001>punktum</ref> & Á eftirfarandi mynd má sjá hring með miðju $M$ og sniðil sem liggur í gegnum punktana $A$ og $B$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/snidill_snertill.png}
+\end{center}
+
+Ekki skal rugla saman sniðli og <ref idTerm=5261>streng</ref> en munurinn er sá að sniðill er lína og strengur er <ref idTerm=2958>línustrik</ref>. Sérhver strengur hrings er innihaldinn í sniðli &  \\
 \hline
 4930 & sniðkrappi, sniðsveigja, Riemann-krappi, Riemann-sveigja &  &  &  \\
 \hline
@@ -9726,7 +9754,11 @@ Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir 
 \hline
 4938 & snúðkeila &  &  &  \\
 \hline
-4939 & keila, snúðkeila, hringkeila & <ref idTerm=6532>Rúmmynd</ref> sem afmarkast af <ref idTerm=6589>hringskífu</ref> og <ref idTerm=2579>fletinum</ref> sem fæst með því að draga <ref idTerm=2958>línustrik</ref> milli <ref idTerm=4001>punkta</ref> <ref idTerm=2295>hringsins</ref> sem skífan afmarkast af og eins punkts sem liggur á <ref idTerm=2911>línu</ref> sem er <ref idTerm=6469>hornrétt</ref> á skífuna og fer í gegnum miðju hennar &  & Þarf punkturinn að liggja fyrir utan grunnflötinn? - Rosalega óþjál skilgreining \\
+4939 & keila, snúðkeila, hringkeila & <ref idTerm=6532>Rúmmynd</ref> sem afmarkast af <ref idTerm=6589>hringskífu</ref> og <ref idTerm=2579>fletinum</ref> sem fæst með því að draga <ref idTerm=2958>línustrik</ref> milli <ref idTerm=4001>punkta</ref> <ref idTerm=2295>hringsins</ref> sem skífan afmarkast af og eins punkts sem liggur á <ref idTerm=2911>línu</ref> sem er <ref idTerm=6469>hornrétt</ref> á skífuna og fer í gegnum miðju hennar & Eftirfarandi er mynd af keilu með geisla $r$ og hæð $h$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/keila.png}
+\end{center} & Þarf punkturinn að liggja fyrir utan grunnflötinn? - Rosalega óþjál skilgreining - Þarf að útskýra orðalagið í skýringunni, þ.e.a.s. að verið sé að tala um geisla og hæð keilu án þess að skilgreina það fyrst \\
 \hline
 4940 & snúðkeiluflötur, hringkeiluflötur &  &  &  \\
 \hline
@@ -9762,7 +9794,7 @@ Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir 
 \item punktarnir $A$ og $\rho(A)$ eru í sömu <ref idTerm=1204>fjarlægð</ref> frá $M$ fyrir alla punkta $A$ í sléttunni,
 
 \item <ref idTerm=2198>hornin</ref> $\angle AM\rho(A)$ eru jafn stór fyrir alla punkta $A\neq M$.
-\end{enumerate} &  &  \\
+\end{enumerate} &  & Finna mynd \\
 \hline
 4955 & snústríkkun &  &  &  \\
 \hline
@@ -9856,7 +9888,7 @@ Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir 
 \hline
 5001 & sporbaugsfari &  &  &  \\
 \hline
-5002 & sporbaugur & <ref idTerm=3270>Mengi</ref> <ref idTerm=4001>punkta</ref> sem uppfylla jöfnu af taginu \[ \left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 = 1\] &  & Er til gegnsærri skilgreining? \\
+5002 & sporbaugur & <ref idTerm=3270>Mengi</ref> <ref idTerm=4001>punkta</ref> sem uppfylla jöfnu af taginu \[ \left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 = 1\] &  & Er til gegnsærri skilgreining? Finna mynd \\
 \hline
 5003 & sporger &  &  &  \\
 \hline
@@ -10160,7 +10192,7 @@ Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir 
 \hline
 5160 & stig &  &  &  \\
 \hline
-5161 & stig & Sjá <ref idTerm=1948>margliða</ref> &  & Setja i skýringu: Stig núllmargliðunnar er ekki unnt að skilgreina með skynsamlegum hætti sem heila tölu og er því stig hennar sagt vera óskilgreint. \\
+5161 & stig & Sjá <ref idTerm=1948>margliða</ref> & Stig <ref idTerm=3563>núllmargliðunnar</ref> er ekki unnt að skilgreina með skynsamlegum hætti sem <ref idTerm=1896>heila tölu</ref> og er því stig hennar sagt vera óskilgreint & \\
 \hline
 5162 & stig &  &  &  \\
 \hline
@@ -10266,7 +10298,7 @@ Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir 
 \hline
 5214 & stöðluð hending &  &  &  \\
 \hline
-5215 & stöðluð margliða & <ref idTerm=1948>Margliða</ref> þar sem gildi forystustuðulsins er 1 &  &  \\
+5215 & stöðluð margliða & <ref idTerm=1948>Margliða</ref> þar sem gildi forystustuðulsins er 1 & Margliðan $x^2 + 2 x + 3$ er stöðluð margliða af stigi 2 &  \\
 \hline
 5216 & stöðlun &  &  &  \\
 \hline
@@ -10358,7 +10390,13 @@ Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir 
 \hline
 5260 & strengfirð &  &  &  \\
 \hline
-5261 & strengur & <ref idTerm=2958>Línustrik</ref> sem hefur báða <ref idTerm=0>endapunkta</ref> sína á <ref idTerm=2295>hring</ref> kallast \textit{strengur} í hringnum &  &  \\
+5261 & strengur & <ref idTerm=2958>Línustrik</ref> sem hefur báða endapunkta sína á <ref idTerm=2295>hring</ref> kallast \textit{strengur} í hringnum & Ef miðja hringsins liggur á streng kallast sá strengur \textit{miðstrengur}. Á eftirfarandi mynd má sjá hring með miðju $M$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/strengur.png}
+\end{center}
+
+Strikið $AB$ er strengur í hringnum og strikið $CD$ er miðstrengur &  \\
 \hline
 5262 & strengur &  &  &  \\
 \hline
@@ -10366,7 +10404,7 @@ Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir 
 \hline
 5264 & strik, merki &  &  &  \\
 \hline
-5265 & stríkkun & Ef $\lambda$ er <ref idTerm=5779>færsla</ref> á tiltekinni <ref idTerm=4884>sléttu</ref>, $k$ er <ref idTerm=4093>rauntala</ref> og $M$ er <ref idTerm=4001>punktur</ref> í sléttunni þá kallast $\lambda$ \textit{stríkkun} með <ref idTerm=3304>miðju</ref> í punktinum $M$ ef fyrir alla punkta $P$ í sléttunni gildi að <ref idTerm=2072>hlutfallið</ref> milli <ref idTerm=2860>lengd</ref> <ref idTerm=2958>strikanna</ref> $MP$ og $M\lambda(P)$ sé $k$, sem kallast þá \textit{kvarði} stríkkunarinnar &  &  \\
+5265 & stríkkun & Ef $\lambda$ er <ref idTerm=5779>færsla</ref> á tiltekinni <ref idTerm=4884>sléttu</ref>, $k$ er <ref idTerm=4093>rauntala</ref> og $M$ er <ref idTerm=4001>punktur</ref> í sléttunni þá kallast $\lambda$ \textit{stríkkun} með <ref idTerm=3304>miðju</ref> í punktinum $M$ ef fyrir alla punkta $P$ í sléttunni gildi að <ref idTerm=2072>hlutfallið</ref> milli <ref idTerm=2860>lengd</ref> <ref idTerm=2958>strikanna</ref> $MP$ og $M\lambda(P)$ sé $k$, sem kallast þá \textit{kvarði} stríkkunarinnar &  & Finna mynd \\
 \hline
 5266 & stríkkunarhlutfall &  &  &  \\
 \hline
@@ -10494,7 +10532,7 @@ Sniðmengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir 
 \hline
 5328 & sundurlægt sammengi &  &  &  \\
 \hline
-5329 & sundurlægur, óskaraður &  &  &  \\
+5329 & sundurlægur, óskaraður & Tvö mengi $X$ og $Y$ eru sögð vera \textit{sundurlæg} ef þau hafa ekkert sameiginlegt stak, þ.e. ef $X \cap Y = \varnothing$ &  & Finna mynd? Er það nauðsynlegt? \\
 \hline
 5330 & sundurlaus, strjáll &  &  &  \\
 \hline
