@@ -5025,7 +5025,11 @@ Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{d
 \hline
 2517 & jafnstæðugrúpa &  &  &  \\
 \hline
-2518 & jafnstæður & <ref idTerm=1078>Fall</ref> $f: X \to Y$ þar sem $X$ og $Y$ eru <ref idTerm=2098>hlutmengi</ref> í <ref idTerm=3270>mengi</ref> <ref idTerm=4093>rauntalna</ref> kallast \textit{jafnstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = f(x)\] &  &  \\
+2518 & jafnstæður & <ref idTerm=1078>Fall</ref> $f: X \to Y$ þar sem $X$ og $Y$ eru <ref idTerm=2098>hlutmengi</ref> í <ref idTerm=3270>mengi</ref> <ref idTerm=4093>rauntalna</ref> kallast \textit{jafnstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = f(x)\] & <ref idTerm=2955>Graf</ref> jafnstæðs falls fellur í sjálft sig við speglun um $y$-ásinn. Eftirfarandi mynd sýnir jafnstætt fall:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/jafnstaett_fall.png}
+\end{center} &  \\
 \hline
 2519 & jafnstæður &  &  &  \\
 \hline
@@ -6907,7 +6911,18 @@ Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi
 \hline
 3474 & náttúrleg mótun &  &  &  \\
 \hline
-3475 & náttúrleg tala & <ref idTerm=5128>Stak</ref> í <ref idTerm=3270>menginu</ref> $\{0, 1, 2, \dots\}$ (stundum er <ref idTerm=5397>talan</ref> <ref idTerm=3549>0</ref> ekki tekin með) &  & Minnast á Peano frumsemdur í skýringu? \\
+3475 & náttúrleg tala & <ref idTerm=5128>Stak</ref> í <ref idTerm=3270>menginu</ref> $\{0, 1, 2, \dots\}$ (stundum er <ref idTerm=5397>talan</ref> <ref idTerm=3549>0</ref> ekki tekin með), táknað með $\mathbb{N}$ & Fyrsta tilraun til að skilgreina náttúrulegar tölur formlega var gerð af ítalska <ref idTerm=5117>stærðfræðingnum</ref> Giuseppe Peano árið 1889. Hann setti fram eftirfarandi fimm <ref idTerm=1452>frumsendur</ref>:
+
+\begin{enumerate}
+    \item \textit{Núll} er náttúruleg tala, táknuð með 0
+    \item Sérhver náttúruleg tala $n$ á sér <ref idTerm=759>eftirfara</ref> sem er náttúruleg tala, táknað með $S(n)$
+    \item Núll er ekki eftirfari neinnar náttúrulegrar tölu, það er að segja $0 \neq S(n)$ fyrir neina náttúrulega tölu $n$
+    \item Ef eftirfarar tveggja náttúrulegra talna $n$ og $m$ eru jafnir, þá eru $n$ og $m$ jafnar, í táknmáli $S(n)=S(m)\implies n=m$
+    \item Ef mengi inniheldur núll og það að náttúruleg tala $n$ sé innihaldin í menginu hafi í för með sér að $S(n)$ sé einnig innihaldið í menginu, þá inniheldur mengið náttúrulegu tölurnar
+\end{enumerate}
+
+Seinasta frumsendan er kölluð \textit{þrepunarfrumsendan} en hún gerir okkur kleift að tala um eiginleika allra náttúrulegra talna (sem eru óendanlega margar) í endanlega mörgum skrefum. Ef $P : \mathbb{N} \to \{\bot,\top\}$ er <ref idTerm=3800>opin yrðing</ref> og við skoðum mengið \[ X = \{ n \in \mathbb{N} \mid P(n)\} \] þá segir frumsendan að ef $P(0)$ sé <ref idTerm=6659>sönn</ref> og $P(S(n))$ sé sönn að því gefnu að $P(n)$ sé sönn fyrir einhverja náttúrulega tölu $n$, þá er $X = \mathbb{N}$ og þar með gildir $P$ fyrir allar náttúrulegar tölur
+& \\
 \hline
 3476 & náttúrleg vörpun &  &  &  \\
 \hline
@@ -6971,7 +6986,7 @@ Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi
 \hline
 3506 & neikvætt hálfákveðinn &  &  &  \\
 \hline
-3507 & neitun & Fyrir sérhverja <ref idTerm=1515>yrðingu</ref> $p$ er $\neg p$ (lesið: „ekki $p$“) sú yrðing sem fæst með því að \textit{neita} yrðingunni $p$. Yrðingin $\neg p$ hefur þess vegna alltaf öfugt <ref idTerm=4560>sanngildi</ref> við yrðinguna $p$ &  & Setja í skýringu: Þessari staðreynd má lýsa með eftirfarandi töflu, sem sýnir sanngildi $\neg p$ eftir ólíkum sanngildum $p$: (plús mynd) \\
+3507 & neitun & Fyrir sérhverja <ref idTerm=1515>yrðingu</ref> $p$ er $\neg p$ (lesið: „ekki $p$“) sú yrðing sem fæst með því að \textit{neita} yrðingunni $p$. Yrðingin $\neg p$ hefur þess vegna alltaf öfugt <ref idTerm=4560>sanngildi</ref> við yrðinguna $p$ & Þessari staðreynd má lýsa með eftirfarandi töflu, sem sýnir <ref idTerm=4560>sanngildi</ref> $\neg p$ eftir ólíkum sanngildum $p$: & Búa til mynd  \\
 \hline
 3508 & neitunarháttur &  &  &  \\
 \hline
@@ -7277,7 +7292,11 @@ Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi
 \hline
 3662 & oddstæðni, oddleiki, hvassleiki &  &  &  \\
 \hline
-3663 & oddstæður & <ref idTerm=1078>Fall</ref> $f: X \to Y$ þar sem $X$ og $Y$ eru <ref idTerm=2098>hlutmengi</ref> í <ref idTerm=3270>mengi</ref> <ref idTerm=4093>rauntalna</ref> kallast \textit{oddstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = - f(x). \] &  &  \\
+3663 & oddstæður & <ref idTerm=1078>Fall</ref> $f: X \to Y$ þar sem $X$ og $Y$ eru <ref idTerm=2098>hlutmengi</ref> í <ref idTerm=3270>mengi</ref> <ref idTerm=4093>rauntalna</ref> kallast \textit{oddstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = - f(x). \] & <ref idTerm=2955>Graf</ref> oddstæðs falls fellur í sjálft sig þegar því er speglað um $y$-ásinn og spegilmyndinni síðan speglað um $x$-ásinn. Þetta má einnig orða svo að graf oddstæðs falls falli í sjálft sig ef því er snúið um hálfhring. Eftirfarandi mynd sýnir oddstætt fall:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/oddstaett_fall.png}
+\end{center} &  \\
 \hline
 3664 & oddstæður &  &  &  \\
 \hline
@@ -7439,11 +7458,11 @@ Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi
 \hline
 3743 & ögn &  &  &  \\
 \hline
-3744 & ogun & Fyrir sérhverjar <ref idTerm=1515>yrðingar</ref> $p$ og $q$ er $p \wedge q$ (lesið: „$p$ \textit{og} $q$“) sú yrðing sem segir að $p$ og $q$ séu báðar <ref idTerm=4565>sannar</ref>. Yrðingin $p \wedge q$ er þess vegna sönn þegar yrðingarnar $p$ og $q$ eru báðar sannar, en annars er hún <ref idTerm=3890>ósönn</ref> & Þessu má lýsa með eftirfarandi töflu, sem sýnir sanngildi yrðingarinnar $p \wedge q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar: 
+3744 & ogun & Fyrir sérhverjar <ref idTerm=1515>yrðingar</ref> $p$ og $q$ er $p \wedge q$ (lesið: „$p$ \textit{og} $q$“) sú yrðing sem segir að $p$ og $q$ séu báðar <ref idTerm=4565>sannar</ref>. Yrðingin $p \wedge q$ er þess vegna sönn þegar yrðingarnar $p$ og $q$ eru báðar sannar, en annars er hún <ref idTerm=3890>ósönn</ref> & Þessu má lýsa með eftirfarandi töflu, sem sýnir <ref idTerm=4560>sanngildi</ref> yrðingarinnar $p \wedge q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar: 
 
 \begin{center}
 \includegraphics[width=150px]{myndir/ogun.png}
-\end{center} &  \\
+\end{center} & Búa til mynd í betri gæðum \\
 \hline
 3745 & ogunarhluti, ogunarþáttur &  &  &  \\
 \hline
