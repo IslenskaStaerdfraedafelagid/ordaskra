@@ -52,6 +52,8 @@
 \hline
 737 & \hypertarget{row:737}{eðun} & Fyrir sérhverjar \hyperlink{row:1515}{yrðingar} $p$ og $q$ er $p \vee q$ (lesið: „$p$ eða $q$“) sú yrðing sem segir að að minnsta kosti önnur yrðinganna $p$ og $q$ sé \hyperlink{row:4565}{sönn}. Yrðingin $p \vee q$ er þess vegna \hyperlink{row:3890}{ósönn} þegar yrðingarnar $p$ og $q$ eru báðar ósannar, en annars er hún sönn &  & Setja í skýringu: Þessari staðreynd má lýsa með töflunni að neðan, sem sýnir sanngildi $p \vee q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar. (ásamt mynd) \\
 \hline
+759 & \hypertarget{row:759}{eftirfari} &  &  &  \\
+\hline
 797 & \hypertarget{row:797}{eiginlegur} &  &  &  \\
 \hline
 803 & \hypertarget{row:803}{eiginleiki} &  &  &  \\
@@ -267,7 +269,11 @@ Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{d
 \hline
 2496 & \hypertarget{row:2496}{jafnhliða þríhyrningur} & \hyperlink{row:6438}{Þríhyrningur} með allar \hyperlink{row:2048}{hliðar} jafn \hyperlink{row:2860}{langar} &  &  \\
 \hline
-2518 & \hypertarget{row:2518}{jafnstæður} & \hyperlink{row:1078}{Fall} $f: X \to Y$ þar sem $X$ og $Y$ eru \hyperlink{row:2098}{hlutmengi} í \hyperlink{row:3270}{mengi} \hyperlink{row:4093}{rauntalna} kallast \textit{jafnstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = f(x)\] &  &  \\
+2518 & \hypertarget{row:2518}{jafnstæður} & \hyperlink{row:1078}{Fall} $f: X \to Y$ þar sem $X$ og $Y$ eru \hyperlink{row:2098}{hlutmengi} í \hyperlink{row:3270}{mengi} \hyperlink{row:4093}{rauntalna} kallast \textit{jafnstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = f(x)\] & \hyperlink{row:2955}{Graf} jafnstæðs falls fellur í sjálft sig við speglun um $y$-ásinn. Eftirfarandi mynd sýnir jafnstætt fall:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/jafnstaett_fall.png}
+\end{center} &  \\
 \hline
 2535 & \hypertarget{row:2535}{jákvæður, viðlægur} & \hyperlink{row:4093}{Rauntala} kallast \textit{jákvæð} ef hún er stærri en 0 &  & Vantar færslu fyrir samanburð á rauntölum (samanburður er til en e.t.v. of vítt hugtak) \\
 \hline
@@ -363,11 +369,21 @@ Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi
 \hline
 3417 & \hypertarget{row:3417}{myndmengi, mynd} & Fyrir \hyperlink{row:3282}{vörpun} $f: X \to Y$ kallast \hyperlink{row:3270}{mengi} allra \hyperlink{row:1090}{gilda} sem vörpunin tekur \textit{mynd} vörpunarinnar $f$. Hana má rita á forminu \[ f(X) = \{ f(x) \in Y \mid x \in X \}. \] &  & Tala um mynd hlutmengja í skilgreiningamenginu í skýringu \\
 \hline
-3475 & \hypertarget{row:3475}{náttúrleg tala} & \hyperlink{row:5128}{Stak} í \hyperlink{row:3270}{menginu} $\{0, 1, 2, \dots\}$ (stundum er \hyperlink{row:5397}{talan} \hyperlink{row:3549}{0} ekki tekin með) &  & Minnast á Peano frumsemdur í skýringu? \\
+3475 & \hypertarget{row:3475}{náttúrleg tala} & \hyperlink{row:5128}{Stak} í \hyperlink{row:3270}{menginu} $\{0, 1, 2, \dots\}$ (stundum er \hyperlink{row:5397}{talan} \hyperlink{row:3549}{0} ekki tekin með), táknað með $\mathbb{N}$ & Fyrsta tilraun til að skilgreina náttúrulegar tölur formlega var gerð af ítalska \hyperlink{row:5117}{stærðfræðingnum} Giuseppe Peano árið 1889. Hann setti fram eftirfarandi fimm \hyperlink{row:1452}{frumsendur}:
+
+\begin{enumerate}
+    \item \textit{Núll} er náttúruleg tala, táknuð með 0
+    \item Sérhver náttúruleg tala $n$ á sér \hyperlink{row:759}{eftirfara} sem er náttúruleg tala, táknað með $S(n)$
+    \item Núll er ekki eftirfari neinnar náttúrulegrar tölu, það er að segja $0 \neq S(n)$ fyrir neina náttúrulega tölu $n$
+    \item Ef eftirfarar tveggja náttúrulegra talna $n$ og $m$ eru jafnir, þá eru $n$ og $m$ jafnar, í táknmáli $S(n)=S(m)\implies n=m$
+    \item Ef mengi inniheldur núll og það að náttúruleg tala $n$ sé innihaldin í menginu hafi í för með sér að $S(n)$ sé einnig innihaldið í menginu, þá inniheldur mengið náttúrulegu tölurnar
+\end{enumerate}
+
+Seinasta frumsendan er kölluð \textit{þrepunarfrumsendan} en hún gerir okkur kleift að tala um eiginleika allra náttúrulegra talna (sem eru óendanlega margar) í endanlega mörgum skrefum. Ef $P : \mathbb{N} \to \{\bot,\top\}$ er \hyperlink{row:3800}{opin yrðing} og við skoðum mengið \[ X = \{ n \in \mathbb{N} \mid P(n)\} \] þá segir frumsendan að ef $P(0)$ sé \hyperlink{row:6659}{sönn} og $P(S(n))$ sé sönn að því gefnu að $P(n)$ sé sönn fyrir einhverja náttúrulega tölu $n$, þá er $X = \mathbb{N}$ og þar með gildir $P$ fyrir allar náttúrulegar tölur &  \\
 \hline
 3497 & \hypertarget{row:3497}{nefnari} & Sjá \hyperlink{row:234}{almennt brot} &  &  \\
 \hline
-3507 & \hypertarget{row:3507}{neitun} & Fyrir sérhverja \hyperlink{row:1515}{yrðingu} $p$ er $\neg p$ (lesið: „ekki $p$“) sú yrðing sem fæst með því að \textit{neita} yrðingunni $p$. Yrðingin $\neg p$ hefur þess vegna alltaf öfugt \hyperlink{row:4560}{sanngildi} við yrðinguna $p$ &  & Setja í skýringu: Þessari staðreynd má lýsa með eftirfarandi töflu, sem sýnir sanngildi $\neg p$ eftir ólíkum sanngildum $p$: (plús mynd) \\
+3507 & \hypertarget{row:3507}{neitun} & Fyrir sérhverja \hyperlink{row:1515}{yrðingu} $p$ er $\neg p$ (lesið: „ekki $p$“) sú yrðing sem fæst með því að \textit{neita} yrðingunni $p$. Yrðingin $\neg p$ hefur þess vegna alltaf öfugt \hyperlink{row:4560}{sanngildi} við yrðinguna $p$ & Þessari staðreynd má lýsa með eftirfarandi töflu, sem sýnir \hyperlink{row:4560}{sanngildi} $\neg p$ eftir ólíkum sanngildum $p$: & Búa til mynd \\
 \hline
 3517 & \hypertarget{row:3517}{niðurstaða, ályktun, lokaályktun} & Sjá \hyperlink{row:2836}{leiðing} &  &  \\
 \hline
@@ -377,13 +393,17 @@ Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi
 \hline
 3661 & \hypertarget{row:3661}{oddpunktur, topppunktur, broddur} & Sjá \hyperlink{row:2198}{horn} &  &  \\
 \hline
-3663 & \hypertarget{row:3663}{oddstæður} & \hyperlink{row:1078}{Fall} $f: X \to Y$ þar sem $X$ og $Y$ eru \hyperlink{row:2098}{hlutmengi} í \hyperlink{row:3270}{mengi} \hyperlink{row:4093}{rauntalna} kallast \textit{oddstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = - f(x). \] &  &  \\
+3663 & \hypertarget{row:3663}{oddstæður} & \hyperlink{row:1078}{Fall} $f: X \to Y$ þar sem $X$ og $Y$ eru \hyperlink{row:2098}{hlutmengi} í \hyperlink{row:3270}{mengi} \hyperlink{row:4093}{rauntalna} kallast \textit{oddstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = - f(x). \] & \hyperlink{row:2955}{Graf} oddstæðs falls fellur í sjálft sig þegar því er speglað um $y$-ásinn og spegilmyndinni síðan speglað um $x$-ásinn. Þetta má einnig orða svo að graf oddstæðs falls falli í sjálft sig ef því er snúið um hálfhring. Eftirfarandi mynd sýnir oddstætt fall:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/oddstaett_fall.png}
+\end{center} &  \\
 \hline
-3744 & \hypertarget{row:3744}{ogun} & Fyrir sérhverjar \hyperlink{row:1515}{yrðingar} $p$ og $q$ er $p \wedge q$ (lesið: „$p$ \textit{og} $q$“) sú yrðing sem segir að $p$ og $q$ séu báðar \hyperlink{row:4565}{sannar}. Yrðingin $p \wedge q$ er þess vegna sönn þegar yrðingarnar $p$ og $q$ eru báðar sannar, en annars er hún \hyperlink{row:3890}{ósönn} & Þessu má lýsa með eftirfarandi töflu, sem sýnir sanngildi yrðingarinnar $p \wedge q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar: 
+3744 & \hypertarget{row:3744}{ogun} & Fyrir sérhverjar \hyperlink{row:1515}{yrðingar} $p$ og $q$ er $p \wedge q$ (lesið: „$p$ \textit{og} $q$“) sú yrðing sem segir að $p$ og $q$ séu báðar \hyperlink{row:4565}{sannar}. Yrðingin $p \wedge q$ er þess vegna sönn þegar yrðingarnar $p$ og $q$ eru báðar sannar, en annars er hún \hyperlink{row:3890}{ósönn} & Þessu má lýsa með eftirfarandi töflu, sem sýnir \hyperlink{row:4560}{sanngildi} yrðingarinnar $p \wedge q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar: 
 
 \begin{center}
 \includegraphics[width=150px]{myndir/ogun.png}
-\end{center} &  \\
+\end{center} & Búa til mynd í betri gæðum \\
 \hline
 3793 & \hypertarget{row:3793}{opið bil} & \hyperlink{row:457}{Bil} sem inniheldur ekki endapunkta sína & Eftirfarandi er mynd af opnu bili:
 
