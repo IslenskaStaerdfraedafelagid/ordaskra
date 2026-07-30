@@ -6521,13 +6521,24 @@ Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{d
 \hline
 3279 & mengjamargfeldi, faldmengi, Kartesarmargfeldi, karteskt margfeldi & \textit{Faldmengi} tveggja <ref idTerm=3270>mengja</ref> $X$ og $Y$, táknað $X \times Y$, er mengi <ref idTerm=5627>para</ref> $(x,y)$ þannig að $x \in X$ og $y \in Y$ &  & Koma með almenna skilgreiningu líka í leiðinni eða setja hana í skýringu? Síðan þarf kannski að minnast á það að það er farið svolítið losaralega að stundum með faldmengi og litið á $(X \times Y) \times Z$ sem $X \times Y \times Z$ \\
 \hline
-3280 & mengjamunur, mengjamismunur & \textit{Mengjamunur} tveggja <ref idTerm=3270>mengja</ref> $A$ og $B$ er mengi þeirra <ref idTerm=5128>staka</ref> sem eru í $A$ en ekki í $B$. Þetta mengi er táknað með $A \setminus B$ (lesið: $A$ án $B$) og það má rita á forminu \[ A \setminus B = \{x \in A \mid x \notin B\}. \] &  & Setja í skýringu: Óformlega má segja að mengjamunurinn $A \setminus B$ sé sá hluti mengisins $A$ sem er utan mengisins $B$ og á Venn-myndinni hér að neðan er hann litaður rauður. (ásamt mynd)
+3280 & mengjamunur, mengjamismunur & \textit{Mengjamunur} tveggja <ref idTerm=3270>mengja</ref> $A$ og $B$ er mengi þeirra <ref idTerm=5128>staka</ref> sem eru í $A$ en ekki í $B$. Þetta mengi er táknað með $A \setminus B$ (lesið: $A$ án $B$) og það má rita á forminu \[ A \setminus B = \{x \in A \mid x \notin B\}. \] & Óformlega má segja að mengjamunurinn $A \setminus B$ sé sá hluti mengisins $A$ sem er utan mengisins $B$ og á <ref idTerm=6050>Venn-myndinni</ref> hér að neðan er hann litaður rauður:
 
-Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi $A$ og fyllimengis $B$, þ.e. \[ A \setminus B = A \cap B^c. \] Jafnframt gildir fyrir öll mengi $A$ að $A \setminus \varnothing = A$ og $A \setminus A = \varnothing$. \\
+\begin{center}
+\includegraphics[width=150px]{myndir/mengjamunur.png}
+\end{center}
+
+Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem <ref idTerm=4928>sniðmengi</ref> $A$ og <ref idTerm=1553>fyllimengis</ref> $B$, þ.e. \[ A \setminus B = A \cap B^c. \] Jafnframt gildir fyrir öll mengi $A$ að $A \setminus \varnothing = A$ og $A \setminus A = \varnothing$ & \\
 \hline
 3281 & mengjaríki &  &  &  \\
 \hline
-3282 & vörpun & \textit{Vörpun} $f: X \to Y$ frá <ref idTerm=3270>mengi</ref> $X$ yfir í mengið $Y$ er forskrift eða regla sem úthlutar sérhverju <ref idTerm=5128>staki</ref> úr $X$ nákvæmlega einu staki úr $Y$. Mengið $X$ kallast \textit{skilgreiningarmengi} vörpunarinnar og mengið $Y$ kallast \textit{bakmengi} hennar &  & Líka taka fram að ef bakmengið er $\mathbb{R}$ eða $\mathbb{C}$ er talað um fall frekar en vörpun? \\
+3282 & vörpun & \textit{Vörpun} $f: X \to Y$ frá <ref idTerm=3270>mengi</ref> $X$ yfir í mengið $Y$ er forskrift eða regla sem úthlutar sérhverju <ref idTerm=5128>staki</ref> úr $X$ nákvæmlega einu staki úr $Y$. Mengið $X$ kallast \textit{skilgreiningarmengi} vörpunarinnar og mengið $Y$ kallast \textit{bakmengi} hennar & Í <ref idTerm=3275>mengjafræði</ref> er vörpun $f : X \to Y$ skilgreind sem <ref idTerm=6051>vensl</ref> sem uppfylla eftirfarandi tvö <ref idTerm=4797>skilyrði</ref>:
+
+\begin{enumerate}
+    \item Sérhvert stak $x \in X$ er <ref idTerm=0>venslað við</ref> eitthvert stak $y \in Y$
+    \item Ef $x \in X$ er venslað við $y \in Y$ og $x$ er einnig venslað við $z \in Y$, þá gildir $y = z$ 
+\end{enumerate}
+
+Fyrra skilyrðið tryggir að vörpunin sé skilgreind á öllu <ref idTerm=1343>formengi</ref> sínu og seinna skilyrðið tryggir það að vörpunin taki ekki mörg gildi í einum <ref idTerm=4001>punkti</ref> & \\
 \hline
 3283 & merkingafræði &  &  &  \\
 \hline
@@ -6667,7 +6678,11 @@ Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi
 \hline
 3352 & minnsta frávik &  &  &  \\
 \hline
-3353 & minnsta samfeldi, minnsta sameiginlega margfeldi & <ref idTerm=3347>Minnsta</ref> <ref idTerm=3475>náttúrulega talan</ref> sem tvær <ref idTerm=1896>heiltölur</ref> $n$ og $m$ <ref idTerm=1599>ganga upp í</ref> kallast \textit{minnsta} <ref idTerm=4343>\textit{samfeldi}</ref> $n$ og $m$ &  & Táknað með $\text{msf}(n,m)$ á íslensku? Held að flestir myndu frekar þekkja $\text{lcm}(n,m)$ \\
+3353 & minnsta samfeldi, minnsta sameiginlega margfeldi & <ref idTerm=3347>Minnsta</ref> <ref idTerm=3475>náttúrulega talan</ref> sem tvær <ref idTerm=1896>heiltölur</ref> $n$ og $m$ <ref idTerm=1599>ganga upp í</ref> kallast \textit{minnsta} <ref idTerm=4343>\textit{samfeldi}</ref> $n$ og $m$ og er táknað með $\text{lcm}(n,m)$ & Til þess að finna minnsta samfeldi talna $n$ og $m$ er byrjað á að <ref idTerm=5824>frumþátta</ref> þær. Ef $p_{1},\ldots,p_{k}$ eru allir þeir frumþættir sem tilheyra að minnsta kosti annarri tölunni $n$ eða $m$, og $a_{1},\ldots,a_{k}$ og $b_{1},\ldots,b_{k}$ eru margfeldni þeirra í $n$ og $m$, þá er minnsta samfeldi þeirra:
+
+\[ \text{lcm}(n,m) = {p_{1}}^{c_{1}} \cdot {p_{2}}^{c_{2}} \cdot \ldots \cdot {p_{k-1}}^{c_{k-1}} \cdot {p_{k}}^{c_{k}} \] 
+
+þar sem $c_{i}=\max\{a_{i}, b_{i}\}$ &  \\
 \hline
 3354 & minnsta stig, lágstig &  &  &  \\
 \hline
@@ -6757,7 +6772,7 @@ Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi
 \hline
 3397 & mótlæg horn &  &  &  \\
 \hline
-3398 & mótlægt horn &  &  &  \\
+3398 & mótlægt horn & Sjá <ref idTerm=5568>gagnstæð horn</ref> &  &  \\
 \hline
 3399 & mótlægur hliðarflötur, öndverður hliðarflötur &  &  &  \\
 \hline
@@ -6795,7 +6810,31 @@ Fyrir öll mengi $A$ og $B$ má rita mengjamuninn $A \setminus B$ sem sniðmengi
 \hline
 3416 & mynda, setja upp &  &  &  \\
 \hline
-3417 & myndmengi, mynd & Fyrir <ref idTerm=3282>vörpun</ref> $f: X \to Y$ kallast <ref idTerm=3270>mengi</ref> allra <ref idTerm=1090>gilda</ref> sem vörpunin tekur \textit{mynd} vörpunarinnar $f$. Hana má rita á forminu \[ f(X) = \{ f(x) \in Y \mid x \in X \}. \] &  & Tala um mynd hlutmengja í skilgreiningamenginu í skýringu \\
+3417 & myndmengi, mynd & Fyrir <ref idTerm=3282>vörpun</ref> $f: X \to Y$ kallast <ref idTerm=3270>mengi</ref> allra <ref idTerm=1090>gilda</ref> sem vörpunin tekur \textit{mynd} vörpunarinnar $f$. Hana má rita á forminu \[ f(X) = \{ f(x) \in Y \mid x \in X \}. \] & Myndina $f(X)$ má einnig skilgreina sem mengi allra $y \in Y$ þannig að <ref idTerm=2478>jafnan</ref> $y = f(x)$ hafi lausn úr $X$ og þannig má rita hana á forminu \[ f(X) = \{y \in Y \mid \text{til er}\; x \in X \;\text{þ.a.}\; y = f(x)\}. \] <ref idTerm=6050>Venn-myndin</ref> að neðan sýnir vörpunina $f: X \to Y$ og mynd hennar $f(X)$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/myndmengi.png}
+\end{center}
+
+Myndin $f(X)$ er alltaf <ref idTerm=2098>hlutmengi</ref> í bakmenginu $Y$, en eins og Venn-myndin sýnir þurfa þau ekki að vera <ref idTerm=2474>jöfn</ref>, þ.e. til geta verið <ref idTerm=5128>stök</ref> í bakmenginu sem eru ekki í myndinni. Með sama móti má tala um mynd vörpunar af hlutmengi í skilgreiningarmenginu. Ef $A \subseteq X$ þá kallast mengi allra gilda sem $f$ tekur á menginu $A$ (táknað með $f(A)$) mynd vörpunarinnar $f$ af menginu $A$. Hana má rita á forminu \[ f(A) = \{f(x) \in Y \mid x \in A\}. \] Venn-myndin að neðan sýnir vörpunina $f: X \to Y$, hlutmengið $A$ í $X$ og mynd þess $f(A)$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/myndhlutmengi.png}
+\end{center}
+
+Myndir af <ref idTerm=4464>sammengjum</ref> og <ref idTerm=4928>sniðmengjum</ref> fullnægja eftirfarandi <ref idTerm=4150>reiknireglum</ref>, sem segja að fyrir sérhver hlutmengi $A_1$ og $A_2$ í $X$ gildi:
+
+\begin{enumerate}
+    \item $f(A_1 \cup A_2) = f(A_1) \cup f(A_2)$
+    \item $f(A_1 \cap A_2) \subseteq f(A_1) \cap f(A_2)$
+\end{enumerate}
+
+Ef $A$ er hlutmengi í $X$ og $B$ er hlutmengi í $Y$ fást jafnframt eftirfarandi reiknireglur um samspil mynda og <ref idTerm=1366>frummynda</ref>:
+
+\begin{enumerate}
+    \item $A \subseteq f^{-1}(f(A))$
+    \item $f(f^{-1}(B)) \subseteq B$
+\end{enumerate} & \\
 \hline
 3418 & myndmengi, seiling &  &  &  \\
 \hline
@@ -11135,7 +11174,7 @@ Strikið $AB$ er strengur í hringnum og strikið $CD$ er miðstrengur & Laga ba
 \hline
 5567 & topphorn &  &  &  \\
 \hline
-5568 & topphorn, gagnstæð horn & <ref idTerm=3400>Gagnstæðar</ref> <ref idTerm=1840>hálflínur</ref> við <ref idTerm=334>arma</ref> <ref idTerm=2198>horns</ref> mynda <ref idTerm=3398>mótlægt horn</ref> upphaflega hornsins og sagt er að þessi tvö horn séu \textit{gagnstæð horn} & Eftirfarandi er mynd sem sýnir gagnstæð horn:
+5568 & topphorn, gagnstæð horn & <ref idTerm=2198>Hornið</ref> sem <ref idTerm=3400>gagnstæðar</ref> <ref idTerm=1840>hálflínur</ref> við <ref idTerm=334>arma</ref> <ref idTerm=2198>horns</ref> mynda kallast \textit{mótlægt horn} upphaflega hornsins og sagt er að þessi tvö horn séu \textit{gagnstæð horn} & Eftirfarandi er mynd sem sýnir gagnstæð horn:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/gagnstaed_horn.png}
