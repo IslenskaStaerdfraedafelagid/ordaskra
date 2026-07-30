@@ -5897,13 +5897,26 @@ Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{d
 \hline
 2954 & linur &  &  &  \\
 \hline
-2955 & graf, línurit, fallrit, varprit, ferill (falls) & Fyrir <ref idTerm=3282>vörpun</ref> $f: X \to Y$ kallast <ref idTerm=3270>mengi</ref> allra <ref idTerm=5627>tvennda</ref> af gerðinni $(x,f(x))$, þar sem $x \in X$ \textit{graf} vörpunarinnar $f$ og er táknað með \[ G_f = \{(x,f(x)) \mid x \in X\} \] &  & Vantar þýðinguna "graf" Tala um gröf falla frekar? Láta fylgja myndir af gröfum algengra falla í skýringu \\
+2955 & graf, línurit, fallrit, varprit, ferill (falls) & Fyrir <ref idTerm=3282>vörpun</ref> $f: X \to Y$ kallast <ref idTerm=3270>mengi</ref> allra <ref idTerm=5627>tvennda</ref> af gerðinni $(x,f(x))$, þar sem $x \in X$ \textit{graf} vörpunarinnar $f$ og er táknað með \[ G_f = \{(x,f(x)) \mid x \in X\} \] & Graf falls $f: X \to Y$, þar sem $X$ og $Y$ eru hlutmengi í mengi rauntalna, má teikna í tvívítt hnitakerfi með því að merkja inn alla punkta sem hafa hnit $(x,f(x))$. Þá er venja að merkja grafið með jöfnunni $y = f(x)$, því hún lýsir hvernig $y$-hnit punktanna á grafinu fást út frá $x$-hnitum þeirra. Skoðum sem dæmi fallið $f: \mathbb{R} \to \mathbb{R}$; $f(x) = x^2$. Graf þess er mengið sem samanstendur af öllum tvenndum af gerðinni $(x,f(x)) = (x,x^2)$ þar sem $x \in \mathbb{R}$, þ.e. \[ G_f = \{(x,x^2) \mid x \in \mathbb{R}\}. \] Eins og lýst er að ofan má teikna grafið í hnitakerfi með því að merkja inn alla punkta sem hafa hnit $(x,x^2)$. Nokkur dæmi um punkta af þessari gerð eru $(-3,9)$, $(-2,4)$, $(-1,1)$, $(0,0)$, $(1,1)$, $(2,4)$ og $(3,9)$. Á myndinni að neðan hefur graf $f$ verið teiknað í hnitakerfi með rauðum lit og eru punktarnir sjö að framan blálitaðir. Grafið er síðan merkt með jöfnunni $y = x^2$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/graf.png}
+\end{center} 
+
+Eftirfarandi eru fleiri dæmi um gröf algengra falla: 
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=150px]{myndir/graf_samsemdarvorpun.png}
+\end{center}
+\caption{Samsemdarvörpunin $f(x) = x$, $x \in \mathbb{R}$}
+\end{figure} & Laga bakgrunnslit \\
 \hline
 2956 & línustallagerð, línuþrepagerð, línuþrepaskipan &  &  &  \\
 \hline
 2957 & línustétt &  &  &  \\
 \hline
-2958 & línustrik, strik & Sá <ref idTerm=2089>hluti</ref> <ref idTerm=2911>línu</ref> sem liggur milli tveggja <ref idTerm=4001>punkta</ref> sem kallast \textit{endapunktar} línustriksins &  & Skilgreina endapunkt hér \\
+2958 & línustrik, strik & Sá <ref idTerm=2089>hluti</ref> <ref idTerm=2911>línu</ref> sem liggur milli tveggja <ref idTerm=4001>punkta</ref> sem kallast \textit{endapunktar} línustriksins &  & Finna mynd \\
 \hline
 2959 & línusumma, línusamtala &  &  &  \\
 \hline
@@ -6089,7 +6102,7 @@ Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{d
 \hline
 3048 & lotubundinn, umferðar- &  &  &  \\
 \hline
-3049 & lotufall, lotubundið fall & <ref idTerm=1078>Fall</ref> $f: \mathbb{R} \to \mathbb{R}$ er sagt vera \textit{lotubundið} ef til er <ref idTerm=4093>rauntala</ref> $p > 0$ þannig að fyrir öll $x \in \mathbb{R}$ gildi: \[ f(x + p) = f(x). \] Talan $p$ kallast þá \textit{lota} fallsins &  & Þarf skilgreiningarmengið að vera allt $\mathbb{R}$? \\
+3049 & lotufall, lotubundið fall & <ref idTerm=1078>Fall</ref> $f: \mathbb{R} \to \mathbb{R}$ er sagt vera \textit{lotubundið} ef til er <ref idTerm=4093>rauntala</ref> $p > 0$ þannig að fyrir öll $x \in \mathbb{R}$ gildi: \[ f(x + p) = f(x). \] Talan $p$ kallast þá \textit{lota} fallsins & <ref idTerm=5673>Tvinngild föll</ref> geta verið lotubundin meðfram <ref idTerm=5416>raunásnum</ref> annars vegar eða <ref idTerm=6473>þverásnum</ref> hins vegar. Ef fall er lotubundið meðfram báðum ásum kallast það \textit{tvílotubundið} & Þarf skilgreiningarmengið að vera allt $\mathbb{R}$? \\
 \hline
 3050 & lotugrind &  &  &  \\
 \hline
@@ -6135,7 +6148,7 @@ Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{d
 \hline
 3071 & mælanleiki &  &  &  \\
 \hline
-3072 & mælieining & \textit{Mælieining} er ákveðið <ref idTerm=3081>magn</ref> tiltekinnar <ref idTerm=5102>stærðar</ref> sem er notað sem viðmið við mælingu slíkra stærða & Mælieiningar eru oft staðlaðar en til að mynda heldur & Þarf að bæta við að allar mælingar eru þá margfeldi einingarinnar eða setja það í skýringu eða segir það sig kannski sjálft? \\
+3072 & mælieining & \textit{Mælieining} er ákveðið <ref idTerm=3081>magn</ref> tiltekinnar <ref idTerm=5102>stærðar</ref> sem er notað sem viðmið við mælingu slíkra stærða & Mælieiningar eru oft staðlaðar en til að mynda heldur \textit{Bureau international des poids et mesures} (BIPM) utan um SI-einingakerfið sem er mikið notað í vísindum. & Þarf að bæta við að allar mælingar eru þá margfeldi einingarinnar eða setja það í skýringu eða segir það sig kannski sjálft? - Koma með dæmi um mælieiningar \\
 \hline
 3073 & mælingarskekkja &  &  &  \\
 \hline
@@ -6257,7 +6270,7 @@ Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{d
 \hline
 3132 & margflötungstala &  &  &  \\
 \hline
-3133 & margflötungur, flötungur & <ref idTerm=6532>Rúmmynd</ref> sem samanstendur af <ref idTerm=1009>endanlega</ref> mörgum <ref idTerm=3161>marghyrningum</ref> sem kallast \textit{hliðar} margflötungsins & Hugtakið margflötungur er oft notað til að vísa í <ref idTerm=832>einfalda margflötunga</ref> en almennt mega hliðar margflötungs skera hvor aðra eða sig sjálfar &  \\
+3133 & margflötungur, flötungur &  & & ``<ref idTerm=6532>Rúmmynd</ref> sem samanstendur af <ref idTerm=1009>endanlega</ref> mörgum <ref idTerm=3161>marghyrningum</ref> sem kallast \textit{hliðar} margflötungsins'' Þarf aðeins að endurhugsa skilgreininguna \\
 \hline
 3141 & margföldun &  &  &  \\
 \hline
@@ -6285,7 +6298,7 @@ Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{d
 \hline
 3160 & marghyrningstala &  &  &  \\
 \hline
-3161 & marghyrningur, hyrningur & <ref idTerm=4891>Flatarmynd</ref> sem samanstendur af <ref idTerm=1009>endanlega</ref> mörgum <ref idTerm=2958>línustrikum</ref> sem kallast \textit{hliðar} marghyrningsins & Hugtakið marghyrningur er oft notað til að vísa í <ref idTerm=832>einfalda marghyrninga</ref> en almennt mega hliðar marghyrnings skera hvor aðra & \\
+3161 & marghyrningur, hyrningur & <ref idTerm=4891>Flatarmynd</ref> sem samanstendur af <ref idTerm=1009>endanlega</ref> mörgum <ref idTerm=2958>línustrikum</ref> (sem kallast \textit{hliðar} marghyrningsins) þannig að sérhvert línustrik deili endapunkti með nákvæmlega einu öðru línustriki & Hugtakið marghyrningur er oft notað til að vísa í <ref idTerm=832>einfalda marghyrninga</ref> en almennt mega hliðar marghyrnings skera hvor aðra & \\
 \hline
 3162 & margkynjuð tala &  &  &  \\
 \hline
@@ -7331,7 +7344,7 @@ Seinasta frumsendan er kölluð \textit{þrepunarfrumsendan} en hún gerir okkur
 \hline
 3662 & oddstæðni, oddleiki, hvassleiki &  &  &  \\
 \hline
-3663 & oddstæður & <ref idTerm=1078>Fall</ref> $f: X \to Y$ þar sem $X$ og $Y$ eru <ref idTerm=2098>hlutmengi</ref> í <ref idTerm=3270>mengi</ref> <ref idTerm=4093>rauntalna</ref> kallast \textit{oddstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = - f(x). \] & <ref idTerm=2955>Graf</ref> oddstæðs falls fellur í sjálft sig þegar því er speglað um $y$-ásinn og spegilmyndinni síðan speglað um $x$-ásinn. Þetta má einnig orða svo að graf oddstæðs falls falli í sjálft sig ef því er snúið um hálfhring. Eftirfarandi mynd sýnir oddstætt fall:
+3663 & oddstæður & <ref idTerm=1078>Fall</ref> $f: X \to Y$ þar sem $X$ og $Y$ eru <ref idTerm=2098>hlutmengi</ref> í <ref idTerm=3270>mengi</ref> <ref idTerm=4093>rauntalna</ref> kallast \textit{oddstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = - f(x). \] & <ref idTerm=2955>Graf</ref> oddstæðs falls fellur í sjálft sig þegar því er speglað um <ref idTerm=6253>$y$-ásinn</ref> og spegilmyndinni síðan speglað um <ref idTerm=6252>$x$-ásinn</ref>. Þetta má einnig orða svo að graf oddstæðs falls falli í sjálft sig ef því er snúið um hálfhring. Eftirfarandi mynd sýnir oddstætt fall:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/oddstaett_fall.png}
@@ -11382,7 +11395,7 @@ Rauðu hálflínurnar eru mótlægar við bláu hálflínurnar og rauða hornið
 \hline
 5668 & tvílitun &  &  &  \\
 \hline
-5669 & tvílotubundinn, tvílotulegur &  &  &  \\
+5669 & tvílotubundinn, tvílotulegur & Sjá skýringu við <ref idTerm=3049>lotubundið fall</ref> &  & Finna mynd? \\
 \hline
 5670 & tvílotuleiki &  &  &  \\
 \hline
