@@ -56,13 +56,13 @@
 \hline
 759 & \hypertarget{row:759}{eftirfari} &  &  &  \\
 \hline
-797 & \hypertarget{row:797}{eiginlegur} &  &  &  \\
-\hline
 803 & \hypertarget{row:803}{eiginleiki} &  &  &  \\
 \hline
 832 & \hypertarget{row:832}{einfaldur marghyrningur} &  &  &  \\
 \hline
 866 & \hypertarget{row:866}{einhalla fall} & \hyperlink{row:1078}{Fall} $f: X \to Y$ þar sem $X$ og $Y$ eru \hyperlink{row:2098}{hlutmengi} í \hyperlink{row:3270}{mengi} \hyperlink{row:4093}{rauntalna} er sagt vera \textit{einhalla} ef það er \hyperlink{row:0}{vaxandi} eða \hyperlink{row:0}{minnkandi} &  &  \\
+\hline
+887 & \hypertarget{row:887}{einingarhringur} &  &  &  \\
 \hline
 897 & \hypertarget{row:897}{einliða} & \hyperlink{row:1948}{Margliða} sem hefur aðeins einn lið &  &  \\
 \hline
@@ -137,46 +137,97 @@
 \hline
 1343 & \hypertarget{row:1343}{formengi, frámengi, skilgreiningarmengi, óðal} & Sjá \hyperlink{row:3282}{vörpun} &  &  \\
 \hline
-1366 & \hypertarget{row:1366}{formynd, frummynd, öfug mynd} & Fyrir \hyperlink{row:3282}{vörpun} $f: X \to Y$ kallast \hyperlink{row:3270}{mengi} þeirra \hyperlink{row:5128}{staka} úr $X$ sem $f$ varpar í stak úr hlutmengi $B$ í $Y$ \textit{frummynd} vörpunarinnar $f$ af menginu $B$. Hana má rita á forminu \[ f^{-1}(B) = \{x \in X \mid f(x) \in B\}. \] &  &  \\
+1366 & \hypertarget{row:1366}{formynd, frummynd, öfug mynd} & Fyrir \hyperlink{row:3282}{vörpun} $f: X \to Y$ kallast \hyperlink{row:3270}{mengi} þeirra \hyperlink{row:5128}{staka} úr $X$ sem $f$ varpar í stak úr \hyperlink{row:2098}{hlutmengi} $B$ í $Y$ \textit{frummynd} vörpunarinnar $f$ af menginu $B$. Hana má rita á forminu \[ f^{-1}(B) = \{x \in X \mid f(x) \in B\}. \] & Fyrir sérhvert $y \in B$ eru þau stök úr $X$ sem $f$ varpar í $y$ lausnir \hyperlink{row:2478}{jöfnunnar} $f(x) = y$. Frummyndina $f^{-1}(B)$ má því einnig skilgreina sem mengi allra lausna jöfnunnar $f(x) = y$ fyrir sérhvert $y \in B$ og þannig má rita hana á forminu \[ f^{-1}(B) = \{x \in X \mid \text{til er}\; y \in B \;\text{þ.a.}\; f(x) = y\}. \] \hyperlink{row:6050}{Venn-myndin} að neðan sýnir vörpunina $f: X \to Y$, hlutmengið $B$ í $Y$ og frummynd þess $f^{-1}(B)$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/frummynd.png}
+\end{center}
+
+Frummyndir af \hyperlink{row:4464}{sammengjum}, \hyperlink{row:4928}{sniðmengjum} og \hyperlink{row:1553}{fyllimengjum} fullnægja eftirfarandi \hyperlink{row:4150}{reiknireglum}, sem segja að fyrir sérhver hlutmengi $B_1$ og $B_2$ í $Y$ gildi:
+
+\begin{enumerate}
+    \item $f^{-1}(B_1 \cup B_2) = f^{-1}(B_1) \cup f^{-1}(B_2)$.
+    \item $f^{-1}(B_1 \cap B_2) = f^{-1}(B_1) \cap f^{-1}(B_2)$.
+    \item $f^{-1}(B_1^c) = (f^{-1}(B_1))^c$.
+\end{enumerate}
+
+Ef $A$ er hlutmengi í $X$ og $B$ er hlutmengi í $Y$ fást jafnframt eftirfarandi reiknireglur um samspil \hyperlink{row:3417}{mynda} og frummynda:
+
+\begin{enumerate}
+    \item $A \subseteq f^{-1}(f(A))$.
+    \item $f(f^{-1}(B)) \subseteq B$.
+\end{enumerate} &  \\
 \hline
 1389 & \hypertarget{row:1389}{fótpunktur} &  &  &  \\
 \hline
-1403 & \hypertarget{row:1403}{frændhorn} & Tvö \hyperlink{row:2198}{horn} sem samanlagt \hyperlink{row:2223}{mælast} 180 \hyperlink{row:1667}{gráður} &  & Skýrari skilgreining en sú á stæ.is?: "Ef hægt er að flytja horn þannig að það verði grannhorn annars horns, þá er sagt að hornin séu frændhorn." \\
+1403 & \hypertarget{row:1403}{frændhorn} & Tvö \hyperlink{row:2198}{horn} sem samanlagt \hyperlink{row:2223}{mælast} 180 \hyperlink{row:1667}{gráður} & Á eftirfarandi mynd eru $\angle BOA$ og $\angle DPC$ frændhorn:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/fraendhorn.png}
+\end{center} &  \\
 \hline
 1416 & \hypertarget{row:1416}{framsetning} &  &  &  \\
 \hline
-1452 & \hypertarget{row:1452}{frumsenda, frumsetning} & \hyperlink{row:1515}{Yrðing} sem lögð er til grundvallar en ekki er ætlast til að sé sönnuð &  & Tala um afleiðslukerfi í skýringu \\
+1452 & \hypertarget{row:1452}{frumsenda, frumsetning} & \hyperlink{row:1515}{Yrðing} sem lögð er til grundvallar en ekki er ætlast til að sé sönnuð & Í fyrstu gæti virst vafasamt að gefa sér að eitthvað sé \hyperlink{row:6659}{satt} í staðinn fyrir að \hyperlink{row:4554}{sanna} það enda eru \hyperlink{row:4964}{sannanir} aðalverkfæri \hyperlink{row:5117}{stærðfræðinga} til þess að sannfæra sjálfa sig og aðra um að staðhæfingar séu réttar. Því miður er ekki hægt að komast hjá því en það væri eins og að keyra bíl án eldsneytis. Svokölluðu \textit{afleiðslukerfin} sem stærðfræðingar nota er einungis hægt að nota til þess að álykta nýjar staðreyndir út frá staðreyndum sem er nú þegar búið að sanna. Þess vegna þurfa fyrst að vera til staðreyndir sem er ákveðið að séu sannar. Það er ákveðin hætta að frumsendurnar séu innbyrðis \hyperlink{row:3401}{mótsagnakenndar} eða að þær endurspegli ekki innsæi okkar varðandi það sem ætti að vera satt & Ég held að það þurfi að koma með eitthvað dæmi um seinustu setninguna út af hún er ef til vill mjög villandi eins og er \\
 \hline
-1468 & \hypertarget{row:1468}{frumtala, prímtala} & \hyperlink{row:3475}{Náttúruleg tala} $p > 1$ kallast \textit{frumtala} ef einu náttúrulegu tölurnar sem \hyperlink{row:1599}{ganga upp í} henni eru \hyperlink{row:5397}{talan} $1$ og talan $p$ &  &  \\
+1468 & \hypertarget{row:1468}{frumtala, prímtala} & \hyperlink{row:3475}{Náttúruleg tala} $p > 1$ kallast \textit{frumtala} ef einu náttúrulegu tölurnar sem \hyperlink{row:1599}{ganga upp í} henni eru \hyperlink{row:5397}{talan} $1$ og talan $p$ & Þessi skilgreining jafngildir því að segja að talan $p$ sé frumtala ef fyrir sérhverjar náttúrulegar tölur $a$ og $b$ þannig að $p$ \hyperlink{row:1599}{gengur upp í} $a \cdot b$ þá gengur $p$ líka upp í a.m.k. annarri þeirra.
+
+Ljóst er að fyrsta frumtalan er $2$ og almennt er hægt að ákvarða hvort gefin náttúruleg tala $n$ sé frumtala með því að prófa að \hyperlink{row:686}{deila} öllum frumtölum frá $2$ til $\sqrt{n}$ upp í $n$. Ef alltaf fæst afgangur þá er talan frumtala.
+
+Allar frumtölur minni en 100 eru eftirfarandi: $2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97$ &  \\
 \hline
 1475 & \hypertarget{row:1475}{frumþáttur} & Sjá \hyperlink{row:5824}{undirstöðusetningu reikningslistarinnar} &  &  \\
 \hline
-1515 & \hypertarget{row:1515}{fullyrðing, yrðing} & \hyperlink{row:5072}{Staðhæfing} sem er annaðhvort \hyperlink{row:4565}{sönn} eða \hyperlink{row:3890}{ósönn} &  &  \\
+1515 & \hypertarget{row:1515}{fullyrðing, yrðing} & \hyperlink{row:5072}{Staðhæfing} sem er annaðhvort \hyperlink{row:4565}{sönn} eða \hyperlink{row:3890}{ósönn} & Yrðingar eru yfirleitt táknaðar með litlum bókstöfum eins og $p$, $q$, $r$ og svo framvegis &  \\
 \hline
-1553 & \hypertarget{row:1553}{fyllimengi} & \hyperlink{row:3280}{Mengjamunur} á forminu $G \setminus A$ þar sem $A \subseteq G$ kallast \textit{fyllimengi} $A$ í $G$. Ef enginn vafi leikur á hvert mengið $G$ sé og við höfum ekki áhuga á því sem er utan $G$ (sem kallast þá \textit{grunnmengi}) köllum við þennan mengjamun einfaldlega fyllimengi $A$ og taknum hann með $A^c$ &  & Koma fyrir í skýringu: Oft er það svo að öll mengi, sem verið er að skoða í einhverju sambandi, eru hlutmengi af einu og sama menginu $G$. Þá getur verið gagnlegt að líta svo á að mengið $G$ innihaldi allt sem við höfum áhuga á að fjalla um og að það sem sé utan $G$ varði okkur engu. Þegar svo er gert er mengið $G$ stundum kallað grunnmengi.
+1553 & \hypertarget{row:1553}{fyllimengi} & \hyperlink{row:3280}{Mengjamunur} á forminu $G \setminus A$ þar sem $A \subseteq G$ kallast \textit{fyllimengi} $A$ í $G$. Ef enginn vafi leikur á hvert mengið $G$ sé og við höfum ekki áhuga á því sem er utan $G$ (sem kallast þá \textit{grunnmengi}) köllum við þennan mengjamun einfaldlega fyllimengi $A$ og taknum hann með $A^c$ & Ýmis önnur tákn þekkjast fyrir fyllimengi $A$; til dæmis $\overline{A}$, $A’$ og $\mathbf{C}A$. Við höfum sem sagt: \[ A^c = G \setminus A. \] Óformlega má segja að fyllimengið $A^c$ sé sá hluti grunnmengisins sem liggur utan mengisins $A$. Á \hyperlink{row:6050}{Venn-myndum} er venja að tákna grunnmengið með \hyperlink{row:4175}{rétthyrningi}og á myndinni að neðan er fyllimengið $A^c$ litað rautt:
 
-Við þessar aðstæður þarf oft að fjalla um mengjamun af taginu $G \setminus A$, þar sem $A$ er hlutmengi í $G$. Ef enginn vafi leikur á hvert mengið $G$ sé, þá er þessi mengjamunur kallaður fyllimengi mengisins $A$ og hann er táknaður með $A^c$. Ýmis önnur tákn þekkjast fyrir fyllimengi $A$; til dæmis $\overline{A}$, $A’$ og $\mathbf{C}A$. Við höfum sem sagt: \[ A^c = G \setminus A. \] Óformlega má segja að fyllimengið $A^c$ sé sá hluti grunnmengisins sem liggur utan mengisins $A$. Á Venn-myndum er venja að tákna grunnmengið með rétthyrningi og á myndinni að neðan er fyllimengið $A^c$ litað rautt. (ásamt mynd)
+\begin{center}
+\includegraphics[width=150px]{myndir/fyllimengi.png}
+\end{center}
 
-Um fyllimengi sam- og sniðmengja gilda reglur De Morgans, sem segja að fyrir sérhver tvö mengi $A$ og $B$ gildi: \[ (A \cup B)^c = A^c \cap B^c \quad \text{og} \quad (A \cap B)^c = A^c \cup B^c. \] Jafnframt gilda eftirfarandi reglur fyrir mengin $A$ og $B$:
+Um fyllimengi \hyperlink{row:4464}{sam-} og \hyperlink{row:4928}{sniðmengja} gilda reglur De Morgans, sem segja að fyrir sérhver tvö mengi $A$ og $B$ gildi: \[ (A \cup B)^c = A^c \cap B^c \quad \text{og} \quad (A \cap B)^c = A^c \cup B^c. \] Jafnframt gilda eftirfarandi reglur fyrir mengin $A$ og $B$:
 
-$A \cap A^c = \varnothing$.
-$A \cup A^c = G$.
-$(A^c)^c = A$.
-$A \subset B$ ef og aðeins ef $B^c \subset A^c$. - Minnast líkar á aðrar leiðir til að tákna þetta \\
+\begin{enumerate}
+    \item $A \cap A^c = \varnothing$.
+    \item $A \cup A^c = G$.
+    \item $(A^c)^c = A$.
+    \item $A \subset B$ ef og aðeins ef $B^c \subset A^c$.
+\end{enumerate} &  \\
 \hline
-1586 & \hypertarget{row:1586}{gagntæk vörpun} & \hyperlink{row:3282}{Vörpun} sem er bæði \hyperlink{row:965}{eintæk} og \hyperlink{row:351}{átæk} &  &  \\
+1586 & \hypertarget{row:1586}{gagntæk vörpun} & \hyperlink{row:3282}{Vörpun} sem er bæði \hyperlink{row:965}{eintæk} og \hyperlink{row:351}{átæk} & Eftirfarandi mynd sýnir gagntæka vörpun:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/gagntaek_vorpun.png}
+\end{center} &  \\
 \hline
-1599 & \hypertarget{row:1599}{ganga upp í} & Sagt er að \hyperlink{row:3475}{náttúruleg tala} $n$ \textit{gengur upp í} náttúrulegri tölu $m$ ef hægt er að \hyperlink{row:685}{deila $m$ með $n$ án afgangs} &  &  \\
+1599 & \hypertarget{row:1599}{ganga upp í} & Sagt er að \hyperlink{row:3475}{náttúruleg tala} $n$ \textit{gengur upp í} náttúrulegri tölu $m$ ef hægt er að \hyperlink{row:685}{deila $m$ með $n$ án afgangs} &  & Koma með dæmi \\
 \hline
 1619 & \hypertarget{row:1619}{geisli, hringgeisli} & Sjá \hyperlink{row:2295}{hringur} &  &  \\
 \hline
-1646 & \hypertarget{row:1646}{gleiðhyrndur, sljóhyrndur} & \hyperlink{row:6438}{Þríhyrningur} með eitt \hyperlink{row:1647}{gleitt} \hyperlink{row:2198}{horn} &  &  \\
+1646 & \hypertarget{row:1646}{gleiðhyrndur, sljóhyrndur} & \hyperlink{row:6438}{Þríhyrningur} kallast \textit{gleiðhyrndur} ef hann hefur eitt \hyperlink{row:1647}{gleitt} \hyperlink{row:2198}{horn} & Eftirfarandi mynd sýnir gleiðhyrndan þríhyrning:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/gleidhyrndur_thrihyrningur.png}
+\end{center} &  \\
 \hline
-1647 & \hypertarget{row:1647}{gleiður, sljór} & \hyperlink{row:2198}{Horn} kallast \textit{gleitt} ef það \hyperlink{row:2223}{mælist} stærra en \hyperlink{row:4167}{rétt horn} &  &  \\
+1647 & \hypertarget{row:1647}{gleiður, sljór} & \hyperlink{row:2198}{Horn} kallast \textit{gleitt} ef það \hyperlink{row:2223}{mælist} stærra en \hyperlink{row:4167}{rétt horn} & Á eftirfarandi mynd er hornið $\angle BOC$ gleitt:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/hvasst_gleitt.png}
+\end{center} &  \\
 \hline
-1667 & \hypertarget{row:1667}{gráða, horngráða, bogagráða} & \hyperlink{row:3072}{Mælieining} sem oft er notuð til að mæla stærð \hyperlink{row:2276}{hringboga} og \hyperlink{row:2198}{horna} sem er fengin með því að skipta boga hrings í 360 eins boga sem kallast \textit{gráður} og eru táknaðar með $1^\circ$ &  &  \\
+1667 & \hypertarget{row:1667}{gráða, horngráða, bogagráða} & \hyperlink{row:3072}{Mælieining} sem oft er notuð til að mæla stærð \hyperlink{row:2276}{hringboga} og \hyperlink{row:2198}{horna} sem er fengin með því að skipta boga hrings í 360 eins boga sem kallast \textit{gráður} og eru táknaðar með $1^\circ$ & Eftirfarandi mynd sýnir ýmis horn \hyperlink{row:887}{einingarhrings} auk stærð þeirra í bæði gráðum og \hyperlink{row:478}{radíönum}:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/hornamal.png}
+\end{center} &  \\
 \hline
-1677 & \hypertarget{row:1677}{grannhorn, aðlæg frændhorn} & Ef tvö \hyperlink{row:2198}{horn} hafa einn sameiginlegan \hyperlink{row:334}{arm} og hinir armarnir eru \hyperlink{row:3400}{gagnstæðar} \hyperlink{row:1840}{hálflínur}, þá er sagt að hornin séu \textit{grannhorn} &  &  \\
+1677 & \hypertarget{row:1677}{grannhorn, aðlæg frændhorn} & Ef tvö \hyperlink{row:2198}{horn} hafa einn sameiginlegan \hyperlink{row:334}{arm} og hinir armarnir eru \hyperlink{row:3400}{gagnstæðar} \hyperlink{row:1840}{hálflínur}, þá er sagt að hornin séu \textit{grannhorn} & Á eftirfarandi mynd eru $\angle COB$ og $\angle BOA$ grannhorn:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/grannhorn.png}
+\end{center} & Laga bakgrunnslit \\
 \hline
 1780 & \hypertarget{row:1780}{hægri dreifiregla} & Sjá \hyperlink{row:723}{dreifiregla} &  &  \\
 \hline
@@ -218,48 +269,89 @@ Tölurnar $a_{0}, \ldots, a_{n}$ kallast \textit{stuðlar} margliðunnar og kall
 
 Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{deg}(P)$ & Stuðlar margliðu þurfa ekki endilega að vera rauntölur. Almennt þarf \hyperlink{row:3270}{stuðlamengið} bara að vera \hyperlink{row:419}{baugur} & Vantar færslu fyrir fastamargliðu: " Margliða sem hefur enga liði aðra en fastaliðinn kallast \textit{fastamargliða}" - Hægt að gera skilgreininguna ennþá kjarnyrtari? \\
 \hline
-1962 & \hypertarget{row:1962}{helmingalína horns} & \hyperlink{row:2911}{Lína} sem fer í gegnum \hyperlink{row:3661}{oddpunkt} \hyperlink{row:2198}{horns} og skiptir horninu í tvö eins horn kallast \textit{helmingalína hornsins} &  &  \\
+1962 & \hypertarget{row:1962}{helmingalína horns} & \hyperlink{row:2911}{Lína} sem fer í gegnum \hyperlink{row:3661}{oddpunkt} \hyperlink{row:2198}{horns} og skiptir horninu í tvö eins horn kallast \textit{helmingalína hornsins} & Eftirfarandi mynd sýnir helmingalínu hornsins $A$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/helmingalina.png}
+\end{center} 
+
+Helmingalínur horna \hyperlink{row:6438}{þríhyrnings} \hyperlink{row:4771}{skerast} allar í einum \hyperlink{row:4001}{punkti} en \hyperlink{row:4845}{skurðpunkturinn} er miðja \hyperlink{row:2418}{innritaðs hrings} þríhyrningsins &  \\
 \hline
-1974 & \hypertarget{row:1974}{Heronsregla} & Ef \hyperlink{row:6438}{þríhyrningur} hefur \hyperlink{row:0}{hliðarlengdir} $a, b$ og $c$ og $s=\frac{1}{2}(a+b+c)$ er hálft \hyperlink{row:5774}{ummálið}, þá segir \textit{regla Herons} að \hyperlink{row:1265}{flatarmál} þríhyrningsins sé $$ F = \sqrt{s (s - a)(s - b)(s - c)}. $$ &  & Vantar færslu fyrir hliðarlengd \\
+1974 & \hypertarget{row:1974}{Heronsregla} & Ef \hyperlink{row:6438}{þríhyrningur} hefur \hyperlink{row:0}{hliðarlengdir} $a, b$ og $c$ og $s=\frac{1}{2}(a+b+c)$ er hálft \hyperlink{row:5774}{ummálið}, þá segir \textit{regla Herons} að \hyperlink{row:1265}{flatarmál} þríhyrningsins sé $$ F = \sqrt{s (s - a)(s - b)(s - c)}. $$ & \begin{center}
+\includegraphics[width=150px]{myndir/heron.png}
+\end{center}
+
+Ef þríhyrningurinn hér að ofan hefur hliðarlengdir $a=13$, $b=16$ og $c=21$ þá er $s=25$ og við getum reiknað flatarmálið með \[ F = \sqrt{25\cdot (25-13)\cdot (25-16) \cdot (25-21)}=30\cdot \sqrt{15} \] & Vantar færslu fyrir hliðarlengd \\
 \hline
 2048 & \hypertarget{row:2048}{hlið, hliðarlína, hliðarstrik} & Sjá \hyperlink{row:3161}{marghyrningur} &  &  \\
 \hline
-2056 & \hypertarget{row:2056}{hliðrun} & \hyperlink{row:5779}{Færsla} $\tau$ á tiltekinni \hyperlink{row:4884}{sléttu} kallast \textit{hliðrun} ef hún hefur eftirfarandi tvo eiginleika:
+2056 & \hypertarget{row:2056}{hliðrun} & \hyperlink{row:5779}{Færsla} $\tau$ á tiltekinni \hyperlink{row:4884}{sléttu} kallast \textit{hliðrun} ef hún hefur eftirfarandi tvo \hyperlink{row:803}{eiginleika}:
 
 \begin{enumerate}
     \item \hyperlink{row:1204}{fjarlægðin} milli $A$ og $\tau(A)$ er sú sama fyrir alla \hyperlink{row:4001}{punkta} $A$,
     \item ef $A \neq \tau(A)$ gildir fyrir alla punkta $A$ að \hyperlink{row:1840}{hálflínurnar} frá $A$ í gegnum $\tau(A)$ tilgreini sömu \hyperlink{row:5135}{stefnuna}
-\end{enumerate} &  &  \\
+\end{enumerate} & Hlutlausa færslan telst líka til hliðrana; hún hefur hinsvegar enga tiltekna stefnu. Hliðranir hafa eftirfarandi eiginleika:
+
+\begin{enumerate}
+    \item Hliðranir varðveita lengdir allra \hyperlink{row:2958}{strika} og eru því \hyperlink{row:1328}{flutningar}.
+    \item Ef $\tau$ er hliðrun, þá eru línurnar $l$ og $\tau(l)$ \hyperlink{row:4509}{samsíða}. Einu flutningarnir sem hafa þennan eiginleika eru hliðranir og \hyperlink{row:0}{punktspeglanir}.
+    \item Flutningur sem heldur engum punkti kyrrum er hliðrun.
+    \item Samskeyting tveggja hliðrana er hliðrun.
+\end{enumerate} & Finna mynd \\
 \hline
 2072 & \hypertarget{row:2072}{hlutfall} & ... &  & Mismunandi skilgreiningar á ensku og íslensku? \\
 \hline
 2089 & \hypertarget{row:2089}{hluti, partur} &  &  &  \\
 \hline
-2098 & \hypertarget{row:2098}{hlutmengi} & \hyperlink{row:3270}{Mengi} $A$ er sagt vera \textit{hlutmengi} í mengi $B$ ef sérhvert \hyperlink{row:5128}{stak} í $A$ er líka stak í $B$. Þetta er táknað með $A \subset B$ &  & Nota $\subseteq$ í staðinn? \\
+2098 & \hypertarget{row:2098}{hlutmengi} & \hyperlink{row:3270}{Mengi} $A$ er sagt vera \textit{hlutmengi} í mengi $B$ ef sérhvert \hyperlink{row:5128}{stak} í $A$ er líka stak í $B$. Þetta er táknað með $A \subset B$ & Á \hyperlink{row:6050}{Venn-myndinni} að neðan er $A$ hlutmengi í $B$ því svæðið innan minni hringsins (sem táknar stökin í $A$) er líka innan stærri hringsins (sem táknar stökin í $B$):
+
+\begin{center}
+\includegraphics[width=150px]{myndir/hlutmengi.png}
+\end{center} & Nota $\subseteq$ í staðinn? \\
 \hline
 2123 & \hypertarget{row:2123}{hlutur, gripur} &  &  &  \\
 \hline
-2145 & \hypertarget{row:2145}{hnitakerfi} & \hyperlink{row:4541}{Samsvörun} milli \hyperlink{row:4001}{punkta} tiltekins \hyperlink{row:4266}{rúms} og \hyperlink{row:5397}{talna} sem kallast \textit{hnit} sem gerir manni kleift að staðsetja punkta í rúminu &  &  \\
+2145 & \hypertarget{row:2145}{hnitakerfi} & \hyperlink{row:4541}{Samsvörun} milli \hyperlink{row:4001}{punkta} tiltekins \hyperlink{row:4266}{rúms} og \hyperlink{row:5397}{talna} sem kallast \textit{hnit} sem gerir manni kleift að staðsetja punkta í rúminu. Slík samsvörun kallast \textit{hnitakerfi} &  & Hægt að skilgreina þetta á formlegri hátt án þess að kafa of djúpt? Endurhugsa aðeins skilgreininguna, hún er ekki mjög skýr - Koma með dæmi um hnitakerfi \\
 \hline
-2198 & \hypertarget{row:2198}{horn} & Tvær \hyperlink{row:1840}{hálflínur} með sama \hyperlink{row:5850}{upphafspunkt} eru sagðar mynda \textit{horn}. Upphafspunktur hálflínanna kallast þá \textit{oddpunktur} hornsins og hálflínurnar kallast \textit{armar} þess &  & Setja í skýringu: Sérhver tvö <ref idTerm=2958>línustrik</ref> með sameiginlegan endapunkt sem eru innihaldin í horninu mynda jafnframt sama horn \\
+2198 & \hypertarget{row:2198}{horn} & Tvær \hyperlink{row:1840}{hálflínur} með sama \hyperlink{row:5850}{upphafspunkt} eru sagðar mynda \textit{horn}. Upphafspunktur hálflínanna kallast þá \textit{oddpunktur} hornsins og hálflínurnar kallast \textit{armar} þess & Á eftirfarandi mynd sést horn með oddpunkt $O$ og arma $h$ og $k$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/horn.png}
+\end{center}
+
+Þegar armar horns liggja ekki á sömu \hyperlink{row:2911}{línu}, þá er sagt að hornið sé \textit{eiginlegt}. \hyperlink{row:4001}{Punktur} sem ekki liggur á örmum eiginlegs horns er \textit{innaní} horninu ef hann liggur á \hyperlink{row:2958}{línustriki} með endapunka á örmum þess, en \textit{utanvið} hornið annars. Athugið að sérhver tvö línustrik með sameiginlegan endapunkt sem eru innihaldin í horninu mynda jafnframt sama horn &  \\
 \hline
 2202 & \hypertarget{row:2202}{hornafall} &  &  &  \\
 \hline
-2223 & \hypertarget{row:2223}{hornamál} & Til þess að bera saman tvö \hyperlink{row:797}{eiginleg} \hyperlink{row:2198}{horn}, þá flytjum við annað hornið þannig að annar armur hornanna sé sameiginlegur og þannig að sérhver punktur innaní öðru horninu liggi líka innaní hinu horninu. Þá getur þrennt gerst:
+2223 & \hypertarget{row:2223}{hornamál} & Til þess að bera saman tvö eiginleg \hyperlink{row:2198}{horn}, þá flytjum við annað hornið þannig að annar armur hornanna sé sameiginlegur og þannig að sérhver punktur innaní öðru horninu liggi líka innaní hinu horninu. Þá getur þrennt gerst:
 
 \begin{enumerate}
     \item Hinn armur flutta hornsins fellur saman við hinn arm óhreyfða hornsins. Þá eru hornin \textit{jafn stór}, eða einfaldlega \textit{eins}
     \item Hinn armur flutta hornsins lendir á milli arma óhreyfða hornsins. Þá er flutta hornið minna en óhreyfða hornið, sem er þá jafnframt \textit{stærra} en flutta hornið
     \item Hinn armur flutta hornsins lendir utanvið óhreyfða hornið. Þá er flutta hornið stærra en óhreyfða hornið, sem er þá jafnframt \textit{minna} en flutta hornið
-\end{enumerate} &  & Vantar skilgreiningu á "innnaní" - minnast á bogamál og gráðumál \\
+\end{enumerate} & Stærð horns er oft mælt í \hyperlink{row:1667}{gráðum} eða \hyperlink{row:478}{radíönum} &  \\
 \hline
-2225 & \hypertarget{row:2225}{hornasumma} & \hyperlink{row:2820}{Samanlagt} \hyperlink{row:2223}{gráðumál} \hyperlink{row:2198}{horna} \hyperlink{row:3161}{marghyrnings} &  &  \\
+2225 & \hypertarget{row:2225}{hornasumma} & \hyperlink{row:2820}{Samanlagt} \hyperlink{row:2223}{gráðumál} \hyperlink{row:2198}{horna} \hyperlink{row:3161}{marghyrnings} Ef \hyperlink{row:2198}{horn} \hyperlink{row:3161}{marghyrnings} eru \hyperlink{row:2223}{mæld} í \hyperlink{row:1667}{gráðum} eða \hyperlink{row:478}{radíönum}, þá er \textit{hornasumma} marghyrnings \hyperlink{row:5320}{summa} stærða allra horna hans & Auðvelt er að finna hornasummu marghyrnings með því að \hyperlink{row:4814}{skipta honum upp í þríhyrninga}. Hægt er að skipta $n$-hyrningi upp í $n-2$ þríhyrninga, svo að hornasumma $n$-hyrnings er $(n-2)\cdot 180$. Sem dæmi er hægt að skipta fimmhyrningnum $A B C D E$ að neðan í þrjá þríhyrninga, svo að hornasumma hans er $(5 - 2) \cdot 180^\circ = 540^\circ$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/hornasumma.png}
+\end{center} &  \\
 \hline
-2235 & \hypertarget{row:2235}{hornpunktur, oddpunktur} & \hyperlink{row:4001}{Punktur} þar sem tvær \hyperlink{row:2048}{hliðar} \hyperlink{row:3161}{marghyrnings} \hyperlink{row:4771}{skerast} (í tveimur \hyperlink{row:6087}{víddum}) eða punktur þar sem þrjár eða fleiri \hyperlink{row:1325}{hliðar} \hyperlink{row:3133}{margflötungs} skerast (í þrem víddum) &  & Ræða almenna margflötunga í skýringu \\
+2235 & \hypertarget{row:2235}{hornpunktur, oddpunktur} & \hyperlink{row:4001}{Punktur} þar sem tvær \hyperlink{row:2048}{hliðar} \hyperlink{row:3161}{marghyrnings} \hyperlink{row:4771}{skerast} (í tveimur \hyperlink{row:6087}{víddum}) eða punktur þar sem þrjár eða fleiri \hyperlink{row:1325}{hliðar} \hyperlink{row:3133}{margflötungs} skerast (í þrem víddum) &  & Ræða almenna margflötunga í skýringu - Þessi skilgreining virkar ekki ef margflötungurinn sker sjálfan sig \\
 \hline
-2276 & \hypertarget{row:2276}{hringbogi, bogi, örk} & Sá hluti \hyperlink{row:2295}{hrings} sem liggur milli tveggja \hyperlink{row:4001}{punkta} hans kallast \textit{hringbogi} &  & Setja í skýringu: Þegar talað er um bogann $AB$ sem liggur milli tveggja punkta hringsins $A$ og $B$ er jafnan átt við þann minni \\
+2276 & \hypertarget{row:2276}{hringbogi, bogi, örk} & Sá hluti \hyperlink{row:2295}{hrings} sem liggur milli tveggja \hyperlink{row:4001}{punkta} hans kallast \textit{hringbogi} & Á eftirfarandi mynd má sjá hringbogana á milli $A$ og $B$. Sá þessara hringboga sem er innaní horninu $\angle AMB$ er dekkri:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/hringbogi.png}
+\end{center} 
+
+Þegar talað er um bogann $AB$ er jafnan átt við þann minni & Laga bakgrunnslit \\
 \hline
-2295 & \hypertarget{row:2295}{hringur, hringferill, hringlína} & \hyperlink{row:3270}{Mengi} þeirra \hyperlink{row:4001}{punkta} í tiltekinni \hyperlink{row:4884}{sléttu} sem eru í sömu \hyperlink{row:1204}{fjarlægð} frá punkti sem liggur á sléttunni. Sá punktur kallast þá \textit{miðja} hringsins og fjarlægðin frá honum kallast \textit{geisli} hringsins &  & Koma með jöfnu hrings í skýringu? \\
+2295 & \hypertarget{row:2295}{hringur, hringferill, hringlína} & \hyperlink{row:3270}{Mengi} þeirra \hyperlink{row:4001}{punkta} í tiltekinni \hyperlink{row:4884}{sléttu} sem eru í sömu \hyperlink{row:1204}{fjarlægð} frá punkti sem liggur á sléttunni. Sá punktur kallast þá \textit{miðja} hringsins og fjarlægðin frá honum kallast \textit{geisli} hringsins & Hring með geisla $r$ má einnig skilgreina sem mengi punkta $(x,y)$ sem uppfylla \hyperlink{row:2478}{jöfnuna} \[ x^2+y^2=r^2. \] Eftirfarandi mynd sýnir hring með miðju $M$ og geisla $r$:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/hringur.png}
+\end{center} &  \\
 \hline
 2317 & \hypertarget{row:2317}{hvass} & \hyperlink{row:2198}{Horn} kallast \textit{hvasst} ef það \hyperlink{row:2223}{mælist} minna en \hyperlink{row:4167}{rétt horn} & Á eftirfarandi mynd er $\angle AOB$ hvasst horn:
 
@@ -487,6 +579,8 @@ Fyrra skilyrðið tryggir að vörpunin sé skilgreind á öllu \hyperlink{row:1
 \hline
 3400 & \hypertarget{row:3400}{mótlægur, mótstæður, gagnstæður, öndverður, andstæður, öfugur} &  &  &  \\
 \hline
+3401 & \hypertarget{row:3401}{mótsagnakenndur, í mótsögn} &  &  &  \\
+\hline
 3417 & \hypertarget{row:3417}{myndmengi, mynd} & Fyrir \hyperlink{row:3282}{vörpun} $f: X \to Y$ kallast \hyperlink{row:3270}{mengi} allra \hyperlink{row:1090}{gilda} sem vörpunin tekur \textit{mynd} vörpunarinnar $f$. Hana má rita á forminu \[ f(X) = \{ f(x) \in Y \mid x \in X \}. \] & Myndina $f(X)$ má einnig skilgreina sem mengi allra $y \in Y$ þannig að \hyperlink{row:2478}{jafnan} $y = f(x)$ hafi lausn úr $X$ og þannig má rita hana á forminu \[ f(X) = \{y \in Y \mid \text{til er}\; x \in X \;\text{þ.a.}\; y = f(x)\}. \] \hyperlink{row:6050}{Venn-myndin} að neðan sýnir vörpunina $f: X \to Y$ og mynd hennar $f(X)$:
 
 \begin{center}
@@ -673,6 +767,8 @@ Sammengi eru tengin og víxlin, þ.e. fyrir öll mengi $A$, $B$ og $C$ gildir a�
 \hline
 4541 & \hypertarget{row:4541}{samsvörun} & \hyperlink{row:5705}{Tvístæð vensl} milli tveggja \hyperlink{row:3270}{mengja} þar sem sérhvert \hyperlink{row:5128}{stak} í öðru hvoru menginu er venslað við nákvæmlega eitt stak í hinu menginu & Ef við lítum á \hyperlink{row:3282}{vörpun} milli mengja $X$ og $Y$ sem vensl þá jafngildir samsvörun milli $X$ og $Y$ \hyperlink{row:1586}{gagntækri vörpun} & Finna mynd? \\
 \hline
+4554 & \hypertarget{row:4554}{sanna} &  &  &  \\
+\hline
 4560 & \hypertarget{row:4560}{sanngildi} & Í \hyperlink{row:4642}{sígildri rökfræði} er sérhver \hyperlink{row:1515}{yrðing} annaðhvort \textit{sönn} eða \textit{ósönn} en kallast það \textit{sanngildi} yrðingarinnar & Sanngildi eru ýmist táknuð með $1,T$ eða $\top$ þegar um sannar yrðingar er að ræða en annars $0,F$ eða $\bot$ &  \\
 \hline
 4624 & \hypertarget{row:4624}{setningin um ytra horn} & Setning í \hyperlink{row:1030}{Evklíðskri rúmfræði} sem segir að \hyperlink{row:6295}{ytra horn} \hyperlink{row:6438}{þríhyrnings} sé jafn \hyperlink{row:2223}{stórt} og samanlögð fjarlægari innri horn & Látum $ABC$ vera þríhyrning þar sem $\angle BAC$ er $35^\circ$ og $\angle ACB$ er $30^\circ$. Bæði grannhorn $\angle CBA$ eru þá $35^\circ + 30^\circ = 65^\circ$ samkvæmt setningunni um ytra horn & Smíða mynd af þessu dæmi \\
@@ -718,6 +814,8 @@ Ef punktur hefur skauthnit $(r,\theta)$, þá eru kartesk hnit hans gefin með \
 4771 & \hypertarget{row:4771}{skerast, sníðast, skarast} & Ef \hyperlink{row:4928}{sniðmengi} tveggja \hyperlink{row:4001}{punkta}\hyperlink{row:3270}{mengja} er ekki \hyperlink{row:5564}{tómt} er sagt að mengin \textit{skerist} &  &  \\
 \hline
 4797 & \hypertarget{row:4797}{skilyrði} & Sjá \hyperlink{row:2836}{leiðingu} &  &  \\
+\hline
+4814 & \hypertarget{row:4814}{skipta í þríhyrninga} &  &  &  \\
 \hline
 4845 & \hypertarget{row:4845}{skurðpunktur, sniðpunktur} & \hyperlink{row:4001}{Punktur} þar sem tvö \hyperlink{row:3270}{mengi} \hyperlink{row:4771}{skerast} & Á eftirfarandi mynd skerast línurnar $l$ og $m$ í punktinum $A$: 
 
@@ -765,6 +863,8 @@ Ekki skal rugla saman sniðli og \hyperlink{row:5261}{streng} en munurinn er sá
 \item \hyperlink{row:2198}{hornin} $\angle AM\rho(A)$ eru jafn stór fyrir alla punkta $A\neq M$.
 \end{enumerate} &  & Finna mynd \\
 \hline
+4964 & \hypertarget{row:4964}{sönnun} &  &  &  \\
+\hline
 5002 & \hypertarget{row:5002}{sporbaugur} & \hyperlink{row:3270}{Mengi} \hyperlink{row:4001}{punkta} sem uppfylla jöfnu af taginu \[ \left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 = 1\] &  & Er til gegnsærri skilgreining? Finna mynd \\
 \hline
 5072 & \hypertarget{row:5072}{staðhæfing} &  &  &  \\
@@ -800,6 +900,8 @@ Ekki skal rugla saman sniðli og \hyperlink{row:5261}{streng} en munurinn er sá
 Strikið $AB$ er strengur í hringnum og strikið $CD$ er miðstrengur & Laga bakgrunnslit á myndinni \\
 \hline
 5265 & \hypertarget{row:5265}{stríkkun} & Ef $\lambda$ er \hyperlink{row:5779}{færsla} á tiltekinni \hyperlink{row:4884}{sléttu}, $k$ er \hyperlink{row:4093}{rauntala} og $M$ er \hyperlink{row:4001}{punktur} í sléttunni þá kallast $\lambda$ \textit{stríkkun} með \hyperlink{row:3304}{miðju} í punktinum $M$ ef fyrir alla punkta $P$ í sléttunni gildi að \hyperlink{row:2072}{hlutfallið} milli \hyperlink{row:2860}{lengd} \hyperlink{row:2958}{strikanna} $MP$ og $M\lambda(P)$ sé $k$, sem kallast þá \textit{kvarði} stríkkunarinnar &  & Finna mynd \\
+\hline
+5320 & \hypertarget{row:5320}{summa, samtala} &  &  &  \\
 \hline
 5325 & \hypertarget{row:5325}{sundurlæg skipting} &  &  &  \\
 \hline
