@@ -454,7 +454,8 @@
 \hline
 233 & almenna afstæðiskenningin &  &  &  \\
 \hline
-234 & almennt brot & <ref idTerm=2072>Hlutfall</ref> tveggja <ref idTerm=1896>heiltalna</ref> $a$ og $b$, táknað með $\frac{a}{b}$. Talan $a$ kallast \textit{teljari} og talan $b$ \textit{nefnari} & Gerum ráð fyrir að einhver tiltekin <ref idTerm=1899>heild</ref> sé gefin. Þessi heild getur til dæmis verið <ref idTerm=5335>svæði</ref> eins og <ref idTerm=4175>rétthyrningur</ref> eða <ref idTerm=2295>hringur</ref>, hún getur verið <ref idTerm=2196>hópur</ref> af hlutum eins og eplum, appelsínum eða mönnum, o.s.frv. Í bili skulum við gera ráð fyrir að heildin sé rétthyrningurinn á myndinni að neðan:
+234 & almennt brot & <ref idTerm=2072>Hlutfall</ref> tveggja <ref idTerm=1896>heiltalna</ref> $a$ og $b \neq 0$, ritað á forminu $\frac{a}{b}$. Talan $a$ kallast \textit{teljari} og talan $b$ \textit{nefnari} & Gerum ráð fyrir að einhver tiltekin <ref idTerm=1899>heild</ref> sé gefin. Þessi heild getur til dæmis verið <ref idTerm=5335>svæði</ref> eins og <ref idTerm=4175>rétthyrningur</ref> eða <ref idTerm=2295>hringur</r
+ef>, hún getur verið <ref idTerm=2196>hópur</ref> af hlutum eins og eplum, appelsínum eða mönnum, o.s.frv. Í bili skulum við gera ráð fyrir að heildin sé rétthyrningurinn á myndinni að neðan:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/heild.png}
@@ -470,7 +471,7 @@ Hér höfum við áhuga á að svara aðeins almennari spurningu: ``Ef heildinni
 
 \begin{center}
 \includegraphics[width=150px]{myndir/a_hlutar.png}
-\end{center} &  \\
+\end{center} & ATH \\
 \hline
 235 & almennt tilfelli, almennt tilvik &  &  &  \\
 \hline
@@ -546,7 +547,7 @@ Hér höfum við áhuga á að svara aðeins almennari spurningu: ``Ef heildinni
 \hline
 272 & andhverfa (fylkis), umhverfa (fylkis), andhverft fylki, umhverft fylki &  &  &  \\
 \hline
-273 & andhverfa (vörpunar), andhverf vörpun & \textit{Andhverfa} <ref idTerm=3282>vörpunnar</ref> $f: X \to Y$, ef hún er til, er vörpun $g: Y \to X$ þannig að <ref idTerm=4518>samskeyting</ref> varpananna $f$ og $g$ annars vegar og $g$ og $f$ hins vegar sé viðeigandi <ref idTerm=4498>samsemdarvörpun</ref>, þ.e. \[ g \circ f = \mathrm{id}_X \quad \text{og} \quad f \circ g = \mathrm{id}_Y. \] Andhverfa $f$ er yfirleitt táknuð með $f^{-1}$ & Ef slík vörpun $g$ er til <ref idTerm=3932>ákvarðast hún ótvírætt</ref> af þessum <ref idTerm=4797>skilyrðum</ref>. Vörpun $f: X \to Y$ er andhverfanleg ef og aðeins ef hún er <ref idTerm=1586>gagntæk</ref>.
+273 & andhverfa (vörpunar), andhverf vörpun & \textit{Andhverfa} <ref idTerm=3282>vörpunar</ref> $f: X \to Y$ er vörpun $g: Y \to X$ þannig að <ref idTerm=4518>samskeyting</ref> varpananna $f$ og $g$ annars vegar og $g$ og $f$ hins vegar sé viðeigandi <ref idTerm=4498>samsemdarvörpun</ref>, þ.e. \[ g \circ f = \mathrm{id}_X \quad \text{og} \quad f \circ g = \mathrm{id}_Y. \] Andhverfa $f$ er táknuð með $f^{-1}$ & Ef slík vörpun $g$ er til <ref idTerm=3932>ákvarðast hún ótvírætt</ref> af þessum <ref idTerm=4797>skilyrðum</ref>. Vörpun $f: X \to Y$ er andhverfanleg ef og aðeins ef hún er <ref idTerm=1586>gagntæk</ref>.
 
 Skilyrðin tvö í skilgreiningunni segja með öðrum orðum að fyrir sérhver $x \in X$ og $y \in Y$ gildi að \[ f^{-1}(f(x)) = x \quad \text{og} \quad f(f^{-1}(y)) = y. \] Þetta sýnir að andhverfan $f^{-1}$ hefur einmitt öfuga verkun við $f$, því $f$ varpar <ref idTerm=5128>stakinu</ref> $x \in X$ í stakið $f(x) \in Y$ og $f^{-1}$ varpar stakinu $f(x)$ aftur í upphaflega stakið $x$ skv. fyrri jöfnunni. Sömuleiðis hefur $f$ öfuga verkun við $f^{-1}$, því $f^{-1}$ varpar stakinu $y \in Y$ í stakið $f^{-1}(y) \in X$ og $f$ varpar stakinu $f^{-1}(y)$ aftur í upphaflega stakið $y$ skv. seinni <ref idTerm=2478>jöfnunni</ref>. Áhrifin af því að beita $f$ og $f^{-1}$ hvorri á eftir annarri eru því engin, sem endurspeglast í <ref idTerm=6050>Venn-myndinni</ref> að neðan:
 
@@ -554,7 +555,7 @@ Skilyrðin tvö í skilgreiningunni segja með öðrum orðum að fyrir sérhver
 \includegraphics[width=150px]{myndir/andhverfa_vorpunar.png}
 \end{center}&  \\
 \hline
-274 & andhverfanlegur & <ref idTerm=3282>Vörpun</ref> kallast \textit{andhverfanleg} ef hún á sér <ref idTerm=273>andhverfu</ref> &  & \\
+274 & andhverfanlegur & <ref idTerm=3282>Vörpun</ref> kallast \textit{andhverfanleg} ef hún á sér <ref idTerm=273>andhverfu</ref> &  & Ætti íðorðið að vera andhverfanleg vörpun (upp á andhverfanlegt fylki)? Ath.~að andhverfanlegt fylki er ekki í Orðaskránni. \\
 \hline
 275 & andhverfður, umhverfður &  &  &  \\
 \hline
@@ -922,14 +923,14 @@ Skilyrðin tvö í skilgreiningunni segja með öðrum orðum að fyrir sérhver
 \hline
 454 & biðraðafræði &  &  &  \\
 \hline
-457 & bil & <ref idTerm=2098>Hlutmengi</ref> $I$ í <ref idTerm=3270>mengi</ref> <ref idTerm=4093>rauntalna</ref> kallast \textit{bil} ef fyrir sérhver $x, y \in I$ og $z \in \mathbb{R}$ þannig að $x < z < y$ gildi að $z \in I$. Ef mengi rauntalna $a$ þannig að $a \leq x$ fyrir öll $x \in I$ á sér efra mark $L$ kallast $L$ \textit{vinstri endapunktur} bilsins. Sömuleiðis ef mengi rauntalna $b$ þannig að $x \leq b$ fyrir öll $x \in I$ á sér neðra mark $U$ þá kallast $U$ \textit{hægri endapunktur} bilsins & Bil geta verið af ýmsum toga eftir því hvort þau séu með endapunkta (sjá <ref idTerm=1840>hálflína</ref>) og hvort þau innihaldi síðan þá endapunkta (sjá <ref idTerm=3793>opið bil</ref>, <ref idTerm=3010>lokað bil</ref> og <ref idTerm=1844>hálfopið bil</ref>). Eftirfarandi tvær myndir sýna allar gerðir bila:
+457 & bil & <ref idTerm=4093>Rauntalna</ref><ref idTerm=3270>mengi</ref> $I$ kallast \textit{bil} ef fyrir sérhver $x, y \in I$ og $z \in \mathbb{R}$ þannig að $x < z < y$ gildi að $z \in I$. Ef $I$ á sér <ref idTerm=3490>neðra mark</ref> $L$ kallast $L$ \textit{vinstri endapunktur} bilsins. Sömuleiðis ef $I$ á sér <ref idTerm=743>efra mark</ref> $U$ þá kallast $U$ \textit{hægri endapunktur} bilsins & Bil geta verið af ýmsum toga eftir því hvort þau séu með endapunkta (sjá <ref idTerm=1840>hálflína</ref>) og hvort þau innihaldi síðan þá endapunkta (sjá <ref idTerm=3793>opið bil</ref>, <ref idTerm=3010>lokað bil</ref> og <ref idTerm=1844>hálfopið bil</ref>). Eftirfarandi tvær myndir sýna allar gerðir bila:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/takmorkud_bil.png}
 \end{center}
 \begin{center}
 \includegraphics[width=150px]{myndir/otakmorkud_bil.png}
-\end{center} & Skoða orðalag, ruglandi að skrifa ``mengi rauntalna $a$'' þegar það sem er meint er ``mengi rauntalna $A$ þannig að $a \leq x$ fyrir öll $a \in A$ \\
+\end{center} & \\
 \hline
 462 & bjagaður, vilhallur, skakkur, hlutdrægur &  &  &  \\
 \hline
@@ -1379,7 +1380,7 @@ Skilyrðin tvö í skilgreiningunni segja með öðrum orðum að fyrir sérhver
 \hline
 684 & deiling &  &  &  \\
 \hline
-685 & deiling án afgangs & <ref idTerm=686>Deiling</ref> <ref idTerm=3475>náttúrulegrar tölu</ref> með annarri náttúrulegri tölu þar sem afgangurinn er 0 &  &  \\
+685 & deiling án afgangs & <ref idTerm=686>Deiling</ref> <ref idTerm=3475>náttúrulegrar tölu</ref> með annarri náttúrulegri tölu þar sem afgangurinn er 0 &  & Er hægt að gera deilingu með afgangi, deilingu án afgangs og gengur upp í einfaldara fyrir yngsta hópinn? \\
 \hline
 686 & deiling með afgangi & Ef $n$ og $d$ eru <ref idTerm=1896>heilar tölur</ref> þannig að $d \neq 0$ þá er til heil tala $q$ og <ref idTerm=3475>náttúruleg tala</ref> $r$ sem uppfylla \[n = q \cdot d + r \quad \text{og} \quad 0 \leq r < |d|.\] Að rita $n$ á þessu formi nefnist að \textit{deila} <ref idTerm=5397>tölunni</ref> $d$ upp í $n$ og kallast þá talan $q$ \textit{kvóti} deilingarinnar og talan $r$ \textit{afgangur} hennar &  & Óþarfa óþjál skilgreining kannski \\
 \hline
@@ -1483,7 +1484,7 @@ Skilyrðin tvö í skilgreiningunni segja með öðrum orðum að fyrir sérhver
 \hline
 736 & eða-tákn &  &  &  \\
 \hline
-737 & eðun & Fyrir sérhverjar <ref idTerm=1515>yrðingar</ref> $p$ og $q$ er $p \vee q$ (lesið: „$p$ eða $q$“) sú yrðing sem segir að að minnsta kosti önnur yrðinganna $p$ og $q$ sé <ref idTerm=4565>sönn</ref>. Yrðingin $p \vee q$ er þess vegna <ref idTerm=3890>ósönn</ref> þegar yrðingarnar $p$ og $q$ eru báðar ósannar, en annars er hún sönn & Þessari staðreynd má lýsa með töflunni að neðan, sem sýnir sanngildi $p \vee q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar & Búa til mynd \\
+737 & eðun & Fyrir sérhverjar <ref idTerm=1515>yrðingar</ref> $p$ og $q$ er $p \vee q$ (lesið: „$p$ eða $q$“) sú yrðing sem segir að að minnsta kosti önnur yrðinganna $p$ og $q$ sé <ref idTerm=4565>sönn</ref>.  & Þessari staðreynd má lýsa með töflunni að neðan, sem sýnir sanngildi $p \vee q$ eftir ólíkum sanngildum $p$ annars vegar og $q$ hins vegar & Búa til mynd \\
 \hline
 738 & eðunarhluti, eðunarliður &  &  &  \\
 \hline
@@ -1741,7 +1742,7 @@ Skilyrðin tvö í skilgreiningunni segja með öðrum orðum að fyrir sérhver
 \hline
 865 & einhalla á köflum &  &  &  \\
 \hline
-866 & einhalla fall & <ref idTerm=1078>Fall</ref> $f: X \to Y$ þar sem $X$ og $Y$ eru <ref idTerm=2098>hlutmengi</ref> í <ref idTerm=3270>mengi</ref> <ref idTerm=4093>rauntalna</ref> er sagt vera \textit{einhalla} ef það er <ref idTerm=0>vaxandi</ref> eða <ref idTerm=0>minnkandi</ref> &  & Koma með dæmi um einhalla fall? \\
+866 & einhalla fall & <ref idTerm=1078>Fall</ref> sem er <ref idTerm=0>vaxandi</ref> eða <ref idTerm=0>minnkandi</ref> &  & Koma með dæmi um einhalla fall? \\
 \hline
 867 & einhalla runa &  &  &  \\
 \hline
@@ -1851,7 +1852,7 @@ Skilyrðin tvö í skilgreiningunni segja með öðrum orðum að fyrir sérhver
 \hline
 921 & einsfirðun, firðrækin vörpun &  &  &  \\
 \hline
-922 & einshyrndur & Tveir <ref idTerm=6438>þríhyrningar</ref> kallast \textit{einshyrndir} ef hægt er að para <ref idTerm=2198>horn</ref> annars þríhyrningsins við horn hins þríhyrningsins þannig að hornin í sama pari eru <ref idTerm=2223>jafn stór</ref> & Á eftirfarandi mynd eru $ABC$ og $FEG$ einshyrndir, táknað $ABC \sim EFG$, vegna þess að:
+922 & einshyrndur & Tveir <ref idTerm=6438>þríhyrningar</ref> $ABC$ og $EFG$ kallast \textit{einshyrndir} ef hægt er að para <ref idTerm=2198>horn</ref> annars þríhyrningsins við horn hins þríhyrningsins þannig að hornin í sama pari eru <ref idTerm=2223>jafn stór</ref>. Táknað $ABC \sim EFG$ & Á eftirfarandi mynd eru $ABC$ og $FEG$ einshyrndir vegna þess að:
 
 \begin{enumerate}
     \item $\angle A$ og $\angle E$ eru jafn stór (grænu hornin á myndinni),
@@ -1871,7 +1872,7 @@ Skilyrðin tvö í skilgreiningunni segja með öðrum orðum að fyrir sérhver
 \hline
 926 & einskorðuð lokun &  &  &  \\
 \hline
-927 & einskorðun & Fyrir <ref idTerm=3282>vörpun</ref> $f: X \to Y$ kallast vörpunin \[ f|_A : A \to Y; \quad f|_A(x) = f(x) \] þar sem $A$ er <ref idTerm=2098>hlutmengi</ref> í $X$ \textit{einskorðun} vörpunarinnar $f$ við mengið $A$ &  &  \\
+927 & einskorðun & Fyrir <ref idTerm=3282>vörpun</ref> $f: X \to Y$ og <ref idTerm=2098>hlutmengi</ref> $A$ í $X$ kallast vörpunin \[ f|_A : A \to Y; \quad f|_A(x) = f(x) \]  \textit{einskorðun} vörpunarinnar $f$ við mengið $A$ &  &  \\
 \hline
 928 & einskorðunarmótun &  &  &  \\
 \hline
@@ -1947,7 +1948,7 @@ Skilyrðin tvö í skilgreiningunni segja með öðrum orðum að fyrir sérhver
 \hline
 962 & einstogun &  &  &  \\
 \hline
-963 & einstökungur, einsstaksmengi & <ref idTerm=3270>Mengi</ref> með nákvæmlega eitt <ref idTerm=5128>stak</ref> &  & Þarf mynd? \\
+963 & einstökungur, einsstaksmengi & <ref idTerm=3270>Mengi</ref> með nákvæmlega eitt <ref idTerm=5128>stak</ref> &  & \\
 \hline
 964 & einsþrepsaðferð &  &  &  \\
 \hline
@@ -2089,7 +2090,7 @@ Að $f$ varpi ólíkum stökum úr $X$ í ólík stök úr $Y$ má einnig orða 
 \hline
 1029 & evklíðsk firð &  &  &  \\
 \hline
-1030 & evklíðsk rúmfræði & <ref idTerm=4271>Rúmfræði</ref> sem byggir á <ref idTerm=1452>frumsendum</ref> forngríska <ref idTerm=5117>stærðfræðingsins</ref> Evklíðs & Undirstöður rúmfræðinnar má rekja aftur til Evklíðs en í \textit{Frumatriðunum}, sem spanna 13 bækur, tók hann saman alla rúmfræði og <ref idTerm=5408>talnafræði</ref> sem þekkt var á þeim tíma. Í fyrstu bókinni setti Evklíð fram fimm frumsendur fyrir rúmfræði í <ref idTerm=4884>sléttu</ref> og notaði þær til að leiða út <ref idTerm=4621>setningar</ref> um sléttuna. Frumsendur Evklíðs voru fimm talsins:
+1030 & evklíðsk rúmfræði & <ref idTerm=4271>Rúmfræði</ref> sem uppfyllir <ref idTerm=1452>frumsendur</ref> forngríska <ref idTerm=5117>stærðfræðingsins</ref> Evklíðs & Undirstöður rúmfræðinnar má rekja aftur til Evklíðs en í \textit{Frumatriðunum}, sem spanna 13 bækur, tók hann saman alla rúmfræði og <ref idTerm=5408>talnafræði</ref> sem þekkt var á þeim tíma. Í fyrstu bókinni setti Evklíð fram fimm frumsendur fyrir rúmfræði í <ref idTerm=4884>sléttu</ref> og notaði þær til að leiða út <ref idTerm=4621>setningar</ref> um sléttuna. Frumsendur Evklíðs voru fimm talsins:
 
 \begin{enumerate}
     \item Hægt er að teikna beint <ref idTerm=2958>strik</ref> milli sérhverra tveggja <ref idTerm=4001>punkta</ref>.
@@ -2221,7 +2222,7 @@ Síðasta frumsendan varð eftirmönnum Evklíðs sérstaklega hugleikin og er a
 \hline
 1089 & fallfrymi &  &  &  \\
 \hline
-1090 & fallgildi & Fyrir <ref idTerm=1078>fall</ref> $f : X \to Y$ og <ref idTerm=5128>stak</ref> $x$ úr $X$ kallast stakið úr $Y$ sem $f$ úthlutar $x$ \textit{gildi fallsins} $f$ í $x$ og táknað með $f(x)$ &  & Þarf mynd? \\
+1090 & fallgildi & Fyrir <ref idTerm=1078>fall</ref> $f : X \to Y$ og <ref idTerm=5128>stak</ref> $x$ úr $X$ kallast stakið úr $Y$ sem $f$ úthlutar $x$ \textit{gildi fallsins} $f$ í $x$ og táknað með $f(x)$ &  & Skoða orðalag. Þarf mynd? \\
 \hline
 1091 & fallgildi &  &  &  \\
 \hline
@@ -2307,7 +2308,7 @@ Síðasta frumsendan varð eftirmönnum Evklíðs sérstaklega hugleikin og er a
 \hline
 1130 & ferilhorn & ... &  &  \\
 \hline
-1131 & ferill, boglína, sveiglína & <ref idTerm=3417>Myndmengi</ref> <ref idTerm=4359>samfellds falls</ref> á <ref idTerm=3010>lokuðu bili</ref> &  & Nota evklíðska skilgreiningu frekar en grannfræðilega? - Finna mynd? \\
+1131 & ferill, boglína, sveiglína & <ref idTerm=3417>Myndmengi</ref> <ref idTerm=4359>samfelldrar vörpunar</ref> $f : I \to \mathbb{R}^n$ þar sem $I\subset \mathbb{R}$ er <ref idTerm=3010>lokað bil</ref>. Óformlega má segja að ferill í tveim <ref idTerm=6087>víddum</ref> sé ferðalagið sem blýantsoddur tekur ef hann er dreginn um <ref idTerm=4844>sléttu</ref> án þess að lyfta blýantnum &  & Nota evklíðska skilgreiningu frekar en grannfræðilega? - Finna mynd? \\
 \hline
 1132 & ferill, vegur, leið &  &  &  \\
 \hline
@@ -2360,7 +2361,7 @@ Síðasta frumsendan varð eftirmönnum Evklíðs sérstaklega hugleikin og er a
 1156 & ferningsmeðaltalsrót &  &  &  \\
 \hline
 1157 & ferningsrót, önnur rót & 
-Ef $a$ er <ref idTerm=981>ekki neikvæð</ref> <ref idTerm=4093>rauntala</ref> þá er nákvæmlega ein <ref idTerm=2535>jákvæð</ref> tala $x$ sem uppfyllir $x^2 = a$ sem er kölluð \textit{kvaðratrótin} af $a$ og táknuð með $\sqrt{a}$ & Kvaðratrót er sértilvik af almenna hugtakinu um <ref idTerm=4253>$n$-tu rót</ref> & \\
+Sú <ref idTerm=4093>rauntala</ref> $x \geq 0$ sem uppfyllir $x^2=a$ kallast \textit{kvaðratrótin} af $a$ og táknuð með $\sqrt{a}$ & Kvaðratrót er sértilvik af almenna hugtakinu um <ref idTerm=4253>$n$-tu rót</ref> & \\
 \hline
 1158 & ferningssumma frávika, ferningsfrávik &  &  &  \\
 \hline
@@ -2789,7 +2790,7 @@ Ef $a$ er <ref idTerm=981>ekki neikvæð</ref> <ref idTerm=4093>rauntala</ref> �
 \hline
 1365 & formynd &  &  &  \\
 \hline
-1366 & formynd, frummynd, öfug mynd & Fyrir <ref idTerm=3282>vörpun</ref> $f: X \to Y$ kallast <ref idTerm=3270>mengi</ref> þeirra <ref idTerm=5128>staka</ref> úr $X$ sem $f$ varpar í stak úr <ref idTerm=2098>hlutmengi</ref> $B$ í $Y$ \textit{frummynd} vörpunarinnar $f$ af menginu $B$. Hana má rita á forminu \[ f^{-1}(B) = \{x \in X \mid f(x) \in B\}. \] & Fyrir sérhvert $y \in B$ eru þau stök úr $X$ sem $f$ varpar í $y$ lausnir <ref idTerm=2478>jöfnunnar</ref> $f(x) = y$. Frummyndina $f^{-1}(B)$ má því einnig skilgreina sem mengi allra lausna jöfnunnar $f(x) = y$ fyrir sérhvert $y \in B$ og þannig má rita hana á forminu \[ f^{-1}(B) = \{x \in X \mid \text{til er}\; y \in B \;\text{þ.a.}\; f(x) = y\}. \] <ref idTerm=6050>Venn-myndin</ref> að neðan sýnir vörpunina $f: X \to Y$, hlutmengið $B$ í $Y$ og frummynd þess $f^{-1}(B)$:
+1366 & formynd, frummynd, öfug mynd & Fyrir <ref idTerm=3282>vörpun</ref> $f: X \to Y$ og <ref idTerm=2098>hlutmengi</ref> $B$ í $Y$ kallast <ref idTerm=3270>mengi</ref> þeirra <ref idTerm=5128>staka</ref> úr $X$ sem $f$ varpar í stak úr $B$ \textit{frummynd} vörpunarinnar $f$ af menginu $B$. Hana má rita á forminu \[ f^{-1}(B) = \{x \in X \mid f(x) \in B\}. \] & Fyrir sérhvert $y \in B$ eru þau stök úr $X$ sem $f$ varpar í $y$ lausnir <ref idTerm=2478>jöfnunnar</ref> $f(x) = y$. Frummyndina $f^{-1}(B)$ má því einnig skilgreina sem mengi allra lausna jöfnunnar $f(x) = y$ fyrir sérhvert $y \in B$ og þannig má rita hana á forminu \[ f^{-1}(B) = \{x \in X \mid \text{til er}\; y \in B \;\text{þ.a.}\; f(x) = y\}. \] <ref idTerm=6050>Venn-myndin</ref> að neðan sýnir vörpunina $f: X \to Y$, hlutmengið $B$ í $Y$ og frummynd þess $f^{-1}(B)$:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/frummynd.png}
@@ -2844,7 +2845,7 @@ Ef $A$ er hlutmengi í $X$ og $B$ er hlutmengi í $Y$ fást jafnframt eftirfaran
 \hline
 1383 & forystuliður &  &  &  \\
 \hline
-1384 & forystustuðull &  &  &  \\
+1384 & forystustuðull & Sjá <ref idTerm=1984>margliða</ref> &  &  \\
 \hline
 1385 & forþjappaður &  &  &  \\
 \hline
@@ -3188,7 +3189,7 @@ Allar frumtölur minni en 100 eru eftirfarandi: $2, 3, 5, 7, 11, 13, 17, 19, 23,
 \hline
 1552 & fyllilíkindi &  &  &  \\
 \hline
-1553 & fyllimengi & <ref idTerm=3280>Mengjamunur</ref> á forminu $G \setminus A$ þar sem $A \subseteq G$ kallast \textit{fyllimengi} $A$ í $G$. Ef enginn vafi leikur á hvert <ref idTerm=3270>mengið</ref> $G$ sé og við höfum ekki áhuga á því sem er utan $G$ (sem kallast þá \textit{grunnmengi}) köllum við þennan mengjamun einfaldlega fyllimengi $A$ og taknum hann með $A^c$ & Ýmis önnur tákn þekkjast fyrir fyllimengi $A$; til dæmis $\overline{A}$, $A’$ og $\mathbf{C}A$. Við höfum sem sagt: \[ A^c = G \setminus A. \] Óformlega má segja að fyllimengið $A^c$ sé sá hluti grunnmengisins sem liggur utan mengisins $A$. Á <ref idTerm=6050>Venn-myndum</ref> er venja að tákna grunnmengið með <ref idTerm=4175>rétthyrningi</ef> og á myndinni að neðan er fyllimengið $A^c$ litað rautt:
+1553 & fyllimengi & <ref idTerm=3280>Mengjamunur</ref> á forminu $G \setminus A$ þar sem $A \subseteq G$ kallast \textit{fyllimengi $A$ í $G$}. Ef enginn vafi leikur á hvert <ref idTerm=3270>mengið</ref> $G$ sé og við höfum ekki áhuga á því sem er utan $G$ (sem kallast þá \textit{grunnmengi}) köllum við þennan mengjamun einfaldlega fyllimengi $A$ og taknum hann með $A^c$ & Ýmis önnur tákn þekkjast fyrir fyllimengi $A$; til dæmis $\overline{A}$, $A’$ og $\mathbf{C}A$. Við höfum sem sagt: \[ A^c = G \setminus A. \] Óformlega má segja að fyllimengið $A^c$ sé sá hluti grunnmengisins sem liggur utan mengisins $A$. Á <ref idTerm=6050>Venn-myndum</ref> er venja að tákna grunnmengið með <ref idTerm=4175>rétthyrningi</ef> og á myndinni að neðan er fyllimengið $A^c$ litað rautt:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/fyllimengi.png}
@@ -3201,7 +3202,7 @@ Um fyllimengi <ref idTerm=4464>sam-</ref> og <ref idTerm=4928>sniðmengja</ref> 
     \item $A \cup A^c = G$.
     \item $(A^c)^c = A$.
     \item $A \subset B$ ef og aðeins ef $B^c \subset A^c$.
-\end{enumerate} & \\
+\end{enumerate} & Skoða hvernig fjallað er um grunnmengi. \\
 \hline
 1554 & fylling &  &  &  \\
 \hline
@@ -3291,7 +3292,7 @@ Um fyllimengi <ref idTerm=4464>sam-</ref> og <ref idTerm=4928>sniðmengja</ref> 
 \hline
 1598 & gammafall &  &  &  \\
 \hline
-1599 & ganga upp í & Sagt er að <ref idTerm=3475>náttúruleg tala</ref> $n$ \textit{gengur upp í} náttúrulegri tölu $m$ ef hægt er að <ref idTerm=685>deila $m$ með $n$ án afgangs</ref> &  & Koma með dæmi \\
+1599 & ganga upp í & Sagt er að <ref idTerm=3475>náttúruleg tala</ref> $n$ \textit{gangi upp í} náttúrulegri tölu $m$ ef hægt er að <ref idTerm=685>deila $m$ með $n$ án afgangs</ref> &  & Koma með dæmi \\
 \hline
 1600 & gangbestun, kvik bestun, hreyfibestun, hreyfin bestun &  &  &  \\
 \hline
@@ -3435,11 +3436,11 @@ Um fyllimengi <ref idTerm=4464>sam-</ref> og <ref idTerm=4928>sniðmengja</ref> 
 \hline
 1666 & götuð tvinntalnaslétta &  &  &  \\
 \hline
-1667 & gráða, horngráða, bogagráða & <ref idTerm=3072>Mælieining</ref> sem oft er notuð til að mæla stærð <ref idTerm=2276>hringboga</ref> og <ref idTerm=2198>horna</ref> sem er fengin með því að skipta boga hrings í 360 eins boga sem kallast \textit{gráður} og eru táknaðar með $1^\circ$ & Eftirfarandi mynd sýnir ýmis horn <ref idTerm=887>einingarhrings</ref> auk stærð þeirra í bæði gráðum og <ref idTerm=478>radíönum</ref>:
+1667 & gráða, horngráða, bogagráða & <ref idTerm=3072>Mælieining</ref> sem oft er notuð til að mæla stærð <ref idTerm=2276>hringboga</ref> og <ref idTerm=2198>horna</ref> sem er fengin með því að skipta hring í 360 <ref idTerm=0>eins</ref> boga sem kallast \textit{gráður} og eru táknaðar með $1^\circ$ & Eftirfarandi mynd sýnir ýmis horn <ref idTerm=887>einingarhrings</ref> auk stærð þeirra í bæði gráðum og <ref idTerm=478>radíönum</ref>:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/hornamal.png}
-\end{center} &  \\
+\end{center} &   \\
 \hline
 1668 & gráðubogi &  &  &  \\
 \hline
@@ -3794,7 +3795,7 @@ Um fyllimengi <ref idTerm=4464>sam-</ref> og <ref idTerm=4928>sniðmengja</ref> 
 \includegraphics[width=150px]{myndir/opin_halflina_neg.png}
 \end{center}
 
-Á fyrstu myndinni má sjá hálflínuna $[a,\infty)$, á annarri myndinni hálflínuna $(a,\infty)$, á þriðju myndinni hálflínuna $(-\infty,a]$ og á seinustu myndinni hálflínuna $(-\infty,a)$ &  \\
+Á fyrstu myndinni má sjá hálflínuna $[a,\infty)$, á annarri myndinni hálflínuna $(a,\infty)$, á þriðju myndinni hálflínuna $(-\infty,a]$ og á seinustu myndinni hálflínuna $(-\infty,a)$ & Skilgreina líka hálflínu í flatarmyndafræði. \\
 \hline
 1841 & hálflínulegur &  &  &  \\
 \hline
@@ -3802,14 +3803,14 @@ Um fyllimengi <ref idTerm=4464>sam-</ref> og <ref idTerm=4928>sniðmengja</ref> 
 \hline
 1843 & hálflokað bil & Samheiti fyrir <ref idTerm=1844>hálfopið bil</ref> &  &  \\
 \hline
-1844 & hálfopið bil & <ref idTerm=457>Bil</ref> sem inniheldur nákvæmlega einn endapunkta sinna & Eftirfarandi myndir sína hálfopin bil:
+1844 & hálfopið bil & <ref idTerm=457>Bil</ref> með tvo endapunkta sem inniheldur nákvæmlega einn þeirra & Eftirfarandi myndir sína hálfopin bil:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/halfopid_bil.png}
 \includegraphics[width=150px]{myndir/halflokad_bil.png}
 \end{center}
 
-Á fyrri myndinni inniheldur bilið einungis hægri endapunkt sinn og á síðari myndinni inniheldur bilið einungis vinstri endapunkt sinn & Hálflínur eru samt líka hálfopin bil \\
+Á fyrri myndinni inniheldur bilið einungis hægri endapunkt sinn og á síðari myndinni inniheldur bilið einungis vinstri endapunkt sinn & \\
 \hline
 1845 & hálfrúm &  &  &  \\
 \hline
@@ -4021,7 +4022,7 @@ Um fyllimengi <ref idTerm=4464>sam-</ref> og <ref idTerm=4928>sniðmengja</ref> 
 
 Tölurnar $a_{0}, \ldots, a_{n}$ kallast \textit{stuðlar} margliðunnar og kallast þá $a_{n}$ \textit{forystustuðull} hennar og $a_{0}$ \textit{fastastuðull} hennar. <ref idTerm=5102>Stærðirnar</ref> $a_{i}x^i$ kallast \textit{liðir} margliðunnar og kallast þá $a_{n}x^n$ \textit{forystuliður} hennar og $a_{0}$ \textit{fastaliður} hennar.
 
-Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{deg}(P)$ & Stuðlar margliðu þurfa ekki endilega að vera rauntölur. Almennt þarf <ref idTerm=3270>stuðlamengið</ref> bara að vera <ref idTerm=419>baugur</ref> & Vantar færslu fyrir fastamargliðu: ``Margliða sem hefur enga liði aðra en fastaliðinn kallast \textit{fastamargliða}'' - Hægt að gera skilgreininguna ennþá kjarnyrtari? \\
+Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{deg}(P)$ & Stuðlar margliðu þurfa ekki endilega að vera rauntölur. Almennt þarf <ref idTerm=3270>stuðlamengið</ref> bara að vera <ref idTerm=419>baugur</ref>. Þegar allir stuðlar gefinnar margliðu koma úr einhverju gefnu <ref idTerm=5415>talnakerfi</ref> $\mathbb{K}$ sem hefur svipaða <ref idTerm=803>eiginleika</ref> og $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$ eða $\mathbb{C}$, þá er sagt að hún sé \textit{margliða yfir $\mathbb{K}$}. Oft má líta á gefna margliðu sem margliðu yfir mörg mismunandi talnamengi & Vantar færslu fyrir fastamargliðu: ``Margliða sem hefur enga liði aðra en fastaliðinn kallast \textit{fastamargliða}'' - Hægt að gera skilgreininguna ennþá kjarnyrtari? \\
 \hline
 1949 & heilt stak, heilstak &  &  &  \\
 \hline
@@ -4055,7 +4056,7 @@ Talan $n$ kallast \textit{stig} margliðunnar og er það táknað með $\text{d
 \includegraphics[width=150px]{myndir/helmingalina.png}
 \end{center} 
 
-Helmingalínur horna <ref idTerm=6438>þríhyrnings</ref> <ref idTerm=4771>skerast</ref> allar í einum <ref idTerm=4001>punkti</ref> en <ref idTerm=4845>skurðpunkturinn</ref> er miðja <ref idTerm=2418>innritaðs hrings</ref> þríhyrningsins &  \\
+Helmingalínur horna <ref idTerm=6438>þríhyrnings</ref> <ref idTerm=4771>skerast</ref> allar í einum <ref idTerm=4001>punkti</ref> en <ref idTerm=4845>skurðpunkturinn</ref> er miðja <ref idTerm=2418>innritaðs hrings</ref> þríhyrningsins & Skoða hvort það er lína eða hálflína. \\
 \hline
 1963 & helmingaslétta &  &  &  \\
 \hline
@@ -4249,7 +4250,7 @@ Ef þríhyrningurinn hér að ofan hefur hliðarlengdir $a=13$, $b=16$ og $c=21$
 
 \begin{enumerate}
     \item <ref idTerm=1204>fjarlægðin</ref> milli $A$ og $\tau(A)$ er sú sama fyrir alla <ref idTerm=4001>punkta</ref> $A$,
-    \item ef $A \neq \tau(A)$ gildir fyrir alla punkta $A$ að <ref idTerm=1840>hálflínurnar</ref> frá $A$ í gegnum $\tau(A)$ tilgreini sömu <ref idTerm=5135>stefnuna</ref>
+    \item <ref idTerm=1840>hálflínurnar</ref> frá $A$ í gegnum $\tau(A)$ tilgreina sömu <ref idTerm=5135>stefnuna</ref> fyrir alla punkta $A \neq \tau(A)$
 \end{enumerate} & Hlutlausa færslan telst líka til hliðrana; hún hefur hinsvegar enga tiltekna stefnu. Hliðranir hafa eftirfarandi eiginleika:
 
 \begin{enumerate}
@@ -4435,11 +4436,11 @@ Ef þríhyrningurinn hér að ofan hefur hliðarlengdir $a=13$, $b=16$ og $c=21$
 \hline
 2142 & hnikaverkefni &  &  &  \\
 \hline
-2143 & hnit &  &  &  \\
+2143 & hnit & Sjá <ref idTerm=2145>hnitakerfi</ref> &  &  \\
 \hline
 2144 & hnit, stak, stuðull &  &  &  \\
 \hline
-2145 & hnitakerfi & <ref idTerm=4541>Samsvörun</ref> milli <ref idTerm=4001>punkta</ref> tiltekins <ref idTerm=4266>rúms</ref> og <ref idTerm=5397>talna</ref> sem kallast \textit{hnit} sem gerir manni kleift að staðsetja punkta í rúminu. Slík samsvörun kallast \textit{hnitakerfi} &  & Hægt að skilgreina þetta á formlegri hátt án þess að kafa of djúpt? Endurhugsa aðeins skilgreininguna, hún er ekki mjög skýr - Koma með dæmi um hnitakerfi \\
+2145 & hnitakerfi & <ref idTerm=4541>Samsvörun</ref> milli <ref idTerm=4001>punkta</ref> í $n$-víðu <ref idTerm=4266>rúmi</ref> og $n$-undar af <ref idTerm=5397>tölum</ref> sem kallast \textit{hnit}. Hnitin eru notuð til að staðsetja punkta í rúminu & Fjalla um almennari hnitakerfi. & Hægt að skilgreina þetta á formlegri hátt án þess að kafa of djúpt? Endurhugsa aðeins skilgreininguna, hún er ekki mjög skýr - Koma með dæmi um hnitakerfi \\
 \hline
 2146 & hnitapappír &  &  &  \\
 \hline
@@ -4545,7 +4546,7 @@ Ef þríhyrningurinn hér að ofan hefur hliðarlengdir $a=13$, $b=16$ og $c=21$
 \hline
 2197 & hópþáttur, flokksþáttur &  &  &  \\
 \hline
-2198 & horn & Tvær <ref idTerm=1840>hálflínur</ref> með sama <ref idTerm=5850>upphafspunkt</ref> eru sagðar mynda \textit{horn}. Upphafspunktur hálflínanna kallast þá \textit{oddpunktur} hornsins og hálflínurnar kallast \textit{armar} þess & Á eftirfarandi mynd sést horn með oddpunkt $O$ og arma $h$ og $k$:
+2198 & horn & Tvær <ref idTerm=1840>hálflínur</ref> með sama <ref idTerm=5850>upphafspunkt</ref> eru sagðar mynda \textit{horn}. Upphafspunktur hálflínanna kallast þá \textit{oddpunktur} hornsins og hálflínurnar kallast \textit{armar} þess. Horn með oddpunkt $O$ er táknað $\angle O$. Ef $A$ og $B$ eru tveir punktar sem liggja á sitthvorum armi hornsins þá er einnig hægt að tákna hornið $\angle AOB$ & Á eftirfarandi mynd sést horn með oddpunkt $O$ og arma $h$ og $k$:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/horn.png}
@@ -4607,11 +4608,11 @@ Ef þríhyrningurinn hér að ofan hefur hliðarlengdir $a=13$, $b=16$ og $c=21$
     \item Hinn armur flutta hornsins fellur saman við hinn arm óhreyfða hornsins. Þá eru hornin \textit{jafn stór}, eða einfaldlega \textit{eins}
     \item Hinn armur flutta hornsins lendir á milli arma óhreyfða hornsins. Þá er flutta hornið minna en óhreyfða hornið, sem er þá jafnframt \textit{stærra} en flutta hornið
     \item Hinn armur flutta hornsins lendir utanvið óhreyfða hornið. Þá er flutta hornið stærra en óhreyfða hornið, sem er þá jafnframt \textit{minna} en flutta hornið
-\end{enumerate} & Stærð horns er oft mælt í <ref idTerm=1667>gráðum</ref> eða <ref idTerm=478>radíönum</ref> & \\
+\end{enumerate} & Stærð horns er oft mælt í <ref idTerm=1667>gráðum</ref> eða <ref idTerm=478>radíönum</ref> & Sér færsla fyrir eiginlegur með skilgreiningu og vísa i hana. Spurning líka hvort hér eigi að skilgreinar stærð horns, þ.e.~hvernig eigi að mæla horn, ekki samanburð á stærð tveggja horna. Og spurning hvert textinn um samanburð ætti að fara. \\
 \hline
 2224 & hornamál, hornmál &  &  &  \\
 \hline
-2225 & hornasumma & <ref idTerm=2820>Samanlagt</ref> <ref idTerm=2223>gráðumál</ref> <ref idTerm=2198>horna</ref> <ref idTerm=3161>marghyrnings</ref> Ef <ref idTerm=2198>horn</ref> <ref idTerm=3161>marghyrnings</ref> eru <ref idTerm=2223>mæld</ref> í <ref idTerm=1667>gráðum</ref> eða <ref idTerm=478>radíönum</ref>, þá er \textit{hornasumma} marghyrnings <ref idTerm=5320>summa</ref> stærða allra horna hans & Auðvelt er að finna hornasummu marghyrnings með því að <ref idTerm=4814>skipta honum upp í þríhyrninga</ref>. Hægt er að skipta $n$-hyrningi upp í $n-2$ þríhyrninga, svo að hornasumma $n$-hyrnings er $(n-2)\cdot 180$. Sem dæmi er hægt að skipta fimmhyrningnum $A B C D E$ að neðan í þrjá þríhyrninga, svo að hornasumma hans er $(5 - 2) \cdot 180^\circ = 540^\circ$:
+2225 & hornasumma & <ref idTerm=5320>Summa</ref> <ref idTerm=2223>Summa</ref> allra horna í <ref idTerm=3161>marghyrningi</ref>  & Auðvelt er að finna hornasummu marghyrnings með því að <ref idTerm=4814>skipta honum upp í þríhyrninga</ref>. Hægt er að skipta $n$-hyrningi upp í $n-2$ þríhyrninga, svo að hornasumma $n$-hyrnings er $(n-2)\cdot 180$. Sem dæmi er hægt að skipta fimmhyrningnum $A B C D E$ að neðan í þrjá þríhyrninga, svo að hornasumma hans er $(5 - 2) \cdot 180^\circ = 540^\circ$:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/hornasumma.png}
@@ -4761,7 +4762,7 @@ Ef þríhyrningurinn hér að ofan hefur hliðarlengdir $a=13$, $b=16$ og $c=21$
 
 \begin{center}
 \includegraphics[width=150px]{myndir/hringur.png}
-\end{center} & \\
+\end{center} & Skilgreina geisla sem strikið eða lengd þess, setja undir geisla. Eins með kúlu. \\
 \hline
 2296 & hringvik &  &  &  \\
 \hline
@@ -5142,7 +5143,7 @@ Ef þríhyrningurinn hér að ofan hefur hliðarlengdir $a=13$, $b=16$ og $c=21$
 \hline
 2479 & jafnaðarmerki, jöfnunarmerki, samasemmerki, samsemdarmerki &  &  &  \\
 \hline
-2480 & jafnarma & <ref idTerm=6438>Þríhyrningur</ref> kallast \textit{jafnarma} ef hann hefur tvær eins <ref idTerm=2048>hliðar</ref> & Eftirfarandi er mynd af jafnarma þríhyrningi:
+2480 & jafnarma & <ref idTerm=6438>Þríhyrningur</ref> kallast \textit{jafnarma} ef hann hefur tvær jafn <ref idTerm=2860>langar</ref> <ref idTerm=2048>hliðar</ref> & Eftirfarandi er mynd af jafnarma þríhyrningi:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/jafnarma_thrihyrningur.png}
@@ -5286,7 +5287,7 @@ Ef þríhyrningurinn hér að ofan hefur hliðarlengdir $a=13$, $b=16$ og $c=21$
 \hline
 2545 & jöfn hröðun &  &  &  \\
 \hline
-2546 & jöfn tala, slétt tala & <ref idTerm=1896>Heil tala</ref> sem $2$ <ref idTerm=1599>gengur upp í</ref>, þ.e. heil tala $n$ sem rita má á forminu $n = 2 \cdot k$ þar sem $k$ er heil tala &  &  \\
+2546 & jöfn tala, slétt tala & <ref idTerm=1896>Heil tala</ref> sem $2$ <ref idTerm=1599>gengur upp í</ref>, þ.e. heil tala $n$ sem rita má á forminu $n = 2 \cdot k$ þar sem $k$ er heil tala &  & Spurning að segja deilanleg með 2 og skilgreina deilanleg. \\
 \hline
 2547 & jöfnuður &  &  &  \\
 \hline
@@ -5302,49 +5303,17 @@ Ef þríhyrningurinn hér að ofan hefur hliðarlengdir $a=13$, $b=16$ og $c=21$
 \hline
 2553 & kápuhlið, kápuhliðarflötur, möttulhlið, möttulhliðarflötur &  &  &  \\
 \hline
-2554 & kartesk hnit, Kartesarhnit & <ref idTerm=2145>Hnitakerfi</ref> á <ref idTerm=1031>evklíðska sléttu</ref> sem fæst með því að setja upp <ref idTerm=6469>þverstæðar</ref> <ref idTerm=5416>talnalínur</ref> sem kallast \textit{hnitaásar} og <ref idTerm=4771>skerast</ref> í núllpunktum sínum. Þessi <ref idTerm=4845>skurðpunktur</ref> kallast þá \textit{upphafspunktur} hnitakerfisins sem er yfirleitt táknaður með $O$ og venja er að kalla aðra talnalínuna $x$-ás og hina $y$-ás & Eftirfarandi er mynd af kartesku hnitakerfi:
-
-\begin{center}
-\includegraphics[width=150px]{myndir/kartesk_hnit.png}
-\end{center}
-
-Upphafspunkturinn skiptir $x$-ás í tvær <ref idTerm=1840>hálflínur</ref>; þá sem hefur <ref idTerm=4001>punkta</ref> með <ref idTerm=981>frekar jákvæð</ref> hnit og kallast \textit{jákvæði $x$-ás}, og aðra sem hefur punkta með <ref idTerm=980>frekar neikvæð</ref> hnit og kallast \textit{neikvæði $x$-ás}. Sama á við um $y$-ás. Jákvæðu ásarnir tilgreina <ref idTerm=5135>stefnu</ref> á hnitaásunum. Á mynd er venja að gefa jákvæðu stefnu hnitaásanna til kynna með <ref idTerm=3810>ör</ref> og merkja ásana við örina með $x$ eða $y$.
-
-Hnitaásarnir skipta sléttunni í fjóra \textit{fjórðunga}:
-
-\begin{enumerate}
-    \item Fyrsti fjórðungur samanstendur af þeim punktum sléttunnar sem eru innaní <ref idTerm=4167>rétta horninu</ref> sem hefur jákvæða $x$-ás og jákvæða $y$-ás fyrir <ref idTerm=334>arma</ref> sína,
-
-    \item Annar fjórðungur samanstendur af þeim punktum sléttunnar sem eru innaní rétta horninu sem hefur neikvæða $x$-ás og jákvæða $y$-ás fyrir arma sína,
-
-    \item Þriðji fjórðungur samanstendur af þeim punktum sléttunnar sem eru innaní rétta horninu sem hefur neikvæða $x$-ás og neikvæða $y$-ás fyrir arma sína,
-
-    \item Fjórði fjórðungur samanstendur af þeim punktum sléttunnar sem eru innaní rétta horninu sem hefur jákvæða $x$-ás og neikvæða $y$-ás fyrir arma sína,
-\end{enumerate}
-
-Þegar sléttan er <ref idTerm=363>áttuð</ref> er venja að velja hnitaásana þannig að <ref idTerm=5145>stefnuhornið</ref> sem hefur jákvæða $x$-ás sem fyrri arm og jákvæða $y$-ás fyrir seinni arm hafi jákvæða áttun. Þá fæst að þegar jákvæða $x$-ás er <ref idTerm=4954>snúið</ref> <ref idTerm=290>rangsælis</ref>, þá fer hann fyrst í gegnum fyrsta fjórðung áður en hann fellur í jákvæða $y$-ás. Þegar honum er snúið áfram, þá fer hann næst í gegnum annan fjórðung, þá þriðja og loks fjórða fjórðung.
-
-Með hjálp hnitaásanna má samsama punktum sléttunnar við <ref idTerm=5627>tvenndir</ref> af <ref idTerm=4093>rauntölum</ref> með eftirfarandi hætti:
-
-\begin{enumerate}
-    \item Látum $P$ vera punkt í sléttunni. Látum $A$ vera <ref idTerm=1389>fótpunkt</ref> þverilsins á $x$-ás í gegnum $P$. Hnit $A$ á $x$-ásnum er rauntala $a$ sem kallast $x$-hnit $P$. Hún er stundum táknuð $x(P)$. Eins látum við $B$ vera fótpunkt <ref idTerm=2975>þverilsins</ref> á $y$-ás í gegnum $P$. Hnit $B$ á $y$-ásnum er rauntala $b$ sem kallast $y$-hnit $P$. Hún er stundum táknuð $y(P)$. Talnatvenndin $(a,b)$ kallast einu nafni \textit{kartesk hnit} punktsins $P$, eða einfaldlega hnit $P$.
-
-    \item Látum $(a,b)$ vera rauntalnatvennd. Látum $A$ er punktinn á $x$-ás sem hefur hnit $a$ og $B$ vera punktinn á $y$-ás sem hefur hnit $b$. Þverillinn á $x$-ás í gegnum punktinn $A$ sker þverilinn á $y$-ás í gegnum punktinn $B$. Látum $P$ vera skurðpunktinn. Stundum er skurðpunkturinn einnig táknaður með $P(a,b)$ til að gefa talnatvenndina til kynna.
-\end{enumerate}
-
-\begin{center}
-\includegraphics[width=150px]{myndir/kartesk_hnit_b.png}
-\end{center} & Er þetta nógu nákvæm skilgreining? \\
+2554 & kartesk hnit, Kartesarhnit & <ref idTerm=2143>Hnit</ref> í <ref idTerm=6596>karteskri sléttu</ref> & & \\
 \hline
 2556 & karteskt rúm, Kartesarrúm &  &  &  \\
 \hline
 2557 & karteskur ferningur &  &  &  \\
 \hline
-2559 & kassi, kubbur, rétthyrndur samhliðungur & <ref idTerm=4625>Sexflötungur</ref> þar sem <ref idTerm=65>aðlægar hliðar</ref> mynda <ref idTerm=4167>rétt horn</ref> & Eftirfarandi er mynd af kassa með hliðarlengdir $l,b$ og $h$:
+2559 & kassi, kubbur, rétthyrndur samhliðungur & <ref idTerm=4625>Sexflötungur</ref> þar sem allar hliðar eru rétthyrningar & Eftirfarandi er mynd af kassa með hliðarlengdir $l,b$ og $h$:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/kassi.png}
-\end{center}&  \\
+\end{center}& Bæta við vísunum. \\
 \hline
 2560 & kast &  &  &  \\
 \hline
@@ -5378,7 +5347,7 @@ Með hjálp hnitaásanna má samsama punktum sléttunnar við <ref idTerm=5627>t
 \hline
 2575 & keðjuskilyrði &  &  &  \\
 \hline
-2576 & keila & <ref idTerm=6532>Rúmmynd</ref> sem afmarkast af <ref idTerm=2579>fleti</ref> með <ref idTerm=488>sveigðum</ref> <ref idTerm=2453>jaðri</ref> og <ref idTerm=2579>fletinum</ref> sem fæst með því að draga <ref idTerm=2958>línustrik</ref> milli <ref idTerm=4001>punkta</ref> jaðarins og eins annars punkts &  & Má punkturinn liggja í grunnfletinum? - Óþarfi að vitna í færsluna fyrir keiluflöt út af því það er skilgreint hvernig hann er smíðaður hér? \\
+2576 & keila & <ref idTerm=6532>Rúmmynd</ref> sem afmarkast af <ref idTerm=2579>fleti</ref> með <ref idTerm=488>sveigðum</ref> <ref idTerm=2453>jaðri</ref> og <ref idTerm=2579>fletinum</ref> sem fæst með því að draga <ref idTerm=2958>línustrik</ref> milli <ref idTerm=4001>punkta</ref> jaðarins og eins tiltekins punkts &  & Má punkturinn liggja í grunnfletinum? - Óþarfi að vitna í færsluna fyrir keiluflöt út af því það er skilgreint hvernig hann er smíðaður hér? \\
 \hline
 2577 & keilu- &  &  &  \\
 \hline
@@ -5546,19 +5515,19 @@ Með hjálp hnitaásanna má samsama punktum sléttunnar við <ref idTerm=5627>t
 
 \begin{center}
 \includegraphics[width=150px]{myndir/cos.png}
-\end{center} & Laga nöfn? Laga bakgrunnslit \\
+\end{center} & Önnur skilgreining undir einingarhring. Laga nöfn? Laga bakgrunnslit \\
 \hline
-2658 & kósínusregla & Um <ref idTerm=6438>þríhyrning</ref> $\Delta A B C$ með <ref idTerm=0>hliðarlengdir</ref> $a$, $b$ og $c$ gildir \textit{kósínusreglan} $$ c^2 = a^2 + b^2 - 2 a b\, \cos(C). $$ Þegar <ref idTerm=2198>hornið</ref> $C$ er <ref idTerm=4167>rétt</ref>, þá er síðasti liðurinn $0$ og <ref idTerm=2478>jafnan</ref> gefur <ref idTerm=4002>reglu Pýþagórasar</ref> &  & Koma með dæmi? Útskýra hvernig setningunni er beitt? Finna mynd? \\
+2658 & kósínusregla & Um <ref idTerm=6438>þríhyrning</ref> $\Delta A B C$ með <ref idTerm=0>hliðarlengdir</ref> $a$, $b$ og $c$ gildir \textit{kósínusreglan} $$ c^2 = a^2 + b^2 - 2 a b\, \cos(C). $$ & Þegar <ref idTerm=2198>hornið</ref> $C$ er <ref idTerm=4167>rétt</ref>, þá er síðasti liðurinn $0$ og <ref idTerm=2478>jafnan</ref> gefur <ref idTerm=4002>reglu Pýþagórasar</ref> & Koma með dæmi? Útskýra hvernig setningunni er beitt? Finna mynd? \\
 \hline
 2659 & kostnaðarfall, viðfangsfall &  &  &  \\
 \hline
 2660 & kóta, dulrita, lykla &  &  &  \\
 \hline
-2661 & kótangens & Fyrir <ref idTerm=4173>rétthyrndan þríhyrning</ref> $ABC$ þar sem $C$ er <ref idTerm=4167>rétt horn</ref> er <ref idTerm=2202>hornafallið</ref> \textit{kótangens} af <ref idTerm=2198>horninu</ref> $A$, táknað $\cot(A)$, skilgreint sem <ref idTerm=2072>hlutfallið</ref> milli <ref idTerm=2860>lengd</ref> <ref idTerm=65>aðlægrar</ref> <ref idTerm=4725>skammhliðar</ref> og lengd <ref idTerm=3396>mótlægrar</ref> skammhliðar & Eftirfarandi mynd sýnir hluta <ref idTerm=2955>grafs</ref> kótangensfallsins: 
+2661 & kótangens & Fyrir <ref idTerm=4173>rétthyrndan þríhyrning</ref> $ABC$ þar sem $C$ er <ref idTerm=4167>rétt horn</ref> er <ref idTerm=2202>hornafallið</ref> \textit{kótangens} af <ref idTerm=2198>horninu</ref> $A$, táknað $\cot(A)$, skilgreint sem $\frac{1}{\tan(A)}$. Það jafngildir því að það sé <ref idTerm=2072>hlutfallið</ref> milli <ref idTerm=2860>lengd</ref> <ref idTerm=65>aðlægrar</ref> <ref idTerm=4725>skammhliðar</ref> og lengd <ref idTerm=3396>mótlægrar</ref> skammhliðar & Eftirfarandi mynd sýnir hluta <ref idTerm=2955>grafs</ref> kótangensfallsins: 
 
 \begin{center}
 \includegraphics[width=150px]{myndir/cot.png}
-\end{center} & Betra að láta táknmál fylgja með? Laga bakgrunnslit - Finna mynd sem skýrir tenginguna við þríhyrning \\
+\end{center} & Hér og tangens, skilgreina út frá sin og cos, svo koma með textann um rétthyrndan þríhyrning. Betra að láta táknmál fylgja með? Laga bakgrunnslit - Finna mynd sem skýrir tenginguna við þríhyrning \\
 \hline
 2662 & kóti, lykill, dulmálslykill, lykilmál &  &  &  \\
 \hline
@@ -5812,13 +5781,13 @@ Með hjálp hnitaásanna má samsama punktum sléttunnar við <ref idTerm=5627>t
 \hline
 2788 & langás &  &  &  \\
 \hline
-2789 & langhlið & Sú <ref idTerm=2048>hlið</ref> <ref idTerm=>rétthyrnds þríhyrnings</ref> sem liggur á móti rétta horninu & Á eftirfarandi mynd er $CA$ langhlið þríhyrningsins:
+2789 & langhlið & Sú <ref idTerm=2048>hlið</ref> <ref idTerm=>rétthyrnds þríhyrnings</ref> sem er <ref idTerm=3396>mótlæg</ref> rétta horninu & Á eftirfarandi mynd er $CA$ langhlið þríhyrningsins:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/retthyrndur_thrihyrningur.png}
 \end{center}
 
-Þessi hlið er nefnd langhliðin vegna þess að hún er lengri en báðar hinar hliðarnar. <ref idTerm=6436>Þríhyrningsójafnan</ref> segir okkur að $|AB| + |BC| \leq |CA|$ en af því leiðir að ef þríhyrningurinn er ekki <ref idTerm=5871>úrkynjaður</ref> þá er $|AB|>0$ og $|BC|>0$ og því gildir $|AB|<|CA|$ og $|BC|<|CA|$ & \\
+Þessi hlið er nefnd langhliðin vegna þess að hún er lengri en báðar hinar hliðarnar. <ref idTerm=6436>Þríhyrningsójafnan</ref> segir okkur að $|AB| + |BC| \leq |CA|$ en af því leiðir að ef þríhyrningurinn er ekki <ref idTerm=5871>úrkynjaður</ref> þá er $|AB|>0$ og $|BC|>0$ og því gildir $|AB|<|CA|$ og $|BC|<|CA|$ & Mótlæg hlið - setja inn færslu. Þá bæði hlið sem er mótlæg horni í þríhyrningi og mótlægar hliðar í marghyrningi? \\
 \hline
 2790 & langsveifarferill &  &  &  \\
 \hline
@@ -5912,7 +5881,7 @@ Með hjálp hnitaásanna má samsama punktum sléttunnar við <ref idTerm=5627>t
 \hline
 2835 & leiðiliður &  &  &  \\
 \hline
-2836 & leiðing & <ref idTerm=2836>Yrðing</ref> af taginu $A \implies B$ kallast \textit{leiðing} en  $A$ kallast þá \textit{skilyrði} og $B$ \textit{ályktun} & & Koma með dæmi um leiðingar? \\
+2836 & leiðing & <ref idTerm=2836>Yrðing</ref> af taginu $A \implies B$ kallast \textit{leiðing} en  $A$ kallast þá \textit{skilyrði} og $B$ \textit{ályktun} & & Skoða betur. Koma með dæmi um leiðingar? \\
 \hline
 2837 & leiðingarmerki &  &  &  \\
 \hline
@@ -6154,7 +6123,10 @@ Með hjálp hnitaásanna má samsama punktum sléttunnar við <ref idTerm=5627>t
 
 \begin{center}
 \includegraphics[width=150px]{myndir/graf.png}
-\end{center} & Laga bakgrunnslit - Eftirfarandi eru fleiri dæmi um gröf algengra falla: 
+\end{center} & Tala bara um graf falls. Spurning hvort hægt sé að vera með setningu um hvernig teikna má graf í hnitakerfi, eða fókusera alveg á teikinigahlutann.
+\\
+
+Laga bakgrunnslit - Eftirfarandi eru fleiri dæmi um gröf algengra falla: 
 
 Samsemdarvörpunin $f(x) = x$, $x \in \mathbb{R}$:
 
@@ -6270,7 +6242,7 @@ Samsemdarvörpunin $f(x) = x$, $x \in \mathbb{R}$:
 \hline
 3009 & lokaástand &  &  &  \\
 \hline
-3010 & lokað bil & <ref idTerm=457>Bil</ref> sem inniheldur endapunkta sína & Eftirfarandi er mynd af lokuðu bili:
+3010 & lokað bil & <ref idTerm=457>Bil</ref> með tvo endapunkta sem inniheldur þá baða & Eftirfarandi er mynd af lokuðu bili:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/lokad_bil.png}
@@ -6286,7 +6258,7 @@ Samsemdarvörpunin $f(x) = x$, $x \in \mathbb{R}$:
 \hline
 3015 & lokaður &  &  &  \\
 \hline
-3016 & lokaður ferill, lokaður vegur, lykkja & <ref idTerm=1131>Ferill</ref> þar sem báðir endapunktar ferilsins eru sami punkturinn &  &  \\
+3016 & lokaður ferill, lokaður vegur, lykkja & <ref idTerm=1131>Ferill</ref> þar sem báðir endapunktar ferilsins eru sami punkturinn &  & Setja hlekk á endapunkt og skilgreina það undir ferli. \\
 \hline
 3017 & lokaður flötur, þjappaður flötur &  &  &  \\
 \hline
@@ -6764,7 +6736,7 @@ Samsemdarvörpunin $f(x) = x$, $x \in \mathbb{R}$:
 \hline
 3269 & meirihlutaákvörðun &  &  &  \\
 \hline
-3270 & mengi & <ref idTerm=4308>Safn</ref> <ref idTerm=5114>hluta</ref> & Þessi skilgreining á mengi skilgreinir svokallaða <ref idTerm=2337>hversdagslega mengjafræði</ref> sem ekki er unnt að nota í stærðfræði vegna þess að hún leiðir til mótsagnar (samanber <ref idTerm=4294>þversögn Russell</ref>). Sú mengjafræði sem er mest notuð nú til dags er mengjafræðin sem byggir á frumsendum Ernst Zermelo og Abraham Fraenkel og kölluð <ref idTerm=6314>Zermelo-Fraenkel-mengjafræði</ref> eða ZF. Oft er einnig gert ráð fyrir <ref idTerm=5954>valfrumsendunni</ref> og þá talað um <ref idTerm=6315>Zermelo-Fraenkel-mengjafræði með valfrumsendu</ref> eða ZFC &  \\
+3270 & mengi & Safn <ref idTerm=5114>hluta</ref> & Þessi skilgreining á mengi skilgreinir svokallaða <ref idTerm=2337>hversdagslega mengjafræði</ref> sem ekki er unnt að nota í stærðfræði vegna þess að hún leiðir til mótsagnar (samanber <ref idTerm=4294>þversögn Russell</ref>). Sú mengjafræði sem er mest notuð nú til dags er mengjafræðin sem byggir á frumsendum Ernst Zermelo og Abraham Fraenkel og kölluð <ref idTerm=6314>Zermelo-Fraenkel-mengjafræði</ref> eða ZF. Oft er einnig gert ráð fyrir <ref idTerm=5954>valfrumsendunni</ref> og þá talað um <ref idTerm=6315>Zermelo-Fraenkel-mengjafræði með valfrumsendu</ref> eða ZFC &  \\
 \hline
 3271 & mengjaaðgerð &  &  &  \\
 \hline
@@ -6941,7 +6913,7 @@ Fyrra skilyrðið tryggir að vörpunin sé skilgreind á öllu <ref idTerm=1343
 \hline
 3352 & minnsta frávik &  &  &  \\
 \hline
-3353 & minnsta samfeldi, minnsta sameiginlega margfeldi & <ref idTerm=3347>Minnsta</ref> <ref idTerm=3475>náttúrulega talan</ref> sem tvær <ref idTerm=1896>heiltölur</ref> $n$ og $m$ <ref idTerm=1599>ganga upp í</ref> kallast \textit{minnsta} <ref idTerm=4343>\textit{samfeldi}</ref> $n$ og $m$ og er táknað með $\text{lcm}(n,m)$ & Til þess að finna minnsta samfeldi talna $n$ og $m$ er byrjað á að <ref idTerm=5824>frumþátta</ref> þær. Ef $p_{1},\ldots,p_{k}$ eru allir þeir frumþættir sem tilheyra að minnsta kosti annarri tölunni $n$ eða $m$, og $a_{1},\ldots,a_{k}$ og $b_{1},\ldots,b_{k}$ eru margfeldni þeirra í $n$ og $m$, þá er minnsta samfeldi þeirra:
+3353 & minnsta samfeldi, minnsta sameiginlega margfeldi & <ref idTerm=3347>Minnsta</ref> <ref idTerm=4343>\textit{samfeldi}</ref> tveggja <ref idTerm=1896>heiltalna</ref> $n$ og $m$, táknað $\text{lcm}(n,m)$ & Til þess að finna minnsta samfeldi talna $n$ og $m$ er byrjað á að <ref idTerm=5824>frumþátta</ref> þær. Ef $p_{1},\ldots,p_{k}$ eru allir þeir frumþættir sem tilheyra að minnsta kosti annarri tölunni $n$ eða $m$, og $a_{1},\ldots,a_{k}$ og $b_{1},\ldots,b_{k}$ eru margfeldni þeirra í $n$ og $m$, þá er minnsta samfeldi þeirra:
 
 \[ \text{lcm}(n,m) = {p_{1}}^{c_{1}} \cdot {p_{2}}^{c_{2}} \cdot \ldots \cdot {p_{k-1}}^{c_{k-1}} \cdot {p_{k}}^{c_{k}} \] 
 
@@ -7288,7 +7260,7 @@ Seinasta frumsendan er kölluð \textit{þrepunarfrumsendan} en hún gerir okkur
 \hline
 3506 & neikvætt hálfákveðinn &  &  &  \\
 \hline
-3507 & neitun & Fyrir sérhverja <ref idTerm=1515>yrðingu</ref> $p$ er $\neg p$ (lesið: „ekki $p$“) sú yrðing sem fæst með því að \textit{neita} yrðingunni $p$. Yrðingin $\neg p$ hefur þess vegna alltaf öfugt <ref idTerm=4560>sanngildi</ref> við yrðinguna $p$ & Þessari staðreynd má lýsa með eftirfarandi töflu, sem sýnir <ref idTerm=4560>sanngildi</ref> $\neg p$ eftir ólíkum sanngildum $p$: & Búa til mynd  \\
+3507 & neitun & Fyrir sérhverja <ref idTerm=1515>yrðingu</ref> $p$ er $\neg p$ (lesið: „ekki $p$“) sú yrðing sem fæst með því að \textit{neita} yrðingunni $p$ & Þessari staðreynd má lýsa með eftirfarandi töflu, sem sýnir <ref idTerm=4560>sanngildi</ref> $\neg p$ eftir ólíkum sanngildum $p$: & Búa til mynd  \\
 \hline
 3508 & neitunarháttur &  &  &  \\
 \hline
@@ -7594,7 +7566,7 @@ Seinasta frumsendan er kölluð \textit{þrepunarfrumsendan} en hún gerir okkur
 \hline
 3662 & oddstæðni, oddleiki, hvassleiki &  &  &  \\
 \hline
-3663 & oddstæður & <ref idTerm=1078>Fall</ref> $f: X \to Y$ þar sem $X$ og $Y$ eru <ref idTerm=2098>hlutmengi</ref> í <ref idTerm=3270>mengi</ref> <ref idTerm=4093>rauntalna</ref> kallast \textit{oddstætt} ef fyrir öll $x \in X$ gildi að \[ f(-x) = - f(x). \] & <ref idTerm=2955>Graf</ref> oddstæðs falls fellur í sjálft sig þegar því er <ref idTerm=4986>speglað</ref> um <ref idTerm=6253>$y$-ásinn</ref> og spegilmyndinni síðan speglað um <ref idTerm=6252>$x$-ásinn</ref>. Þetta má einnig orða svo að graf oddstæðs falls falli í sjálft sig ef því er snúið um <ref idTerm=1838>hálfhring</ref>. Eftirfarandi mynd sýnir oddstætt fall:
+3663 & oddstæður & <ref idTerm=1078>Fall</ref> $f: X \to Y$ þar sem $X$ og $Y$ eru <ref idTerm=2098>hlutmengi</ref> í <ref idTerm=3270>mengi</ref> <ref idTerm=4093>rauntalna</ref> kallast \textit{oddstætt} ef fyrir öll $x \in X$ gildir að \[ f(-x) = - f(x). \] & <ref idTerm=2955>Graf</ref> oddstæðs falls fellur í sjálft sig þegar því er <ref idTerm=4986>speglað</ref> um <ref idTerm=6253>$y$-ásinn</ref> og spegilmyndinni síðan speglað um <ref idTerm=6252>$x$-ásinn</ref>. Þetta má einnig orða svo að graf oddstæðs falls falli í sjálft sig ef því er snúið um <ref idTerm=1838>hálfhring</ref>. Eftirfarandi mynd sýnir oddstætt fall:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/oddstaett_fall.png}
@@ -7862,11 +7834,17 @@ Seinasta frumsendan er kölluð \textit{þrepunarfrumsendan} en hún gerir okkur
 \hline
 3792 & önnur afleiða &  &  &  \\
 \hline
-3793 & opið bil & <ref idTerm=457>Bil</ref> sem inniheldur ekki endapunkta sína & Eftirfarandi er mynd af opnu bili:
+3793 & opið bil & <ref idTerm=457>Bil</ref> sem inniheldur ekki endapunkta sína & Eftirfarandi er myndir af opnum bilum:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/opid_bil.png}
-\end{center} & Opnar hálflínur eru líka opin bil \\
+\end{center}
+\begin{center}
+\includegraphics[width=150px]{myndir/opin_halflina_pos.png}
+\end{center}
+\begin{center}
+\includegraphics[width=150px]{myndir/opin_halflina_neg.png}
+\end{center} & \\
 \hline
 3794 & opið hálfrúm &  &  &  \\
 \hline
@@ -7882,7 +7860,7 @@ Seinasta frumsendan er kölluð \textit{þrepunarfrumsendan} en hún gerir okkur
 \hline
 3800 & opin segð, opin fullyrðing, opin yrðing & <ref idTerm=1515>Yrðing</ref> sem inniheldur eina eða fleiri óþekktar <ref idTerm=5102>stærðir</ref> & Staðhæfingin $p(x)$: ``$x$ er <ref idTerm=2546>slétt tala</ref>'' er opin yrðing með óþekktu stærðina $x$. Þegar talan 1 er sett í stað óþekktu stærðarinnar fæst staðhæfingin $p(1)$: ``1 er slétt tala'', sem er <ref idTerm=6624>ósönn</ref> yrðing. Þegar talan 2 er sett í stað óþekktu stærðarinnar fæst hins vegar staðhæfingin $p(2)$: ``$2$ er slétt tala'', sem er <ref idTerm=6659>sönn</ref> yrðing. 
 
-Látum $p(x)$ vera opna yrðingu og $X$ vera <ref idTerm=3270>mengi</ref>. Þau <ref idTerm=5128>stök</ref> úr $X$ sem gera $p(x)$ að sannri yrðingu þegar þau eru sett í stað óþekktu stærðarinnar kallast \textit{lausnir} opnu yrðingarinnar $p(x)$ í menginu $X$. Ennfremur kallast mengi allra lausna $p(x)$ í $X$ \textit{lausnamengi} $p(x)$ í $X$ og það er táknað með \[ P = \{x \in X \mid p(x)\} \] &  \\
+Látum $p(x)$ vera opna yrðingu og $X$ vera <ref idTerm=3270>mengi</ref>. Þau <ref idTerm=5128>stök</ref> úr $X$ sem gera $p(x)$ að sannri yrðingu þegar þau eru sett í stað óþekktu stærðarinnar kallast \textit{lausnir} opnu yrðingarinnar $p(x)$ í menginu $X$. Ennfremur kallast mengi allra lausna $p(x)$ í $X$ \textit{lausnamengi} $p(x)$ í $X$ og það er táknað með \[ P = \{x \in X \mid p(x)\} \] & Setja breytu í stað óþekktrar stærðar. \\
 \hline
 3801 & opin vörpun &  &  &  \\
 \hline
@@ -8283,7 +8261,7 @@ Látum $p(x)$ vera opna yrðingu og $X$ vera <ref idTerm=3270>mengi</ref>. Þau 
 \hline
 4001 & punktur, depill &  &  &  \\
 \hline
-4002 & Pýþagórasarregla, setning Pýþagórasar & \textit{Setning Pýþagórasar} segir að fyrir <ref idTerm=4173>rétthyrndan þríhyrning</ref> með <ref idTerm=0>hliðarlengdir</ref> $a,b$ og $c$ þar sem $c$ er lengd <ref idTerm=2789>langhliðarinnar</ref> gildi \[c^2 = a^2 + b^2\] &  &  \\
+4002 & Pýþagórasarregla, setning Pýþagórasar & \textit{Setning Pýþagórasar} segir að fyrir <ref idTerm=4173>rétthyrndan þríhyrning</ref> með <ref idTerm=4725>skammhliðar</ref> $a$ og $b$ og <ref idTerm=2789>langhlið</ref> $c$ gildi \[c^2 = a^2 + b^2\] &  & \\
 \hline
 4003 & Pýþagórasarsvið, pýþagórskt svið &  &  &  \\
 \hline
@@ -8744,7 +8722,7 @@ Látum $p(x)$ vera opna yrðingu og $X$ vera <ref idTerm=3270>mengi</ref>. Þau 
 \hline
 4252 & rót &  &  &  \\
 \hline
-4253 & rót, lausn & Ef $a$ er <ref idTerm=981>ekki neikvæð</ref> <ref idTerm=4093>rauntala</ref> og $n \geq 1$ er <ref idTerm=3475>náttúruleg tala</ref> þá er nákvæmlega ein <ref idTerm=2535>jákvæð</ref> tala $x$ sem uppfyllir $x^n = a$ sem er kölluð $n$\textit{-ta rótin} af $a$ og táknuð með $\sqrt[n]{a}$. <ref idTerm=5397>Talan</ref> $a$ kallast \textit{rótarstofn} og $n$ kallast \textit{rótarvísir} & Rætur fullnægja tveimur <ref idTerm=4150>reiknireglum</ref> sem oft eru kallaðar \textit{rótarreglurnar}. Þær segja:
+4253 & rót, lausn & Sú <ref idTerm=4093>rauntala</ref> $x \geq 0$ sem uppfyllir $x^n=a$ þar sem $n \geq 1$ er <ref idTerm=3475>náttúruleg tala</ref> kallast \textit{$n$-ta rótin} af $a$ og táknuð með $\sqrt[n]{a}$. <ref idTerm=5397>Talan</ref> $a$ kallast \textit{rótarstofn} og $n$ kallast \textit{rótarvísir} & Rætur fullnægja tveimur <ref idTerm=4150>reiknireglum</ref> sem oft eru kallaðar \textit{rótarreglurnar}. Þær segja:
 
 \begin{enumerate}
     \item $\sqrt[n]{a \cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b}$
@@ -9095,7 +9073,7 @@ Ef $n$ er <ref idTerm=3659>oddatala</ref> sýnir myndin að neðan hvernig graf 
 \hline
 4422 & samlagningartafla &  &  &  \\
 \hline
-4423 & samlagningarumhverfa, samlagningarandhverfa &  &  &  \\
+4423 & samlagningarumhverfa, samlagningarandhverfa & Fyrir gefna <ref idTerm=4093>rauntölu</ref> $x$ kallast $-x$ \textit{samlagningarandhverfa} $x$ & Almennt ef $X$ er <ref idTerm=17>víxlin grúpa</ref> með <ref idTerm=6586>hlutleysu</ref> $e$ þar sem <ref idTerm=1744>grúpuaðgerðin</ref> er táknuð $+$ kallast stak $y$ þannig að $x+y=e$ samlagningarandhverfa $x$ &  \\
 \hline
 4424 & samlega &  &  &  \\
 \hline
@@ -9251,7 +9229,7 @@ Sammengi eru <ref idTerm=5472>tengin</ref> og <ref idTerm=6228>víxlin</ref>, þ
 \hline
 4497 & samsemdarvensl &  &  &  \\
 \hline
-4498 & samsemdarvörpun & <ref idTerm=3282>Vörpunin</ref> frá <ref idTerm=3270>mengi</ref> $X$ yfir í $X$ sem varpar sérhverju <ref idTerm=5128>staki</ref> úr $X$ í sjálft sig kallast \textit{samsemdarvörpun} mengisins $X$ og er táknuð með $\mathrm{id}_X$ &  &  \\
+4498 & samsemdarvörpun & <ref idTerm=3282>Vörpun</ref>  sem varpar sérhverju <ref idTerm=5128>staki</ref> úr <ref idTerm=3270>mengi</ref> $X$ í sjálft sig. Táknuð $\mathrm{id}_X$ &  & Láta einhvers staðar standa $f(x)=x$ eða eitthvað álíka. \\
 \hline
 4499 & samsett dreifing &  &  &  \\
 \hline
@@ -9509,7 +9487,7 @@ Sammengi eru <ref idTerm=5472>tengin</ref> og <ref idTerm=6228>víxlin</ref>, þ
 \hline
 4623 & setningin um níupunktahringinn &  &  &  \\
 \hline
-4624 & setningin um ytra horn & <ref idTerm=4621>Setning</ref> í <ref idTerm=1030>Evklíðskri rúmfræði</ref> sem segir að <ref idTerm=6295>ytra horn</ref> <ref idTerm=6438>þríhyrnings</ref> sé jafn <ref idTerm=2223>stórt</ref> og samanlögð fjarlægari innri horn & Látum $ABC$ vera þríhyrning þar sem $\angle BAC$ er $35^\circ$ og $\angle ACB$ er $30^\circ$. Bæði <ref idTerm=1677>grannhorn</ref> $\angle CBA$ eru þá $35^\circ + 30^\circ = 65^\circ$ samkvæmt setningunni um ytra horn & Smíða mynd af þessu dæmi \\
+4624 & setningin um ytra horn & <ref idTerm=4621>Setning</ref> í <ref idTerm=1030>Evklíðskri rúmfræði</ref> sem segir að <ref idTerm=6295>ytra horn</ref> <ref idTerm=6438>þríhyrnings</ref> sé jafn <ref idTerm=2223>stórt</ref> og <ref idTerm=2225>summa</ref> <ref idTerm=1205>fjarlægari innri horna</ref> & Látum $ABC$ vera þríhyrning þar sem $\angle BAC$ er $35^\circ$ og $\angle ACB$ er $30^\circ$. Bæði <ref idTerm=1677>grannhorn</ref> $\angle CBA$ eru þá $35^\circ + 30^\circ = 65^\circ$ samkvæmt setningunni um ytra horn & Smíða mynd af þessu dæmi \\
 \hline
 4625 & sexflötungur & <ref idTerm=3133>Margflötungur</ref> með sex <ref idTerm=1325>hliðar</ref> &  &  \\
 \hline
@@ -9567,7 +9545,7 @@ Sammengi eru <ref idTerm=5472>tengin</ref> og <ref idTerm=6228>víxlin</ref>, þ
 \hline
 4648 & sínusferill &  &  &  \\
 \hline
-4649 & sínusregla & Um <ref idTerm=6438>þríhyrning</ref> $\Delta ABC$ gildir \textit{sínusreglan} $$ \frac{\sin(A)}{a}=\frac{\sin(B)}{b}= \frac{\sin(C)}{c}. $$ Með öðrum orðum er <ref idTerm=2072>hlutfallið</ref> <ref idTerm=3332>milli</ref> <ref idTerm=4647>sínusar</ref> af <ref idTerm=2198>horni</ref> þríhyrnings og <ref idTerm=3396>mótlægrar hliðar</ref> hornsins það sama fyrir öll hornin. Þetta hlutfall er einnig jafnt $\frac{1}{2 R}$ þar sem $R$ er <ref idTerm=2295>geisli</ref> <ref idTerm=5784>umritaðs hrings</ref> þríhyrningsins. &  & Finna mynd til þess að taka dæmi? \\
+4649 & sínusregla & Um <ref idTerm=6438>þríhyrning</ref> $\Delta ABC$ gildir \textit{sínusreglan} $$ \frac{\sin(A)}{a}=\frac{\sin(B)}{b}= \frac{\sin(C)}{c}, $$ þ.e.~<ref idTerm=2072>hlutfallið</ref> <ref idTerm=3332>milli</ref> <ref idTerm=4647>sínusar</ref> af <ref idTerm=2198>horni</ref> þríhyrnings og <ref idTerm=3396>mótlægrar hliðar</ref> hornsins það sama fyrir öll hornin. & Þetta hlutfall er einnig jafnt $\frac{1}{2 R}$ þar sem $R$ er <ref idTerm=2295>geisli</ref> <ref idTerm=5784>umritaðs hrings</ref> þríhyrningsins.  & Finna mynd til þess að taka dæmi? \\
 \hline
 4650 & sínusvefja &  &  &  \\
 \hline
@@ -9719,11 +9697,11 @@ Sammengi eru <ref idTerm=5472>tengin</ref> og <ref idTerm=6228>víxlin</ref>, þ
 \hline
 4724 & skammás &  &  &  \\
 \hline
-4725 & skammhlið & <ref idTerm=2048>Hlið</ref> <ref idTerm=4173>rétthyrnds þríhyrnings</ref> sem er ekki <ref idTerm=2789>langhliðin</ref> & Á eftirfarandi mynd eru $AB$ og $BC$ skammhliðar þríhyrningsins:
+4725 & skammhlið & <ref idTerm=2048>Hlið</ref> <ref idTerm=4173>rétthyrnds þríhyrnings</ref> sem er aðlæg rétta horninu & Á eftirfarandi mynd eru $AB$ og $BC$ skammhliðar þríhyrningsins:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/retthyrndur_thrihyrningur.png}
-\end{center} &  \\
+\end{center} & Vísa í skilgreiningu á aðlægri hlið. \\
 \hline
 4726 & skammleiðarverkefni, verkefni skemmstu leiðar &  &  &  \\
 \hline
@@ -9759,7 +9737,13 @@ Sammengi eru <ref idTerm=5472>tengin</ref> og <ref idTerm=6228>víxlin</ref>, þ
 \hline
 4742 & skauthluti &  &  &  \\
 \hline
-4743 & skauthnit, pólhnit & <ref idTerm=2145>Hnitakerfi</ref> á <ref idTerm=1031>evklíðska sléttu</ref> þar sem <ref idTerm=4001>punktar</ref> eru staðsettir með því að tilgreina <ref idTerm=1204>fjarlægð</ref> þeirra og <ref idTerm=5135>stefnu</ref> séð frá gefnum punkti $O$ sem er kallaður \textit{skaut} eða \textit{póll} & Eftirfarandi mynd sýnir hvernig hægt er að tilgreina staðsetningu punkts í <ref idTerm=2554>karteskum hnitum</ref> annars vegar og pólhnitum annars vegar:
+4743 & skauthnit, pólhnit & <ref idTerm=2143>Hnit</ref> í <ref idTerm=4746>pólhnitakerfi</ref> & & \\
+\hline
+4744 & skauthnitaferill, pólhnitaferill, ferill í skauthnitum (pólhnitum) &  &  &  \\
+\hline
+4745 & skauthnitajafna, pólhnitajafna &  &  &  \\
+\hline
+4746 & skauthnitakerfi, pólhnitakerfi & <ref idTerm=2145>Hnitakerfi</ref> á <ref idTerm=1031>evklíðska sléttu</ref> þar sem <ref idTerm=4001>punktar</ref> eru staðsettir með því að tilgreina <ref idTerm=1204>fjarlægð</ref> þeirra og <ref idTerm=5135>stefnu</ref> séð frá gefnum punkti $O$ sem er kallaður \textit{skaut} eða \textit{póll} & Eftirfarandi mynd sýnir hvernig hægt er að tilgreina staðsetningu punkts í <ref idTerm=2554>karteskum hnitum</ref> annars vegar og pólhnitum annars vegar:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/polhnit.png}
@@ -9772,12 +9756,6 @@ Skauthnit punktsins $P=(x,y)$ eru því gefin með <ref idTerm=5627>tvenndinni</
 Ekki er hægt að útvíkka skilgreininguna á stefnuhorni með skynsamlegum hætti fyrir punkta á neikvæða $x$-ásnum eða skautpunktinn $O$. Hinsvegar má snúa hnitakerfinu, og undanskilja í staðinn einhvera aðra hálflínu út frá $O$. Þannig mætti til dæmis láta stefnuhornið vera á bilinu $\left]-\pi/2,3\pi/2\right[$ og undanskilja í staðinn neikvæða hluta $y$-ássins.
 
 Ef punktur hefur skauthnit $(r,\theta)$, þá eru kartesk hnit hans gefin með \[ x=r\,\cos\,\theta\qquad\text{og}\qquad y=r\,\sin\,\theta \] & \\
-\hline
-4744 & skauthnitaferill, pólhnitaferill, ferill í skauthnitum (pólhnitum) &  &  &  \\
-\hline
-4745 & skauthnitajafna, pólhnitajafna &  &  &  \\
-\hline
-4746 & skauthnitakerfi, pólhnitakerfi &  &  &  \\
 \hline
 4747 & skauthnitás, skauthnitaás, pólhnitás, pólhnitaás &  &  &  \\
 \hline
@@ -10111,7 +10089,7 @@ Ef punktur hefur skauthnit $(r,\theta)$, þá eru kartesk hnit hans gefin með \
 \hline
 4911 & snertikeila, snertlakeila &  &  &  \\
 \hline
-4912 & snertill, snertilína & <ref idTerm=2911>Lína</ref> sem sker <ref idTerm=2295>hring</ref> í nákvæmlega einum <ref idTerm=4001>punkti</ref> & Á eftirfarandi mynd má sjá hring með miðju $M$ og snertil sem liggur í gegnum punktinn $C$:
+4912 & snertill, snertilína & <ref idTerm=2911>Lína</ref> sem liggur gegnum nákvæmlega einn <ref idTerm=4001>punkt</ref> á <ref idTerm=2295>hring</ref> & Á eftirfarandi mynd má sjá hring með miðju $M$ og snertil sem liggur í gegnum punktinn $C$:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/snidill_snertill.png}
@@ -10221,7 +10199,7 @@ Ekki skal rugla saman sniðli og <ref idTerm=5261>streng</ref> en munurinn er s�
 \item punktarnir $A$ og $\rho(A)$ eru í sömu <ref idTerm=1204>fjarlægð</ref> frá $M$ fyrir alla punkta $A$ í sléttunni,
 
 \item <ref idTerm=2198>hornin</ref> $\angle AM\rho(A)$ eru jafn stór fyrir alla punkta $A\neq M$.
-\end{enumerate} &  & Finna mynd \\
+\end{enumerate} &  & Vantar að skilgreina hornatáknmál. Finna mynd \\
 \hline
 4955 & snústríkkun &  &  &  \\
 \hline
@@ -10315,7 +10293,11 @@ Ekki skal rugla saman sniðli og <ref idTerm=5261>streng</ref> en munurinn er s�
 \hline
 5001 & sporbaugsfari &  &  &  \\
 \hline
-5002 & sporbaugur & <ref idTerm=3270>Mengi</ref> <ref idTerm=4001>punkta</ref> sem uppfylla jöfnu af taginu \[ \left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 = 1\] &  & Er til gegnsærri skilgreining? Finna mynd \\
+5002 & sporbaugur & <ref idTerm=3270>Mengi</ref> allra <ref idTerm=4001>punkta</ref> $(x,y)$ í <ref idTerm=4884>sléttu</ref> sem uppfylla <ref idTerm=2478>jöfnu</ref> af taginu 
+
+\[ \left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 = 1\]
+
+Gerum ráð fyrir að $b > a$. Ljóst er að punktarnir $(a,0),(0,b),(-a,0)$ og $(0,-b$ uppfylla jöfnuna að ofan en <ref idTerm=2958>línustrikið</ref> frá $(0,-b)$ til $(0,b)$ kallast þá \textit{langás} og línustrikið frá $(-a,0)$ til $(a,0)$ \textit{skammás} & Önnur leið til þess að skilgreina sporbaug er sem mengi punkta í sléttu þannig að summa <ref idTerm=1204>fjarlægða</ref> þeirra frá tveim föstum punktum sé fasti. Punktarnir tveir kallast \textit{brennipunktar} & Finna mynd - Betra orðalag? \\
 \hline
 5003 & sporger &  &  &  \\
 \hline
@@ -10725,7 +10707,7 @@ Ekki skal rugla saman sniðli og <ref idTerm=5261>streng</ref> en munurinn er s�
 \hline
 5214 & stöðluð hending &  &  &  \\
 \hline
-5215 & stöðluð margliða & <ref idTerm=1948>Margliða</ref> þar sem gildi forystustuðulsins er 1 & Margliðan $x^2 + 2 x + 3$ er stöðluð margliða af stigi 2 &  \\
+5215 & stöðluð margliða & <ref idTerm=1948>Margliða</ref> þar sem gildi <ref idTerm=1384>forystustuðulsins</ref> er 1 & Margliðan $x^2 + 2 x + 3$ er stöðluð margliða af stigi 2 & \\
 \hline
 5216 & stöðlun &  &  &  \\
 \hline
@@ -10749,7 +10731,7 @@ Ekki skal rugla saman sniðli og <ref idTerm=5261>streng</ref> en munurinn er s�
 \hline
 5226 & stöðurúm, svigrúm, stellingarúm &  &  &  \\
 \hline
-5227 & stofnbrot & <ref idTerm=4039>Ræð tala</ref> skrifuð sem <ref idTerm=234>almennt brot</ref> þar sem <ref idTerm=5462>teljarinn</ref> er 1 og <ref idTerm=3497>nefnarinn</ref> er <ref idTerm=2535>jákvæð</ref> <ref idTerm=1896>heiltala</ref> &  &  \\
+5227 & stofnbrot & <ref idTerm=234>Almennt brot</ref> á forminu $\dfrac1n$ þar sem $n$ er <ref idTerm=2535>jákvæð</ref> <ref idTerm=1896>heiltala</ref> &  &  \\
 \hline
 5228 & stofnbrot, hlutbrot &  &  &  \\
 \hline
@@ -10831,7 +10813,7 @@ Strikið $AB$ er strengur í hringnum og strikið $CD$ er miðstrengur & Laga ba
 \hline
 5264 & strik, merki &  &  &  \\
 \hline
-5265 & stríkkun & Ef $\lambda$ er <ref idTerm=5779>færsla</ref> á tiltekinni <ref idTerm=4884>sléttu</ref>, $k$ er <ref idTerm=4093>rauntala</ref> og $M$ er <ref idTerm=4001>punktur</ref> í sléttunni þá kallast $\lambda$ \textit{stríkkun} með <ref idTerm=3304>miðju</ref> í punktinum $M$ ef fyrir alla punkta $P$ í sléttunni gildi að <ref idTerm=2072>hlutfallið</ref> milli <ref idTerm=2860>lengd</ref> <ref idTerm=2958>strikanna</ref> $MP$ og $M\lambda(P)$ sé $k$, sem kallast þá \textit{kvarði} stríkkunarinnar &  & Finna mynd \\
+5265 & stríkkun & <ref idTerm=5779>Færsla</ref> $\lambda$ kallast \textit{stríkkun} með \textit{miðju} í punktinum $M$ ef fyrir alla punkta $P$ gildir að <ref idTerm=2072>hlutfallið</ref> milli <ref idTerm=2860>lengda</ref> <ref idTerm=2958>strikanna</ref> $MP$ og $M\lambda(P)$ er fasti $k$, sem kallast þá \textit{kvarði} stríkkunarinnar &  & Finna mynd \\
 \hline
 5266 & stríkkunarhlutfall &  &  &  \\
 \hline
@@ -11131,11 +11113,11 @@ Strikið $AB$ er strengur í hringnum og strikið $CD$ er miðstrengur & Laga ba
 \hline
 5415 & talnakerfi &  &  &  \\
 \hline
-5416 & talnalína, talnaás, rauntalnalína, rauntalnaás, raunás & <ref idTerm=2911>Lína</ref> með tvo aðgreinda <ref idTerm=4001>punkta</ref> $O$ (\textit{núllpunktur}) og $E$ (\textit{einingarpunktur}) sem svara til <ref idTerm=3475>náttúrulegu talnanna</ref> 0 og 1. <ref idTerm=1204>Fjarlægðin</ref> milli þessa punkta er notuð sem <ref idTerm=2860>lengdareining</ref> og <ref idTerm=1896>heiltölunum</ref> er raðað á línuna þannig að <ref idTerm=4458>samliggjandi</ref> tölur eru í þessari fjarlægð frá hvor annarri &  & Þarf að minnast á hvernig ræðar og óræðar tölur dreifast inn á línuna líka? Ætti frekar að skilgreina talnalínuna beint með tilliti til rauntalna og nota þá eftirfarandi mynd
+5416 & talnalína, talnaás, rauntalnalína, rauntalnaás, raunás & <ref idTerm=2911>Lína</ref> með tvo aðgreinda <ref idTerm=4001>punkta</ref> $O$ (\textit{núllpunktur}) og $E$ (\textit{einingarpunktur}) sem svara til <ref idTerm=3475>náttúrulegu talnanna</ref> 0 og 1. <ref idTerm=1204>Fjarlægðin</ref> milli þessa punkta er notuð sem <ref idTerm=2860>lengdareining</ref> og <ref idTerm=1896>heiltölunum</ref> er raðað á línuna þannig að <ref idTerm=4458>samliggjandi</ref> tölur eru í þessari fjarlægð frá hvor annarri &  & Skoða. \\ Þarf að minnast á hvernig ræðar og óræðar tölur dreifast inn á línuna líka? Ætti frekar að skilgreina talnalínuna beint með tilliti til rauntalna og nota þá eftirfarandi mynd
 
 \begin{center}
 \includegraphics[width=150px]{myndir/talnalina.png}
-\end{center} \\
+\end{center} - Skoða betur \\
 \hline
 5417 & talnalykill &  &  &  \\
 \hline
@@ -11165,7 +11147,7 @@ Strikið $AB$ er strengur í hringnum og strikið $CD$ er miðstrengur & Laga ba
 \hline
 5430 & talningarmál &  &  &  \\
 \hline
-5431 & tangens & Fyrir <ref idTerm=4173>rétthyrndan þríhyrning</ref> $ABC$ þar sem $C$ er <ref idTerm=4167>rétt horn</ref> er <ref idTerm=2202>hornafallið</ref> \textit{tangens} af <ref idTerm=2198>horninu</ref> $A$, táknað $\tan(A)$, skilgreint sem <ref idTerm=2072>hlutfallið</ref> milli <ref idTerm=2860>lengd</ref> <ref idTerm=3396>mótlægrar</ref> <ref idTerm=4725>skammhliðar</ref> og lengd <ref idTerm=65>aðlægrar</ref> skammhliðar. Sjá eftirfarandi mynd: 
+5431 & tangens & Fyrir <ref idTerm=4173>rétthyrndan þríhyrning</ref> $ABC$ þar sem $C$ er <ref idTerm=4167>rétt horn</ref> er <ref idTerm=2202>hornafallið</ref> \textit{tangens} af <ref idTerm=2198>horninu</ref> $A$, táknað $\tan(A)$, skilgreint sem $\frac{\sin(A)}{\cos(A)}$. Það jafngildir því að það sé <ref idTerm=2072>hlutfallið</ref> milli <ref idTerm=2860>lengd</ref> <ref idTerm=3396>mótlægrar</ref> <ref idTerm=4725>skammhliðar</ref> og lengd <ref idTerm=65>aðlægrar</ref> skammhliðar. Sjá eftirfarandi mynd: 
 
 \begin{center}
 \includegraphics[width=150px]{myndir/hornafoll.png}
@@ -11255,9 +11237,9 @@ Strikið $AB$ er strengur í hringnum og strikið $CD$ er miðstrengur & Laga ba
 \hline
 5471 & tenging &  &  &  \\
 \hline
-5472 & tenginn &  &  &  \\
+5472 & tenginn & <ref idTerm=46>Reikniaðgerð</ref> $\odot$ sem uppfyllir <ref idTerm=5473>tengiregluna</ref> &  &  \\
 \hline
-5473 & tengiregla & <ref idTerm=5702>Tvístæð reikniaðgerð</ref> $\odot : X \times X \to X$ á <ref idTerm=3270>mengi</ref> $X$ kallast \textit{tengin} eða að hún fullnægi \textit{tengireglunni} ef fyrir sérhver <ref idTerm=5128>stök</ref> $x,y,z \in X$ gildi að $(x \odot y) \odot z = x \odot (y \odot z)$ & Margar aðgerðir í algengri notkun uppfylla tengiregluna en þó eru til ótengnar aðgerðir. Sem dæmi má nefna veldishafningu en til að mynda er $(2^3)^2 \neq 2^{(3^2)}$. Athugum að $(2^3)^2 = 8^2 = 64$ en $2^{(3^2)} = 2^9 = 512$ &  \\
+5473 & tengiregla & <ref idTerm=5702>Tvístæð reikniaðgerð</ref> $\odot : X \times X \to X$ á <ref idTerm=3270>mengi</ref> $X$ er sögð fullnægja \textit{tengireglunni} ef fyrir sérhver <ref idTerm=5128>stök</ref> $x,y,z \in X$ gildi að $(x \odot y) \odot z = x \odot (y \odot z)$ & Margar aðgerðir í algengri notkun uppfylla tengiregluna en þó eru til ótengnar aðgerðir. Sem dæmi má nefna veldishafningu en til að mynda er $(2^3)^2 \neq 2^{(3^2)}$. Athugum að $(2^3)^2 = 8^2 = 64$ en $2^{(3^2)} = 2^9 = 512$ & \\
 \hline
 5474 & tengivegur &  &  &  \\
 \hline
@@ -11459,7 +11441,7 @@ Strikið $AB$ er strengur í hringnum og strikið $CD$ er miðstrengur & Laga ba
 \includegraphics[width=150px]{myndir/gagnstaed_horn.png}
 \end{center}
 
-Rauðu hálflínurnar eru mótlægar við bláu hálflínurnar og rauða hornið er því mótlægt við bláa hornið. Gagnstæð horn eru alltaf jafn stór &  \\
+Rauðu hálflínurnar eru mótlægar við bláu hálflínurnar og rauða hornið er því mótlægt við bláa hornið. Gagnstæð horn eru alltaf jafn stór & Reyna að gera skýrar. \\
 \hline
 5569 & topppunktur &  &  &  \\
 \hline
@@ -11485,7 +11467,7 @@ Rauðu hálflínurnar eru mótlægar við bláu hálflínurnar og rauða hornið
 \hline
 5578 & tré &  &  &  \\
 \hline
-5579 & trefja & <ref idTerm=1366>Frummynd</ref> <ref idTerm=3282>vörpunnar</ref> $f: X \to Y$ af <ref idTerm=963>einstökungnum</ref> $\{y\}$ þar sem $y \in Y$ kallast \textit{trefja} vörpunarinnar $f$ af <ref idTerm=5128>stakinu</ref>, oft táknað $f^{-1}(y)$ ef engin hætta er á misskilningi &  &  \\
+5579 & trefja & <ref idTerm=1366>Frummynd</ref> <ref idTerm=3282>vörpunar</ref> $f: X \to Y$ af <ref idTerm=963>einstökungnum</ref> $\{y\}$ þar sem $y \in Y$, oft táknuð $f^{-1}(\{y\})$ eða $f^{-1}(y)$ ef engin hætta er á misskilningi &  &  \\
 \hline
 5580 & trefjabundin &  &  &  \\
 \hline
@@ -11577,7 +11559,7 @@ Rauðu hálflínurnar eru mótlægar við bláu hálflínurnar og rauða hornið
 \hline
 5626 & tveir og tveir &  &  &  \\
 \hline
-5627 & tvennd, raðtvennd, röðuð tvennd & Par <ref idTerm=2123>hluta</ref> þar sem röð skiptir máli & Fyrir tvo hluti $x \in X$ og $y \in Y$ þar sem $X$ og $Y$ eru <ref idTerm=3270>mengi</ref> er tvenndin $(x,y)$ stak í <ref idTerm=3279>faldmenginu</ref> $X \times Y$ &  \\
+5627 & tvennd, raðtvennd, röðuð tvennd & Par <ref idTerm=2123>hluta</ref> í tiltekinni röð & Fyrir tvo hluti $x \in X$ og $y \in Y$ þar sem $X$ og $Y$ eru <ref idTerm=3270>mengi</ref> er tvenndin $(x,y)$ stak í <ref idTerm=3279>faldmenginu</ref> $X \times Y$ &  \\
 \hline
 5628 & tvíaðfelldur þríhyrningur &  &  &  \\
 \hline
@@ -11835,9 +11817,9 @@ Rauðu hálflínurnar eru mótlægar við bláu hálflínurnar og rauða hornið
 \hline
 5755 & umferðarheildi, umferðartegur &  &  &  \\
 \hline
-5756 & umhverf tala, umhverfa, margföldunarumhverfa, andhverf tala, andhverfa, margföldunarandhverfa, gagnkvæm tala &  &  &  \\
+5756 & umhverf tala, umhverfa, margföldunarumhverfa, andhverf tala, andhverfa, margföldunarandhverfa, gagnkvæm tala & Fyrir gefna <ref idTerm=4093>rauntölu</ref> $x$ kallast $\frac1x$ \textit{margföldunarandhverfa} $x$ & Almennt ef $X$ er <ref idTerm=1742>grúpa</ref> með <ref idTerm=6586>hlutleysu</ref> $e$ þar sem <ref idTerm=1744>grúpuaðgerðin</ref> er táknuð $\cdot$ kallast stak $y$ þannig að $x \cdot y=e$ margföldunarandhverfa $x$, táknuð $x^{-1}$ & \\
 \hline
-5757 & umhverfa, andhverfa & \textit{Andhverfa} <ref idTerm=5128>staks</ref> $x$ í <ref idTerm=3270>mengi</ref> $X$ með tilliti til <ref idTerm=46>reikniaðgerðarinnar</ref> $\odot$ með <ref idTerm=0>hlutleysu</ref> $e$ er stak $y \in X$ sem uppfyllir $x \odot y = y \odot x = e$ & Ef $\odot$ er <ref idTerm=5473>tengin</ref> <ref idTerm=3932>ákvarðast umhverfan ótvírætt</ref> af þessum <ref idTerm=4797>skilyrðum</ref> og sérhvert stak tenginnar reikniaðgerðar hefur því í mesta lagi eina andhverfu. Athugið að andhverfa staks þarf ekki endilega að vera til. Ef reikniaðgerðin sem um ræðir er <ref idTerm=0>samlagning</ref>, þá er andhverfa staksins $x$ yfirleitt táknuð með $-x$. Ef reikniaðgerðin er hins vegar <ref idTerm=3141>margföldun</ref>, þá er andhverfa staksins $x$ yfirleitt táknuð með $x^{-1}$ eða $\frac1x$. & Vantar færslu fyrir samlagningu \\
+5757 & umhverfa, andhverfa & \textit{Andhverfa} <ref idTerm=5128>staks</ref> $x$ í <ref idTerm=3270>mengi</ref> $X$ með tilliti til <ref idTerm=46>reikniaðgerðarinnar</ref> $\odot$ með <ref idTerm=0>hlutleysu</ref> $e$ er stak $y \in X$ sem uppfyllir $x \odot y = y \odot x = e$ & Ef $\odot$ er <ref idTerm=5473>tengin</ref> <ref idTerm=3932>ákvarðast umhverfan ótvírætt</ref> af þessum <ref idTerm=4797>skilyrðum</ref> og sérhvert stak tenginnar reikniaðgerðar hefur því í mesta lagi eina andhverfu. Athugið að andhverfa staks þarf ekki endilega að vera til. Ef reikniaðgerðin sem um ræðir er <ref idTerm=0>samlagning</ref>, þá er andhverfa staksins $x$ yfirleitt táknuð með $-x$. Ef reikniaðgerðin er hins vegar <ref idTerm=3141>margföldun</ref>, þá er andhverfa staksins $x$ yfirleitt táknuð með $x^{-1}$ eða $\frac1x$. & Bæta við fyrir samlagningar- og margföldunarumhverfur. Vantar færslu fyrir samlagningu \\
 \hline
 5758 & umhverfanlegt fylki, andhverfanlegt fylki, reglulegt fylki, ósérstætt fylki &  &  &  \\
 \hline
@@ -11871,7 +11853,7 @@ Rauðu hálflínurnar eru mótlægar við bláu hálflínurnar og rauða hornið
 \hline
 5773 & umlykjandi &  &  &  \\
 \hline
-5774 & ummál & <ref idTerm=2860>Lengd</ref> <ref idTerm=2453>jaðar</ref> <ref idTerm=4891>flatarmynds</ref> & Ummál <ref idTerm=6589>hringskífu</ref> er fengið með <ref idTerm1363>formúlunni</ref> $2\pi r$ þar sem $r$ er geisli skífunnar. Ummál <ref idTerm=3161>marghyrnings</ref> fæst með því að <ref idTerm=2820>leggja saman</ref> allar <ref idTerm=0>hliðarlengdir</ref> hans & Koma með fleiri þekktar formúlur? Er skilgreiningin of torskilin? \\
+5774 & ummál & <ref idTerm=2860>Lengd</ref> <ref idTerm=2453>jaðar</ref> <ref idTerm=4891>flatarmyndar</ref> & Ummál <ref idTerm=6589>hringskífu</ref> er fengið með <ref idTerm1363>formúlunni</ref> $2\pi r$ þar sem $r$ er geisli skífunnar. Ummál <ref idTerm=3161>marghyrnings</ref> fæst með því að <ref idTerm=2820>leggja saman</ref> allar <ref idTerm=0>hliðarlengdir</ref> hans & Koma með fleiri þekktar formúlur? Er skilgreiningin of torskilin? \\
 \hline
 5775 & ummálsjafnaðarójafna &  &  &  \\
 \hline
@@ -11884,9 +11866,9 @@ Rauðu hálflínurnar eru mótlægar við bláu hálflínurnar og rauða hornið
 5779 & ummyndun, myndun, færsla & <ref idTerm=3282>Vörpun</ref> $\phi : \mathbb{R}^2 \to \mathbb{R}^2$ sem uppfyllir
 
 \begin{enumerate}
-    \item punktar í tiltekinni röð á sömu línu færast á punkta í sömu röð á einhverri línu,
-    \item strik sem eru jafn löng færast á strik sem eru líka jafn löng
-\end{enumerate} &  & Er ekki bara verið að lýsa línulegri vörpun? \\
+    \item punktar í tiltekinni röð á sömu línu varpast í punkta í sömu röð á einhverri línu,
+    \item strik sem eru jafn löng varpast í strik sem eru líka jafn löng
+\end{enumerate} &  & Sömu röð? Er ekki bara verið að lýsa línulegri vörpun? \\
 \hline
 5780 & ummyndun, umskrift, umritun, breyting &  &  &  \\
 \hline
@@ -11982,7 +11964,7 @@ Rauðu hálflínurnar eru mótlægar við bláu hálflínurnar og rauða hornið
 
 þar sem $r_{1},\ldots,r_{k}$ eru allar núllstöðvar $P$ í $\mathbb{C}$ og $a_{1},\ldots,a_{k}$ kallast \textit{margfeldni} þeirra. Að rita margliðuna á þessu formi kallast að \textit{frumþátta} hana yfir $\mathbb{C}$. Yfir <ref idTerm=4093>rauntölurnar</ref> tekur undirstöðusetningin eftirfarandi form:
 
-\textit{Ef $P$ er <ref idTerm=5215>stöðluð margliða</ref> yfir $\mathbb{R}$, þá má skrifa $P$ sem margfeldi af fyrsta stigs margliðum $(x-r_i)$ og <ref idTerm=316>annars stigs margliðum</ref> $x^2+ax+b$ sem hafa enga núllstöð yfir $\mathbb{R}$. Tölurnar $r_i$ eru allar núllstöðvar margliðunnar} & Vantar færslu fyrir fyrsta stigs margliðu? \\
+\textit{Ef $P$ er <ref idTerm=5215>stöðluð margliða</ref> yfir $\mathbb{R}$, þá má skrifa $P$ sem margfeldi af fyrsta stigs margliðum $(x-r_i)$ og <ref idTerm=316>annars stigs margliðum</ref> $x^2+ax+b$ sem hafa enga núllstöð yfir $\mathbb{R}$. Tölurnar $r_i$ eru allar núllstöðvar margliðunnar} & Þarf að segja hvað það þýðir að margliðan sé yfir tvinntölurnar. Vantar færslu fyrir fyrsta stigs margliðu? \\
 \hline
 5823 & undirstöðusetning örsmæðareikningsins, grunnsetning reiknivísinnar &  &  &  \\
 \hline
@@ -12454,13 +12436,13 @@ Veldismengið $\mathcal{P}(X)$ er þá mengið sem samanstendur af öllum framan
 \hline
 6049 & venjulegur punktur &  &  &  \\
 \hline
-6050 & Venn-mynd & Myndræn <ref idTerm=1416>framsetning</ref> á innbyrðis afstöðu ólíkra <ref idTerm=3270>mengja</ref> þar sem <ref idTerm=3016>lokaðir ferlar</ref> (eins og <ref idTerm=2295>hringir</ref>, <ref idTerm=5002>sporbaugar</ref>, <ref idTerm=1127>ferhyrningar</ref> o.s.frv.) eru notaðir til að tákna mengi og <ref idTerm=5335>svæðið</ref> sem er innan ferlanna táknar <ref idTerm=5128>stökin</ref> í menginu & Eftirfarandi mynd er dæmi um Venn-mynd:
+6050 & Venn-mynd & Myndræn <ref idTerm=1416>framsetning</ref> í <ref idTerm=4884>sléttu</ref> á innbyrðis afstöðu ólíkra <ref idTerm=3270>mengja</ref> þar sem <ref idTerm=3016>lokaðir ferlar</ref> (eins og <ref idTerm=2295>hringir</ref>, <ref idTerm=5002>sporbaugar</ref>, <ref idTerm=1127>ferhyrningar</ref> o.s.frv.) eru notaðir til að tákna mengi og <ref idTerm=5335>svæðið</ref> sem er innan ferlanna táknar <ref idTerm=5128>stökin</ref> í menginu & Eftirfarandi mynd er dæmi um Venn-mynd:
 
 \begin{center}
 \includegraphics[width=150px]{myndir/venn.png}
 \end{center}
 
-Hringurinn táknar mengið $A$ og svæðið innan hans táknar stökin í $A$, <ref idTerm=4175>rétthyrningurinn</ref> táknar mengið $B$ og svæðið innan hans táknar stökin í $B$. Bláa svæðið samanstendur af þeim stökum sem eru í $A$ en ekki í $B$ (þau eru innan hringsins en utan rétthyrningsins), gula svæðið samanstendur af þeim stökum sem eru í $B$ en ekki í $A$ (þau eru innan rétthyrningsins en utan hringsins) og græna svæðið samanstendur af þeim stökum sem eru bæði í $A$ og í $B$ (þau eru innan bæði hringsins og rétthyrningsins) & \\
+Hringurinn táknar mengið $A$ og svæðið innan hans táknar stökin í $A$, <ref idTerm=4175>rétthyrningurinn</ref> táknar mengið $B$ og svæðið innan hans táknar stökin í $B$. Bláa svæðið samanstendur af þeim stökum sem eru í $A$ en ekki í $B$ (þau eru innan hringsins en utan rétthyrningsins), gula svæðið samanstendur af þeim stökum sem eru í $B$ en ekki í $A$ (þau eru innan rétthyrningsins en utan hringsins) og græna svæðið samanstendur af þeim stökum sem eru bæði í $A$ og í $B$ (þau eru innan bæði hringsins og rétthyrningsins) & Bæta við tengli á sléttu. \\
 \hline
 6051 & vensl &  &  &  \\
 \hline
@@ -12818,7 +12800,7 @@ Hringurinn táknar mengið $A$ og svæðið innan hans táknar stökin í $A$, <
 \hline
 6232 & víxlni &  &  &  \\
 \hline
-6233 & víxlregla & <ref idTerm=5702>Tvístæð reikniaðgerð</ref> $\odot : X \times X \to X$ á <ref idTerm=3270>mengi</ref> $X$ kallast \textit{víxlin} eða að hún fullnægi \textit{víxlreglunni} ef fyrir sérhver <ref idTerm=5128>stök</ref> $x,y \in X$ gildi að $x \odot y = y \odot x$ & Dæmi um víxlna reikniaðgerð er <ref idTerm=3141>margföldun</ref> <ref idTerm=4093>rauntalna</ref> en um öll $x,y \in \mathbb{R}$ gildir $xy=yx$ &  \\
+6233 & víxlregla & <ref idTerm=5702>Tvístæð reikniaðgerð</ref> $\odot : X \times X \to X$ á <ref idTerm=3270>mengi</ref> $X$ kallast \textit{víxlin} eða að hún fullnægi \textit{víxlreglunni} ef fyrir sérhver <ref idTerm=5128>stök</ref> $x,y \in X$ gildir að $x \odot y = y \odot x$ & Dæmi um víxlna reikniaðgerð er <ref idTerm=3141>margföldun</ref> <ref idTerm=4093>rauntalna</ref> en um öll $x,y \in \mathbb{R}$ gildir $xy=yx$ &  \\
 \hline
 6234 & víxlstefnuaðferð &  &  &  \\
 \hline
@@ -13336,7 +13318,7 @@ Hornin $\angle BAC$ og $\angle ACB$ kallast jafnframt \textit{fjarlæg innri hor
 \hline
 6488 & þverlarammi, þverrammi &  &  &  \\
 \hline
-6489 & þvermál & <ref idTerm=2295>Hringur</ref> með geisla $r$ hefur \textit{þvermál} $2r$ &  &  \\
+6489 & þvermál & <ref idTerm=2860>Lengd</ref> <ref idTerm=0>miðstrengs</ref> í <ref idTerm=2295>hring</ref> &  & \\
 \hline
 6490 & þversagnakennt mengi &  &  &  \\
 \hline
@@ -13544,19 +13526,51 @@ Hornin $\angle BAC$ og $\angle ACB$ kallast jafnframt \textit{fjarlæg innri hor
 \hline
 6591 & ívarp &  &  &  \\
 \hline
-6592 & jafngildisvensl & <ref idTerm=5705>Tvístæð vensl</ref> á <ref idTerm=3270>mengi</ref> $X$ sem uppfylla eftirfarandi þrjú <ref idTerm=4797>skilyrði</ref>: 
+6592 & jafngildisvensl & <ref idTerm=5705>Tvístæð vensl</ref> $\sim$ á <ref idTerm=3270>mengi</ref> $X$ sem uppfylla eftirfarandi þrjú <ref idTerm=4797>skilyrði</ref>: 
 
 \begin{enumerate}
-    \item Sérhvert <ref idTerm=5128>stak</ref> í menginu er venslað við sjálft sig (\textit{spegilvirkni})
-    \item Fyrir sérhver stök $x,y \in X$ gildir að ef $x$ er venslað við $y$, þá er $y$ líka venslað við $x$ (\textit{samhverfni})
-    \item Fyrir sérhver stök $x,y,z \in X$ gildir að ef $x$ er venslað við $y$ og $y$ er venslað við $z$, þá er $x$ einnig venslað við $z$ (\textit{gegnvirkni})
-\end{enumerate} & Jafngildisvensl á mengi $X$ eru ákveðin útvíkkun á hugtakinu að tvö <ref idTerm=5128>stök</ref> úr $X$ séu <ref idTerm=2474>jöfn</ref>, enda uppfylla venslin $=$ skilyrði þess að vera jafngildisvensl. Sérhver jafngildisvensl á $X$ mynda <ref idTerm=5325>skiptingu</ref> á $X$ í <ref idTerm=5329>sundurlæga</ref> <ref idTerm=2489>jafngildisflokka</ref>. Venslin $=$ eru sértilfelli þar sem jafngildisflokkarnir eru allir <ref idTerm=963>einstökungar</ref>, með öðrum orðum eru tvö stök $x,y \in X$ jöfn þá og því aðeins að þau séu sama stakið. Almenn jafngildisvensl gera manni hins vegar kleift að einblína á ákveðna <ref idTerm=803>eiginleika</ref> stakanna og líta á tvö stök sem eru vensluð saman sem jafngild þó að þau séu ekki jöfn stök. Dæmi um jafngildisvensl eru venslin ``eru <ref idTerm=4509>samsíða</ref>'' á mengi <ref idTerm=2911>lína</ref> í <ref idTerm=1031>evklíðskri sléttu</ref> en þá ákveðum við að einblína einungis á <ref idTerm=1863>halla</ref> línanna og hunsum alveg hvaða <ref idTerm=4001>punktar</ref> liggja á þeim &  \\
+    \item $x \sim x$ fyrir öll $x \in X$ (\textit{spegilvirkni})
+    \item Fyrir sérhver stök $x,y \in X$ gildir að ef $x \sim y$ þá gildir einnig $y \sim x$ (\textit{samhverfni})
+    \item Fyrir sérhver stök $x,y,z \in X$ gildir að ef $x \sim y$ og $y \sim z$, þá gildir einnig $x \sim z$ (\textit{gegnvirkni})
+\end{enumerate} & Jafngildisvensl á mengi $X$ eru ákveðin útvíkkun á hugtakinu að tvö <ref idTerm=5128>stök</ref> úr $X$ séu <ref idTerm=2474>jöfn</ref>, enda uppfylla venslin $=$ skilyrði þess að vera jafngildisvensl. Sérhver jafngildisvensl á $X$ mynda <ref idTerm=5325>skiptingu</ref> á $X$ í <ref idTerm=5329>sundurlæga</ref> <ref idTerm=2489>jafngildisflokka</ref>. Venslin $=$ eru sértilfelli þar sem jafngildisflokkarnir eru allir <ref idTerm=963>einstökungar</ref>, með öðrum orðum eru tvö stök $x,y \in X$ jöfn þá og því aðeins að þau séu sama stakið. Almenn jafngildisvensl gera manni hins vegar kleift að einblína á ákveðna <ref idTerm=803>eiginleika</ref> stakanna og líta á tvö stök sem eru vensluð saman sem jafngild þó að þau séu ekki jöfn stök. Dæmi um jafngildisvensl eru venslin ``eru <ref idTerm=4509>samsíða</ref>'' á mengi <ref idTerm=2911>lína</ref> í <ref idTerm=1031>evklíðskri sléttu</ref> en þá ákveðum við að einblína einungis á <ref idTerm=1863>halla</ref> línanna og hunsum alveg hvaða <ref idTerm=4001>punktar</ref> liggja á þeim & Nota $\sim$. \\
 \hline
 6593 & karteskur, Descartes-, Kartes\hbox{ar-.}\ekkipunktur &  &  &  \\
 \hline
 6594 & kartesk hnit, Kartesarhnit &  &  &  \\
 \hline
-6595 & kartesk slétta, Kartesarslétta &  &  &  \\
+6595 & kartesk slétta, Kartesarslétta & <ref idTerm=1031>Evklíðsk slétta</ref> með <ref idTerm=2145>hnitakerfi</ref> sem fæst með því að setja upp <ref idTerm=6469>þverstæðar</ref> <ref idTerm=5416>talnalínur</ref> sem kallast \textit{hnitaásar} og <ref idTerm=4771>skerast</ref> í núllpunktum sínum. Þessi <ref idTerm=4845>skurðpunktur</ref> kallast þá \textit{upphafspunktur} hnitakerfisins sem er yfirleitt táknaður með $O$ og venja er að kalla aðra talnalínuna $x$-ás og hina $y$-ás & Eftirfarandi er mynd af kartesku hnitakerfi:
+
+\begin{center}
+\includegraphics[width=150px]{myndir/kartesk_hnit.png}
+\end{center}
+
+Upphafspunkturinn skiptir $x$-ás í tvær <ref idTerm=1840>hálflínur</ref>; þá sem hefur <ref idTerm=4001>punkta</ref> með <ref idTerm=981>frekar jákvæð</ref> hnit og kallast \textit{jákvæði $x$-ás}, og aðra sem hefur punkta með <ref idTerm=980>frekar neikvæð</ref> hnit og kallast \textit{neikvæði $x$-ás}. Sama á við um $y$-ás. Jákvæðu ásarnir tilgreina <ref idTerm=5135>stefnu</ref> á hnitaásunum. Á mynd er venja að gefa jákvæðu stefnu hnitaásanna til kynna með <ref idTerm=3810>ör</ref> og merkja ásana við örina með $x$ eða $y$.
+
+Hnitaásarnir skipta sléttunni í fjóra \textit{fjórðunga}:
+
+\begin{enumerate}
+    \item Fyrsti fjórðungur samanstendur af þeim punktum sléttunnar sem eru innaní <ref idTerm=4167>rétta horninu</ref> sem hefur jákvæða $x$-ás og jákvæða $y$-ás fyrir <ref idTerm=334>arma</ref> sína,
+
+    \item Annar fjórðungur samanstendur af þeim punktum sléttunnar sem eru innaní rétta horninu sem hefur neikvæða $x$-ás og jákvæða $y$-ás fyrir arma sína,
+
+    \item Þriðji fjórðungur samanstendur af þeim punktum sléttunnar sem eru innaní rétta horninu sem hefur neikvæða $x$-ás og neikvæða $y$-ás fyrir arma sína,
+
+    \item Fjórði fjórðungur samanstendur af þeim punktum sléttunnar sem eru innaní rétta horninu sem hefur jákvæða $x$-ás og neikvæða $y$-ás fyrir arma sína,
+\end{enumerate}
+
+Þegar sléttan er <ref idTerm=363>áttuð</ref> er venja að velja hnitaásana þannig að <ref idTerm=5145>stefnuhornið</ref> sem hefur jákvæða $x$-ás sem fyrri arm og jákvæða $y$-ás fyrir seinni arm hafi jákvæða áttun. Þá fæst að þegar jákvæða $x$-ás er <ref idTerm=4954>snúið</ref> <ref idTerm=290>rangsælis</ref>, þá fer hann fyrst í gegnum fyrsta fjórðung áður en hann fellur í jákvæða $y$-ás. Þegar honum er snúið áfram, þá fer hann næst í gegnum annan fjórðung, þá þriðja og loks fjórða fjórðung.
+
+Með hjálp hnitaásanna má samsama punktum sléttunnar við <ref idTerm=5627>tvenndir</ref> af <ref idTerm=4093>rauntölum</ref> með eftirfarandi hætti:
+
+\begin{enumerate}
+    \item Látum $P$ vera punkt í sléttunni. Látum $A$ vera <ref idTerm=1389>fótpunkt</ref> þverilsins á $x$-ás í gegnum $P$. Hnit $A$ á $x$-ásnum er rauntala $a$ sem kallast $x$-hnit $P$. Hún er stundum táknuð $x(P)$. Eins látum við $B$ vera fótpunkt <ref idTerm=2975>þverilsins</ref> á $y$-ás í gegnum $P$. Hnit $B$ á $y$-ásnum er rauntala $b$ sem kallast $y$-hnit $P$. Hún er stundum táknuð $y(P)$. Talnatvenndin $(a,b)$ kallast einu nafni \textit{kartesk hnit} punktsins $P$, eða einfaldlega hnit $P$.
+
+    \item Látum $(a,b)$ vera rauntalnatvennd. Látum $A$ er punktinn á $x$-ás sem hefur hnit $a$ og $B$ vera punktinn á $y$-ás sem hefur hnit $b$. Þverillinn á $x$-ás í gegnum punktinn $A$ sker þverilinn á $y$-ás í gegnum punktinn $B$. Látum $P$ vera skurðpunktinn. Stundum er skurðpunkturinn einnig táknaður með $P(a,b)$ til að gefa talnatvenndina til kynna.
+\end{enumerate}
+
+\begin{center}
+\includegraphics[width=150px]{myndir/kartesk_hnit_b.png}
+\end{center} & Er þetta nógu nákvæm skilgreining? \\
 \hline
 6596 & keilusnið &  &  &  \\
 \hline
