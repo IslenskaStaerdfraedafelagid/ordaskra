@@ -1,5 +1,3 @@
-import re
-
 import pandas as pd
 
 from parse_table import table_to_dataframe
@@ -83,6 +81,23 @@ f.write("\\end{longtable}\n")
 
 f.close()
 
-test_df = table_to_dataframe('ordaskra_table.tex')
+ordaskra = pd.read_csv("ordaskra_sorted.csv")
 
-test_df.to_csv("ordaskra_new.csv", index=False)
+ordaskra["Skilgreining: is"] = ordaskra["Skilgreining: is"].fillna('').astype(str)
+ordaskra["Skýring: is"] = ordaskra["Skýring: is"].fillna('').astype(str)
+
+for idx, row in non_empty.iterrows():
+    # Skauta framhjá MISSING færslunni
+    if int(idx) == 0:
+        continue
+    elif not int(idx) in ordaskra["id"].values:
+        continue
+
+    ordaskra.loc[ordaskra["id"] == int(idx), "Hugtök: is"] = row["Hugtök"]
+    ordaskra.loc[ordaskra["id"] == int(idx), "Skilgreining: is"] = row["Skilgreining"]
+    ordaskra.loc[ordaskra["id"] == int(idx), "Skýring: is"] = row["Skýring"]
+
+ordaskra.loc[:, "Skilgreining: is"] = ordaskra["Skilgreining: is"].apply(lambda x: x.replace('\n', '\\n'))
+ordaskra.loc[:, "Skýring: is"] = ordaskra["Skýring: is"].apply(lambda x: x.replace('\n', '\\n'))
+
+ordaskra.to_csv("ordaskra_new.csv", index=False)
