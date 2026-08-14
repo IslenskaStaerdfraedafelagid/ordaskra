@@ -7,11 +7,14 @@ ordaskra['Samheiti: is'] = ordaskra['Samheiti: is'].fillna('').astype(str)
 ordaskra['Samheiti: en'] = ordaskra['Samheiti: en'].fillna('').astype(str)
 
 for idx, row in ordaskra.iterrows():
+    # Veiðum út valda íðorðið og færum restina í samheitisdálkinn
     is_words = row['Hugtök: is'].split(',')
     is_choice = int(row['Val: is'])
     ordaskra.loc[idx, 'Hugtök: is'] = is_words[is_choice]
     is_words.pop(is_choice)
     is_words = list(map(str.strip, is_words))
+
+    # Eins með ensku orðin
     en_words = row['Hugtak: en'].split(',')
     en_choice = int(row['Val: en'])
     ordaskra.loc[idx, 'Hugtak: en'] = en_words[en_choice]

@@ -6,6 +6,7 @@ from parser.lex import replace_dollars, replace_double_dollars
 def maybe_add_period(definition):
     new_definition = definition
 
+    # Við viljum bara bæta við punkti ef hann er ekki til staðar nú þegar og færslan er ekki tóm. Færslan gæti endað á TeX kóða og því þarf öll þessi tékk
     if not (new_definition == "" or new_definition.endswith(".") or new_definition.endswith(". \\]") or new_definition.endswith(". $$") or new_definition.endswith("}")):
         if new_definition.endswith("\\]"):
             new_definition = new_definition.removesuffix("\\]")
@@ -21,6 +22,7 @@ def maybe_add_period(definition):
 def table_to_dataframe(path):
     table = open(path).read()
 
+    # Þetta fjarlægir bara allt ruslið sem við höfum ekki áhuga á, við viljum bara fá lista af færslunum sjálfum
     table = table.removeprefix('\\begin{longtable}{p{0.03\\textwidth}|p{0.22\\textwidth}|p{0.22\\textwidth}|p{0.22\\textwidth}|p{0.22\\textwidth}}\n')
     table = table.removeprefix('\\hline\n')
     table = table.removeprefix('\\textbf{id} & \\textbf{Hugtök} & \\textbf{Skilgreining} & \\textbf{Skýring} & \\textbf{Athugasemdir} \\\\\n')
