@@ -46,19 +46,27 @@ def push_token(tokens, type, string=""):
 
 # Breyir TeX kóða með dollaramerkjum í afturábak skástrik og sviga, $...$ -> \(...\)
 def replace_dollars(string):
-    i = string.find("$")
+    return replace_matching(string, "$", "\\(", "\\)")
+
+def replace_double_dollars(string):
+    return replace_matching(string, "$$", "\\[", "\\]")
+
+def replace_matching(string, symbol, left_replacement, right_replacement):
+    i = string.find(symbol)
     new_string = ""
+
+    n = len(symbol)
 
     if i != -1:
         new_string += string[:i]
 
         while i != -1:
-            j = string.find("$", i)
-            k = string.find("$", j + 1)
+            j = string.find(symbol, i)
+            k = string.find(symbol, j + 1)
 
             if j != -1 and k != -1:
-                new_string += string[i + 1:j] + "\\(" + string[j + 1:k] + "\\)"
-                i = k + 1
+                new_string += string[i:j] + left_replacement + string[j + n:k] + right_replacement
+                i = k + n
             else:
                 new_string += string[i:]
                 i = -1

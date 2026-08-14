@@ -2,6 +2,24 @@ from idlelib.run import flush_stdout
 
 import pandas as pd
 
+from parser.lex import replace_dollars, replace_double_dollars
+
+
+def maybe_add_period(definition):
+    new_definition = definition
+
+    if not (new_definition == "" or new_definition.endswith(".") or new_definition.endswith(". \\]") or new_definition.endswith(". $$")):
+        if new_definition.endswith("\\]"):
+            new_definition = new_definition.removesuffix("\\]")
+            new_definition += ".\\]"
+        elif new_definition.endswith("$$"):
+            new_definition = new_definition.removesuffix("$$")
+            new_definition += ". $$]"
+        else:
+            new_definition += "."
+
+    return new_definition
+
 def table_to_dataframe(path):
     table = open(path).read()
 
@@ -12,14 +30,12 @@ def table_to_dataframe(path):
 
     table = table.replace('\\hline', '')
 
-    table = table.removesuffix('\\end{longtable}')
+    table = table.removesuffix('\\\\\n\n\\end{longtable}\n')
 
     parsed_rows = []
 
     for row in table.split('\\\\'):
-        print(row)
         columns = row.split('&')
-        print(columns)
 
         new_row = {
             "id": columns[0].strip(),
@@ -29,9 +45,14 @@ def table_to_dataframe(path):
             "Athugasemdir": columns[4].strip(),
         }
 
-        print(new_row)
+        new_row["Skilgreining"] = maybe_add_period(new_row["Skilgreining"])
+        new_row["Skýring"] = maybe_add_period(new_row["Skýring"])
 
-        new_row["Skilgreining"] += "."
+        new_row["Skilgreining"] = replace_dollars(new_row["Skilgreining"])
+        new_row["Skýring"] = replace_dollars(new_row["Skýring"])
+
+        new_row["Skilgreining"] = replace_double_dollars(new_row["Skilgreining"])
+        new_row["Skýring"] = replace_double_dollars(new_row["Skýring"])
 
         parsed_rows.append(new_row)
 
