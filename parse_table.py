@@ -21,18 +21,19 @@ def maybe_add_period(definition):
 def table_to_dataframe(path):
     table = open(path).read()
 
-    table = table.removeprefix('\\begin{longtable}{p{0.03\\textwidth}|p{0.22\\textwidth}|p{0.22\\textwidth}|p{0.22\\textwidth}|p{0.22\\textwidth}}')
-    table = table.removeprefix('\\hline')
-    table = table.removeprefix('\\textbf{id} & \\textbf{Hugtök} & \\textbf{Skilgreining} & \\textbf{Skýring} & \\textbf{Athugasemdir} \\\\')
-    table = table.removeprefix('\\hline')
+    table = table.removeprefix('\\begin{longtable}{p{0.03\\textwidth}|p{0.22\\textwidth}|p{0.22\\textwidth}|p{0.22\\textwidth}|p{0.22\\textwidth}}\n')
+    table = table.removeprefix('\\hline\n')
+    table = table.removeprefix('\\textbf{id} & \\textbf{Hugtök} & \\textbf{Skilgreining} & \\textbf{Skýring} & \\textbf{Athugasemdir} \\\\\n')
+    table = table.removeprefix('\\hline\n')
 
-    table = table.replace('\\hline', '')
+    table = table.replace('\\hline\n', '')
 
     table = table.removesuffix('\\\\\n\n\\end{longtable}\n')
 
     parsed_rows = []
 
     for row in table.split('\\\\'):
+        print(row)
         columns = row.split('&')
 
         new_row = {
