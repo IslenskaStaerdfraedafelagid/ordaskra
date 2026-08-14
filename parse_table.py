@@ -1,5 +1,3 @@
-from idlelib.run import flush_stdout
-
 import pandas as pd
 
 from parser.lex import replace_dollars, replace_double_dollars
