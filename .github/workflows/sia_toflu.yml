@@ -21,6 +21,9 @@ jobs:
       - name: Install pandas
         run: pip install pandas
 
+      - name: Install more_itertools
+        run: pip install more_itertools
+
       - run: python process_table.py
 
       - name: Commit ordaskra_table_finished.tex
