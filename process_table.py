@@ -100,4 +100,4 @@ for idx, row in non_empty.iterrows():
 ordaskra.loc[:, "Skilgreining: is"] = ordaskra["Skilgreining: is"].apply(lambda x: x.replace('\n', '\\n'))
 ordaskra.loc[:, "Skýring: is"] = ordaskra["Skýring: is"].apply(lambda x: x.replace('\n', '\\n'))
 
-ordaskra.to_csv("ordaskra_new.csv", index=False)
+ordaskra.to_csv("ordaskra.csv", index=False)
