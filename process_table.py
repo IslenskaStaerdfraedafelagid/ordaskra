@@ -2,6 +2,7 @@ import re
 
 import pandas as pd
 
+from parse_table import table_to_dataframe
 from parser.ast import SEP
 
 input_file = "ordaskra_table.tex"
@@ -229,4 +230,6 @@ f.write("\\end{longtable}\n")
 
 f.close()
 
-df.to_csv("ordaskra_new.csv", index=False)
+test_df = table_to_dataframe('ordaskra_table.tex')
+
+test_df.to_csv("ordaskra_new.csv", index=False)
