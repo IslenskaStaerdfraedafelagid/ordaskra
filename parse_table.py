@@ -6,7 +6,7 @@ from parser.lex import replace_dollars, replace_double_dollars
 def maybe_add_period(definition):
     new_definition = definition
 
-    if not (new_definition == "" or new_definition.endswith(".") or new_definition.endswith(". \\]") or new_definition.endswith(". $$")):
+    if not (new_definition == "" or new_definition.endswith(".") or new_definition.endswith(". \\]") or new_definition.endswith(". $$") or new_definition.endswith("}")):
         if new_definition.endswith("\\]"):
             new_definition = new_definition.removesuffix("\\]")
             new_definition += ".\\]"
@@ -33,7 +33,6 @@ def table_to_dataframe(path):
     parsed_rows = []
 
     for row in table.split('\\\\'):
-        print(row)
         columns = row.split('&')
 
         new_row = {
