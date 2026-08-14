@@ -2,6 +2,8 @@ import re
 
 import pandas as pd
 
+from parser.ast import SEP
+
 input_file = "ordaskra_table.tex"
 
 
@@ -226,3 +228,5 @@ f.write("\\hline\n")
 f.write("\\end{longtable}\n")
 
 f.close()
+
+df.to_csv("ordaskra_new.csv", index=False)
