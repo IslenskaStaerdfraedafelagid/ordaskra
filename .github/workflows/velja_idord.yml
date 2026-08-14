@@ -1,0 +1,35 @@
+name: Velja íðorð
+
+on:
+  push:
+    paths:
+      - "ordaskra.csv"
+
+permissions:
+  contents: write
+
+jobs:
+  sia_toflu:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Hef meðhöndlun á 'ordaskra.csv'"
+
+      - name: Checkout repo
+        uses: actions/checkout@v7.0.0
+
+      - name: Install pandas
+        run: pip install pandas
+
+      - run: python select_word.py
+
+      - name: Commit ordaskra_finished.csv
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ordaskra_finished.csv
+
+          git commit -m "Uppfæra ordaskra_finished.csv"
+          git push
+
+      - run: echo "Meðhöndlun tókst, niðurstaðan hefur verið vistuð í 'ordaskra_inished.csv'"
