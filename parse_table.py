@@ -28,7 +28,7 @@ def table_to_dataframe(path):
 
     table = table.replace('\\hline\n', '')
 
-    table = table.removesuffix('\\\\\n\n\\end{longtable}\n')
+    table = table.removesuffix('\\\\\n\\end{longtable}\n')
 
     parsed_rows = []
 
